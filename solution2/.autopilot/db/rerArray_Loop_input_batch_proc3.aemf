@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1667122758021">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1667379787666">
   <ports id="1" name="featrue_length" type="PortType" coreName="FIFO_SRL" coreId="2147483647" bitwidth="32" iftype="IfTypeRom">
     <dataOutputObjs>read</dataOutputObjs>
   </ports>

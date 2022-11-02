@@ -1,43 +1,1192 @@
 <xilinx:hls_fe_msgs>
-    <msg msg_groups="" msg_id="207-721" msg_severity="WARNING" msg_loc="test2/test.cpp:18:44" msg_body="backslash and newline separated by space">
+    <msg msg_groups="" msg_id="207-721" msg_severity="WARNING" msg_loc="cgcn/src/test.cpp:18:44" msg_body="backslash and newline separated by space">
         <args ClangWarningOption="backslash-newline-escape"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:724:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_ref.h:724:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:738:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_ref.h:738:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:752:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_ref.h:752:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="test2/test.cpp:32:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="proc" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 4" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="test2/test.cpp:33:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="proc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 2 max = 2" ARG_PragmaType="latency" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="test2/test.cpp:46:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="mux" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="test2/test.cpp:60:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="demux" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/ubuntu/VitisCodes/test2/solution1/csynth.tcl:15:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/code/vitiscode/cgcn/solution1/csynth.tcl:15:9" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="vector_add" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=vector_add" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:7:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/code/vitiscode/cgcn/solution1/directives.tcl:7:9" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="vector_add" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=vector_add" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:12:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="test2/systolic.cpp:11:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="PE" ARG_PragmaIsValid="1" ARG_PragmaOptions="max=32" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="C:/code/vitiscode/cgcn/solution1/directives.tcl:12:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/code/vitiscode/cgcn/solution1/directives.tcl:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="PE" ARG_PragmaIsValid="1" ARG_PragmaOptions="max=32" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:12:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/code/vitiscode/cgcn/solution1/directives.tcl:12:9" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="rerArray" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="test2/systolic.cpp:20:0" msg_body="Inlining function 'PE(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, int)' into 'rerArray(int*, int, int*, int, int, int*)'">
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:24:0" msg_body="Inlining function 'PE(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, int)' into 'rerArray(int*, int, int*, int, int, int*)'">
         <args Callee="PE(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, int)" Caller="rerArray(int*, int, int*, int, int, int*)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Applying array_partition to 'property_input': Complete partitioning on dimension 1. Complete partitioning on dimension 2.">
+        <args Dim="islist 1 2" Mode="islist Complete Complete" UOName="property_input"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Applying array_partition to 'weight_input': Complete partitioning on dimension 1. Complete partitioning on dimension 2.">
+        <args Dim="islist 1 2" Mode="islist Complete Complete" UOName="weight_input"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Applying array_partition to 'output': Complete partitioning on dimension 1. Complete partitioning on dimension 2.">
+        <args Dim="islist 1 2" Mode="islist Complete Complete" UOName="output"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_0_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_0_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_1_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_1_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_2_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_2_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:25:20" msg_body="Aggregating fifo (hls::stream) variable 'property_input_3_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="property_input_3_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_0_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_0_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_1_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_1_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_2_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_2_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:26:20" msg_body="Aggregating fifo (hls::stream) variable 'weight_input_3_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="weight_input_3_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_0_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_0_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_1_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_1_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_2_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_2_31"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_2' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_3' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_4' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_5' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_6' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_7' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_8' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_9' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_10' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_11' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_12' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_13' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_14' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_15' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_16' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_16"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_17' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_17"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_18' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_18"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_19' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_19"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_20' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_21' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_22' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_22"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_23' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_23"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_24' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_24"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_25' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_25"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_26' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_26"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_27' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_27"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_28' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_28"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_29' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_29"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_30' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_30"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="cgcn/src/systolic.cpp:27:20" msg_body="Aggregating fifo (hls::stream) variable 'output_3_31' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="output_3_31"/>
     </msg>
 </xilinx:hls_fe_msgs>
 

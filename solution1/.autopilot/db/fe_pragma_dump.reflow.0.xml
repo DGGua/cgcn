@@ -1,8 +1,8 @@
 <pragmas>
-<pragma file="test2/systolic.cpp" line="12" pragmaType="dataflow" parentfunction="rerArray" disable_start_propagation="0"/>
-<pragma file="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h" line="103" pragmaType="inline" parentfunction="hls::stream<int, 0>::stream()" off="0" region="0" recursive="0"/>
-<pragma file="test2/systolic.cpp" line="11" pragmaType="loop_tripcount" parentfunction="PE" min="0" max="32" avg="16"/>
-<pragma file="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h" line="173" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
-<pragma file="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h" line="154" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
-<pragma file="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h" line="144" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="cgcn/src/systolic.cpp" line="12" pragmaType="dataflow" parentfunction="rerArray" disable_start_propagation="0"/>
+<pragma file="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h" line="173" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h" line="144" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="cgcn/src/systolic.cpp" line="13" pragmaType="loop_tripcount" parentfunction="PE" min="0" max="32" avg="16"/>
+<pragma file="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h" line="103" pragmaType="inline" parentfunction="hls::stream<int, 0>::stream()" off="0" region="0" recursive="0"/>
+<pragma file="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h" line="154" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
 </pragmas>

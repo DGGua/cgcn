@@ -42,10 +42,10 @@ set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
 set TargetInfo xc7z010:-clg400:-2
-set SourceFiles {sc {} c {../test.cpp ../systolic.cpp}}
+set SourceFiles {sc {} c {../src/test.cpp ../src/systolic.cpp}}
 set SourceFlags {sc {} c {{} {}}}
-set DirectiveFile /home/ubuntu/VitisCodes/test2/solution1/solution1.directive
-set TBFiles {verilog ../testbench.cpp bc ../testbench.cpp vhdl ../testbench.cpp sc ../testbench.cpp cas ../testbench.cpp c {}}
+set DirectiveFile C:/code/vitiscode/cgcn/solution1/solution1.directive
+set TBFiles {verilog ../src/testbench.cpp bc ../src/testbench.cpp vhdl ../src/testbench.cpp sc ../src/testbench.cpp cas ../src/testbench.cpp c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

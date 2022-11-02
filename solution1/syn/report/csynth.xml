@@ -32,9 +32,9 @@
     <AreaEstimates>
         <Resources>
             <BRAM_18K>1</BRAM_18K>
-            <DSP>3</DSP>
-            <FF>1635</FF>
-            <LUT>1716</LUT>
+            <DSP>6</DSP>
+            <FF>40319</FF>
+            <LUT>43565</LUT>
             <URAM>0</URAM>
         </Resources>
         <AvailableResources>
@@ -211,56 +211,56 @@
                             <InstName>rerArray_Loop_compute_col_proc2_U0</InstName>
                             <ModuleName>rerArray_Loop_compute_col_proc2</ModuleName>
                             <IsCompInst>true</IsCompInst>
-                            <ID>126</ID>
+                            <ID>2412</ID>
                             <InstancesList>
                                 <Instance>
-                                    <InstName>grp_rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute_fu_105</InstName>
+                                    <InstName>grp_rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute_fu_1840</InstName>
                                     <ModuleName>rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute</ModuleName>
                                     <IsCompInst>true</IsCompInst>
-                                    <ID>105</ID>
-                                    <BindInstances>i_1_fu_102_p2 mul_32s_32s_32_1_1_U7 sum_1_fu_120_p2</BindInstances>
+                                    <ID>1840</ID>
+                                    <BindInstances>i_1_fu_3152_p2 mul_32s_32s_32_1_1_U7 sum_1_fu_3172_p2</BindInstances>
                                 </Instance>
                             </InstancesList>
-                            <BindInstances>add_ln27_fu_136_p2</BindInstances>
+                            <BindInstances>add_ln31_1_fu_2391_p2 add_ln31_fu_2403_p2 add_ln33_fu_2572_p2</BindInstances>
                         </Instance>
                         <Instance>
                             <InstName>entry_proc_U0</InstName>
                             <ModuleName>entry_proc</ModuleName>
                             <IsCompInst>true</IsCompInst>
-                            <ID>139</ID>
+                            <ID>2806</ID>
                         </Instance>
                         <Instance>
                             <InstName>rerArray_Loop_input_batch_proc3_U0</InstName>
                             <ModuleName>rerArray_Loop_input_batch_proc3</ModuleName>
                             <IsCompInst>true</IsCompInst>
-                            <ID>152</ID>
+                            <ID>2819</ID>
                             <InstancesList>
                                 <Instance>
-                                    <InstName>grp_rerArray_Loop_input_batch_proc3_Pipeline_input_property_VITIS_LOOP_45_1_fu_176</InstName>
-                                    <ModuleName>rerArray_Loop_input_batch_proc3_Pipeline_input_property_VITIS_LOOP_45_1</ModuleName>
+                                    <InstName>grp_rerArray_Loop_input_batch_proc3_Pipeline_input_turn_property_input_property_VITI_fu_925</InstName>
+                                    <ModuleName>rerArray_Loop_input_batch_proc3_Pipeline_input_turn_property_input_property_VITI</ModuleName>
                                     <IsCompInst>true</IsCompInst>
-                                    <ID>176</ID>
-                                    <BindInstances>add_ln42_fu_74_p2</BindInstances>
+                                    <ID>925</ID>
+                                    <BindInstances>add_ln41_fu_1354_p2 add_ln43_fu_1406_p2 add_ln46_fu_1453_p2 add_ln43_1_fu_1459_p2</BindInstances>
                                 </Instance>
                                 <Instance>
-                                    <InstName>grp_rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_60_3_VITIS_LOOP_62_4_fu_184</InstName>
-                                    <ModuleName>rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_60_3_VITIS_LOOP_62_4</ModuleName>
+                                    <InstName>grp_rerArray_Loop_input_batch_proc3_Pipeline_input_turn_weight_input_weight_VITIS_LO_fu_1190</InstName>
+                                    <ModuleName>rerArray_Loop_input_batch_proc3_Pipeline_input_turn_weight_input_weight_VITIS_LO</ModuleName>
                                     <IsCompInst>true</IsCompInst>
-                                    <ID>184</ID>
-                                    <BindInstances>add_ln60_1_fu_109_p2 add_ln60_fu_126_p2 add_ln64_fu_170_p2 add_ln62_fu_181_p2</BindInstances>
+                                    <ID>1190</ID>
+                                    <BindInstances>add_ln53_fu_1340_p2 add_ln55_fu_1398_p2 add_ln57_fu_1445_p2 add_ln55_1_fu_1451_p2</BindInstances>
                                 </Instance>
                                 <Instance>
-                                    <InstName>grp_rerArray_Loop_input_batch_proc3_Pipeline_input_weight_VITIS_LOOP_54_2_fu_192</InstName>
-                                    <ModuleName>rerArray_Loop_input_batch_proc3_Pipeline_input_weight_VITIS_LOOP_54_2</ModuleName>
+                                    <InstName>grp_rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_62_3_VITIS_LOOP_63_4_fu_1453</InstName>
+                                    <ModuleName>rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_62_3_VITIS_LOOP_63_4</ModuleName>
                                     <IsCompInst>true</IsCompInst>
-                                    <ID>192</ID>
-                                    <BindInstances>add_ln51_fu_74_p2</BindInstances>
+                                    <ID>1453</ID>
+                                    <BindInstances>add_ln62_1_fu_1451_p2 add_ln62_fu_1463_p2 add_ln64_fu_1511_p2 add_ln63_fu_1522_p2</BindInstances>
                                 </Instance>
                             </InstancesList>
-                            <BindInstances>buff_U sub_ln24_fu_208_p2 sub_ln24_1_fu_246_p2 add_ln36_1_fu_267_p2 add_ln36_fu_291_p2 add_ln39_fu_302_p2 empty_19_fu_320_p2 add_ln67_fu_336_p2</BindInstances>
+                            <BindInstances>buff_U sub_ln28_fu_1723_p2 sub_ln28_1_fu_1766_p2 add_ln39_1_fu_1787_p2 mul_32ns_34ns_65_1_1_U1051 add_ln39_fu_1824_p2 empty_21_fu_1842_p2 add_ln67_fu_1858_p2</BindInstances>
                         </Instance>
                     </InstancesList>
-                    <BindInstances>node_cnt_c_U output_size_c_U p_read1_c_U featrue_length_c_U p_read_c_U property_input_U weight_input_U output_U</BindInstances>
+                    <BindInstances>node_cnt_c_U output_size_c_U p_read1_c_U featrue_length_c_U p_read_c_U property_input_0_0_U property_input_0_1_U property_input_0_2_U property_input_0_3_U property_input_0_4_U property_input_0_5_U property_input_0_6_U property_input_0_7_U property_input_0_8_U property_input_0_9_U property_input_0_10_U property_input_0_11_U property_input_0_12_U property_input_0_13_U property_input_0_14_U property_input_0_15_U property_input_0_16_U property_input_0_17_U property_input_0_18_U property_input_0_19_U property_input_0_20_U property_input_0_21_U property_input_0_22_U property_input_0_23_U property_input_0_24_U property_input_0_25_U property_input_0_26_U property_input_0_27_U property_input_0_28_U property_input_0_29_U property_input_0_30_U property_input_0_31_U property_input_1_0_U property_input_1_1_U property_input_1_2_U property_input_1_3_U property_input_1_4_U property_input_1_5_U property_input_1_6_U property_input_1_7_U property_input_1_8_U property_input_1_9_U property_input_1_10_U property_input_1_11_U property_input_1_12_U property_input_1_13_U property_input_1_14_U property_input_1_15_U property_input_1_16_U property_input_1_17_U property_input_1_18_U property_input_1_19_U property_input_1_20_U property_input_1_21_U property_input_1_22_U property_input_1_23_U property_input_1_24_U property_input_1_25_U property_input_1_26_U property_input_1_27_U property_input_1_28_U property_input_1_29_U property_input_1_30_U property_input_1_31_U property_input_2_0_U property_input_2_1_U property_input_2_2_U property_input_2_3_U property_input_2_4_U property_input_2_5_U property_input_2_6_U property_input_2_7_U property_input_2_8_U property_input_2_9_U property_input_2_10_U property_input_2_11_U property_input_2_12_U property_input_2_13_U property_input_2_14_U property_input_2_15_U property_input_2_16_U property_input_2_17_U property_input_2_18_U property_input_2_19_U property_input_2_20_U property_input_2_21_U property_input_2_22_U property_input_2_23_U property_input_2_24_U property_input_2_25_U property_input_2_26_U property_input_2_27_U property_input_2_28_U property_input_2_29_U property_input_2_30_U property_input_2_31_U property_input_3_0_U property_input_3_1_U property_input_3_2_U property_input_3_3_U property_input_3_4_U property_input_3_5_U property_input_3_6_U property_input_3_7_U property_input_3_8_U property_input_3_9_U property_input_3_10_U property_input_3_11_U property_input_3_12_U property_input_3_13_U property_input_3_14_U property_input_3_15_U property_input_3_16_U property_input_3_17_U property_input_3_18_U property_input_3_19_U property_input_3_20_U property_input_3_21_U property_input_3_22_U property_input_3_23_U property_input_3_24_U property_input_3_25_U property_input_3_26_U property_input_3_27_U property_input_3_28_U property_input_3_29_U property_input_3_30_U property_input_3_31_U weight_input_0_0_U weight_input_0_1_U weight_input_0_2_U weight_input_0_3_U weight_input_0_4_U weight_input_0_5_U weight_input_0_6_U weight_input_0_7_U weight_input_0_8_U weight_input_0_9_U weight_input_0_10_U weight_input_0_11_U weight_input_0_12_U weight_input_0_13_U weight_input_0_14_U weight_input_0_15_U weight_input_0_16_U weight_input_0_17_U weight_input_0_18_U weight_input_0_19_U weight_input_0_20_U weight_input_0_21_U weight_input_0_22_U weight_input_0_23_U weight_input_0_24_U weight_input_0_25_U weight_input_0_26_U weight_input_0_27_U weight_input_0_28_U weight_input_0_29_U weight_input_0_30_U weight_input_0_31_U weight_input_1_0_U weight_input_1_1_U weight_input_1_2_U weight_input_1_3_U weight_input_1_4_U weight_input_1_5_U weight_input_1_6_U weight_input_1_7_U weight_input_1_8_U weight_input_1_9_U weight_input_1_10_U weight_input_1_11_U weight_input_1_12_U weight_input_1_13_U weight_input_1_14_U weight_input_1_15_U weight_input_1_16_U weight_input_1_17_U weight_input_1_18_U weight_input_1_19_U weight_input_1_20_U weight_input_1_21_U weight_input_1_22_U weight_input_1_23_U weight_input_1_24_U weight_input_1_25_U weight_input_1_26_U weight_input_1_27_U weight_input_1_28_U weight_input_1_29_U weight_input_1_30_U weight_input_1_31_U weight_input_2_0_U weight_input_2_1_U weight_input_2_2_U weight_input_2_3_U weight_input_2_4_U weight_input_2_5_U weight_input_2_6_U weight_input_2_7_U weight_input_2_8_U weight_input_2_9_U weight_input_2_10_U weight_input_2_11_U weight_input_2_12_U weight_input_2_13_U weight_input_2_14_U weight_input_2_15_U weight_input_2_16_U weight_input_2_17_U weight_input_2_18_U weight_input_2_19_U weight_input_2_20_U weight_input_2_21_U weight_input_2_22_U weight_input_2_23_U weight_input_2_24_U weight_input_2_25_U weight_input_2_26_U weight_input_2_27_U weight_input_2_28_U weight_input_2_29_U weight_input_2_30_U weight_input_2_31_U weight_input_3_0_U weight_input_3_1_U weight_input_3_2_U weight_input_3_3_U weight_input_3_4_U weight_input_3_5_U weight_input_3_6_U weight_input_3_7_U weight_input_3_8_U weight_input_3_9_U weight_input_3_10_U weight_input_3_11_U weight_input_3_12_U weight_input_3_13_U weight_input_3_14_U weight_input_3_15_U weight_input_3_16_U weight_input_3_17_U weight_input_3_18_U weight_input_3_19_U weight_input_3_20_U weight_input_3_21_U weight_input_3_22_U weight_input_3_23_U weight_input_3_24_U weight_input_3_25_U weight_input_3_26_U weight_input_3_27_U weight_input_3_28_U weight_input_3_29_U weight_input_3_30_U weight_input_3_31_U output_0_0_U output_0_1_U output_0_2_U output_0_3_U output_0_4_U output_0_5_U output_0_6_U output_0_7_U output_0_8_U output_0_9_U output_0_10_U output_0_11_U output_0_12_U output_0_13_U output_0_14_U output_0_15_U output_0_16_U output_0_17_U output_0_18_U output_0_19_U output_0_20_U output_0_21_U output_0_22_U output_0_23_U output_0_24_U output_0_25_U output_0_26_U output_0_27_U output_0_28_U output_0_29_U output_0_30_U output_0_31_U output_1_0_U output_1_1_U output_1_2_U output_1_3_U output_1_4_U output_1_5_U output_1_6_U output_1_7_U output_1_8_U output_1_9_U output_1_10_U output_1_11_U output_1_12_U output_1_13_U output_1_14_U output_1_15_U output_1_16_U output_1_17_U output_1_18_U output_1_19_U output_1_20_U output_1_21_U output_1_22_U output_1_23_U output_1_24_U output_1_25_U output_1_26_U output_1_27_U output_1_28_U output_1_29_U output_1_30_U output_1_31_U output_2_0_U output_2_1_U output_2_2_U output_2_3_U output_2_4_U output_2_5_U output_2_6_U output_2_7_U output_2_8_U output_2_9_U output_2_10_U output_2_11_U output_2_12_U output_2_13_U output_2_14_U output_2_15_U output_2_16_U output_2_17_U output_2_18_U output_2_19_U output_2_20_U output_2_21_U output_2_22_U output_2_23_U output_2_24_U output_2_25_U output_2_26_U output_2_27_U output_2_28_U output_2_29_U output_2_30_U output_2_31_U output_3_0_U output_3_1_U output_3_2_U output_3_3_U output_3_4_U output_3_5_U output_3_6_U output_3_7_U output_3_8_U output_3_9_U output_3_10_U output_3_11_U output_3_12_U output_3_13_U output_3_14_U output_3_15_U output_3_16_U output_3_17_U output_3_18_U output_3_19_U output_3_20_U output_3_21_U output_3_22_U output_3_23_U output_3_24_U output_3_25_U output_3_26_U output_3_27_U output_3_28_U output_3_29_U output_3_30_U output_3_31_U</BindInstances>
                 </Instance>
             </InstancesList>
         </TopModule>
@@ -318,12 +318,12 @@
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>2</Best-caseLatency>
-                    <Average-caseLatency>20</Average-caseLatency>
-                    <Worst-caseLatency>36</Worst-caseLatency>
+                    <Average-caseLatency>21</Average-caseLatency>
+                    <Worst-caseLatency>37</Worst-caseLatency>
                     <Best-caseRealTimeLatency>20.000 ns</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>0.200 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>0.360 us</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>2 ~ 36</PipelineInitiationInterval>
+                    <Average-caseRealTimeLatency>0.210 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.370 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2 ~ 37</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
@@ -335,10 +335,10 @@
                                 <max>32</max>
                             </range>
                         </TripCount>
-                        <Latency>0 ~ 34</Latency>
-                        <AbsoluteTimeLatency>0 ns ~ 0.340 us</AbsoluteTimeLatency>
+                        <Latency>0 ~ 35</Latency>
+                        <AbsoluteTimeLatency>0 ns ~ 0.350 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
-                        <PipelineDepth>4</PipelineDepth>
+                        <PipelineDepth>5</PipelineDepth>
                         <PipelineType>yes</PipelineType>
                         <InstanceList/>
                     </PE_Compute>
@@ -349,12 +349,12 @@
                     <DSP>3</DSP>
                     <AVAIL_DSP>80</AVAIL_DSP>
                     <UTIL_DSP>3</UTIL_DSP>
-                    <FF>168</FF>
+                    <FF>617</FF>
                     <AVAIL_FF>35200</AVAIL_FF>
-                    <UTIL_FF>~0</UTIL_FF>
-                    <LUT>163</LUT>
+                    <UTIL_FF>1</UTIL_FF>
+                    <LUT>4034</LUT>
                     <AVAIL_LUT>17600</AVAIL_LUT>
-                    <UTIL_LUT>~0</UTIL_LUT>
+                    <UTIL_LUT>22</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
                     <AVAIL_BRAM>120</AVAIL_BRAM>
                     <UTIL_BRAM>0</UTIL_BRAM>
@@ -364,9 +364,9 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="PE_Compute" OPTYPE="add" PRAGMA="" RTLNAME="i_1_fu_102_p2" SOURCE="" URAM="0" VARIABLE="i_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="PE_Compute" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U7" SOURCE="test2/systolic.cpp:14" URAM="0" VARIABLE="mul_ln14"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="PE_Compute" OPTYPE="add" PRAGMA="" RTLNAME="sum_1_fu_120_p2" SOURCE="test2/systolic.cpp:14" URAM="0" VARIABLE="sum_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="PE_Compute" OPTYPE="add" PRAGMA="" RTLNAME="i_1_fu_3152_p2" SOURCE="" URAM="0" VARIABLE="i_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="PE_Compute" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U7" SOURCE="cgcn/src/systolic.cpp:14" URAM="0" VARIABLE="mul_ln14"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="PE_Compute" OPTYPE="add" PRAGMA="" RTLNAME="sum_1_fu_3172_p2" SOURCE="cgcn/src/systolic.cpp:14" URAM="0" VARIABLE="sum_1"/>
             </BindNodes>
         </Module>
         <Module>
@@ -399,13 +399,13 @@
                         <IterationLatency>
                             <range>
                                 <min>5</min>
-                                <max>39</max>
+                                <max>40</max>
                             </range>
                         </IterationLatency>
-                        <PipelineDepth>5 ~ 39</PipelineDepth>
+                        <PipelineDepth>5 ~ 40</PipelineDepth>
                         <PipelineType>no</PipelineType>
                         <InstanceList>
-                            <Instance>grp_rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute_fu_105</Instance>
+                            <Instance>grp_rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute_fu_1840</Instance>
                         </InstanceList>
                     </compute_col_compute_row>
                 </SummaryOfLoopLatency>
@@ -415,12 +415,12 @@
                     <DSP>3</DSP>
                     <AVAIL_DSP>80</AVAIL_DSP>
                     <UTIL_DSP>3</UTIL_DSP>
-                    <FF>240</FF>
+                    <FF>798</FF>
                     <AVAIL_FF>35200</AVAIL_FF>
-                    <UTIL_FF>~0</UTIL_FF>
-                    <LUT>294</LUT>
+                    <UTIL_FF>2</UTIL_FF>
+                    <LUT>7812</LUT>
                     <AVAIL_LUT>17600</AVAIL_LUT>
-                    <UTIL_LUT>1</UTIL_LUT>
+                    <UTIL_LUT>44</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
                     <AVAIL_BRAM>120</AVAIL_BRAM>
                     <UTIL_BRAM>0</UTIL_BRAM>
@@ -430,19 +430,21 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="compute_col_compute_row" OPTYPE="add" PRAGMA="" RTLNAME="add_ln27_fu_136_p2" SOURCE="test2/systolic.cpp:27" URAM="0" VARIABLE="add_ln27"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="compute_col_compute_row" OPTYPE="add" PRAGMA="" RTLNAME="add_ln31_1_fu_2391_p2" SOURCE="cgcn/src/systolic.cpp:31" URAM="0" VARIABLE="add_ln31_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="compute_col_compute_row" OPTYPE="add" PRAGMA="" RTLNAME="add_ln31_fu_2403_p2" SOURCE="cgcn/src/systolic.cpp:31" URAM="0" VARIABLE="add_ln31"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="compute_col_compute_row" OPTYPE="add" PRAGMA="" RTLNAME="add_ln33_fu_2572_p2" SOURCE="cgcn/src/systolic.cpp:33" URAM="0" VARIABLE="add_ln33"/>
             </BindNodes>
         </Module>
         <Module>
-            <Name>rerArray_Loop_input_batch_proc3_Pipeline_input_property_VITIS_LOOP_45_1</Name>
+            <Name>rerArray_Loop_input_batch_proc3_Pipeline_input_turn_property_input_property_VITI</Name>
             <Loops>
-                <input_property_VITIS_LOOP_45_1/>
+                <input_turn_property_input_property_VITIS_LOOP_46_1/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
-                    <EstimatedClockPeriod>3.401</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>6.824</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>undef</Best-caseLatency>
@@ -455,8 +457,8 @@
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <input_property_VITIS_LOOP_45_1>
-                        <Name>input_property_VITIS_LOOP_45_1</Name>
+                    <input_turn_property_input_property_VITIS_LOOP_46_1>
+                        <Name>input_turn_property_input_property_VITIS_LOOP_46_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
@@ -464,17 +466,17 @@
                         <PipelineDepth>2</PipelineDepth>
                         <PipelineType>yes</PipelineType>
                         <InstanceList/>
-                    </input_property_VITIS_LOOP_45_1>
+                    </input_turn_property_input_property_VITIS_LOOP_46_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <FF>38</FF>
+                    <FF>180</FF>
                     <AVAIL_FF>35200</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
-                    <LUT>94</LUT>
+                    <LUT>1611</LUT>
                     <AVAIL_LUT>17600</AVAIL_LUT>
-                    <UTIL_LUT>~0</UTIL_LUT>
+                    <UTIL_LUT>9</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
                     <AVAIL_BRAM>120</AVAIL_BRAM>
                     <UTIL_BRAM>0</UTIL_BRAM>
@@ -487,19 +489,22 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_property_VITIS_LOOP_45_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln42_fu_74_p2" SOURCE="test2/systolic.cpp:42" URAM="0" VARIABLE="add_ln42"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_turn_property_input_property_VITIS_LOOP_46_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_fu_1354_p2" SOURCE="cgcn/src/systolic.cpp:41" URAM="0" VARIABLE="add_ln41"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_turn_property_input_property_VITIS_LOOP_46_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln43_fu_1406_p2" SOURCE="cgcn/src/systolic.cpp:43" URAM="0" VARIABLE="add_ln43"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_turn_property_input_property_VITIS_LOOP_46_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln46_fu_1453_p2" SOURCE="cgcn/src/systolic.cpp:46" URAM="0" VARIABLE="add_ln46"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_turn_property_input_property_VITIS_LOOP_46_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln43_1_fu_1459_p2" SOURCE="cgcn/src/systolic.cpp:43" URAM="0" VARIABLE="add_ln43_1"/>
             </BindNodes>
         </Module>
         <Module>
-            <Name>rerArray_Loop_input_batch_proc3_Pipeline_input_weight_VITIS_LOOP_54_2</Name>
+            <Name>rerArray_Loop_input_batch_proc3_Pipeline_input_turn_weight_input_weight_VITIS_LO</Name>
             <Loops>
-                <input_weight_VITIS_LOOP_54_2/>
+                <input_turn_weight_input_weight_VITIS_LOOP_57_2/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
-                    <EstimatedClockPeriod>3.401</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>6.621</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>undef</Best-caseLatency>
@@ -512,8 +517,8 @@
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <input_weight_VITIS_LOOP_54_2>
-                        <Name>input_weight_VITIS_LOOP_54_2</Name>
+                    <input_turn_weight_input_weight_VITIS_LOOP_57_2>
+                        <Name>input_turn_weight_input_weight_VITIS_LOOP_57_2</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
@@ -521,17 +526,17 @@
                         <PipelineDepth>2</PipelineDepth>
                         <PipelineType>yes</PipelineType>
                         <InstanceList/>
-                    </input_weight_VITIS_LOOP_54_2>
+                    </input_turn_weight_input_weight_VITIS_LOOP_57_2>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <FF>38</FF>
+                    <FF>180</FF>
                     <AVAIL_FF>35200</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
-                    <LUT>94</LUT>
+                    <LUT>1637</LUT>
                     <AVAIL_LUT>17600</AVAIL_LUT>
-                    <UTIL_LUT>~0</UTIL_LUT>
+                    <UTIL_LUT>9</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
                     <AVAIL_BRAM>120</AVAIL_BRAM>
                     <UTIL_BRAM>0</UTIL_BRAM>
@@ -544,19 +549,22 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_weight_VITIS_LOOP_54_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln51_fu_74_p2" SOURCE="test2/systolic.cpp:51" URAM="0" VARIABLE="add_ln51"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_turn_weight_input_weight_VITIS_LOOP_57_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln53_fu_1340_p2" SOURCE="cgcn/src/systolic.cpp:53" URAM="0" VARIABLE="add_ln53"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_turn_weight_input_weight_VITIS_LOOP_57_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln55_fu_1398_p2" SOURCE="cgcn/src/systolic.cpp:55" URAM="0" VARIABLE="add_ln55"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_turn_weight_input_weight_VITIS_LOOP_57_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln57_fu_1445_p2" SOURCE="cgcn/src/systolic.cpp:57" URAM="0" VARIABLE="add_ln57"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_turn_weight_input_weight_VITIS_LOOP_57_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln55_1_fu_1451_p2" SOURCE="cgcn/src/systolic.cpp:55" URAM="0" VARIABLE="add_ln55_1"/>
             </BindNodes>
         </Module>
         <Module>
-            <Name>rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_60_3_VITIS_LOOP_62_4</Name>
+            <Name>rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_62_3_VITIS_LOOP_63_4</Name>
             <Loops>
-                <VITIS_LOOP_60_3_VITIS_LOOP_62_4/>
+                <VITIS_LOOP_62_3_VITIS_LOOP_63_4/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
-                    <EstimatedClockPeriod>6.688</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>3.917</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>undef</Best-caseLatency>
@@ -569,26 +577,26 @@
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_60_3_VITIS_LOOP_62_4>
-                        <Name>VITIS_LOOP_60_3_VITIS_LOOP_62_4</Name>
+                    <VITIS_LOOP_62_3_VITIS_LOOP_63_4>
+                        <Name>VITIS_LOOP_62_3_VITIS_LOOP_63_4</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
-                        <PipelineDepth>2</PipelineDepth>
+                        <PipelineDepth>3</PipelineDepth>
                         <PipelineType>yes</PipelineType>
                         <InstanceList/>
-                    </VITIS_LOOP_60_3_VITIS_LOOP_62_4>
+                    </VITIS_LOOP_62_3_VITIS_LOOP_63_4>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <FF>73</FF>
+                    <FF>193</FF>
                     <AVAIL_FF>35200</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
-                    <LUT>192</LUT>
+                    <LUT>2142</LUT>
                     <AVAIL_LUT>17600</AVAIL_LUT>
-                    <UTIL_LUT>1</UTIL_LUT>
+                    <UTIL_LUT>12</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
                     <AVAIL_BRAM>120</AVAIL_BRAM>
                     <UTIL_BRAM>0</UTIL_BRAM>
@@ -601,17 +609,16 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_60_3_VITIS_LOOP_62_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln60_1_fu_109_p2" SOURCE="test2/systolic.cpp:60" URAM="0" VARIABLE="add_ln60_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_60_3_VITIS_LOOP_62_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln60_fu_126_p2" SOURCE="test2/systolic.cpp:60" URAM="0" VARIABLE="add_ln60"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_60_3_VITIS_LOOP_62_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln64_fu_170_p2" SOURCE="test2/systolic.cpp:64" URAM="0" VARIABLE="add_ln64"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_60_3_VITIS_LOOP_62_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln62_fu_181_p2" SOURCE="test2/systolic.cpp:62" URAM="0" VARIABLE="add_ln62"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_62_3_VITIS_LOOP_63_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln62_1_fu_1451_p2" SOURCE="cgcn/src/systolic.cpp:62" URAM="0" VARIABLE="add_ln62_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_62_3_VITIS_LOOP_63_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln62_fu_1463_p2" SOURCE="cgcn/src/systolic.cpp:62" URAM="0" VARIABLE="add_ln62"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_62_3_VITIS_LOOP_63_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln64_fu_1511_p2" SOURCE="cgcn/src/systolic.cpp:64" URAM="0" VARIABLE="add_ln64"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_62_3_VITIS_LOOP_63_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln63_fu_1522_p2" SOURCE="cgcn/src/systolic.cpp:63" URAM="0" VARIABLE="add_ln63"/>
             </BindNodes>
         </Module>
         <Module>
             <Name>rerArray_Loop_input_batch_proc3</Name>
             <Loops>
                 <input_batch>
-                    <input_turn/>
                     <VITIS_LOOP_67_5/>
                 </input_batch>
             </Loops>
@@ -619,7 +626,7 @@
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
-                    <EstimatedClockPeriod>6.688</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>7.045</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>undef</Best-caseLatency>
@@ -641,21 +648,10 @@
                         <PipelineDepth>undef</PipelineDepth>
                         <PipelineType>no</PipelineType>
                         <InstanceList>
-                            <Instance>grp_rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_60_3_VITIS_LOOP_62_4_fu_184</Instance>
+                            <Instance>grp_rerArray_Loop_input_batch_proc3_Pipeline_input_turn_property_input_property_VITI_fu_925</Instance>
+                            <Instance>grp_rerArray_Loop_input_batch_proc3_Pipeline_input_turn_weight_input_weight_VITIS_LO_fu_1190</Instance>
+                            <Instance>grp_rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_62_3_VITIS_LOOP_63_4_fu_1453</Instance>
                         </InstanceList>
-                        <input_turn>
-                            <Name>input_turn</Name>
-                            <TripCount>undef</TripCount>
-                            <Latency>undef</Latency>
-                            <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
-                            <IterationLatency>undef</IterationLatency>
-                            <PipelineDepth>undef</PipelineDepth>
-                            <PipelineType>no</PipelineType>
-                            <InstanceList>
-                                <Instance>grp_rerArray_Loop_input_batch_proc3_Pipeline_input_property_VITIS_LOOP_45_1_fu_176</Instance>
-                                <Instance>grp_rerArray_Loop_input_batch_proc3_Pipeline_input_weight_VITIS_LOOP_54_2_fu_192</Instance>
-                            </InstanceList>
-                        </input_turn>
                         <VITIS_LOOP_67_5>
                             <Name>VITIS_LOOP_67_5</Name>
                             <TripCount>4</TripCount>
@@ -674,29 +670,29 @@
                     <BRAM_18K>1</BRAM_18K>
                     <AVAIL_BRAM>120</AVAIL_BRAM>
                     <UTIL_BRAM>~0</UTIL_BRAM>
-                    <FF>593</FF>
+                    <DSP>3</DSP>
+                    <AVAIL_DSP>80</AVAIL_DSP>
+                    <UTIL_DSP>3</UTIL_DSP>
+                    <FF>1000</FF>
                     <AVAIL_FF>35200</AVAIL_FF>
-                    <UTIL_FF>1</UTIL_FF>
-                    <LUT>793</LUT>
+                    <UTIL_FF>2</UTIL_FF>
+                    <LUT>9216</LUT>
                     <AVAIL_LUT>17600</AVAIL_LUT>
-                    <UTIL_LUT>4</UTIL_LUT>
+                    <UTIL_LUT>52</UTIL_LUT>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
-                    <DSP>0</DSP>
-                    <AVAIL_DSP>80</AVAIL_DSP>
-                    <UTIL_DSP>0</UTIL_DSP>
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="buff_U" SOURCE="test2/systolic.cpp:25" URAM="0" VARIABLE="buff"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln24_fu_208_p2" SOURCE="test2/systolic.cpp:24" URAM="0" VARIABLE="sub_ln24"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln24_1_fu_246_p2" SOURCE="test2/systolic.cpp:24" URAM="0" VARIABLE="sub_ln24_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln36_1_fu_267_p2" SOURCE="test2/systolic.cpp:36" URAM="0" VARIABLE="add_ln36_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_batch" OPTYPE="add" PRAGMA="" RTLNAME="add_ln36_fu_291_p2" SOURCE="test2/systolic.cpp:36" URAM="0" VARIABLE="add_ln36"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_turn" OPTYPE="add" PRAGMA="" RTLNAME="add_ln39_fu_302_p2" SOURCE="test2/systolic.cpp:39" URAM="0" VARIABLE="add_ln39"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_67_5" OPTYPE="add" PRAGMA="" RTLNAME="empty_19_fu_320_p2" SOURCE="test2/systolic.cpp:67" URAM="0" VARIABLE="empty_19"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_67_5" OPTYPE="add" PRAGMA="" RTLNAME="add_ln67_fu_336_p2" SOURCE="test2/systolic.cpp:67" URAM="0" VARIABLE="add_ln67"/>
+                <BindNode BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="buff_U" SOURCE="cgcn/src/systolic.cpp:29" URAM="0" VARIABLE="buff"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln28_fu_1723_p2" SOURCE="cgcn/src/systolic.cpp:28" URAM="0" VARIABLE="sub_ln28"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln28_1_fu_1766_p2" SOURCE="cgcn/src/systolic.cpp:28" URAM="0" VARIABLE="sub_ln28_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln39_1_fu_1787_p2" SOURCE="cgcn/src/systolic.cpp:39" URAM="0" VARIABLE="add_ln39_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32ns_34ns_65_1_1_U1051" SOURCE="" URAM="0" VARIABLE="bound4"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="input_batch" OPTYPE="add" PRAGMA="" RTLNAME="add_ln39_fu_1824_p2" SOURCE="cgcn/src/systolic.cpp:39" URAM="0" VARIABLE="add_ln39"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_67_5" OPTYPE="add" PRAGMA="" RTLNAME="empty_21_fu_1842_p2" SOURCE="cgcn/src/systolic.cpp:67" URAM="0" VARIABLE="empty_21"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_67_5" OPTYPE="add" PRAGMA="" RTLNAME="add_ln67_fu_1858_p2" SOURCE="cgcn/src/systolic.cpp:67" URAM="0" VARIABLE="add_ln67"/>
             </BindNodes>
         </Module>
         <Module>
@@ -724,29 +720,410 @@
                     <BRAM_18K>1</BRAM_18K>
                     <AVAIL_BRAM>120</AVAIL_BRAM>
                     <UTIL_BRAM>~0</UTIL_BRAM>
-                    <DSP>3</DSP>
+                    <DSP>6</DSP>
                     <AVAIL_DSP>80</AVAIL_DSP>
-                    <UTIL_DSP>3</UTIL_DSP>
-                    <FF>1630</FF>
+                    <UTIL_DSP>7</UTIL_DSP>
+                    <FF>40314</FF>
                     <AVAIL_FF>35200</AVAIL_FF>
-                    <UTIL_FF>4</UTIL_FF>
-                    <LUT>1701</LUT>
+                    <UTIL_FF>114</UTIL_FF>
+                    <LUT>43550</LUT>
                     <AVAIL_LUT>17600</AVAIL_LUT>
-                    <UTIL_LUT>9</UTIL_LUT>
+                    <UTIL_LUT>247</UTIL_LUT>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="node_cnt_c_U" SOURCE="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:12" URAM="0" VARIABLE="node_cnt_c"/>
-                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_size_c_U" SOURCE="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:12" URAM="0" VARIABLE="output_size_c"/>
-                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="p_read1_c_U" SOURCE="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:12" URAM="0" VARIABLE="p_read1_c"/>
-                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="featrue_length_c_U" SOURCE="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:12" URAM="0" VARIABLE="featrue_length_c"/>
-                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="p_read_c_U" SOURCE="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:12" URAM="0" VARIABLE="p_read_c"/>
-                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_U" SOURCE="test2/systolic.cpp:21" URAM="0" VARIABLE="property_input"/>
-                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_U" SOURCE="test2/systolic.cpp:22" URAM="0" VARIABLE="weight_input"/>
-                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_U" SOURCE="test2/systolic.cpp:23" URAM="0" VARIABLE="output"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="node_cnt_c_U" SOURCE="C:/code/vitiscode/cgcn/solution1/directives.tcl:12" URAM="0" VARIABLE="node_cnt_c"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_size_c_U" SOURCE="C:/code/vitiscode/cgcn/solution1/directives.tcl:12" URAM="0" VARIABLE="output_size_c"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="p_read1_c_U" SOURCE="C:/code/vitiscode/cgcn/solution1/directives.tcl:12" URAM="0" VARIABLE="p_read1_c"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="featrue_length_c_U" SOURCE="C:/code/vitiscode/cgcn/solution1/directives.tcl:12" URAM="0" VARIABLE="featrue_length_c"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="p_read_c_U" SOURCE="C:/code/vitiscode/cgcn/solution1/directives.tcl:12" URAM="0" VARIABLE="p_read_c"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_0_U" SOURCE="" URAM="0" VARIABLE="property_input_0_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_1_U" SOURCE="" URAM="0" VARIABLE="property_input_0_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_2_U" SOURCE="" URAM="0" VARIABLE="property_input_0_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_3_U" SOURCE="" URAM="0" VARIABLE="property_input_0_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_4_U" SOURCE="" URAM="0" VARIABLE="property_input_0_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_5_U" SOURCE="" URAM="0" VARIABLE="property_input_0_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_6_U" SOURCE="" URAM="0" VARIABLE="property_input_0_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_7_U" SOURCE="" URAM="0" VARIABLE="property_input_0_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_8_U" SOURCE="" URAM="0" VARIABLE="property_input_0_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_9_U" SOURCE="" URAM="0" VARIABLE="property_input_0_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_10_U" SOURCE="" URAM="0" VARIABLE="property_input_0_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_11_U" SOURCE="" URAM="0" VARIABLE="property_input_0_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_12_U" SOURCE="" URAM="0" VARIABLE="property_input_0_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_13_U" SOURCE="" URAM="0" VARIABLE="property_input_0_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_14_U" SOURCE="" URAM="0" VARIABLE="property_input_0_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_15_U" SOURCE="" URAM="0" VARIABLE="property_input_0_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_16_U" SOURCE="" URAM="0" VARIABLE="property_input_0_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_17_U" SOURCE="" URAM="0" VARIABLE="property_input_0_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_18_U" SOURCE="" URAM="0" VARIABLE="property_input_0_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_19_U" SOURCE="" URAM="0" VARIABLE="property_input_0_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_20_U" SOURCE="" URAM="0" VARIABLE="property_input_0_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_21_U" SOURCE="" URAM="0" VARIABLE="property_input_0_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_22_U" SOURCE="" URAM="0" VARIABLE="property_input_0_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_23_U" SOURCE="" URAM="0" VARIABLE="property_input_0_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_24_U" SOURCE="" URAM="0" VARIABLE="property_input_0_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_25_U" SOURCE="" URAM="0" VARIABLE="property_input_0_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_26_U" SOURCE="" URAM="0" VARIABLE="property_input_0_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_27_U" SOURCE="" URAM="0" VARIABLE="property_input_0_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_28_U" SOURCE="" URAM="0" VARIABLE="property_input_0_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_29_U" SOURCE="" URAM="0" VARIABLE="property_input_0_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_30_U" SOURCE="" URAM="0" VARIABLE="property_input_0_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_0_31_U" SOURCE="" URAM="0" VARIABLE="property_input_0_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_0_U" SOURCE="" URAM="0" VARIABLE="property_input_1_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_1_U" SOURCE="" URAM="0" VARIABLE="property_input_1_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_2_U" SOURCE="" URAM="0" VARIABLE="property_input_1_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_3_U" SOURCE="" URAM="0" VARIABLE="property_input_1_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_4_U" SOURCE="" URAM="0" VARIABLE="property_input_1_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_5_U" SOURCE="" URAM="0" VARIABLE="property_input_1_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_6_U" SOURCE="" URAM="0" VARIABLE="property_input_1_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_7_U" SOURCE="" URAM="0" VARIABLE="property_input_1_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_8_U" SOURCE="" URAM="0" VARIABLE="property_input_1_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_9_U" SOURCE="" URAM="0" VARIABLE="property_input_1_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_10_U" SOURCE="" URAM="0" VARIABLE="property_input_1_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_11_U" SOURCE="" URAM="0" VARIABLE="property_input_1_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_12_U" SOURCE="" URAM="0" VARIABLE="property_input_1_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_13_U" SOURCE="" URAM="0" VARIABLE="property_input_1_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_14_U" SOURCE="" URAM="0" VARIABLE="property_input_1_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_15_U" SOURCE="" URAM="0" VARIABLE="property_input_1_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_16_U" SOURCE="" URAM="0" VARIABLE="property_input_1_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_17_U" SOURCE="" URAM="0" VARIABLE="property_input_1_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_18_U" SOURCE="" URAM="0" VARIABLE="property_input_1_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_19_U" SOURCE="" URAM="0" VARIABLE="property_input_1_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_20_U" SOURCE="" URAM="0" VARIABLE="property_input_1_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_21_U" SOURCE="" URAM="0" VARIABLE="property_input_1_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_22_U" SOURCE="" URAM="0" VARIABLE="property_input_1_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_23_U" SOURCE="" URAM="0" VARIABLE="property_input_1_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_24_U" SOURCE="" URAM="0" VARIABLE="property_input_1_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_25_U" SOURCE="" URAM="0" VARIABLE="property_input_1_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_26_U" SOURCE="" URAM="0" VARIABLE="property_input_1_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_27_U" SOURCE="" URAM="0" VARIABLE="property_input_1_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_28_U" SOURCE="" URAM="0" VARIABLE="property_input_1_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_29_U" SOURCE="" URAM="0" VARIABLE="property_input_1_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_30_U" SOURCE="" URAM="0" VARIABLE="property_input_1_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_1_31_U" SOURCE="" URAM="0" VARIABLE="property_input_1_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_0_U" SOURCE="" URAM="0" VARIABLE="property_input_2_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_1_U" SOURCE="" URAM="0" VARIABLE="property_input_2_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_2_U" SOURCE="" URAM="0" VARIABLE="property_input_2_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_3_U" SOURCE="" URAM="0" VARIABLE="property_input_2_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_4_U" SOURCE="" URAM="0" VARIABLE="property_input_2_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_5_U" SOURCE="" URAM="0" VARIABLE="property_input_2_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_6_U" SOURCE="" URAM="0" VARIABLE="property_input_2_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_7_U" SOURCE="" URAM="0" VARIABLE="property_input_2_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_8_U" SOURCE="" URAM="0" VARIABLE="property_input_2_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_9_U" SOURCE="" URAM="0" VARIABLE="property_input_2_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_10_U" SOURCE="" URAM="0" VARIABLE="property_input_2_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_11_U" SOURCE="" URAM="0" VARIABLE="property_input_2_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_12_U" SOURCE="" URAM="0" VARIABLE="property_input_2_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_13_U" SOURCE="" URAM="0" VARIABLE="property_input_2_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_14_U" SOURCE="" URAM="0" VARIABLE="property_input_2_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_15_U" SOURCE="" URAM="0" VARIABLE="property_input_2_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_16_U" SOURCE="" URAM="0" VARIABLE="property_input_2_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_17_U" SOURCE="" URAM="0" VARIABLE="property_input_2_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_18_U" SOURCE="" URAM="0" VARIABLE="property_input_2_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_19_U" SOURCE="" URAM="0" VARIABLE="property_input_2_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_20_U" SOURCE="" URAM="0" VARIABLE="property_input_2_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_21_U" SOURCE="" URAM="0" VARIABLE="property_input_2_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_22_U" SOURCE="" URAM="0" VARIABLE="property_input_2_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_23_U" SOURCE="" URAM="0" VARIABLE="property_input_2_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_24_U" SOURCE="" URAM="0" VARIABLE="property_input_2_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_25_U" SOURCE="" URAM="0" VARIABLE="property_input_2_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_26_U" SOURCE="" URAM="0" VARIABLE="property_input_2_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_27_U" SOURCE="" URAM="0" VARIABLE="property_input_2_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_28_U" SOURCE="" URAM="0" VARIABLE="property_input_2_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_29_U" SOURCE="" URAM="0" VARIABLE="property_input_2_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_30_U" SOURCE="" URAM="0" VARIABLE="property_input_2_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_2_31_U" SOURCE="" URAM="0" VARIABLE="property_input_2_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_0_U" SOURCE="" URAM="0" VARIABLE="property_input_3_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_1_U" SOURCE="" URAM="0" VARIABLE="property_input_3_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_2_U" SOURCE="" URAM="0" VARIABLE="property_input_3_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_3_U" SOURCE="" URAM="0" VARIABLE="property_input_3_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_4_U" SOURCE="" URAM="0" VARIABLE="property_input_3_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_5_U" SOURCE="" URAM="0" VARIABLE="property_input_3_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_6_U" SOURCE="" URAM="0" VARIABLE="property_input_3_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_7_U" SOURCE="" URAM="0" VARIABLE="property_input_3_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_8_U" SOURCE="" URAM="0" VARIABLE="property_input_3_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_9_U" SOURCE="" URAM="0" VARIABLE="property_input_3_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_10_U" SOURCE="" URAM="0" VARIABLE="property_input_3_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_11_U" SOURCE="" URAM="0" VARIABLE="property_input_3_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_12_U" SOURCE="" URAM="0" VARIABLE="property_input_3_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_13_U" SOURCE="" URAM="0" VARIABLE="property_input_3_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_14_U" SOURCE="" URAM="0" VARIABLE="property_input_3_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_15_U" SOURCE="" URAM="0" VARIABLE="property_input_3_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_16_U" SOURCE="" URAM="0" VARIABLE="property_input_3_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_17_U" SOURCE="" URAM="0" VARIABLE="property_input_3_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_18_U" SOURCE="" URAM="0" VARIABLE="property_input_3_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_19_U" SOURCE="" URAM="0" VARIABLE="property_input_3_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_20_U" SOURCE="" URAM="0" VARIABLE="property_input_3_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_21_U" SOURCE="" URAM="0" VARIABLE="property_input_3_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_22_U" SOURCE="" URAM="0" VARIABLE="property_input_3_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_23_U" SOURCE="" URAM="0" VARIABLE="property_input_3_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_24_U" SOURCE="" URAM="0" VARIABLE="property_input_3_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_25_U" SOURCE="" URAM="0" VARIABLE="property_input_3_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_26_U" SOURCE="" URAM="0" VARIABLE="property_input_3_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_27_U" SOURCE="" URAM="0" VARIABLE="property_input_3_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_28_U" SOURCE="" URAM="0" VARIABLE="property_input_3_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_29_U" SOURCE="" URAM="0" VARIABLE="property_input_3_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_30_U" SOURCE="" URAM="0" VARIABLE="property_input_3_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="property_input_3_31_U" SOURCE="" URAM="0" VARIABLE="property_input_3_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_0_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_1_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_2_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_3_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_4_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_5_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_6_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_7_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_8_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_9_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_10_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_11_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_12_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_13_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_14_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_15_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_16_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_17_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_18_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_19_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_20_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_21_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_22_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_23_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_24_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_25_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_26_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_27_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_28_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_29_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_30_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_0_31_U" SOURCE="" URAM="0" VARIABLE="weight_input_0_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_0_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_1_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_2_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_3_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_4_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_5_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_6_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_7_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_8_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_9_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_10_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_11_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_12_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_13_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_14_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_15_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_16_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_17_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_18_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_19_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_20_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_21_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_22_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_23_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_24_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_25_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_26_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_27_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_28_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_29_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_30_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_1_31_U" SOURCE="" URAM="0" VARIABLE="weight_input_1_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_0_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_1_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_2_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_3_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_4_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_5_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_6_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_7_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_8_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_9_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_10_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_11_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_12_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_13_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_14_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_15_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_16_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_17_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_18_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_19_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_20_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_21_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_22_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_23_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_24_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_25_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_26_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_27_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_28_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_29_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_30_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_2_31_U" SOURCE="" URAM="0" VARIABLE="weight_input_2_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_0_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_1_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_2_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_3_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_4_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_5_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_6_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_7_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_8_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_9_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_10_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_11_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_12_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_13_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_14_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_15_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_16_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_17_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_18_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_19_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_20_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_21_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_22_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_23_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_24_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_25_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_26_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_27_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_28_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_29_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_30_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="weight_input_3_31_U" SOURCE="" URAM="0" VARIABLE="weight_input_3_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_0_U" SOURCE="" URAM="0" VARIABLE="output_0_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_1_U" SOURCE="" URAM="0" VARIABLE="output_0_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_2_U" SOURCE="" URAM="0" VARIABLE="output_0_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_3_U" SOURCE="" URAM="0" VARIABLE="output_0_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_4_U" SOURCE="" URAM="0" VARIABLE="output_0_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_5_U" SOURCE="" URAM="0" VARIABLE="output_0_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_6_U" SOURCE="" URAM="0" VARIABLE="output_0_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_7_U" SOURCE="" URAM="0" VARIABLE="output_0_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_8_U" SOURCE="" URAM="0" VARIABLE="output_0_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_9_U" SOURCE="" URAM="0" VARIABLE="output_0_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_10_U" SOURCE="" URAM="0" VARIABLE="output_0_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_11_U" SOURCE="" URAM="0" VARIABLE="output_0_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_12_U" SOURCE="" URAM="0" VARIABLE="output_0_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_13_U" SOURCE="" URAM="0" VARIABLE="output_0_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_14_U" SOURCE="" URAM="0" VARIABLE="output_0_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_15_U" SOURCE="" URAM="0" VARIABLE="output_0_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_16_U" SOURCE="" URAM="0" VARIABLE="output_0_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_17_U" SOURCE="" URAM="0" VARIABLE="output_0_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_18_U" SOURCE="" URAM="0" VARIABLE="output_0_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_19_U" SOURCE="" URAM="0" VARIABLE="output_0_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_20_U" SOURCE="" URAM="0" VARIABLE="output_0_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_21_U" SOURCE="" URAM="0" VARIABLE="output_0_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_22_U" SOURCE="" URAM="0" VARIABLE="output_0_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_23_U" SOURCE="" URAM="0" VARIABLE="output_0_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_24_U" SOURCE="" URAM="0" VARIABLE="output_0_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_25_U" SOURCE="" URAM="0" VARIABLE="output_0_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_26_U" SOURCE="" URAM="0" VARIABLE="output_0_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_27_U" SOURCE="" URAM="0" VARIABLE="output_0_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_28_U" SOURCE="" URAM="0" VARIABLE="output_0_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_29_U" SOURCE="" URAM="0" VARIABLE="output_0_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_30_U" SOURCE="" URAM="0" VARIABLE="output_0_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_0_31_U" SOURCE="" URAM="0" VARIABLE="output_0_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_0_U" SOURCE="" URAM="0" VARIABLE="output_1_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_1_U" SOURCE="" URAM="0" VARIABLE="output_1_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_2_U" SOURCE="" URAM="0" VARIABLE="output_1_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_3_U" SOURCE="" URAM="0" VARIABLE="output_1_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_4_U" SOURCE="" URAM="0" VARIABLE="output_1_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_5_U" SOURCE="" URAM="0" VARIABLE="output_1_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_6_U" SOURCE="" URAM="0" VARIABLE="output_1_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_7_U" SOURCE="" URAM="0" VARIABLE="output_1_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_8_U" SOURCE="" URAM="0" VARIABLE="output_1_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_9_U" SOURCE="" URAM="0" VARIABLE="output_1_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_10_U" SOURCE="" URAM="0" VARIABLE="output_1_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_11_U" SOURCE="" URAM="0" VARIABLE="output_1_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_12_U" SOURCE="" URAM="0" VARIABLE="output_1_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_13_U" SOURCE="" URAM="0" VARIABLE="output_1_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_14_U" SOURCE="" URAM="0" VARIABLE="output_1_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_15_U" SOURCE="" URAM="0" VARIABLE="output_1_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_16_U" SOURCE="" URAM="0" VARIABLE="output_1_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_17_U" SOURCE="" URAM="0" VARIABLE="output_1_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_18_U" SOURCE="" URAM="0" VARIABLE="output_1_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_19_U" SOURCE="" URAM="0" VARIABLE="output_1_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_20_U" SOURCE="" URAM="0" VARIABLE="output_1_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_21_U" SOURCE="" URAM="0" VARIABLE="output_1_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_22_U" SOURCE="" URAM="0" VARIABLE="output_1_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_23_U" SOURCE="" URAM="0" VARIABLE="output_1_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_24_U" SOURCE="" URAM="0" VARIABLE="output_1_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_25_U" SOURCE="" URAM="0" VARIABLE="output_1_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_26_U" SOURCE="" URAM="0" VARIABLE="output_1_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_27_U" SOURCE="" URAM="0" VARIABLE="output_1_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_28_U" SOURCE="" URAM="0" VARIABLE="output_1_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_29_U" SOURCE="" URAM="0" VARIABLE="output_1_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_30_U" SOURCE="" URAM="0" VARIABLE="output_1_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_1_31_U" SOURCE="" URAM="0" VARIABLE="output_1_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_0_U" SOURCE="" URAM="0" VARIABLE="output_2_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_1_U" SOURCE="" URAM="0" VARIABLE="output_2_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_2_U" SOURCE="" URAM="0" VARIABLE="output_2_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_3_U" SOURCE="" URAM="0" VARIABLE="output_2_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_4_U" SOURCE="" URAM="0" VARIABLE="output_2_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_5_U" SOURCE="" URAM="0" VARIABLE="output_2_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_6_U" SOURCE="" URAM="0" VARIABLE="output_2_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_7_U" SOURCE="" URAM="0" VARIABLE="output_2_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_8_U" SOURCE="" URAM="0" VARIABLE="output_2_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_9_U" SOURCE="" URAM="0" VARIABLE="output_2_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_10_U" SOURCE="" URAM="0" VARIABLE="output_2_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_11_U" SOURCE="" URAM="0" VARIABLE="output_2_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_12_U" SOURCE="" URAM="0" VARIABLE="output_2_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_13_U" SOURCE="" URAM="0" VARIABLE="output_2_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_14_U" SOURCE="" URAM="0" VARIABLE="output_2_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_15_U" SOURCE="" URAM="0" VARIABLE="output_2_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_16_U" SOURCE="" URAM="0" VARIABLE="output_2_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_17_U" SOURCE="" URAM="0" VARIABLE="output_2_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_18_U" SOURCE="" URAM="0" VARIABLE="output_2_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_19_U" SOURCE="" URAM="0" VARIABLE="output_2_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_20_U" SOURCE="" URAM="0" VARIABLE="output_2_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_21_U" SOURCE="" URAM="0" VARIABLE="output_2_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_22_U" SOURCE="" URAM="0" VARIABLE="output_2_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_23_U" SOURCE="" URAM="0" VARIABLE="output_2_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_24_U" SOURCE="" URAM="0" VARIABLE="output_2_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_25_U" SOURCE="" URAM="0" VARIABLE="output_2_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_26_U" SOURCE="" URAM="0" VARIABLE="output_2_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_27_U" SOURCE="" URAM="0" VARIABLE="output_2_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_28_U" SOURCE="" URAM="0" VARIABLE="output_2_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_29_U" SOURCE="" URAM="0" VARIABLE="output_2_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_30_U" SOURCE="" URAM="0" VARIABLE="output_2_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_2_31_U" SOURCE="" URAM="0" VARIABLE="output_2_31"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_0_U" SOURCE="" URAM="0" VARIABLE="output_3_0"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_1_U" SOURCE="" URAM="0" VARIABLE="output_3_1"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_2_U" SOURCE="" URAM="0" VARIABLE="output_3_2"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_3_U" SOURCE="" URAM="0" VARIABLE="output_3_3"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_4_U" SOURCE="" URAM="0" VARIABLE="output_3_4"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_5_U" SOURCE="" URAM="0" VARIABLE="output_3_5"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_6_U" SOURCE="" URAM="0" VARIABLE="output_3_6"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_7_U" SOURCE="" URAM="0" VARIABLE="output_3_7"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_8_U" SOURCE="" URAM="0" VARIABLE="output_3_8"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_9_U" SOURCE="" URAM="0" VARIABLE="output_3_9"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_10_U" SOURCE="" URAM="0" VARIABLE="output_3_10"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_11_U" SOURCE="" URAM="0" VARIABLE="output_3_11"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_12_U" SOURCE="" URAM="0" VARIABLE="output_3_12"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_13_U" SOURCE="" URAM="0" VARIABLE="output_3_13"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_14_U" SOURCE="" URAM="0" VARIABLE="output_3_14"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_15_U" SOURCE="" URAM="0" VARIABLE="output_3_15"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_16_U" SOURCE="" URAM="0" VARIABLE="output_3_16"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_17_U" SOURCE="" URAM="0" VARIABLE="output_3_17"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_18_U" SOURCE="" URAM="0" VARIABLE="output_3_18"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_19_U" SOURCE="" URAM="0" VARIABLE="output_3_19"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_20_U" SOURCE="" URAM="0" VARIABLE="output_3_20"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_21_U" SOURCE="" URAM="0" VARIABLE="output_3_21"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_22_U" SOURCE="" URAM="0" VARIABLE="output_3_22"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_23_U" SOURCE="" URAM="0" VARIABLE="output_3_23"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_24_U" SOURCE="" URAM="0" VARIABLE="output_3_24"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_25_U" SOURCE="" URAM="0" VARIABLE="output_3_25"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_26_U" SOURCE="" URAM="0" VARIABLE="output_3_26"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_27_U" SOURCE="" URAM="0" VARIABLE="output_3_27"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_28_U" SOURCE="" URAM="0" VARIABLE="output_3_28"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_29_U" SOURCE="" URAM="0" VARIABLE="output_3_29"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_30_U" SOURCE="" URAM="0" VARIABLE="output_3_30"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="output_3_31_U" SOURCE="" URAM="0" VARIABLE="output_3_31"/>
             </BindNodes>
         </Module>
         <Module>
@@ -773,15 +1150,15 @@
                     <BRAM_18K>1</BRAM_18K>
                     <AVAIL_BRAM>120</AVAIL_BRAM>
                     <UTIL_BRAM>~0</UTIL_BRAM>
-                    <DSP>3</DSP>
+                    <DSP>6</DSP>
                     <AVAIL_DSP>80</AVAIL_DSP>
-                    <UTIL_DSP>3</UTIL_DSP>
-                    <FF>1635</FF>
+                    <UTIL_DSP>7</UTIL_DSP>
+                    <FF>40319</FF>
                     <AVAIL_FF>35200</AVAIL_FF>
-                    <UTIL_FF>4</UTIL_FF>
-                    <LUT>1716</LUT>
+                    <UTIL_FF>114</UTIL_FF>
+                    <LUT>43565</LUT>
                     <AVAIL_LUT>17600</AVAIL_LUT>
-                    <UTIL_LUT>9</UTIL_LUT>
+                    <UTIL_LUT>247</UTIL_LUT>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
@@ -1014,12 +1391,8 @@
         </section>
     </ReportSWInterface>
     <PragmaReport>
-        <Pragma type="loop_tripcount" location="test2/systolic.cpp:11" status="valid" parentFunction="pe" variable="" isDirective="0" options="max=32"/>
-        <Pragma type="pipeline" location="test2/test.cpp:32" status="valid" parentFunction="proc" variable="" isDirective="0" options="II = 4"/>
-        <Pragma type="latency" location="test2/test.cpp:33" status="valid" parentFunction="proc" variable="" isDirective="0" options="min = 2 max = 2"/>
-        <Pragma type="pipeline" location="test2/test.cpp:46" status="valid" parentFunction="mux" variable="" isDirective="0" options="II = 1"/>
-        <Pragma type="pipeline" location="test2/test.cpp:60" status="valid" parentFunction="demux" variable="" isDirective="0" options="II = 1"/>
-        <Pragma type="dataflow" location="test2/solution1/directives.tcl:12" status="warning" parentFunction="rerarray" variable="" isDirective="1" options="">
+        <Pragma type="loop_tripcount" location="cgcn/solution1/directives.tcl:13" status="valid" parentFunction="pe" variable="" isDirective="1" options="max=32"/>
+        <Pragma type="dataflow" location="cgcn/solution1/directives.tcl:12" status="warning" parentFunction="rerarray" variable="" isDirective="1" options="">
             <Msg msg_id="214-114" msg_severity="WARNING" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
         </Pragma>
     </PragmaReport>

@@ -34,7 +34,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2764136256</coreId>
+              <coreId>1953391988</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -70,7 +70,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>1869770789</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -106,7 +106,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2761647648</coreId>
+              <coreId>774905917</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -142,7 +142,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1212371803</coreId>
+              <coreId>1043345454</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -178,7 +178,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2764101456</coreId>
+              <coreId>774905917</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -214,7 +214,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>784</coreId>
+              <coreId>741891888</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -237,7 +237,7 @@
               <type>0</type>
               <id>20</id>
               <name>node_cnt_read</name>
-              <fileName>test2/test.cpp</fileName>
+              <fileName>cgcn/src/test.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>70</lineNumber>
               <contextFuncName>vector_add</contextFuncName>
@@ -246,13 +246,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/ubuntu/VitisCodes</first>
+                  <first>C:\code\vitiscode</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
-                        <first>test2/test.cpp</first>
+                        <first>cgcn/src/test.cpp</first>
                         <second>vector_add</second>
                       </first>
                       <second>70</second>
@@ -268,7 +268,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2762441248</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -294,7 +294,7 @@
               <type>0</type>
               <id>21</id>
               <name>output_size_read</name>
-              <fileName>test2/test.cpp</fileName>
+              <fileName>cgcn/src/test.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>70</lineNumber>
               <contextFuncName>vector_add</contextFuncName>
@@ -303,13 +303,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ubuntu/VitisCodes</first>
+                  <first>C:\code\vitiscode</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>test2/test.cpp</first>
+                        <first>cgcn/src/test.cpp</first>
                         <second>vector_add</second>
                       </first>
                       <second>70</second>
@@ -325,7 +325,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2764068448</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -351,7 +351,7 @@
               <type>0</type>
               <id>22</id>
               <name>featrue_length_read</name>
-              <fileName>test2/test.cpp</fileName>
+              <fileName>cgcn/src/test.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>70</lineNumber>
               <contextFuncName>vector_add</contextFuncName>
@@ -360,13 +360,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ubuntu/VitisCodes</first>
+                  <first>C:\code\vitiscode</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>test2/test.cpp</first>
+                        <first>cgcn/src/test.cpp</first>
                         <second>vector_add</second>
                       </first>
                       <second>70</second>
@@ -382,7 +382,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2761647648</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -408,7 +408,7 @@
               <type>0</type>
               <id>23</id>
               <name>featrue_data_read</name>
-              <fileName>test2/test.cpp</fileName>
+              <fileName>cgcn/src/test.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>72</lineNumber>
               <contextFuncName>vector_add</contextFuncName>
@@ -417,13 +417,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ubuntu/VitisCodes</first>
+                  <first>C:\code\vitiscode</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>test2/test.cpp</first>
+                        <first>cgcn/src/test.cpp</first>
                         <second>vector_add</second>
                       </first>
                       <second>72</second>
@@ -465,7 +465,7 @@
               <type>0</type>
               <id>24</id>
               <name>weight_array_read</name>
-              <fileName>test2/test.cpp</fileName>
+              <fileName>cgcn/src/test.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>72</lineNumber>
               <contextFuncName>vector_add</contextFuncName>
@@ -474,13 +474,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ubuntu/VitisCodes</first>
+                  <first>C:\code\vitiscode</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>test2/test.cpp</first>
+                        <first>cgcn/src/test.cpp</first>
                         <second>vector_add</second>
                       </first>
                       <second>72</second>
@@ -496,7 +496,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2764068224</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -522,7 +522,7 @@
               <type>0</type>
               <id>25</id>
               <name>_ln72</name>
-              <fileName>test2/test.cpp</fileName>
+              <fileName>cgcn/src/test.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>72</lineNumber>
               <contextFuncName>vector_add</contextFuncName>
@@ -531,13 +531,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ubuntu/VitisCodes</first>
+                  <first>C:\code\vitiscode</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>test2/test.cpp</first>
+                        <first>cgcn/src/test.cpp</first>
                         <second>vector_add</second>
                       </first>
                       <second>72</second>
@@ -553,7 +553,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -584,7 +584,7 @@
               <type>0</type>
               <id>26</id>
               <name>_ln73</name>
-              <fileName>test2/test.cpp</fileName>
+              <fileName>cgcn/src/test.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>73</lineNumber>
               <contextFuncName>vector_add</contextFuncName>
@@ -593,13 +593,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ubuntu/VitisCodes</first>
+                  <first>C:\code\vitiscode</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>test2/test.cpp</first>
+                        <first>cgcn/src/test.cpp</first>
                         <second>vector_add</second>
                       </first>
                       <second>73</second>
@@ -615,7 +615,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2764109664</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -660,7 +660,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2763699408</coreId>
+              <coreId>774905917</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -694,7 +694,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>2761647648</coreId>
+            <coreId>0</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -985,15 +985,15 @@
             </item>
             <item>
               <first>DSP</first>
-              <second>3</second>
+              <second>6</second>
             </item>
             <item>
               <first>FF</first>
-              <second>1630</second>
+              <second>40314</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>1701</second>
+              <second>43550</second>
             </item>
             <item>
               <first>URAM</first>

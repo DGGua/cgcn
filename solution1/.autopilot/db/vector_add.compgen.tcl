@@ -11,7 +11,7 @@ set axilite_register_dict [dict create]
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 54 \
+    id 1840 \
     name featrue_data \
     type other \
     dir I \
@@ -26,7 +26,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 55 \
+    id 1841 \
     name featrue_length \
     type other \
     dir I \
@@ -41,7 +41,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 56 \
+    id 1842 \
     name weight_array \
     type other \
     dir I \
@@ -56,7 +56,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 57 \
+    id 1843 \
     name output_size \
     type other \
     dir I \
@@ -71,7 +71,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 58 \
+    id 1844 \
     name node_cnt \
     type other \
     dir I \
@@ -86,7 +86,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 59 \
+    id 1845 \
     name output_data \
     type other \
     dir O \

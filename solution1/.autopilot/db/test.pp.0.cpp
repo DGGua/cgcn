@@ -1,11 +1,11 @@
-# 1 "test2/test.cpp"
+# 1 "cgcn/src/test.cpp"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
-# 375 "<built-in>" 3
+# 395 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/etc/autopilot_ssdm_op.h" 1
-# 154 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/etc/autopilot_ssdm_op.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\etc/autopilot_ssdm_op.h" 1
+# 154 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\etc/autopilot_ssdm_op.h"
 extern "C" {
 
 
@@ -156,16 +156,16 @@ extern "C" {
 
 }
 # 2 "<built-in>" 2
-# 1 "test2/test.cpp" 2
-# 23 "test2/test.cpp"
-# 1 "test2/test.h" 1
-# 17 "test2/test.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream.h" 1
-# 61 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h" 1
-# 72 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h"
+# 1 "cgcn/src/test.cpp" 2
+# 23 "cgcn/src/test.cpp"
+# 1 "cgcn/src/test.h" 1
+# 17 "cgcn/src/test.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\hls_stream.h" 1
+# 61 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\hls_stream.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h" 1
+# 72 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h"
 namespace hls {
-# 94 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h"
+# 94 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream_39.h"
 template<typename __STREAM_T__, int DEPTH=0>
 class stream;
 
@@ -290,14 +290,14 @@ class stream : public stream<__STREAM_T__, 0> {
     }
 };
 }
-# 62 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/hls_stream.h" 2
-# 18 "test2/test.h" 2
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h" 1
-# 56 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_common.h" 1
-# 87 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_common.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_decl.h" 1
-# 100 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_decl.h"
+# 62 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\hls_stream.h" 2
+# 18 "cgcn/src/test.h" 2
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h" 1
+# 56 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_common.h" 1
+# 87 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_common.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_decl.h" 1
+# 100 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_decl.h"
 enum ap_q_mode {
   AP_RND,
   AP_RND_ZERO,
@@ -307,7 +307,7 @@ enum ap_q_mode {
   AP_TRN,
   AP_TRN_ZERO,
 };
-# 122 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_decl.h"
+# 122 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_decl.h"
 enum ap_o_mode {
   AP_SAT,
   AP_SAT_ZERO,
@@ -315,7 +315,7 @@ enum ap_o_mode {
   AP_WRAP,
   AP_WRAP_SM,
 };
-# 179 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_decl.h"
+# 179 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_decl.h"
 template <int _AP_W, bool _AP_S>
 struct ap_int_base;
 
@@ -356,7 +356,7 @@ struct af_bit_ref;
 
 
 enum BaseMode { AP_BIN = 2, AP_OCT = 8, AP_DEC = 10, AP_HEX = 16 };
-# 233 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_decl.h"
+# 233 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_decl.h"
 typedef signed long long ap_slong;
 typedef unsigned long long ap_ulong;
 
@@ -368,8 +368,8 @@ enum {
   _AP_SIZE_long = sizeof(long) * 8,
   _AP_SIZE_ap_slong = sizeof(ap_slong) * 8
 };
-# 88 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_common.h" 2
-# 208 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_common.h"
+# 88 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_common.h" 2
+# 208 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_common.h"
 enum { CHAR_IS_SIGNED = (char)-1 < 0 };
 
 
@@ -420,7 +420,7 @@ struct remove_const<_Tp const> {
   typedef _Tp type;
 };
 }
-# 551 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_common.h"
+# 551 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_common.h"
 template <int _AP_N, bool _AP_S>
 struct ssdm_int;
 
@@ -439,12 +439,12 @@ struct ssdm_int<_AP_N, false> {
   inline __attribute__((always_inline)) ssdm_int<_AP_N, false>(){};
                 inline __attribute__((always_inline)) ssdm_int<_AP_N, false>(unsigned o __attribute__((bitwidth(_AP_N)))):V(o){};
 };
-# 619 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_common.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/etc/autopilot_ssdm_bits.h" 1
-# 620 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_common.h" 2
+# 619 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_common.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/etc/autopilot_ssdm_bits.h" 1
+# 620 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_common.h" 2
 
 extern "C" void _ssdm_string2bits(...);
-# 631 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_common.h"
+# 631 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_common.h"
 static inline unsigned char guess_radix(const char* s) {
   unsigned char rd = 10;
   const char* p = s;
@@ -472,7 +472,7 @@ static inline unsigned char guess_radix(const char* s) {
 
 
 typedef __fp16 half;
-# 762 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_common.h"
+# 762 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_common.h"
 inline __attribute__((always_inline)) ap_ulong doubleToRawBits(double pf) {
   union {
     ap_ulong __L;
@@ -540,9 +540,9 @@ inline __attribute__((always_inline)) half rawBitsToHalf(unsigned short pi) {
 
 
 }
-# 57 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h" 2
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h" 1
-# 86 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 57 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h" 2
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h" 1
+# 86 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_N, bool _AP_S>
 struct retval;
 
@@ -697,7 +697,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) ap_int_base(const volatile ap_int_base<_AP_W2, _AP_S2>& op) {
     Base::V = op.V;
   }
-# 254 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 254 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) ap_int_base(const bool op):Base(op) { Base::V = op; }
   inline __attribute__((always_inline)) ap_int_base(const char op):Base(op) { Base::V = op; }
   inline __attribute__((always_inline)) ap_int_base(const signed char op):Base(op) { Base::V = op; }
@@ -863,7 +863,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
         tmp = ref.get();
     Base::V = tmp.V;
   }
-# 431 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 431 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) ap_int_base(const char* s) {
     typeof(Base::V) t;
     _ssdm_string2bits((void*)(&t), (const char*)(s), 10, _AP_W, _AP_S,
@@ -945,7 +945,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
 
 
   ap_int_base& operator=(const ap_int_base<_AP_W, _AP_S>& op2) = default;
-# 525 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 525 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) ap_int_base& operator=(bool op) { Base::V = op; return *this; }
   inline __attribute__((always_inline)) ap_int_base& operator=(char op) { Base::V = op; return *this; }
   inline __attribute__((always_inline)) ap_int_base& operator=(signed char op) { Base::V = op; return *this; }
@@ -1028,7 +1028,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) half to_half() const { return (float)(Base::V); }
                 inline __attribute__((always_inline)) float to_float() const { return (float)(Base::V); }
                 inline __attribute__((always_inline)) double to_double() const { return (double)(Base::V); }
-# 630 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 630 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) int length() const volatile { return _AP_W; }
                 inline __attribute__((always_inline)) int length() const { return _AP_W; }
 
@@ -1135,7 +1135,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
 
   template<typename T>
                 inline __attribute__((always_inline)) void checkOverflowBaseC(T val) {
-# 801 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 801 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
     (void)val;
 
     return;
@@ -1143,20 +1143,20 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
 
                 inline __attribute__((always_inline)) bool checkOverflowCsim(int _ap_w2, bool _ap_s2,
           bool print = true) const {
-# 851 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 851 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
       (void)_ap_w2;
       (void)_ap_s2;
       (void)print;
 
       return 0;
   }
-# 885 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 885 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator *=(const ap_int_base<_AP_W2, _AP_S2>& op2) { Base::V *= op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator +=(const ap_int_base<_AP_W2, _AP_S2>& op2) { Base::V += op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator -=(const ap_int_base<_AP_W2, _AP_S2>& op2) { Base::V -= op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator /=(const ap_int_base<_AP_W2, _AP_S2>& op2) { Base::V /= op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator %=(const ap_int_base<_AP_W2, _AP_S2>& op2) { Base::V %= op2.V; return *this; }
-# 903 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 903 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator &=(const ap_int_base<_AP_W2, _AP_S2>& op2) { (static_cast<void>(0)); Base::V &= op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator |=(const ap_int_base<_AP_W2, _AP_S2>& op2) { (static_cast<void>(0)); Base::V |= op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator ^=(const ap_int_base<_AP_W2, _AP_S2>& op2) { (static_cast<void>(0)); Base::V ^= op2.V; return *this; }
@@ -1251,7 +1251,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
     r.V = Base::V >> op2.to_uint();
     return r;
   }
-# 1014 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1014 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   template <int _AP_W2>
                       inline __attribute__((always_inline)) ap_int_base& operator<<=(const ap_int_base<_AP_W2, true>& op2) {
     bool isNeg = ({ typeof(op2.V) __Val2__ = op2.V; bool __Result__ = __builtin_bit_select((void*)(&__Val2__), _AP_W2 - 1); __Result__; });
@@ -1285,7 +1285,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
     Base::V >>= op2.to_uint();
     return *this;
   }
-# 1063 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1063 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   template <int _AP_W2, bool _AP_S2>
                 inline __attribute__((always_inline)) bool operator==(const ap_int_base<_AP_W2, _AP_S2>& op2) const {
     return Base::V == op2.V;
@@ -1378,7 +1378,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
     int Lo = LoIdx.to_int();
     return this->range(Hi, Lo);
   }
-# 1172 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1172 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) ap_bit_ref<_AP_W, _AP_S> operator[](int index) {
                                                                        ;
                                                                  ;
@@ -1434,7 +1434,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) bool bit(const ap_int_base<_AP_W2, _AP_S2>& index) const {
     return bit(index.to_int());
   }
-# 1239 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1239 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
                 inline __attribute__((always_inline)) int countLeadingZeros() const {
 
     if (_AP_W <= 32) {
@@ -1663,7 +1663,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) bool xnor_reduce() const {
     return !(({ typeof(Base::V) __what2__ = Base::V; __builtin_bit_xor_reduce((void*)(&__what2__)); }));
   }
-# 1479 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1479 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) char* to_string(signed char rd = 2, bool sign = _AP_S) const {
     (void)(rd);
     (void)(sign);
@@ -1671,25 +1671,25 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
   }
 
 };
-# 1540 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1540 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::mult_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::mult_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::mult_base ret(0); ret.V = lhs.V * rhs.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::plus_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::plus_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::plus_base ret(0); ret.V = lhs.V + rhs.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::minus_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::minus_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::minus_base ret(0); ret.V = lhs.V - rhs.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::logic_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::logic_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::logic_base ret(0); ret.V = lhs.V & rhs.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::logic_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::logic_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::logic_base ret(0); ret.V = lhs.V | rhs.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::logic_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::logic_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::logic_base ret(0); ret.V = lhs.V ^ rhs.V; return ret; }
-# 1559 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1559 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::div_base ret(0); ret.V = op.V / op2.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>::mod_base ret(0); ret.V = op.V % op2.V; return ret; }
-# 1587 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1587 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <typename PTR_TYPE, int _AP_W, bool _AP_S> inline __attribute__((always_inline)) PTR_TYPE* operator +(PTR_TYPE* i_op, const ap_int_base<_AP_W, _AP_S>& op) { ap_slong op2 = op.to_int64(); return i_op + op2; } template <typename PTR_TYPE, int _AP_W, bool _AP_S> inline __attribute__((always_inline)) PTR_TYPE* operator +(const ap_int_base<_AP_W, _AP_S>& op, PTR_TYPE* i_op) { ap_slong op2 = op.to_int64(); return op2 + i_op; }
 template <typename PTR_TYPE, int _AP_W, bool _AP_S> inline __attribute__((always_inline)) PTR_TYPE* operator -(PTR_TYPE* i_op, const ap_int_base<_AP_W, _AP_S>& op) { ap_slong op2 = op.to_int64(); return i_op - op2; } template <typename PTR_TYPE, int _AP_W, bool _AP_S> inline __attribute__((always_inline)) PTR_TYPE* operator -(const ap_int_base<_AP_W, _AP_S>& op, PTR_TYPE* i_op) { ap_slong op2 = op.to_int64(); return op2 - i_op; }
-# 1616 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1616 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator *(float i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op * op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator *(const ap_int_base<_AP_W, _AP_S>& op, float i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 * i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator /(float i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op / op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator /(const ap_int_base<_AP_W, _AP_S>& op, float i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 / i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator +(float i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op + op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator +(const ap_int_base<_AP_W, _AP_S>& op, float i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 + i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator -(float i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op - op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator -(const ap_int_base<_AP_W, _AP_S>& op, float i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 - i_op; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator *(double i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op * op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator *(const ap_int_base<_AP_W, _AP_S>& op, double i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 * i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator /(double i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op / op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator /(const ap_int_base<_AP_W, _AP_S>& op, double i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 / i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator +(double i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op + op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator +(const ap_int_base<_AP_W, _AP_S>& op, double i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 + i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator -(double i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op - op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator -(const ap_int_base<_AP_W, _AP_S>& op, double i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 - i_op; }
-# 1641 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1641 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator *(half i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op * op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator *(const ap_int_base<_AP_W, _AP_S>& op, half i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 * i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator /(half i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op / op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator /(const ap_int_base<_AP_W, _AP_S>& op, half i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 / i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator +(half i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op + op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator +(const ap_int_base<_AP_W, _AP_S>& op, half i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 + i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator -(half i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op - op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator -(const ap_int_base<_AP_W, _AP_S>& op, half i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 - i_op; }
-# 1673 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1673 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::mult operator *(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op * ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::plus operator +(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op + ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::minus operator -(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op - ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::div operator /(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op / ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::mod operator %(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op % ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator &(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op & ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator |(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op | ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator ^(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op ^ ap_int_base<1, false>(i_op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::mult operator *(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op * ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::plus operator +(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op + ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::minus operator -(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op - ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::div operator /(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op / ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::mod operator %(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op % ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator &(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op & ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator |(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op | ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator ^(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op ^ ap_int_base<8, CHAR_IS_SIGNED>(i_op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::mult operator *(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op * ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::plus operator +(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op + ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::minus operator -(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op - ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::div operator /(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op / ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::mod operator %(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op % ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator &(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op & ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator |(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op | ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator ^(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op ^ ap_int_base<8, true>(i_op); }
@@ -1702,21 +1702,21 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename 
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::mult operator *(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op * ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::plus operator +(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op + ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::minus operator -(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op - ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::div operator /(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op / ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::mod operator %(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op % ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator &(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op & ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator |(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op | ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator ^(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op ^ ap_int_base<_AP_SIZE_long, false>(i_op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::mult operator *(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op * ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::plus operator +(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op + ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::minus operator -(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op - ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::div operator /(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op / ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::mod operator %(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op % ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator &(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op & ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator |(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op | ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator ^(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op ^ ap_int_base<_AP_SIZE_ap_slong, true>(i_op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::mult operator *(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op * ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::plus operator +(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op + ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::minus operator -(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op - ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::div operator /(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op / ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::mod operator %(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op % ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator &(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op & ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator |(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op | ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator ^(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op ^ ap_int_base<_AP_SIZE_ap_slong, false>(i_op); }
-# 1712 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1712 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, char op2) { ap_int_base<_AP_W, _AP_S> r(0); if (CHAR_IS_SIGNED) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, char op2) { ap_int_base<_AP_W, _AP_S> r(0); if (CHAR_IS_SIGNED) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { ap_int_base<_AP_W, _AP_S> r(0); if (true) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { ap_int_base<_AP_W, _AP_S> r(0); if (true) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, short op2) { ap_int_base<_AP_W, _AP_S> r(0); if (true) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, short op2) { ap_int_base<_AP_W, _AP_S> r(0); if (true) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, int op2) { ap_int_base<_AP_W, _AP_S> r(0); if (true) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, int op2) { ap_int_base<_AP_W, _AP_S> r(0); if (true) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, long op2) { ap_int_base<_AP_W, _AP_S> r(0); if (true) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, long op2) { ap_int_base<_AP_W, _AP_S> r(0); if (true) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { ap_int_base<_AP_W, _AP_S> r(0); if (true) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { ap_int_base<_AP_W, _AP_S> r(0); if (true) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
-# 1736 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1736 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, bool op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, bool op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, unsigned char op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, unsigned char op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, unsigned short op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, unsigned short op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, unsigned int op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, unsigned int op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { ap_int_base<_AP_W, _AP_S> r(0); r.V = op.V >> op2; return r; }
-# 1767 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1767 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op += ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op -= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op *= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op /= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op %= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op &= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op |= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op ^= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op >>= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op <<= ap_int_base<1, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op += ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op -= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op *= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op /= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op %= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op &= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op |= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op ^= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op >>= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op <<= ap_int_base<8, CHAR_IS_SIGNED>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op += ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op -= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op *= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op /= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op %= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op &= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op |= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op ^= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op >>= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op <<= ap_int_base<8, true>(op2); }
@@ -1729,11 +1729,11 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_ba
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op += ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op -= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op *= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op /= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op %= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op &= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op |= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op ^= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op >>= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op <<= ap_int_base<_AP_SIZE_long, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op += ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op -= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op *= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op /= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op %= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op &= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op |= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op ^= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op >>= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op <<= ap_int_base<_AP_SIZE_ap_slong, true>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op += ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op -= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op *= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op /= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op %= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op &= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op |= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op ^= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op >>= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op <<= ap_int_base<_AP_SIZE_ap_slong, false>(op2); }
-# 1800 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1800 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half& operator +=( half& op2, ap_int_base<_AP_W, _AP_S>& op) { half op_rt = op.to_half(); return op2 += op_rt; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half& operator -=( half& op2, ap_int_base<_AP_W, _AP_S>& op) { half op_rt = op.to_half(); return op2 -= op_rt; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half& operator *=( half& op2, ap_int_base<_AP_W, _AP_S>& op) { half op_rt = op.to_half(); return op2 *= op_rt; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half& operator /=( half& op2, ap_int_base<_AP_W, _AP_S>& op) { half op_rt = op.to_half(); return op2 /= op_rt; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float& operator +=( float& op2, ap_int_base<_AP_W, _AP_S>& op) { float op_rt = op.to_float(); return op2 += op_rt; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float& operator -=( float& op2, ap_int_base<_AP_W, _AP_S>& op) { float op_rt = op.to_float(); return op2 -= op_rt; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float& operator *=( float& op2, ap_int_base<_AP_W, _AP_S>& op) { float op_rt = op.to_float(); return op2 *= op_rt; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float& operator /=( float& op2, ap_int_base<_AP_W, _AP_S>& op) { float op_rt = op.to_float(); return op2 /= op_rt; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double& operator +=( double& op2, ap_int_base<_AP_W, _AP_S>& op) { double op_rt = op.to_double(); return op2 += op_rt; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double& operator -=( double& op2, ap_int_base<_AP_W, _AP_S>& op) { double op_rt = op.to_double(); return op2 -= op_rt; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double& operator *=( double& op2, ap_int_base<_AP_W, _AP_S>& op) { double op_rt = op.to_double(); return op2 *= op_rt; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double& operator /=( double& op2, ap_int_base<_AP_W, _AP_S>& op) { double op_rt = op.to_double(); return op2 /= op_rt; }
-# 1828 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1828 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op > ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op < ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op >= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op <= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op == ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op != ap_int_base<1, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op > ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op < ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op >= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op <= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op == ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op != ap_int_base<8, CHAR_IS_SIGNED>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op > ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op < ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op >= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op <= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op == ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op != ap_int_base<8, true>(op2); }
@@ -1746,14 +1746,14 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool oper
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op > ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op < ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op >= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op <= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op == ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op != ap_int_base<_AP_SIZE_long, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op > ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op < ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op >= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op <= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op == ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op != ap_int_base<_AP_SIZE_ap_slong, true>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op > ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op < ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op >= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op <= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op == ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op != ap_int_base<_AP_SIZE_ap_slong, false>(op2); }
-# 1865 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1865 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() > op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 > op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() > op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 > op2.to_double() ; }
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() < op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 < op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() < op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 < op2.to_double() ; }
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() >= op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 >= op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() >= op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 >= op2.to_double() ; }
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() <= op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 <= op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() <= op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 <= op2.to_double() ; }
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() == op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 == op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() == op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 == op2.to_double() ; }
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() != op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 != op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() != op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 != op2.to_double() ; }
-# 1895 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1895 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::plus operator +(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) + op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::plus operator +(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 + ap_int_base<_AP_W2, false>(op2); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::minus operator -(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) - op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::minus operator -(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 - ap_int_base<_AP_W2, false>(op2); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::mult operator *(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) * op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::mult operator *(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 * ap_int_base<_AP_W2, false>(op2); }
@@ -1764,7 +1764,7 @@ template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::logic operator ^(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) ^ op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::logic operator ^(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 ^ ap_int_base<_AP_W2, false>(op2); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::arg1 operator >>(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) >> op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::arg1 operator >>(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 >> ap_int_base<_AP_W2, false>(op2); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::arg1 operator <<(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) << op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::arg1 operator <<(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 << ap_int_base<_AP_W2, false>(op2); }
-# 1926 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1926 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator +=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 += ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator +=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp += op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator -=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 -= ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator -=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp -= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator *=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 *= ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator *=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp *= op2; op1 = tmp; return op1; }
@@ -1772,18 +1772,18 @@ template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator %=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 %= ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator %=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp %= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator >>=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 >>= ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator >>=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp >>= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator <<=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 <<= ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator <<=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp <<= op2; op1 = tmp; return op1; }
-# 1958 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1958 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator &=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W2, false> tmp(op2); op1.V &= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator &=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp.V &= op2.V; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator |=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W2, false> tmp(op2); op1.V |= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator |=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp.V |= op2.V; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator ^=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W2, false> tmp(op2); op1.V ^= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator ^=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp.V ^= op2.V; op1 = tmp; return op1; }
-# 1977 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 1977 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator ==(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator ==(op2.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator !=(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator !=(op2.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator >(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator >(op2.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator >=(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator >=(op2.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator <(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator <(op2.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator <=(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator <=(op2.operator ap_int_base<_AP_W2, false>()); }
-# 2004 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 2004 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::plus operator +(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 + ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::plus operator +(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) + op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::minus operator -(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 - ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::minus operator -(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) - op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::mult operator *(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 * ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::mult operator *(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) * op2; }
@@ -1794,7 +1794,7 @@ template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::logic operator ^(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 ^ ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::logic operator ^(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) ^ op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::arg1 operator >>(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 >> ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::arg1 operator >>(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) >> op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::arg1 operator <<(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 << ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::arg1 operator <<(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) << op2; }
-# 2035 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 2035 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator +=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 += ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator +=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp += op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator -=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 -= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator -=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp -= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator *=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 *= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator *=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp *= op2; op1 = tmp; return op1; }
@@ -1802,27 +1802,27 @@ template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator %=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 %= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator %=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp %= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator >>=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 >>= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator >>=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp >>= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator <<=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 <<= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator <<=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp <<= op2; op1 = tmp; return op1; }
-# 2067 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 2067 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator &=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op2); op1.V &= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator &=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp.V &= op2.V; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator |=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op2); op1.V |= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator |=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp.V |= op2.V; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator ^=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op2); op1.V ^= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator ^=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp.V ^= op2.V; op1 = tmp; return op1; }
-# 2086 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 2086 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 == ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) == op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 != ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) != op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 > ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) > op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 >= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) >= op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 < ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) < op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 <= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) <= op2; }
-# 2193 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_base.h"
+# 2193 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator ==( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 == op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator ==( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() == op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator !=( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 != op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator !=( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() != op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator >( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 > op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator >( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() > op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator >=( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 >= op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator >=( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() >= op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator <( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 < op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator <( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() < op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator <=( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 <= op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator <=( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() <= op2; }
-# 58 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h" 2
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h" 1
-# 73 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 58 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h" 2
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h" 1
+# 73 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2>
 struct ap_concat_ref {
   enum {
@@ -1850,7 +1850,7 @@ struct ap_concat_ref {
     mbv2.set(Part2);
     return *this;
   }
-# 116 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 116 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) ap_concat_ref& operator=(bool val) { ap_int_base<_AP_W1 + _AP_W2, false> tmpVal(val); return operator=(tmpVal); }
   inline __attribute__((always_inline)) ap_concat_ref& operator=(char val) { ap_int_base<_AP_W1 + _AP_W2, false> tmpVal(val); return operator=(tmpVal); }
   inline __attribute__((always_inline)) ap_concat_ref& operator=(signed char val) { ap_int_base<_AP_W1 + _AP_W2, false> tmpVal(val); return operator=(tmpVal); }
@@ -2030,7 +2030,7 @@ struct ap_concat_ref {
       const ap_int_base<_AP_W3, _AP_S3>& a2) {
     return get() ^ a2;
   }
-# 304 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 304 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) ap_int_base<_AP_WR, false> get() const {
     ap_int_base<_AP_WR, false> tmpVal(0);
     int W_ref1 = mbv1.length();
@@ -2089,7 +2089,7 @@ struct ap_range_ref {
   }
 
   inline __attribute__((always_inline)) operator ap_ulong() const { return to_uint64(); }
-# 385 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 385 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) ap_range_ref& operator=(bool val) { ap_int_base<_AP_W, false> tmp(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp.V) __Repl2__ = tmp.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_range_ref& operator=(char val) { ap_int_base<_AP_W, false> tmp(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp.V) __Repl2__ = tmp.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_range_ref& operator=(signed char val) { ap_int_base<_AP_W, false> tmp(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp.V) __Repl2__ = tmp.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
@@ -2463,14 +2463,14 @@ struct ap_range_ref {
     }
     return ret;
   }
-# 766 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 766 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) char* to_string(signed char radix = 2) const {
     (void)(radix);
     return 0;
   }
 
 };
-# 806 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 806 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S>
 struct ap_bit_ref {
 
@@ -2492,7 +2492,7 @@ struct ap_bit_ref {
 
   inline __attribute__((always_inline)) operator bool() const { return ({ typeof(d_bv.V) __Val2__ = d_bv.V; bool __Result__ = __builtin_bit_select((void*)(&__Val2__), d_index); __Result__; }); }
   inline __attribute__((always_inline)) bool to_bool() const { return ({ typeof(d_bv.V) __Val2__ = d_bv.V; bool __Result__ = __builtin_bit_select((void*)(&__Val2__), d_index); __Result__; }); }
-# 844 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 844 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) ap_bit_ref& operator=(bool val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(char val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(signed char val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
@@ -2505,7 +2505,7 @@ struct ap_bit_ref {
   inline __attribute__((always_inline)) ap_bit_ref& operator=(unsigned long val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(ap_slong val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(ap_ulong val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
-# 866 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 866 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) ap_bit_ref& operator=(half val) { bool tmp_val = val; d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp_val) __Repl2__ = !!tmp_val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(float val) { bool tmp_val = val; d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp_val) __Repl2__ = !!tmp_val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(double val) { bool tmp_val = val; d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp_val) __Repl2__ = !!tmp_val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
@@ -2668,7 +2668,7 @@ struct ap_bit_ref {
   inline __attribute__((always_inline)) char* to_string() const { return 0; }
 
 };
-# 1064 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 1064 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_bit_ref<_AP_W, _AP_S>& op, bool op2) { return bool(op) > op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(bool op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 > bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, bool op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) > ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_bit_ref<_AP_W, _AP_S>& op, bool op2) { return bool(op) < op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(bool op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 < bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, bool op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) < ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_bit_ref<_AP_W, _AP_S>& op, bool op2) { return bool(op) >= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(bool op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 >= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, bool op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) >= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_bit_ref<_AP_W, _AP_S>& op, bool op2) { return bool(op) <= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(bool op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 <= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, bool op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) <= ap_int_base<1, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_bit_ref<_AP_W, _AP_S>& op, char op2) { return bool(op) > op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 > bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) > ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_bit_ref<_AP_W, _AP_S>& op, char op2) { return bool(op) < op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 < bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) < ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_bit_ref<_AP_W, _AP_S>& op, char op2) { return bool(op) >= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 >= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) >= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_bit_ref<_AP_W, _AP_S>& op, char op2) { return bool(op) <= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 <= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) <= ap_int_base<8, CHAR_IS_SIGNED>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_bit_ref<_AP_W, _AP_S>& op, signed char op2) { return bool(op) > op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(signed char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 > bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, signed char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) > ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_bit_ref<_AP_W, _AP_S>& op, signed char op2) { return bool(op) < op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(signed char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 < bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, signed char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) < ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_bit_ref<_AP_W, _AP_S>& op, signed char op2) { return bool(op) >= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(signed char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 >= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, signed char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) >= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_bit_ref<_AP_W, _AP_S>& op, signed char op2) { return bool(op) <= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(signed char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 <= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, signed char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) <= ap_int_base<8, true>(op2); }
@@ -2699,7 +2699,7 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool oper
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_bit_ref<_AP_W, _AP_S>& op, unsigned long op2) { return bool(op) == op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(unsigned long op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 == bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator ==( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, unsigned long op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) == ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_bit_ref<_AP_W, _AP_S>& op, unsigned long op2) { return bool(op) != op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(unsigned long op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 != bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator !=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, unsigned long op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) != ap_int_base<_AP_SIZE_long, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_bit_ref<_AP_W, _AP_S>& op, ap_slong op2) { return bool(op) == op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(ap_slong op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 == bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator ==( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, ap_slong op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) == ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_bit_ref<_AP_W, _AP_S>& op, ap_slong op2) { return bool(op) != op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(ap_slong op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 != bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator !=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, ap_slong op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) != ap_int_base<_AP_SIZE_ap_slong, true>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_bit_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return bool(op) == op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(ap_ulong op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 == bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator ==( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, ap_ulong op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) == ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_bit_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return bool(op) != op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(ap_ulong op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 != bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator !=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, ap_ulong op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) != ap_int_base<_AP_SIZE_ap_slong, false>(op2); }
-# 1123 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 1123 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::plus operator +(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::minus operator -(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::mult operator *(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::div operator /(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::mod operator %(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) % ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::plus operator +(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::minus operator -(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::mult operator *(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::div operator /(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::mod operator %(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) % ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::plus operator +(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::minus operator -(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::mult operator *(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::div operator /(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::mod operator %(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) % ap_int_base<_AP_W, false>(op); }
@@ -2712,7 +2712,7 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename 
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::plus operator +(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::minus operator -(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::mult operator *(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::div operator /(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::mod operator %(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) % ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::plus operator +(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::minus operator -(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::mult operator *(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::div operator /(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::mod operator %(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) % ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::plus operator +(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::minus operator -(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::mult operator *(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::div operator /(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::mod operator %(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) % ap_int_base<_AP_W, false>(op); }
-# 1146 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 1146 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::logic operator &(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::logic operator |(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::logic operator ^(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::arg1 operator >>(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::arg1 operator <<(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) << ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::logic operator &(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::logic operator |(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::logic operator ^(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::arg1 operator >>(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::arg1 operator <<(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) << ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::logic operator &(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::logic operator |(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::logic operator ^(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::arg1 operator >>(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::arg1 operator <<(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) << ap_int_base<_AP_W, false>(op); }
@@ -2725,7 +2725,7 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename 
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::logic operator &(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::logic operator |(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::logic operator ^(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::arg1 operator >>(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::arg1 operator <<(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) << ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::logic operator &(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::logic operator |(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::logic operator ^(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::arg1 operator >>(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::arg1 operator <<(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) << ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::logic operator &(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::logic operator |(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::logic operator ^(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::arg1 operator >>(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::arg1 operator <<(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) << ap_int_base<_AP_W, false>(op); }
-# 1174 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 1174 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())+( rhs.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())-( rhs.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())*( rhs.operator ap_int_base<_AP_W2, false>()); }
@@ -2736,7 +2736,7 @@ template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())^( rhs.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())>>( rhs.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())<<( rhs.operator ap_int_base<_AP_W2, false>()); }
-# 1223 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 1223 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::plus operator +( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() + rhs.get(); }
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::minus operator -( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() - rhs.get(); }
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::mult operator *( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() * rhs.get(); }
@@ -2747,7 +2747,7 @@ template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::logic operator ^( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() ^ rhs.get(); }
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::arg1 operator >>( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() >> rhs.get(); }
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::arg1 operator <<( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() << rhs.get(); }
-# 1370 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 1370 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, bool op2) { ap_int_base<1 + _AP_W, false> val(op2); ap_int_base<1 + _AP_W, false> ret(op1); ret <<= 1; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( bool op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<1 + _AP_W, false> val(op1); ap_int_base<1 + _AP_W, false> ret(op2); if (_AP_S) { ret <<= 1; ret >>= 1; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, bool op2) { ap_int_base<1 + _AP_W, false> val(op2); ap_int_base<1 + _AP_W, false> ret(op1); ret <<= 1; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( bool op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<1 + _AP_W, false> val(op1); ap_int_base<1 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<1 + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, bool op2) { ap_int_base<1 + 1, false> val(op2); val[1] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<1 + 1, false> operator,( bool op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<1 + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 1, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, bool op2) { ap_int_base<1 + _AP_W + _AP_W2, false> val(op2); ap_int_base<1 + _AP_W + _AP_W2, false> ret(op1); if (false) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= 1; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 1, false> operator,( bool op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<1 + _AP_W + _AP_W2, false> val(op1); ap_int_base<1 + _AP_W + _AP_W2, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, bool op2) { ap_int_base<1 + _AP_W, false> val(op2); ap_int_base<1 + _AP_W, false> ret(op1); if (false) { val <<= _AP_W; val >>= _AP_W; } ret <<= 1; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( bool op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<1 + _AP_W, false> val(op1); ap_int_base<1 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 1, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, bool op2) { ap_int_base<1 + 1, false> val(op2); val[1] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 1, false> operator,( bool op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<1 + 1, false> val(op1); val <<= 1; val[0] = op2; return val; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); ret <<= 8; if (CHAR_IS_SIGNED) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( char op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); if (_AP_S) { ret <<= 8; ret >>= 8; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); ret <<= 8; if (CHAR_IS_SIGNED) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( char op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<8 + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, char op2) { ap_int_base<8 + 1, false> val(op2); val[8] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<8 + 1, false> operator,( char op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<8 + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 8, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, char op2) { ap_int_base<8 + _AP_W + _AP_W2, CHAR_IS_SIGNED> val(op2); ap_int_base<8 + _AP_W + _AP_W2, CHAR_IS_SIGNED> ret(op1); if (CHAR_IS_SIGNED) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= 8; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 8, false> operator,( char op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<8 + _AP_W + _AP_W2, CHAR_IS_SIGNED> val(op1); ap_int_base<8 + _AP_W + _AP_W2, CHAR_IS_SIGNED> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); if (CHAR_IS_SIGNED) { val <<= _AP_W; val >>= _AP_W; } ret <<= 8; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( char op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 8, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, char op2) { ap_int_base<8 + 1, CHAR_IS_SIGNED> val(op2); val[8] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 8, false> operator,( char op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<8 + 1, CHAR_IS_SIGNED> val(op1); val <<= 1; val[0] = op2; return val; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, signed char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); ret <<= 8; if (true) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( signed char op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); if (_AP_S) { ret <<= 8; ret >>= 8; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, signed char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); ret <<= 8; if (true) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( signed char op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<8 + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, signed char op2) { ap_int_base<8 + 1, false> val(op2); val[8] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<8 + 1, false> operator,( signed char op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<8 + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 8, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, signed char op2) { ap_int_base<8 + _AP_W + _AP_W2, true> val(op2); ap_int_base<8 + _AP_W + _AP_W2, true> ret(op1); if (true) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= 8; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 8, false> operator,( signed char op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<8 + _AP_W + _AP_W2, true> val(op1); ap_int_base<8 + _AP_W + _AP_W2, true> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, signed char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); if (true) { val <<= _AP_W; val >>= _AP_W; } ret <<= 8; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( signed char op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 8, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, signed char op2) { ap_int_base<8 + 1, true> val(op2); val[8] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 8, false> operator,( signed char op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<8 + 1, true> val(op1); val <<= 1; val[0] = op2; return val; }
@@ -2760,7 +2760,7 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_ba
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op1); ret <<= _AP_SIZE_long; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( unsigned long op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op2); if (_AP_S) { ret <<= _AP_SIZE_long; ret >>= _AP_SIZE_long; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op1); ret <<= _AP_SIZE_long; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( unsigned long op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_long + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + 1, false> val(op2); val[_AP_SIZE_long] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_long + 1, false> operator,( unsigned long op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_long + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_long, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + _AP_W + _AP_W2, false> val(op2); ap_int_base<_AP_SIZE_long + _AP_W + _AP_W2, false> ret(op1); if (false) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= _AP_SIZE_long; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_long, false> operator,( unsigned long op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<_AP_SIZE_long + _AP_W + _AP_W2, false> val(op1); ap_int_base<_AP_SIZE_long + _AP_W + _AP_W2, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op1); if (false) { val <<= _AP_W; val >>= _AP_W; } ret <<= _AP_SIZE_long; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( unsigned long op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_long, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + 1, false> val(op2); val[_AP_SIZE_long] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_long, false> operator,( unsigned long op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_long + 1, false> val(op1); val <<= 1; val[0] = op2; return val; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); ret <<= _AP_SIZE_ap_slong; if (true) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_slong op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); if (_AP_S) { ret <<= _AP_SIZE_ap_slong; ret >>= _AP_SIZE_ap_slong; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); ret <<= _AP_SIZE_ap_slong; if (true) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_slong op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_ap_slong + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op2); val[_AP_SIZE_ap_slong] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_ap_slong + 1, false> operator,( ap_slong op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_ap_slong, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, true> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, true> ret(op1); if (true) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= _AP_SIZE_ap_slong; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_ap_slong, false> operator,( ap_slong op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, true> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, true> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); if (true) { val <<= _AP_W; val >>= _AP_W; } ret <<= _AP_SIZE_ap_slong; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_slong op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_ap_slong, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + 1, true> val(op2); val[_AP_SIZE_ap_slong] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_ap_slong, false> operator,( ap_slong op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_ap_slong + 1, true> val(op1); val <<= 1; val[0] = op2; return val; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); ret <<= _AP_SIZE_ap_slong; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_ulong op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); if (_AP_S) { ret <<= _AP_SIZE_ap_slong; ret >>= _AP_SIZE_ap_slong; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); ret <<= _AP_SIZE_ap_slong; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_ulong op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_ap_slong + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op2); val[_AP_SIZE_ap_slong] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_ap_slong + 1, false> operator,( ap_ulong op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_ap_slong, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, false> ret(op1); if (false) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= _AP_SIZE_ap_slong; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_ap_slong, false> operator,( ap_ulong op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); if (false) { val <<= _AP_W; val >>= _AP_W; } ret <<= _AP_SIZE_ap_slong; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_ulong op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_ap_slong, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op2); val[_AP_SIZE_ap_slong] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_ap_slong, false> operator,( ap_ulong op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op1); val <<= 1; val[0] = op2; return val; }
-# 1394 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h"
+# 1394 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator <<( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, int rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() << int(rhs); }
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator <<( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, unsigned int rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() << int(rhs); }
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator <<( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, long rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() << int(rhs); }
@@ -2774,7 +2774,7 @@ template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attri
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator >>( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, unsigned long rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() >> int(rhs); }
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator >>( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, ap_slong rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() >> int(rhs); }
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator >>( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, ap_ulong rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() >> int(rhs); }
-# 59 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h" 2
+# 59 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h" 2
 
 
 
@@ -2915,7 +2915,7 @@ struct ap_int : ap_int_base<_AP_W, true> {
 
 
   ap_int &operator=(const ap_int<_AP_W> &op2) = default;
-# 207 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h"
+# 207 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h"
   inline __attribute__((always_inline)) ap_int& operator=(const volatile ap_int<_AP_W>& op2) {
     Base::V = op2.V;
     return *this;
@@ -3063,7 +3063,7 @@ struct ap_uint : ap_int_base<_AP_W, false> {
 
 
   ap_uint &operator=(const ap_uint<_AP_W> &op2) = default;
-# 363 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h"
+# 363 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h"
   inline __attribute__((always_inline)) ap_uint& operator=(const volatile ap_uint<_AP_W>& op2) {
     Base::V = op2.V;
     return *this;
@@ -3079,9 +3079,9 @@ struct ap_uint : ap_int_base<_AP_W, false> {
   }
 
 };
-# 398 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_special.h" 1
-# 61 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_special.h"
+# 398 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_special.h" 1
+# 61 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_special.h"
 namespace std {
 template<typename _Tp> class complex;
 }
@@ -3093,7 +3093,7 @@ template<typename _Tp> class complex;
 
 
 namespace std {
-# 89 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_special.h"
+# 89 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_special.h"
 template <int _AP_W>
 class complex<ap_int<_AP_W> > {
  public:
@@ -3218,7 +3218,7 @@ class complex<ap_int<_AP_W> > {
   _Tp _M_imag;
 
 };
-# 222 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_special.h"
+# 222 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int_special.h"
 template <int _AP_W>
 inline bool operator==(const complex<ap_int<_AP_W> > &__x, const ap_int<_AP_W> &__y) {
   return __x.real() == __y &&
@@ -3247,7 +3247,7 @@ inline bool operator!=(const ap_int<_AP_W> &__x, const complex<ap_int<_AP_W> > &
 }
 
 }
-# 399 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h" 2
+# 399 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h" 2
 
 
 
@@ -3255,13 +3255,13 @@ inline bool operator!=(const ap_int<_AP_W> &__x, const complex<ap_int<_AP_W> > &
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h" 1
-# 56 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h" 1
-# 62 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h" 1
-# 63 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h" 2
-# 133 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h" 1
+# 56 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h" 1
+# 62 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h" 1
+# 63 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h" 2
+# 133 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
 template <int _AP_W2, int _AP_I2, bool _AP_S2>
 struct _ap_fixed_factory;
 template <int _AP_W2, int _AP_I2>
@@ -3272,7 +3272,7 @@ template <int _AP_W2, int _AP_I2>
 struct _ap_fixed_factory<_AP_W2, _AP_I2, false> {
   typedef ap_ufixed<_AP_W2, _AP_I2> type;
 };
-# 154 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 154 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O,
           int _AP_N>
 struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
@@ -3336,7 +3336,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
   };
 
  private:
-# 341 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 341 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
                       inline __attribute__((always_inline)) void report() {}
 
 
@@ -3479,7 +3479,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
     operator=(tmp);
     report();
   }
-# 502 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 502 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
   inline __attribute__((always_inline)) ap_fixed_base(const char* s) {
     typeof(Base::V) t;
     _ssdm_string2bits((void*)(&t), (const char*)(s), 10, _AP_I, _AP_S, _AP_Q,
@@ -3528,7 +3528,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
     *this = (ap_int_base<_AP_W2, false>(op));
     report();
   }
-# 570 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 570 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
   inline __attribute__((always_inline)) ap_fixed_base(const bool x) { ap_fixed_base<(1), (1), (false)> tmp; tmp.V = x; *this = tmp; }
   inline __attribute__((always_inline)) ap_fixed_base(const char x) { ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)> tmp; tmp.V = x; *this = tmp; }
   inline __attribute__((always_inline)) ap_fixed_base(const signed char x) { ap_fixed_base<(8), (8), (true)> tmp; tmp.V = x; *this = tmp; }
@@ -3670,7 +3670,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
 
 
   inline __attribute__((always_inline)) ap_fixed_base(half d) { *this = ap_fixed_base(double(d)); }
-# 844 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 844 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2,
             ap_o_mode _AP_O2, int _AP_N2>
                       inline __attribute__((always_inline)) ap_fixed_base& operator=(
@@ -3809,7 +3809,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
   }
 
                       inline __attribute__((always_inline)) void checkOverflowCsimFix(int _ap_w2, bool _ap_s2) const {
-# 1017 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1017 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
       (void)_ap_w2;
       (void)_ap_s2;
 
@@ -3831,7 +3831,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
       ret.V = ({ typename _ap_type::remove_const<typeof(Base::V)>::type __Result__ = 0; typeof(Base::V) __Val2__ = Base::V; __builtin_bit_part_select((void*)(&__Result__), (void*)(&__Val2__), 0, _AP_W - 1); __Result__; });
       ret.V <<= (_AP_I - _AP_W);
     }
-# 1046 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1046 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
     if (Cnative && _AP_I < _AP_W) {
 
       if (_AP_S && ({ typeof(Base::V) __Val2__ = Base::V; bool __Result__ = __builtin_bit_select((void*)(&__Val2__), _AP_W - 1); __Result__; }) && (_AP_I < _AP_W) &&
@@ -4049,7 +4049,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
                       inline __attribute__((always_inline)) operator ap_slong() const { return to_int64(); }
 
                       inline __attribute__((always_inline)) int length() const { return _AP_W; };
-# 1275 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1275 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
                       inline __attribute__((always_inline)) int countLeadingZeros() const {
 
 
@@ -4106,22 +4106,22 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
       const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2)
       const {
     typename RType<_AP_W2, _AP_I2, _AP_S2>::div_base r;
-# 1345 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1345 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
         ap_fixed_base<_AP_W + ((_AP_W2 - _AP_I2) > (0) ? (_AP_W2 - _AP_I2) : (0)),_AP_I, _AP_S> t(*this);
 
 
 
         r.V = t.V / op2.V;
-# 1378 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1378 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
     return r;
   }
-# 1393 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1393 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) typename RType<_AP_W2, _AP_I2, _AP_S2>::plus operator +( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { typename RType<_AP_W2, _AP_I2, _AP_S2>::plus_base ret(0), lhs(*this), rhs(op2); ret.V = lhs.V + rhs.V; return ret; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) typename RType<_AP_W2, _AP_I2, _AP_S2>::minus operator -( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { typename RType<_AP_W2, _AP_I2, _AP_S2>::minus_base ret(0), lhs(*this), rhs(op2); ret.V = lhs.V - rhs.V; return ret; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) typename RType<_AP_W2, _AP_I2, _AP_S2>::logic operator &( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { typename RType<_AP_W2, _AP_I2, _AP_S2>::logic_base ret(0), lhs(*this), rhs(op2); ret.V = lhs.V & rhs.V; return ret; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) typename RType<_AP_W2, _AP_I2, _AP_S2>::logic operator |( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { typename RType<_AP_W2, _AP_I2, _AP_S2>::logic_base ret(0), lhs(*this), rhs(op2); ret.V = lhs.V | rhs.V; return ret; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) typename RType<_AP_W2, _AP_I2, _AP_S2>::logic operator ^( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { typename RType<_AP_W2, _AP_I2, _AP_S2>::logic_base ret(0), lhs(*this), rhs(op2); ret.V = lhs.V ^ rhs.V; return ret; }
-# 1411 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1411 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) ap_fixed_base& operator *=( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) { *this = operator *(op2); return *this; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) ap_fixed_base& operator /=( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) { *this = operator /(op2); return *this; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) ap_fixed_base& operator +=( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) { *this = operator +(op2); return *this; }
@@ -4212,14 +4212,14 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
                       inline __attribute__((always_inline)) ap_fixed_base operator<<(unsigned int sh) const {
     ap_fixed_base r(0);
     r.V = Base::V << sh;
-# 1529 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1529 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
     return r;
   }
 
                       inline __attribute__((always_inline)) ap_fixed_base operator>>(unsigned int sh) const {
     ap_fixed_base r(0);
     r.V = Base::V >> sh;
-# 1551 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1551 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
     return r;
   }
 
@@ -4344,7 +4344,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
     *this = operator>>(sh.to_int());
     return *this;
   }
-# 1695 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1695 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) bool operator >(const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { enum { _AP_F = _AP_W - _AP_I, F2 = _AP_W2 - _AP_I2 }; if (_AP_F == F2) return Base::V > op2.V; else if (_AP_F > F2) return Base::V > ap_fixed_base<((_AP_W2 + _AP_F - F2) > (1) ? (_AP_W2 + _AP_F - F2) : (1)), _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>(op2).V; else return ap_fixed_base<((_AP_W + F2 - _AP_F + 1) > (1) ? (_AP_W + F2 - _AP_F + 1) : (1)), _AP_I + 1, _AP_S, _AP_Q, _AP_O, _AP_N>(*this).V > op2.V; return false; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) bool operator <(const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { enum { _AP_F = _AP_W - _AP_I, F2 = _AP_W2 - _AP_I2 }; if (_AP_F == F2) return Base::V < op2.V; else if (_AP_F > F2) return Base::V < ap_fixed_base<((_AP_W2 + _AP_F - F2) > (1) ? (_AP_W2 + _AP_F - F2) : (1)), _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>(op2).V; else return ap_fixed_base<((_AP_W + F2 - _AP_F + 1) > (1) ? (_AP_W + F2 - _AP_F + 1) : (1)), _AP_I + 1, _AP_S, _AP_Q, _AP_O, _AP_N>(*this).V < op2.V; return false; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) bool operator >=(const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { enum { _AP_F = _AP_W - _AP_I, F2 = _AP_W2 - _AP_I2 }; if (_AP_F == F2) return Base::V >= op2.V; else if (_AP_F > F2) return Base::V >= ap_fixed_base<((_AP_W2 + _AP_F - F2) > (1) ? (_AP_W2 + _AP_F - F2) : (1)), _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>(op2).V; else return ap_fixed_base<((_AP_W + F2 - _AP_F + 1) > (1) ? (_AP_W + F2 - _AP_F + 1) : (1)), _AP_I + 1, _AP_S, _AP_Q, _AP_O, _AP_N>(*this).V >= op2.V; return false; }
@@ -4420,7 +4420,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
     return ({ typeof(const_cast<ap_fixed_base*>(this)->V) __Val2__ = const_cast<ap_fixed_base*>(this)->V; bool __Result__ = __builtin_bit_select((void*)(&__Val2__), index + _AP_W - _AP_I); __Result__; });
 
   }
-# 1781 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1781 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
   template <int _AP_W2>
                       inline __attribute__((always_inline)) bool get_bit(const ap_int_base<_AP_W2, true>& index) const {
     (static_cast<void>(0));
@@ -4513,7 +4513,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
                       inline __attribute__((always_inline)) ap_o_mode o_mode() const { return _AP_O; }
 
                       inline __attribute__((always_inline)) int n_bits() const { return _AP_N; }
-# 1964 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 1964 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
   inline __attribute__((always_inline)) char* to_string(unsigned char radix = 2, bool sign = _AP_S) const {
     (void)(radix);
     (void)(sign);
@@ -4613,7 +4613,7 @@ template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O,
 
   ret = t;
 }
-# 2416 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 2416 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator +(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::plus operator +( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator -(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::minus operator -( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator *(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::mult operator *( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator /(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::div operator /( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator &(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator &( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator |(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator |( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator ^(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator ^( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator >>(ap_int_base<(1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator <<(ap_int_base<(1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator +=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator -=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator *=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator /=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator &=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator |=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator ^=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator >>=(ap_int_base<(1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator <<=(ap_int_base<(1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator >(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator <(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator >=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator <=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator ==(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator !=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator !=(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator +(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::plus operator +( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator -(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::minus operator -( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator *(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::mult operator *( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator /(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::div operator /( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator &(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator &( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator |(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator |( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator ^(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator ^( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator >>(ap_int_base<(8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator <<(ap_int_base<(8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator +=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator -=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator *=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator /=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator &=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator |=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator ^=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator >>=(ap_int_base<(8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator <<=(ap_int_base<(8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator >(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator <(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator >=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator <=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator ==(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator !=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator !=(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator +(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::plus operator +( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator -(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::minus operator -( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator *(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::mult operator *( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator /(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::div operator /( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator &(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator &( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator |(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator |( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator ^(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator ^( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator >>(ap_int_base<(8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator <<(ap_int_base<(8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator +=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator -=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator *=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator /=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator &=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator |=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator ^=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator >>=(ap_int_base<(8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator <<=(ap_int_base<(8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator >(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator <(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator >=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator <=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator ==(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator !=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator !=(op); }
@@ -4626,7 +4626,7 @@ template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, in
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator +(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::plus operator +( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator -(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::minus operator -( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator *(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::mult operator *( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator /(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::div operator /( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator &(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator &( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator |(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator |( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator ^(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator ^( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator >>(ap_int_base<(_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator <<(ap_int_base<(_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator +=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator -=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator *=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator /=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator &=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator |=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator ^=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator >>=(ap_int_base<(_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator <<=(ap_int_base<(_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator >(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator <(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator >=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator <=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator ==(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator !=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator !=(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator +(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::plus operator +( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator -(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::minus operator -( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator *(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::mult operator *( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator /(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::div operator /( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator &(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator &( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator |(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator |( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator ^(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator ^( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator >>(ap_int_base<(_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator <<(ap_int_base<(_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator +=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator -=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator *=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator /=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator &=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator |=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator ^=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator >>=(ap_int_base<(_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator <<=(ap_int_base<(_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator >(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator <(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator >=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator <=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator ==(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator !=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator !=(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator +(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::plus operator +( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator -(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::minus operator -( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator *(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::mult operator *( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator /(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::div operator /( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator &(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator &( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator |(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator |( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator ^(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator ^( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator >>(ap_int_base<(_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator <<(ap_int_base<(_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator +=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator -=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator *=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator /=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator &=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator |=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator ^=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator >>=(ap_int_base<(_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator <<=(ap_int_base<(_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator >(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator <(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator >=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator <=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator ==(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator !=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator !=(op); }
-# 2504 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_base.h"
+# 2504 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_base.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>::template RType< _AP_W, _AP_I, _AP_S>::plus operator +( const ap_int_base<_AP_W2, _AP_S2>& i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< _AP_W2, _AP_W2, _AP_S2>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& i_op) { return op.operator +(ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op)); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>::template RType< _AP_W, _AP_I, _AP_S>::minus operator -( const ap_int_base<_AP_W2, _AP_S2>& i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< _AP_W2, _AP_W2, _AP_S2>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& i_op) { return op.operator -(ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op)); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>::template RType< _AP_W, _AP_I, _AP_S>::mult operator *( const ap_int_base<_AP_W2, _AP_S2>& i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< _AP_W2, _AP_W2, _AP_S2>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& i_op) { return op.operator *(ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op)); }
@@ -4704,9 +4704,9 @@ template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O,
     const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op2) {
   return op2.operator>=(op1);
 }
-# 57 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h" 2
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_ref.h" 1
-# 71 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_ref.h"
+# 57 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h" 2
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_ref.h" 1
+# 71 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_ref.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O,
           int _AP_N>
 struct af_bit_ref {
@@ -4878,7 +4878,7 @@ struct af_bit_ref {
   inline __attribute__((always_inline)) char* to_string() const { return 0; }
 
 };
-# 258 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_ref.h"
+# 258 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_ref.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O,
           int _AP_N>
 struct af_range_ref {
@@ -4901,14 +4901,14 @@ struct af_range_ref {
 
   inline __attribute__((always_inline)) af_range_ref(ref_type* bv, int h, int l)
       : d_bv(*bv), l_index(l), h_index(h) {
-# 288 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_ref.h"
+# 288 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_ref.h"
   }
 
   inline __attribute__((always_inline)) af_range_ref(const ref_type* bv, int h, int l)
       : d_bv(*const_cast<ref_type*>(bv)), l_index(l), h_index(h) {
-# 300 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_ref.h"
+# 300 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_ref.h"
   }
-# 312 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_ref.h"
+# 312 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_ref.h"
   inline __attribute__((always_inline)) af_range_ref& operator=(const bool val) { ap_int_base<_AP_W, false> loc(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(loc.V) __Repl2__ = loc.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) af_range_ref& operator=(const char val) { ap_int_base<_AP_W, false> loc(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(loc.V) __Repl2__ = loc.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) af_range_ref& operator=(const signed char val) { ap_int_base<_AP_W, false> loc(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(loc.V) __Repl2__ = loc.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
@@ -5249,14 +5249,14 @@ struct af_range_ref {
   inline __attribute__((always_inline)) int length() const {
     return h_index >= l_index ? h_index - l_index + 1 : l_index - h_index + 1;
   }
-# 661 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_ref.h"
+# 661 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_ref.h"
   inline __attribute__((always_inline)) char* to_string(signed char rd = 2) const {
      (void)(rd);
     return 0;
   }
 
 };
-# 725 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_ref.h"
+# 725 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_ref.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
@@ -5269,14 +5269,14 @@ template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, in
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
-# 771 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_ref.h"
+# 771 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_ref.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > ap_int_base<1, false>(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < ap_int_base<1, false>(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= ap_int_base<1, false>(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= ap_int_base<1, false>(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == ap_int_base<1, false>(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != ap_int_base<1, false>(op); }
-# 58 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h" 2
+# 58 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h" 2
 
 
 
@@ -5301,7 +5301,7 @@ struct ap_fixed : ap_fixed_base<_AP_W, _AP_I, true, _AP_Q, _AP_O, _AP_N> {
   inline __attribute__((always_inline)) ap_fixed(const volatile ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2,
                                                _AP_O2, _AP_N2>& op)
       : Base(op) {}
-# 112 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h"
+# 112 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h"
   template <int _AP_W2, bool _AP_S2>
                       inline __attribute__((always_inline)) ap_fixed(const ap_int_base<_AP_W2, _AP_S2>& op) : Base(op) {}
 
@@ -5315,7 +5315,7 @@ struct ap_fixed : ap_fixed_base<_AP_W, _AP_I, true, _AP_Q, _AP_O, _AP_N> {
     Base::V = V;
     (void)(raw);
   }
-# 147 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h"
+# 147 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h"
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) ap_fixed(const ap_bit_ref<_AP_W2, _AP_S2>& op) : Base(op) {}
 
@@ -5375,7 +5375,7 @@ struct ap_fixed : ap_fixed_base<_AP_W, _AP_I, true, _AP_Q, _AP_O, _AP_N> {
 
   ap_fixed &
   operator=(const ap_fixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N> &op) = default;
-# 214 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h"
+# 214 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h"
   inline __attribute__((always_inline)) void operator=(
       const ap_fixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N>& op) volatile {
     Base::V = op.V;
@@ -5417,7 +5417,7 @@ struct ap_ufixed : ap_fixed_base<_AP_W, _AP_I, false, _AP_Q, _AP_O, _AP_N> {
   inline __attribute__((always_inline)) ap_ufixed(const volatile ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2,
                                                 _AP_O2, _AP_N2>& op)
       : Base(op) {}
-# 283 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h"
+# 283 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h"
   template <int _AP_W2, bool _AP_S2>
                       inline __attribute__((always_inline)) ap_ufixed(const ap_int_base<_AP_W2, _AP_S2>& op) : Base(op) {}
 
@@ -5431,7 +5431,7 @@ struct ap_ufixed : ap_fixed_base<_AP_W, _AP_I, false, _AP_Q, _AP_O, _AP_N> {
     Base::V = V;
     (void)(raw);
   }
-# 315 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h"
+# 315 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h"
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) ap_ufixed(const ap_bit_ref<_AP_W2, _AP_S2>& op) : Base(op) {}
 
@@ -5482,7 +5482,7 @@ struct ap_ufixed : ap_fixed_base<_AP_W, _AP_I, false, _AP_Q, _AP_O, _AP_N> {
 
   ap_ufixed &
   operator=(const ap_ufixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N> &op) = default;
-# 373 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h"
+# 373 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h"
   inline __attribute__((always_inline)) void operator=(
       const ap_ufixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N>& op) volatile {
     Base::V = op.V;
@@ -5499,9 +5499,9 @@ struct ap_ufixed : ap_fixed_base<_AP_W, _AP_I, false, _AP_Q, _AP_O, _AP_N> {
     Base::V = op.V;
   }
 };
-# 411 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h"
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_special.h" 1
-# 61 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_special.h"
+# 411 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h"
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_special.h" 1
+# 61 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_special.h"
 namespace std {
 template<typename _Tp> class complex;
 }
@@ -5513,7 +5513,7 @@ template<typename _Tp> class complex;
 
 
 namespace std {
-# 89 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_special.h"
+# 89 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_special.h"
 template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
 class complex<ap_fixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N> > {
  public:
@@ -5639,7 +5639,7 @@ class complex<ap_fixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N> > {
   _Tp _M_imag;
 
 };
-# 231 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_special.h"
+# 231 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_special.h"
 template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
 class complex<ap_ufixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N> > {
  public:
@@ -5765,7 +5765,7 @@ class complex<ap_ufixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N> > {
   _Tp _M_imag;
 
 };
-# 364 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed_special.h"
+# 364 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed_special.h"
 template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
 inline bool operator==(
     const complex<ap_fixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N> > &__x,
@@ -5838,17 +5838,17 @@ inline bool operator!=(
 }
 
 }
-# 412 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_fixed.h" 2
-# 407 "/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int.h" 2
-# 19 "test2/test.h" 2
+# 412 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_fixed.h" 2
+# 407 "C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\\ap_int.h" 2
+# 19 "cgcn/src/test.h" 2
 using namespace hls;
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iostream" 1 3
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iostream" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iostream" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iostream" 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++config.h" 1 3
-# 236 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++config.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++config.h" 1 3
+# 236 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++config.h" 3
 namespace std
 {
   typedef long unsigned int size_t;
@@ -5858,7 +5858,7 @@ namespace std
   typedef decltype(nullptr) nullptr_t;
 
 }
-# 258 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++config.h" 3
+# 258 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++config.h" 3
 namespace std
 {
   inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
@@ -5867,56 +5867,36 @@ namespace __gnu_cxx
 {
   inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
 }
-# 508 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++config.h" 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/os_defines.h" 1 3
-# 39 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/os_defines.h" 3
-# 1 "/usr/include/features.h" 1 3 4
-# 439 "/usr/include/features.h" 3 4
-# 1 "/usr/include/stdc-predef.h" 1 3 4
-# 440 "/usr/include/features.h" 2 3 4
-# 461 "/usr/include/features.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 1 3 4
-# 452 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 453 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
-# 454 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
-# 462 "/usr/include/features.h" 2 3 4
-# 485 "/usr/include/features.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 1 3 4
-# 10 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/gnu/stubs-64.h" 1 3 4
-# 11 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 2 3 4
-# 486 "/usr/include/features.h" 2 3 4
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/os_defines.h" 2 3
-# 509 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++config.h" 2 3
+# 508 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++config.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/os_defines.h" 1 3
+# 509 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++config.h" 2 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/cpu_defines.h" 1 3
-# 512 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++config.h" 2 3
-# 39 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iostream" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 1 3
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/cpu_defines.h" 1 3
+# 512 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++config.h" 2 3
+# 39 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iostream" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ios" 1 3
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ios" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ios" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ios" 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iosfwd" 1 3
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iosfwd" 3
-
-
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stringfwd.h" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stringfwd.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iosfwd" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iosfwd" 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/memoryfwd.h" 1 3
-# 47 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/memoryfwd.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stringfwd.h" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stringfwd.h" 3
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/memoryfwd.h" 1 3
+# 47 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/memoryfwd.h" 3
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 63 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/memoryfwd.h" 3
+# 63 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/memoryfwd.h" 3
   template<typename>
     class allocator;
 
@@ -5931,11 +5911,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stringfwd.h" 2 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stringfwd.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 52 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stringfwd.h" 3
+# 52 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stringfwd.h" 3
   template<class _CharT>
     struct char_traits;
 
@@ -5980,702 +5960,1046 @@ namespace __cxx11 {
 
 
 }
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iosfwd" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/postypes.h" 1 3
-# 39 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/postypes.h" 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iosfwd" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/postypes.h" 1 3
+# 39 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/postypes.h" 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 3
-
-
-
-
-# 1 "/usr/include/wchar.h" 1 3 4
-# 27 "/usr/include/wchar.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
-# 28 "/usr/include/wchar.h" 2 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 1 3 4
-# 120 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 1 3 4
-# 24 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
-# 25 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 2 3 4
-# 214 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
-typedef float _Float32;
-# 251 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
-typedef double _Float64;
-# 268 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
-typedef double _Float32x;
-# 285 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
-typedef long double _Float64x;
-# 121 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 2 3 4
-# 31 "/usr/include/wchar.h" 2 3 4
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 3
 
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 1 3 4
-# 62 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 3 4
-typedef long unsigned int size_t;
-# 36 "/usr/include/wchar.h" 2 3 4
-
-
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stdarg.h" 1 3 4
-# 30 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stdarg.h" 3 4
-typedef __builtin_va_list va_list;
-# 48 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stdarg.h" 3 4
-typedef __builtin_va_list __gnuc_va_list;
-# 39 "/usr/include/wchar.h" 2 3 4
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/wchar.h" 1 3 4
-# 41 "/usr/include/wchar.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/wint_t.h" 1 3 4
-# 20 "/usr/include/x86_64-linux-gnu/bits/types/wint_t.h" 3 4
-typedef unsigned int wint_t;
-# 42 "/usr/include/wchar.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h" 1 3 4
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 1 3
 
 
 
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h" 1 3 4
-# 13 "/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h" 3 4
-typedef struct
-{
-  int __count;
-  union
-  {
-    unsigned int __wch;
-    char __wchb[4];
-  } __value;
-} __mbstate_t;
-# 5 "/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h" 2 3 4
-
-typedef __mbstate_t mbstate_t;
-# 43 "/usr/include/wchar.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__FILE.h" 1 3 4
 
 
 
-struct _IO_FILE;
-typedef struct _IO_FILE __FILE;
-# 44 "/usr/include/wchar.h" 2 3 4
 
 
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/FILE.h" 1 3 4
-
-
-
-struct _IO_FILE;
-
-
-typedef struct _IO_FILE FILE;
-# 47 "/usr/include/wchar.h" 2 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 1 3 4
-# 22 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 1 3 4
-# 28 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 3 4
-struct __locale_struct
-{
-
-  struct __locale_data *__locales[13];
-
-
-  const unsigned short int *__ctype_b;
-  const int *__ctype_tolower;
-  const int *__ctype_toupper;
-
-
-  const char *__names[13];
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 1 3
+# 10 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 1 3
+# 12 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/_mingw_mac.h" 1 3
+# 13 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/_mingw_secapi.h" 1 3
+# 44 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/_mingw_secapi.h" 3
+extern "C++" {
+template <bool __test, typename __dsttype>
+  struct __if_array;
+template <typename __dsttype>
+  struct __if_array <true, __dsttype> {
+    typedef __dsttype __type;
 };
+}
+# 14 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
+# 282 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
+# 1 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\vadefs.h" 1 3
+# 26 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\vadefs.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\vadefs.h" 1 3
 
-typedef struct __locale_struct *__locale_t;
-# 23 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 2 3 4
 
-typedef __locale_t locale_t;
-# 50 "/usr/include/wchar.h" 2 3 4
-# 79 "/usr/include/wchar.h" 3 4
+
+
+
+
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 1 3
+# 595 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/sdks/_mingw_directx.h" 1 3
+# 596 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/sdks/_mingw_ddk.h" 1 3
+# 597 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
+# 10 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\vadefs.h" 2 3
+
+
+
+
+#pragma pack(push,_CRT_PACKING)
+
+
+
 extern "C" {
 
 
 
-struct tm;
 
 
+  typedef __builtin_va_list __gnuc_va_list;
 
-extern wchar_t *wcscpy (wchar_t *__restrict __dest,
-   const wchar_t *__restrict __src)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
 
 
-extern wchar_t *wcsncpy (wchar_t *__restrict __dest,
-    const wchar_t *__restrict __src, size_t __n)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
 
 
-extern wchar_t *wcscat (wchar_t *__restrict __dest,
-   const wchar_t *__restrict __src)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
 
-extern wchar_t *wcsncat (wchar_t *__restrict __dest,
-    const wchar_t *__restrict __src, size_t __n)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int wcscmp (const wchar_t *__s1, const wchar_t *__s2)
-     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-
-extern int wcsncmp (const wchar_t *__s1, const wchar_t *__s2, size_t __n)
-     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-extern int wcscasecmp (const wchar_t *__s1, const wchar_t *__s2) throw ();
-
-
-extern int wcsncasecmp (const wchar_t *__s1, const wchar_t *__s2,
-   size_t __n) throw ();
-
-
-
-extern int wcscasecmp_l (const wchar_t *__s1, const wchar_t *__s2,
-    locale_t __loc) throw ();
-
-extern int wcsncasecmp_l (const wchar_t *__s1, const wchar_t *__s2,
-     size_t __n, locale_t __loc) throw ();
-
-
-
-
-extern int wcscoll (const wchar_t *__s1, const wchar_t *__s2) throw ();
-
-
-
-extern size_t wcsxfrm (wchar_t *__restrict __s1,
-         const wchar_t *__restrict __s2, size_t __n) throw ();
-
-
-
-
-
-
-
-extern int wcscoll_l (const wchar_t *__s1, const wchar_t *__s2,
-        locale_t __loc) throw ();
-
-
-
-
-extern size_t wcsxfrm_l (wchar_t *__s1, const wchar_t *__s2,
-    size_t __n, locale_t __loc) throw ();
-
-
-extern wchar_t *wcsdup (const wchar_t *__s) throw () __attribute__ ((__malloc__));
-# 164 "/usr/include/wchar.h" 3 4
-extern wchar_t *wcschr (const wchar_t *__wcs, wchar_t __wc)
-     throw () __attribute__ ((__pure__));
-# 174 "/usr/include/wchar.h" 3 4
-extern wchar_t *wcsrchr (const wchar_t *__wcs, wchar_t __wc)
-     throw () __attribute__ ((__pure__));
-
-
-
-
-
-extern wchar_t *wcschrnul (const wchar_t *__s, wchar_t __wc)
-     throw () __attribute__ ((__pure__));
-
-
-
-
-extern size_t wcscspn (const wchar_t *__wcs, const wchar_t *__reject)
-     throw () __attribute__ ((__pure__));
-
-
-extern size_t wcsspn (const wchar_t *__wcs, const wchar_t *__accept)
-     throw () __attribute__ ((__pure__));
-# 201 "/usr/include/wchar.h" 3 4
-extern wchar_t *wcspbrk (const wchar_t *__wcs, const wchar_t *__accept)
-     throw () __attribute__ ((__pure__));
-# 212 "/usr/include/wchar.h" 3 4
-extern wchar_t *wcsstr (const wchar_t *__haystack, const wchar_t *__needle)
-     throw () __attribute__ ((__pure__));
-
-
-
-extern wchar_t *wcstok (wchar_t *__restrict __s,
-   const wchar_t *__restrict __delim,
-   wchar_t **__restrict __ptr) throw ();
-
-
-extern size_t wcslen (const wchar_t *__s) throw () __attribute__ ((__pure__));
-# 233 "/usr/include/wchar.h" 3 4
-extern wchar_t *wcswcs (const wchar_t *__haystack, const wchar_t *__needle)
-     throw () __attribute__ ((__pure__));
-
-
-
-
-
-extern size_t wcsnlen (const wchar_t *__s, size_t __maxlen)
-     throw () __attribute__ ((__pure__));
-# 253 "/usr/include/wchar.h" 3 4
-extern wchar_t *wmemchr (const wchar_t *__s, wchar_t __c, size_t __n)
-     throw () __attribute__ ((__pure__));
-
-
-
-extern int wmemcmp (const wchar_t *__s1, const wchar_t *__s2, size_t __n)
-     throw () __attribute__ ((__pure__));
-
-
-extern wchar_t *wmemcpy (wchar_t *__restrict __s1,
-    const wchar_t *__restrict __s2, size_t __n) throw ();
-
-
-
-extern wchar_t *wmemmove (wchar_t *__s1, const wchar_t *__s2, size_t __n)
-     throw ();
-
-
-extern wchar_t *wmemset (wchar_t *__s, wchar_t __c, size_t __n) throw ();
-
-
-
-
-extern wchar_t *wmempcpy (wchar_t *__restrict __s1,
-     const wchar_t *__restrict __s2, size_t __n)
-     throw ();
-
-
-
-
-
-extern wint_t btowc (int __c) throw ();
-
-
-
-extern int wctob (wint_t __c) throw ();
-
-
-
-extern int mbsinit (const mbstate_t *__ps) throw () __attribute__ ((__pure__));
-
-
-
-extern size_t mbrtowc (wchar_t *__restrict __pwc,
-         const char *__restrict __s, size_t __n,
-         mbstate_t *__restrict __p) throw ();
-
-
-extern size_t wcrtomb (char *__restrict __s, wchar_t __wc,
-         mbstate_t *__restrict __ps) throw ();
-
-
-extern size_t __mbrlen (const char *__restrict __s, size_t __n,
-   mbstate_t *__restrict __ps) throw ();
-extern size_t mbrlen (const char *__restrict __s, size_t __n,
-        mbstate_t *__restrict __ps) throw ();
-# 337 "/usr/include/wchar.h" 3 4
-extern size_t mbsrtowcs (wchar_t *__restrict __dst,
-    const char **__restrict __src, size_t __len,
-    mbstate_t *__restrict __ps) throw ();
-
-
-
-extern size_t wcsrtombs (char *__restrict __dst,
-    const wchar_t **__restrict __src, size_t __len,
-    mbstate_t *__restrict __ps) throw ();
-
-
-
-
-
-extern size_t mbsnrtowcs (wchar_t *__restrict __dst,
-     const char **__restrict __src, size_t __nmc,
-     size_t __len, mbstate_t *__restrict __ps) throw ();
-
-
-
-extern size_t wcsnrtombs (char *__restrict __dst,
-     const wchar_t **__restrict __src,
-     size_t __nwc, size_t __len,
-     mbstate_t *__restrict __ps) throw ();
-
-
-
-
-
-
-extern int wcwidth (wchar_t __c) throw ();
-
-
-
-extern int wcswidth (const wchar_t *__s, size_t __n) throw ();
-
-
-
-
-
-extern double wcstod (const wchar_t *__restrict __nptr,
-        wchar_t **__restrict __endptr) throw ();
-
-
-
-extern float wcstof (const wchar_t *__restrict __nptr,
-       wchar_t **__restrict __endptr) throw ();
-extern long double wcstold (const wchar_t *__restrict __nptr,
-       wchar_t **__restrict __endptr) throw ();
-# 396 "/usr/include/wchar.h" 3 4
-extern _Float32 wcstof32 (const wchar_t *__restrict __nptr,
-     wchar_t **__restrict __endptr) throw ();
-
-
-
-extern _Float64 wcstof64 (const wchar_t *__restrict __nptr,
-     wchar_t **__restrict __endptr) throw ();
-# 411 "/usr/include/wchar.h" 3 4
-extern _Float32x wcstof32x (const wchar_t *__restrict __nptr,
-       wchar_t **__restrict __endptr) throw ();
-
-
-
-extern _Float64x wcstof64x (const wchar_t *__restrict __nptr,
-       wchar_t **__restrict __endptr) throw ();
-# 428 "/usr/include/wchar.h" 3 4
-extern long int wcstol (const wchar_t *__restrict __nptr,
-   wchar_t **__restrict __endptr, int __base) throw ();
-
-
-
-extern unsigned long int wcstoul (const wchar_t *__restrict __nptr,
-      wchar_t **__restrict __endptr, int __base)
-     throw ();
-
-
-
-
-__extension__
-extern long long int wcstoll (const wchar_t *__restrict __nptr,
-         wchar_t **__restrict __endptr, int __base)
-     throw ();
-
-
-
-__extension__
-extern unsigned long long int wcstoull (const wchar_t *__restrict __nptr,
-     wchar_t **__restrict __endptr,
-     int __base) throw ();
-
-
-
-
-
-__extension__
-extern long long int wcstoq (const wchar_t *__restrict __nptr,
-        wchar_t **__restrict __endptr, int __base)
-     throw ();
-
-
-
-__extension__
-extern unsigned long long int wcstouq (const wchar_t *__restrict __nptr,
-           wchar_t **__restrict __endptr,
-           int __base) throw ();
-
-
-
-
-
-
-extern long int wcstol_l (const wchar_t *__restrict __nptr,
-     wchar_t **__restrict __endptr, int __base,
-     locale_t __loc) throw ();
-
-extern unsigned long int wcstoul_l (const wchar_t *__restrict __nptr,
-        wchar_t **__restrict __endptr,
-        int __base, locale_t __loc) throw ();
-
-__extension__
-extern long long int wcstoll_l (const wchar_t *__restrict __nptr,
-    wchar_t **__restrict __endptr,
-    int __base, locale_t __loc) throw ();
-
-__extension__
-extern unsigned long long int wcstoull_l (const wchar_t *__restrict __nptr,
-       wchar_t **__restrict __endptr,
-       int __base, locale_t __loc)
-     throw ();
-
-extern double wcstod_l (const wchar_t *__restrict __nptr,
-   wchar_t **__restrict __endptr, locale_t __loc)
-     throw ();
-
-extern float wcstof_l (const wchar_t *__restrict __nptr,
-         wchar_t **__restrict __endptr, locale_t __loc)
-     throw ();
-
-extern long double wcstold_l (const wchar_t *__restrict __nptr,
-         wchar_t **__restrict __endptr,
-         locale_t __loc) throw ();
-# 511 "/usr/include/wchar.h" 3 4
-extern _Float32 wcstof32_l (const wchar_t *__restrict __nptr,
-       wchar_t **__restrict __endptr,
-       locale_t __loc) throw ();
-
-
-
-extern _Float64 wcstof64_l (const wchar_t *__restrict __nptr,
-       wchar_t **__restrict __endptr,
-       locale_t __loc) throw ();
-# 529 "/usr/include/wchar.h" 3 4
-extern _Float32x wcstof32x_l (const wchar_t *__restrict __nptr,
-         wchar_t **__restrict __endptr,
-         locale_t __loc) throw ();
-
-
-
-extern _Float64x wcstof64x_l (const wchar_t *__restrict __nptr,
-         wchar_t **__restrict __endptr,
-         locale_t __loc) throw ();
-# 551 "/usr/include/wchar.h" 3 4
-extern wchar_t *wcpcpy (wchar_t *__restrict __dest,
-   const wchar_t *__restrict __src) throw ();
-
-
-
-extern wchar_t *wcpncpy (wchar_t *__restrict __dest,
-    const wchar_t *__restrict __src, size_t __n)
-     throw ();
-# 567 "/usr/include/wchar.h" 3 4
-extern __FILE *open_wmemstream (wchar_t **__bufloc, size_t *__sizeloc) throw ();
-
-
-
-
-
-extern int fwide (__FILE *__fp, int __mode) throw ();
-
-
-
-
-
-
-extern int fwprintf (__FILE *__restrict __stream,
-       const wchar_t *__restrict __format, ...)
-                                                           ;
-
-
-
-
-extern int wprintf (const wchar_t *__restrict __format, ...)
-                                                           ;
-
-extern int swprintf (wchar_t *__restrict __s, size_t __n,
-       const wchar_t *__restrict __format, ...)
-     throw () ;
-
-
-
-
-
-extern int vfwprintf (__FILE *__restrict __s,
-        const wchar_t *__restrict __format,
-        __gnuc_va_list __arg)
-                                                           ;
-
-
-
-
-extern int vwprintf (const wchar_t *__restrict __format,
-       __gnuc_va_list __arg)
-                                                           ;
-
-
-extern int vswprintf (wchar_t *__restrict __s, size_t __n,
-        const wchar_t *__restrict __format,
-        __gnuc_va_list __arg)
-     throw () ;
-
-
-
-
-
-
-extern int fwscanf (__FILE *__restrict __stream,
-      const wchar_t *__restrict __format, ...)
-                                                          ;
-
-
-
-
-extern int wscanf (const wchar_t *__restrict __format, ...)
-                                                          ;
-
-extern int swscanf (const wchar_t *__restrict __s,
-      const wchar_t *__restrict __format, ...)
-     throw () ;
-
-
-
-
-
-
-extern int fwscanf (__FILE *__restrict __stream, const wchar_t *__restrict __format, ...) __asm__ ("" "__isoc99_fwscanf")
-
-
-                                                          ;
-extern int wscanf (const wchar_t *__restrict __format, ...) __asm__ ("" "__isoc99_wscanf")
-
-                                                          ;
-extern int swscanf (const wchar_t *__restrict __s, const wchar_t *__restrict __format, ...) throw () __asm__ ("" "__isoc99_swscanf")
-
-
-                                                          ;
-# 671 "/usr/include/wchar.h" 3 4
-extern int vfwscanf (__FILE *__restrict __s,
-       const wchar_t *__restrict __format,
-       __gnuc_va_list __arg)
-                                                          ;
-
-
-
-
-extern int vwscanf (const wchar_t *__restrict __format,
-      __gnuc_va_list __arg)
-                                                          ;
-
-extern int vswscanf (const wchar_t *__restrict __s,
-       const wchar_t *__restrict __format,
-       __gnuc_va_list __arg)
-     throw () ;
-
-
-
-
-
-
-extern int vfwscanf (__FILE *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vfwscanf")
-
-
-                                                          ;
-extern int vwscanf (const wchar_t *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vwscanf")
-
-                                                          ;
-extern int vswscanf (const wchar_t *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg) throw () __asm__ ("" "__isoc99_vswscanf")
-
-
-                                                          ;
-# 726 "/usr/include/wchar.h" 3 4
-extern wint_t fgetwc (__FILE *__stream);
-extern wint_t getwc (__FILE *__stream);
-
-
-
-
-
-extern wint_t getwchar (void);
-
-
-
-
-
-
-extern wint_t fputwc (wchar_t __wc, __FILE *__stream);
-extern wint_t putwc (wchar_t __wc, __FILE *__stream);
-
-
-
-
-
-extern wint_t putwchar (wchar_t __wc);
-
-
-
-
-
-
-
-extern wchar_t *fgetws (wchar_t *__restrict __ws, int __n,
-   __FILE *__restrict __stream);
-
-
-
-
-
-extern int fputws (const wchar_t *__restrict __ws,
-     __FILE *__restrict __stream);
-
-
-
-
-
-
-extern wint_t ungetwc (wint_t __wc, __FILE *__stream);
-# 781 "/usr/include/wchar.h" 3 4
-extern wint_t getwc_unlocked (__FILE *__stream);
-extern wint_t getwchar_unlocked (void);
-
-
-
-
-
-
-
-extern wint_t fgetwc_unlocked (__FILE *__stream);
-
-
-
-
-
-
-
-extern wint_t fputwc_unlocked (wchar_t __wc, __FILE *__stream);
-# 807 "/usr/include/wchar.h" 3 4
-extern wint_t putwc_unlocked (wchar_t __wc, __FILE *__stream);
-extern wint_t putwchar_unlocked (wchar_t __wc);
-# 817 "/usr/include/wchar.h" 3 4
-extern wchar_t *fgetws_unlocked (wchar_t *__restrict __ws, int __n,
-     __FILE *__restrict __stream);
-
-
-
-
-
-
-
-extern int fputws_unlocked (const wchar_t *__restrict __ws,
-       __FILE *__restrict __stream);
-
-
-
-
-
-
-extern size_t wcsftime (wchar_t *__restrict __s, size_t __maxsize,
-   const wchar_t *__restrict __format,
-   const struct tm *__restrict __tp) throw ();
-
-
-
-
-extern size_t wcsftime_l (wchar_t *__restrict __s, size_t __maxsize,
-     const wchar_t *__restrict __format,
-     const struct tm *__restrict __tp,
-     locale_t __loc) throw ();
-# 856 "/usr/include/wchar.h" 3 4
+  typedef __gnuc_va_list va_list;
+# 99 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\vadefs.h" 3
 }
-# 45 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 2 3
-# 62 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 3
+
+
+
+#pragma pack(pop)
+# 27 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\vadefs.h" 2 3
+# 283 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
+# 558 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
+extern "C" {
+# 569 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
+void __attribute__((__cdecl__)) __debugbreak(void);
+extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attribute__((__cdecl__)) __debugbreak(void)
+{
+  __asm__ __volatile__("int {$}3":);
+}
+
+
+
+
+const char *__mingw_get_crt_info (void);
+
+
+}
+# 11 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 2 3
+
+
+
+
+#pragma pack(push,_CRT_PACKING)
+# 35 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+__extension__ typedef unsigned long size_t;
+# 45 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+__extension__ typedef long ssize_t;
+
+
+
+
+
+
+typedef size_t rsize_t;
+# 62 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+__extension__ typedef long intptr_t;
+# 75 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+__extension__ typedef unsigned long uintptr_t;
+# 88 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+__extension__ typedef long ptrdiff_t;
+# 106 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+typedef unsigned short wint_t;
+typedef unsigned short wctype_t;
+
+
+
+
+
+typedef int errno_t;
+
+
+
+
+typedef long __time32_t;
+
+
+
+
+__extension__ typedef long __time64_t;
+# 138 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+typedef __time64_t time_t;
+# 422 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+struct threadlocaleinfostruct;
+struct threadmbcinfostruct;
+typedef struct threadlocaleinfostruct *pthreadlocinfo;
+typedef struct threadmbcinfostruct *pthreadmbcinfo;
+struct __lc_time_data;
+
+typedef struct localeinfo_struct {
+  pthreadlocinfo locinfo;
+  pthreadmbcinfo mbcinfo;
+} _locale_tstruct,*_locale_t;
+
+
+
+typedef struct tagLC_ID {
+  unsigned short wLanguage;
+  unsigned short wCountry;
+  unsigned short wCodePage;
+} LC_ID,*LPLC_ID;
+
+
+
+
+typedef struct threadlocaleinfostruct {
+  int refcount;
+  unsigned int lc_codepage;
+  unsigned int lc_collate_cp;
+  unsigned long lc_handle[6];
+  LC_ID lc_id[6];
+  struct {
+    char *locale;
+    wchar_t *wlocale;
+    int *refcount;
+    int *wrefcount;
+  } lc_category[6];
+  int lc_clike;
+  int mb_cur_max;
+  int *lconv_intl_refcount;
+  int *lconv_num_refcount;
+  int *lconv_mon_refcount;
+  struct lconv *lconv;
+  int *ctype1_refcount;
+  unsigned short *ctype1;
+  const unsigned short *pctype;
+  const unsigned char *pclmap;
+  const unsigned char *pcumap;
+  struct __lc_time_data *lc_time_curr;
+} threadlocinfo;
+
+
+
+
+
+
+
+#pragma pack(pop)
+# 10 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw_print_push.h" 1 3
+# 11 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 2 3
+# 25 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+#pragma pack(push,_CRT_PACKING)
+
+
+extern "C" {
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  struct _iobuf {
+    char *_ptr;
+    int _cnt;
+    char *_base;
+    int _flag;
+    int _file;
+    int _charbuf;
+    int _bufsiz;
+    char *_tmpfname;
+  };
+  typedef struct _iobuf FILE;
+
+
+
+__attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func(unsigned index);
+
+
+  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __iob_func(void);
+# 81 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  typedef unsigned long _fsize_t;
+
+
+
+
+  struct _wfinddata32_t {
+    unsigned attrib;
+    __time32_t time_create;
+    __time32_t time_access;
+    __time32_t time_write;
+    _fsize_t size;
+    wchar_t name[260];
+  };
+
+  struct _wfinddata32i64_t {
+    unsigned attrib;
+    __time32_t time_create;
+    __time32_t time_access;
+    __time32_t time_write;
+    __extension__ long size;
+    wchar_t name[260];
+  };
+
+  struct _wfinddata64i32_t {
+    unsigned attrib;
+    __time64_t time_create;
+    __time64_t time_access;
+    __time64_t time_write;
+    _fsize_t size;
+    wchar_t name[260];
+  };
+
+  struct _wfinddata64_t {
+    unsigned attrib;
+    __time64_t time_create;
+    __time64_t time_access;
+    __time64_t time_write;
+    __extension__ long size;
+    wchar_t name[260];
+  };
+# 186 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  extern unsigned short ** __imp__pctype;
+# 201 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  extern unsigned short ** __imp__wctype;
+# 216 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  extern unsigned short ** __imp__pwctype;
+# 262 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  int __attribute__((__cdecl__)) iswalpha(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswalpha_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswupper(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswupper_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswlower(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswlower_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswdigit(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswdigit_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswxdigit(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswxdigit_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswspace(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswspace_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswpunct(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswpunct_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswalnum(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswalnum_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswprint(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswprint_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswgraph(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswgraph_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswcntrl(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswcntrl_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswascii(wint_t _C);
+  int __attribute__((__cdecl__)) isleadbyte(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isleadbyte_l(int _C,_locale_t _Locale);
+  wint_t __attribute__((__cdecl__)) towupper(wint_t _C);
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _towupper_l(wint_t _C,_locale_t _Locale);
+  wint_t __attribute__((__cdecl__)) towlower(wint_t _C);
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _towlower_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) iswctype(wint_t _C,wctype_t _Type);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswctype_l(wint_t _C,wctype_t _Type,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __iswcsymf(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswcsymf_l(wint_t _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __iswcsym(wint_t _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswcsym_l(wint_t _C,_locale_t _Locale);
+  int __attribute__((__cdecl__)) is_wctype(wint_t _C,wctype_t _Type);
+
+
+  int __attribute__((__cdecl__)) iswblank(wint_t _C);
+
+
+
+
+
+
+
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wgetcwd(wchar_t *_DstBuf,int _SizeInWords);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wgetdcwd(int _Drive,wchar_t *_DstBuf,int _SizeInWords);
+  wchar_t *__attribute__((__cdecl__)) _wgetdcwd_nolock(int _Drive,wchar_t *_DstBuf,int _SizeInWords);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wchdir(const wchar_t *_Path);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wmkdir(const wchar_t *_Path);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wrmdir(const wchar_t *_Path);
+
+
+
+
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _waccess(const wchar_t *_Filename,int _AccessMode);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wchmod(const wchar_t *_Filename,int _Mode);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcreat(const wchar_t *_Filename,int _PermissionMode) ;
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wfindfirst32(const wchar_t *_Filename,struct _wfinddata32_t *_FindData);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wfindnext32(intptr_t _FindHandle,struct _wfinddata32_t *_FindData);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wunlink(const wchar_t *_Filename);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wrename(const wchar_t *_OldFilename,const wchar_t *_NewFilename);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wmktemp(wchar_t *_TemplateName) ;
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wfindfirst32i64(const wchar_t *_Filename,struct _wfinddata32i64_t *_FindData);
+  intptr_t __attribute__((__cdecl__)) _wfindfirst64i32(const wchar_t *_Filename,struct _wfinddata64i32_t *_FindData);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wfindfirst64(const wchar_t *_Filename,struct _wfinddata64_t *_FindData);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wfindnext32i64(intptr_t _FindHandle,struct _wfinddata32i64_t *_FindData);
+  int __attribute__((__cdecl__)) _wfindnext64i32(intptr_t _FindHandle,struct _wfinddata64i32_t *_FindData);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wfindnext64(intptr_t _FindHandle,struct _wfinddata64_t *_FindData);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wsopen_s(int *_FileHandle,const wchar_t *_Filename,int _OpenFlag,int _ShareFlag,int _PermissionFlag);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wopen(const wchar_t *_Filename,int _OpenFlag,...) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wsopen(const wchar_t *_Filename,int _OpenFlag,int _ShareFlag,...) ;
+
+
+
+
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wsetlocale(int _Category,const wchar_t *_Locale);
+
+
+
+
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecl(const wchar_t *_Filename,const wchar_t *_ArgList,...);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecle(const wchar_t *_Filename,const wchar_t *_ArgList,...);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexeclp(const wchar_t *_Filename,const wchar_t *_ArgList,...);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexeclpe(const wchar_t *_Filename,const wchar_t *_ArgList,...);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecv(const wchar_t *_Filename,const wchar_t *const *_ArgList);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecve(const wchar_t *_Filename,const wchar_t *const *_ArgList,const wchar_t *const *_Env);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecvp(const wchar_t *_Filename,const wchar_t *const *_ArgList);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecvpe(const wchar_t *_Filename,const wchar_t *const *_ArgList,const wchar_t *const *_Env);
+
+
+
+
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnl(int _Mode,const wchar_t *_Filename,const wchar_t *_ArgList,...);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnle(int _Mode,const wchar_t *_Filename,const wchar_t *_ArgList,...);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnlp(int _Mode,const wchar_t *_Filename,const wchar_t *_ArgList,...);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnlpe(int _Mode,const wchar_t *_Filename,const wchar_t *_ArgList,...);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnv(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnve(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList,const wchar_t *const *_Env);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnvp(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnvpe(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList,const wchar_t *const *_Env);
+
+
+
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wsystem(const wchar_t *_Command);
+# 409 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  typedef unsigned short _ino_t;
+
+  typedef unsigned short ino_t;
+
+
+
+
+
+  typedef unsigned int _dev_t;
+
+  typedef unsigned int dev_t;
+
+
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw_off_t.h" 1 3
+
+
+
+
+  typedef long _off_t;
+
+  typedef long off32_t;
+
+
+
+
+
+  __extension__ typedef long long _off64_t;
+
+  __extension__ typedef long long off64_t;
+# 26 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw_off_t.h" 3
+typedef off32_t off_t;
+# 424 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw_stat64.h" 1 3
+# 25 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw_stat64.h" 3
+  struct _stat32 {
+    _dev_t st_dev;
+   _ino_t st_ino;
+    unsigned short st_mode;
+    short st_nlink;
+    short st_uid;
+    short st_gid;
+    _dev_t st_rdev;
+    _off_t st_size;
+    __time32_t st_atime;
+    __time32_t st_mtime;
+    __time32_t st_ctime;
+  };
+
+
+  struct stat {
+    _dev_t st_dev;
+    _ino_t st_ino;
+    unsigned short st_mode;
+    short st_nlink;
+    short st_uid;
+    short st_gid;
+    _dev_t st_rdev;
+    _off_t st_size;
+    time_t st_atime;
+    time_t st_mtime;
+    time_t st_ctime;
+  };
+
+
+  struct _stat32i64 {
+    _dev_t st_dev;
+    _ino_t st_ino;
+    unsigned short st_mode;
+    short st_nlink;
+    short st_uid;
+    short st_gid;
+    _dev_t st_rdev;
+    __extension__ long st_size;
+    __time32_t st_atime;
+    __time32_t st_mtime;
+    __time32_t st_ctime;
+  };
+
+  struct _stat64i32 {
+    _dev_t st_dev;
+    _ino_t st_ino;
+    unsigned short st_mode;
+    short st_nlink;
+    short st_uid;
+    short st_gid;
+    _dev_t st_rdev;
+    _off_t st_size;
+    __time64_t st_atime;
+    __time64_t st_mtime;
+    __time64_t st_ctime;
+  };
+
+  struct _stat64 {
+    _dev_t st_dev;
+    _ino_t st_ino;
+    unsigned short st_mode;
+    short st_nlink;
+    short st_uid;
+    short st_gid;
+    _dev_t st_rdev;
+    __extension__ long st_size;
+    __time64_t st_atime;
+    __time64_t st_mtime;
+    __time64_t st_ctime;
+  };
+# 425 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 2 3
+
+
+
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wstat32(const wchar_t *_Name,struct _stat32 *_Stat);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wstat32i64(const wchar_t *_Name,struct _stat32i64 *_Stat);
+  int __attribute__((__cdecl__)) _wstat64i32(const wchar_t *_Name,struct _stat64i32 *_Stat);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wstat64(const wchar_t *_Name,struct _stat64 *_Stat);
+# 443 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  __attribute__ ((__dllimport__)) wchar_t *_cgetws(wchar_t *_Buffer) ;
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _getwch(void);
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _getwche(void);
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _putwch(wchar_t _WCh);
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _ungetwch(wint_t _WCh);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cputws(const wchar_t *_String);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwprintf(const wchar_t * __restrict__ _Format,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwscanf(const wchar_t * __restrict__ _Format,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwscanf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vcwprintf(const wchar_t * __restrict__ _Format,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwprintf_p(const wchar_t * __restrict__ _Format,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vcwprintf_p(const wchar_t * __restrict__ _Format,va_list _ArgList);
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwprintf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vcwprintf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwprintf_p_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vcwprintf_p_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
+  wint_t __attribute__((__cdecl__)) _putwch_nolock(wchar_t _WCh);
+  wint_t __attribute__((__cdecl__)) _getwch_nolock(void);
+  wint_t __attribute__((__cdecl__)) _getwche_nolock(void);
+  wint_t __attribute__((__cdecl__)) _ungetwch_nolock(wint_t _WCh);
+
+
+
+
+
+                                                     __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_swscanf(const wchar_t * __restrict__ _Src,const wchar_t * __restrict__ _Format,...);
+                                                     __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_vswscanf (const wchar_t * __restrict__ _Str,const wchar_t * __restrict__ Format,va_list argp);
+                                                     __attribute__ ((__nonnull__ (1)))
+  int __attribute__((__cdecl__)) __mingw_wscanf(const wchar_t * __restrict__ _Format,...);
+                                                     __attribute__ ((__nonnull__ (1)))
+  int __attribute__((__cdecl__)) __mingw_vwscanf(const wchar_t * __restrict__ Format, va_list argp);
+                                                     __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_fwscanf(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,...);
+                                                     __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_vfwscanf (FILE * __restrict__ fp, const wchar_t * __restrict__ Format,va_list argp);
+
+
+                                                      __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_fwprintf(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,...);
+                                                      __attribute__ ((__nonnull__ (1)))
+  int __attribute__((__cdecl__)) __mingw_wprintf(const wchar_t * __restrict__ _Format,...);
+                                                      __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_vfwprintf(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,va_list _ArgList);
+                                                     __attribute__ ((__nonnull__ (1)))
+  int __attribute__((__cdecl__)) __mingw_vwprintf(const wchar_t * __restrict__ _Format,va_list _ArgList);
+                                                      __attribute__ ((__nonnull__ (3)))
+  int __attribute__((__cdecl__)) __mingw_snwprintf (wchar_t * __restrict__ s, size_t n, const wchar_t * __restrict__ format, ...);
+                                                      __attribute__ ((__nonnull__ (3)))
+  int __attribute__((__cdecl__)) __mingw_vsnwprintf (wchar_t * __restrict__ , size_t, const wchar_t * __restrict__ , va_list);
+                                                      __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_swprintf(wchar_t * __restrict__ , const wchar_t * __restrict__ , ...);
+                                                      __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_vswprintf(wchar_t * __restrict__ , const wchar_t * __restrict__ ,va_list);
+# 525 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                     __attribute__ ((__nonnull__ (2)))
+int swscanf(const wchar_t *__source, const wchar_t *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vswscanf( __source, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                     __attribute__ ((__nonnull__ (1)))
+int wscanf(const wchar_t *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vfwscanf( (__acrt_iob_func(0)), __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                     __attribute__ ((__nonnull__ (2)))
+int fwscanf(FILE *__stream, const wchar_t *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vfwscanf( __stream, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                     __attribute__ ((__nonnull__ (2)))
+int vswscanf (const wchar_t *__source, const wchar_t *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vswscanf( __source, __format, __local_argv );
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                     __attribute__ ((__nonnull__ (1)))
+int vwscanf(const wchar_t *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vfwscanf( (__acrt_iob_func(0)), __format, __local_argv );
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                     __attribute__ ((__nonnull__ (2)))
+int vfwscanf (FILE *__stream, const wchar_t *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vfwscanf( __stream, __format, __local_argv );
+}
+
+
+
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                      __attribute__ ((__nonnull__ (2)))
+int fwprintf (FILE *__stream, const wchar_t *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vfwprintf( __stream, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                      __attribute__ ((__nonnull__ (1)))
+int wprintf (const wchar_t *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vfwprintf( (__acrt_iob_func(1)), __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                      __attribute__ ((__nonnull__ (2)))
+int vfwprintf (FILE *__stream, const wchar_t *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vfwprintf( __stream, __format, __local_argv );
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                      __attribute__ ((__nonnull__ (1)))
+int vwprintf (const wchar_t *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vfwprintf( (__acrt_iob_func(1)), __format, __local_argv );
+}
+
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                      __attribute__ ((__nonnull__ (3)))
+int snwprintf (wchar_t *__stream, size_t __n, const wchar_t *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vsnwprintf( __stream, __n, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                      __attribute__ ((__nonnull__ (3)))
+int vsnwprintf (wchar_t *__stream, size_t __n, const wchar_t *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vsnwprintf( __stream, __n, __format, __local_argv );
+}
+# 768 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfsopen(const wchar_t *_Filename,const wchar_t *_Mode,int _ShFlag);
+
+
+  wint_t __attribute__((__cdecl__)) fgetwc(FILE *_File);
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _fgetwchar(void);
+  wint_t __attribute__((__cdecl__)) fputwc(wchar_t _Ch,FILE *_File);
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _fputwchar(wchar_t _Ch);
+  wint_t __attribute__((__cdecl__)) getwc(FILE *_File);
+  wint_t __attribute__((__cdecl__)) getwchar(void);
+  wint_t __attribute__((__cdecl__)) putwc(wchar_t _Ch,FILE *_File);
+  wint_t __attribute__((__cdecl__)) putwchar(wchar_t _Ch);
+  wint_t __attribute__((__cdecl__)) ungetwc(wint_t _Ch,FILE *_File);
+  wchar_t *__attribute__((__cdecl__)) fgetws(wchar_t * __restrict__ _Dst,int _SizeInWords,FILE * __restrict__ _File);
+  int __attribute__((__cdecl__)) fputws(const wchar_t * __restrict__ _Str,FILE * __restrict__ _File);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _getws(wchar_t *_String) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putws(const wchar_t *_Str);
+# 831 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _scwprintf(const wchar_t * __restrict__ _Format,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _swprintf_l(wchar_t * __restrict__ ,size_t _SizeInWords,const wchar_t * __restrict__ _Format,_locale_t _Locale,... ) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _swprintf_c(wchar_t * __restrict__ _DstBuf,size_t _SizeInWords,const wchar_t * __restrict__ _Format,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vswprintf_c(wchar_t * __restrict__ _DstBuf,size_t _SizeInWords,const wchar_t * __restrict__ _Format,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snwprintf(wchar_t * __restrict__ _Dest,size_t _Count,const wchar_t * __restrict__ _Format,...) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vsnwprintf(wchar_t * __restrict__ _Dest,size_t _Count,const wchar_t * __restrict__ _Format,va_list _Args) ;
+# 1145 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fwprintf_p(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wprintf_p(const wchar_t * __restrict__ _Format,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vfwprintf_p(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vwprintf_p(const wchar_t * __restrict__ _Format,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _swprintf_p(wchar_t * __restrict__ _DstBuf,size_t _MaxCount,const wchar_t * __restrict__ _Format,...);
+  __attribute__((dllimport)) int __attribute__((__cdecl__)) _vswprintf_p(wchar_t * __restrict__ _DstBuf,size_t _MaxCount,const wchar_t * __restrict__ _Format,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _scwprintf_p(const wchar_t * __restrict__ _Format,...);
+  __attribute__((dllimport)) int __attribute__((__cdecl__)) _vscwprintf_p(const wchar_t * __restrict__ _Format,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wprintf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wprintf_p_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vwprintf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vwprintf_p_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fwprintf_l(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fwprintf_p_l(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vfwprintf_l(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vfwprintf_p_l(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _swprintf_c_l(wchar_t * __restrict__ _DstBuf,size_t _MaxCount,const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _swprintf_p_l(wchar_t * __restrict__ _DstBuf,size_t _MaxCount,const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vswprintf_c_l(wchar_t * __restrict__ _DstBuf,size_t _MaxCount,const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vswprintf_p_l(wchar_t * __restrict__ _DstBuf,size_t _MaxCount,const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _scwprintf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _scwprintf_p_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vscwprintf_p_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snwprintf_l(wchar_t * __restrict__ _DstBuf,size_t _MaxCount,const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vsnwprintf_l(wchar_t * __restrict__ _DstBuf,size_t _MaxCount,const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _swprintf(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Format,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vswprintf(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Format,va_list _Args);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __swprintf_l(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Format,_locale_t _Plocinfo,...) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vswprintf_l(wchar_t * __restrict__ _Dest,size_t _MaxCount,const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __vswprintf_l(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Format,_locale_t _Plocinfo,va_list _Args) ;
+
+
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\swprintf.inl" 1 3
+# 10 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\swprintf.inl" 3
+# 1 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\vadefs.h" 1 3
+# 11 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\swprintf.inl" 2 3
+# 25 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\swprintf.inl" 3
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                      __attribute__ ((__nonnull__ (3)))
+int vswprintf (wchar_t *__stream, size_t __count, const wchar_t *__format, __builtin_va_list __local_argv)
+{
+  return vsnwprintf( __stream, __count, __format, __local_argv );
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                      __attribute__ ((__nonnull__ (3)))
+int swprintf (wchar_t *__stream, size_t __count, const wchar_t *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv;
+
+  __builtin_va_start( __local_argv, __format );
+  __retval = vswprintf( __stream, __count, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+
+
+extern "C++" {
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                      __attribute__ ((__nonnull__ (2)))
+int vswprintf (wchar_t *__stream, const wchar_t *__format, __builtin_va_list __local_argv)
+{
+
+  return __mingw_vswprintf( __stream, __format, __local_argv );
+
+
+
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+                                                      __attribute__ ((__nonnull__ (2)))
+int swprintf (wchar_t *__stream, const wchar_t *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv;
+
+  __builtin_va_start( __local_argv, __format );
+  __retval = vswprintf( __stream, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+}
+# 1179 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 2 3
+# 1188 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wtempnam(const wchar_t *_Directory,const wchar_t *_FilePrefix);
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vscwprintf(const wchar_t * __restrict__ _Format,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vscwprintf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fwscanf_l(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,_locale_t _Locale,...) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _swscanf_l(const wchar_t * __restrict__ _Src,const wchar_t * __restrict__ _Format,_locale_t _Locale,...) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snwscanf(const wchar_t * __restrict__ _Src,size_t _MaxCount,const wchar_t * __restrict__ _Format,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snwscanf_l(const wchar_t * __restrict__ _Src,size_t _MaxCount,const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wscanf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...) ;
+
+  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfdopen(int _FileHandle ,const wchar_t *_Mode);
+  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfopen(const wchar_t * __restrict__ _Filename,const wchar_t * __restrict__ _Mode) ;
+  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfreopen(const wchar_t * __restrict__ _Filename,const wchar_t * __restrict__ _Mode,FILE * __restrict__ _OldFile) ;
+
+
+
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wperror(const wchar_t *_ErrMsg);
+
+  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wpopen(const wchar_t *_Command,const wchar_t *_Mode);
+
+
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wremove(const wchar_t *_Filename);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wtmpnam(wchar_t *_Buffer);
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _fgetwc_nolock(FILE *_File);
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _fputwc_nolock(wchar_t _Ch,FILE *_File);
+  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _ungetwc_nolock(wint_t _Ch,FILE *_File);
+# 1235 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _itow(int _Value,wchar_t *_Dest,int _Radix) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ltow(long _Value,wchar_t *_Dest,int _Radix) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ultow(unsigned long _Value,wchar_t *_Dest,int _Radix) ;
+  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wcstod_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,_locale_t _Locale);
+
+  double __attribute__((__cdecl__)) __mingw_wcstod(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr);
+  float __attribute__((__cdecl__)) __mingw_wcstof(const wchar_t * __restrict__ nptr, wchar_t ** __restrict__ endptr);
+  long double __attribute__((__cdecl__)) __mingw_wcstold(const wchar_t * __restrict__, wchar_t ** __restrict__);
+
+
+  static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+  double __attribute__((__cdecl__)) wcstod(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr){
+    return __mingw_wcstod(_Str,_EndPtr);
+  }
+  static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+  float __attribute__((__cdecl__)) wcstof(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr){
+    return __mingw_wcstof(_Str,_EndPtr);
+  }
+
+
+
+
+
+
+  long double __attribute__((__cdecl__)) wcstold (const wchar_t * __restrict__, wchar_t ** __restrict__);
+
+  long __attribute__((__cdecl__)) wcstol(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wcstol_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
+  unsigned long __attribute__((__cdecl__)) wcstoul(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix);
+  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _wcstoul_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wgetenv(const wchar_t *_VarName) ;
+
+
+
+
+  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wtof(const wchar_t *_Str);
+  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wtof_l(const wchar_t *_Str,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wtoi(const wchar_t *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wtoi_l(const wchar_t *_Str,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtol(const wchar_t *_Str);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtol_l(const wchar_t *_Str,_locale_t _Locale);
+
+  __extension__ __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _i64tow(long _Val,wchar_t *_DstBuf,int _Radix) ;
+  __extension__ __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ui64tow(unsigned long _Val,wchar_t *_DstBuf,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtoi64(const wchar_t *_Str);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtoi64_l(const wchar_t *_Str,_locale_t _Locale);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wcstoi64(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wcstoi64_l(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix,_locale_t _Locale);
+  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _wcstoui64(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _wcstoui64_l(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix,_locale_t _Locale);
+
+
+
+
+
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wfullpath(wchar_t *_FullPath,const wchar_t *_Path,size_t _SizeInWords);
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wmakepath(wchar_t *_ResultPath,const wchar_t *_Drive,const wchar_t *_Dir,const wchar_t *_Filename,const wchar_t *_Ext);
+
+
+
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wputenv(const wchar_t *_EnvString);
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wsearchenv(const wchar_t *_Filename,const wchar_t *_EnvVar,wchar_t *_ResultPath) ;
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wsplitpath(const wchar_t *_FullPath,wchar_t *_Drive,wchar_t *_Dir,wchar_t *_Filename,wchar_t *_Ext) ;
+
+
+
+
+
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsdup(const wchar_t *_Str);
+  wchar_t *__attribute__((__cdecl__)) wcscat(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source) ;
+                wchar_t *__attribute__((__cdecl__)) wcschr(const wchar_t *_Str,wchar_t _Ch);
+  int __attribute__((__cdecl__)) wcscmp(const wchar_t *_Str1,const wchar_t *_Str2);
+  wchar_t *__attribute__((__cdecl__)) wcscpy(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source) ;
+  size_t __attribute__((__cdecl__)) wcscspn(const wchar_t *_Str,const wchar_t *_Control);
+  size_t __attribute__((__cdecl__)) wcslen(const wchar_t *_Str);
+  size_t __attribute__((__cdecl__)) wcsnlen(const wchar_t *_Src,size_t _MaxCount);
+  wchar_t *__attribute__((__cdecl__)) wcsncat(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _Count) ;
+  int __attribute__((__cdecl__)) wcsncmp(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
+  wchar_t *__attribute__((__cdecl__)) wcsncpy(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _Count) ;
+  wchar_t *__attribute__((__cdecl__)) _wcsncpy_l(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _Count,_locale_t _Locale) ;
+                wchar_t *__attribute__((__cdecl__)) wcspbrk(const wchar_t *_Str,const wchar_t *_Control);
+                wchar_t *__attribute__((__cdecl__)) wcsrchr(const wchar_t *_Str,wchar_t _Ch);
+  size_t __attribute__((__cdecl__)) wcsspn(const wchar_t *_Str,const wchar_t *_Control);
+                wchar_t *__attribute__((__cdecl__)) wcsstr(const wchar_t *_Str,const wchar_t *_SubStr);
+  wchar_t *__attribute__((__cdecl__)) wcstok(wchar_t * __restrict__ _Str,const wchar_t * __restrict__ _Delim) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcserror(int _ErrNum) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) __wcserror(const wchar_t *_Str) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicmp(const wchar_t *_Str1,const wchar_t *_Str2);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicmp_l(const wchar_t *_Str1,const wchar_t *_Str2,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicmp(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicmp_l(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsnset(wchar_t *_Str,wchar_t _Val,size_t _MaxCount) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsrev(wchar_t *_Str);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsset(wchar_t *_Str,wchar_t _Val) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcslwr(wchar_t *_String) ;
+  __attribute__ ((__dllimport__)) wchar_t *_wcslwr_l(wchar_t *_String,_locale_t _Locale) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsupr(wchar_t *_String) ;
+  __attribute__ ((__dllimport__)) wchar_t *_wcsupr_l(wchar_t *_String,_locale_t _Locale) ;
+  size_t __attribute__((__cdecl__)) wcsxfrm(wchar_t * __restrict__ _Dst,const wchar_t * __restrict__ _Src,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _wcsxfrm_l(wchar_t * __restrict__ _Dst,const wchar_t * __restrict__ _Src,size_t _MaxCount,_locale_t _Locale);
+  int __attribute__((__cdecl__)) wcscoll(const wchar_t *_Str1,const wchar_t *_Str2);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcscoll_l(const wchar_t *_Str1,const wchar_t *_Str2,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicoll(const wchar_t *_Str1,const wchar_t *_Str2);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicoll_l(const wchar_t *_Str1,const wchar_t *_Str2,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsncoll(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsncoll_l(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicoll(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicoll_l(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount,_locale_t _Locale);
+
+
+  wchar_t *__attribute__((__cdecl__)) wcsdup(const wchar_t *_Str) ;
+
+  int __attribute__((__cdecl__)) wcsicmp(const wchar_t *_Str1,const wchar_t *_Str2) ;
+  int __attribute__((__cdecl__)) wcsnicmp(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount) ;
+  wchar_t *__attribute__((__cdecl__)) wcsnset(wchar_t *_Str,wchar_t _Val,size_t _MaxCount) ;
+  wchar_t *__attribute__((__cdecl__)) wcsrev(wchar_t *_Str) ;
+  wchar_t *__attribute__((__cdecl__)) wcsset(wchar_t *_Str,wchar_t _Val) ;
+  wchar_t *__attribute__((__cdecl__)) wcslwr(wchar_t *_Str) ;
+  wchar_t *__attribute__((__cdecl__)) wcsupr(wchar_t *_Str) ;
+  int __attribute__((__cdecl__)) wcsicoll(const wchar_t *_Str1,const wchar_t *_Str2) ;
+
+
+
+
+
+  struct tm {
+    int tm_sec;
+    int tm_min;
+    int tm_hour;
+    int tm_mday;
+    int tm_mon;
+    int tm_year;
+    int tm_wday;
+    int tm_yday;
+    int tm_isdst;
+  };
+
+
+
+
+
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wasctime(const struct tm *_Tm);
+  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wasctime_s (wchar_t *_Buf,size_t _SizeInWords,const struct tm *_Tm);
+  wchar_t *__attribute__((__cdecl__)) _wctime32(const __time32_t *_Time) ;
+  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wctime32_s (wchar_t *_Buf,size_t _SizeInWords,const __time32_t *_Time);
+  size_t __attribute__((__cdecl__)) wcsftime(wchar_t * __restrict__ _Buf,size_t _SizeInWords,const wchar_t * __restrict__ _Format,const struct tm * __restrict__ _Tm);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _wcsftime_l(wchar_t * __restrict__ _Buf,size_t _SizeInWords,const wchar_t * __restrict__ _Format,const struct tm * __restrict__ _Tm,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wstrdate(wchar_t *_Buffer) ;
+  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wstrdate_s (wchar_t *_Buf,size_t _SizeInWords);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wstrtime(wchar_t *_Buffer) ;
+  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wstrtime_s (wchar_t *_Buf,size_t _SizeInWords);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wctime64(const __time64_t *_Time) ;
+  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wctime64_s (wchar_t *_Buf,size_t _SizeInWords,const __time64_t *_Time);
+
+
+
+  wchar_t *__attribute__((__cdecl__)) _wctime(const time_t *_Time) ;
+# 1404 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  errno_t __attribute__((__cdecl__)) _wctime_s(wchar_t *, size_t, const time_t *);
+# 1416 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+  typedef int mbstate_t;
+  typedef wchar_t _Wint_t;
+
+  wint_t __attribute__((__cdecl__)) btowc(int);
+  size_t __attribute__((__cdecl__)) mbrlen(const char * __restrict__ _Ch,size_t _SizeInBytes,mbstate_t * __restrict__ _State);
+  size_t __attribute__((__cdecl__)) mbrtowc(wchar_t * __restrict__ _DstCh,const char * __restrict__ _SrcCh,size_t _SizeInBytes,mbstate_t * __restrict__ _State);
+  size_t __attribute__((__cdecl__)) mbsrtowcs(wchar_t * __restrict__ _Dest,const char ** __restrict__ _PSrc,size_t _Count,mbstate_t * __restrict__ _State) ;
+  size_t __attribute__((__cdecl__)) wcrtomb(char * __restrict__ _Dest,wchar_t _Source,mbstate_t * __restrict__ _State) ;
+  size_t __attribute__((__cdecl__)) wcsrtombs(char * __restrict__ _Dest,const wchar_t ** __restrict__ _PSource,size_t _Count,mbstate_t * __restrict__ _State) ;
+  int __attribute__((__cdecl__)) wctob(wint_t _WCh);
+
+
+  wchar_t *__attribute__((__cdecl__)) wmemset(wchar_t *s, wchar_t c, size_t n);
+                wchar_t *__attribute__((__cdecl__)) wmemchr(const wchar_t *s, wchar_t c, size_t n);
+  int __attribute__((__cdecl__)) wmemcmp(const wchar_t *s1, const wchar_t *s2,size_t n);
+  wchar_t *__attribute__((__cdecl__)) wmemcpy(wchar_t * __restrict__ s1,const wchar_t * __restrict__ s2,size_t n) ;
+  wchar_t * __attribute__((__cdecl__)) wmempcpy (wchar_t *_Dst, const wchar_t *_Src, size_t _Size);
+  wchar_t *__attribute__((__cdecl__)) wmemmove(wchar_t *s1, const wchar_t *s2, size_t n) ;
+  int __attribute__((__cdecl__)) fwide(FILE *stream,int mode);
+  int __attribute__((__cdecl__)) mbsinit(const mbstate_t *ps);
+  __extension__ long long __attribute__((__cdecl__)) wcstoll(const wchar_t * __restrict__ nptr,wchar_t ** __restrict__ endptr, int base);
+  __extension__ unsigned long long __attribute__((__cdecl__)) wcstoull(const wchar_t * __restrict__ nptr,wchar_t ** __restrict__ endptr, int base);
+
+
+  void *__attribute__((__cdecl__)) memmove(void *_Dst,const void *_Src,size_t _MaxCount);
+  void *__attribute__((__cdecl__)) memcpy(void * __restrict__ _Dst,const void * __restrict__ _Src,size_t _MaxCount) ;
+# 1491 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+int __attribute__((__cdecl__)) __mingw_str_wide_utf8 (const wchar_t * const wptr, char **mbptr, size_t * buflen);
+# 1505 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+int __attribute__((__cdecl__)) __mingw_str_utf8_wide (const char *const mbptr, wchar_t ** wptr, size_t * buflen);
+# 1514 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 3
+void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
+
+
+
+
+}
+
+
+#pragma pack(pop)
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\sec_api/wchar_s.h" 1 3
+
+
+
+
+
+
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 1 3
+# 10 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\sec_api/wchar_s.h" 2 3
+# 1525 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 2 3
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw_print_pop.h" 1 3
+# 1527 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wchar.h" 2 3
+# 45 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 2 3
+# 62 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 3
 namespace std
 {
   using ::mbstate_t;
 }
-# 135 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 135 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 3
+namespace std
 {
 
 
@@ -6789,7 +7113,7 @@ namespace __gnu_cxx
 
 
   using ::wcstold;
-# 257 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 3
+# 257 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 3
   using ::wcstoll;
   using ::wcstoull;
 
@@ -6801,7 +7125,7 @@ namespace std
   using ::__gnu_cxx::wcstoll;
   using ::__gnu_cxx::wcstoull;
 }
-# 277 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 3
+# 277 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 3
 namespace std
 {
 
@@ -6823,15 +7147,21 @@ namespace std
   using std::wcstoull;
 
 }
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/postypes.h" 2 3
-# 68 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/postypes.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/postypes.h" 2 3
+# 68 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/postypes.h" 3
+namespace std
 {
-# 88 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/postypes.h" 3
-  typedef long streamoff;
-# 98 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/postypes.h" 3
+# 90 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/postypes.h" 3
+  typedef long long streamoff;
+
+
+
+
+
+
+
   typedef ptrdiff_t streamsize;
-# 111 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/postypes.h" 3
+# 111 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/postypes.h" 3
   template<typename _StateT>
     class fpos
     {
@@ -6846,7 +7176,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       fpos()
       : _M_off(0), _M_state() { }
-# 133 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/postypes.h" 3
+# 133 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/postypes.h" 3
       fpos(streamoff __off)
       : _M_off(__off), _M_state() { }
 
@@ -6955,11 +7285,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iosfwd" 2 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iosfwd" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 74 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iosfwd" 3
+# 74 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iosfwd" 3
   class ios_base;
 
   template<typename _CharT, typename _Traits = char_traits<_CharT> >
@@ -7100,16 +7430,16 @@ namespace __cxx11 {
 
 
 }
-# 39 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ios" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/exception" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/exception" 3
+# 39 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ios" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\exception" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\exception" 3
 
 #pragma GCC visibility push(default)
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception.h" 1 3
-# 35 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception.h" 1 3
+# 35 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception.h" 3
 
 #pragma GCC visibility push(default)
 
@@ -7119,7 +7449,7 @@ extern "C++" {
 
 namespace std
 {
-# 60 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception.h" 3
+# 60 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception.h" 3
   class exception
   {
   public:
@@ -7137,7 +7467,7 @@ namespace std
 }
 
 #pragma GCC visibility pop
-# 39 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/exception" 2 3
+# 39 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\exception" 2 3
 
 extern "C++" {
 
@@ -7188,7 +7518,7 @@ namespace std
 
 
   void unexpected() __attribute__ ((__noreturn__));
-# 102 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/exception" 3
+# 102 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\exception" 3
   bool uncaught_exception() noexcept __attribute__ ((__pure__));
 
 
@@ -7202,7 +7532,7 @@ namespace std
 
 namespace __gnu_cxx
 {
-# 133 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/exception" 3
+# 133 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\exception" 3
   void __verbose_terminate_handler();
 
 
@@ -7214,35 +7544,37 @@ namespace __gnu_cxx
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception_ptr.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception_ptr.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception_ptr.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception_ptr.h" 3
 #pragma GCC visibility push(default)
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception_defines.h" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception_ptr.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cxxabi_init_exception.h" 1 3
-# 35 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cxxabi_init_exception.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception_defines.h" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception_ptr.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cxxabi_init_exception.h" 1 3
+# 35 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cxxabi_init_exception.h" 3
 
 #pragma GCC visibility push(default)
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 1 3
-# 51 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 3
+# 1 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stddef.h" 1 3
+# 51 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stddef.h" 3
 typedef long int ptrdiff_t;
-# 118 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/__stddef_max_align_t.h" 1 3
-# 35 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/__stddef_max_align_t.h" 3
+# 62 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stddef.h" 3
+typedef long unsigned int size_t;
+# 118 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stddef.h" 3
+# 1 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include/__stddef_max_align_t.h" 1 3
+# 35 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include/__stddef_max_align_t.h" 3
 typedef struct {
   long long __clang_max_align_nonce1
       __attribute__((__aligned__(__alignof__(long long))));
   long double __clang_max_align_nonce2
       __attribute__((__aligned__(__alignof__(long double))));
 } max_align_t;
-# 119 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 2 3
-# 39 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cxxabi_init_exception.h" 2 3
-# 50 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cxxabi_init_exception.h" 3
+# 119 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stddef.h" 2 3
+# 39 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cxxabi_init_exception.h" 2 3
+# 50 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cxxabi_init_exception.h" 3
 namespace std
 {
   class type_info;
@@ -7272,14 +7604,14 @@ namespace __cxxabiv1
 
 
 #pragma GCC visibility pop
-# 39 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception_ptr.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/typeinfo" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/typeinfo" 3
+# 39 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception_ptr.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\typeinfo" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\typeinfo" 3
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/hash_bytes.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/hash_bytes.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/hash_bytes.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/hash_bytes.h" 3
 
 
 
@@ -7304,7 +7636,7 @@ namespace std
 
 
 }
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/typeinfo" 2 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\typeinfo" 2 3
 
 
 #pragma GCC visibility push(default)
@@ -7315,7 +7647,7 @@ namespace __cxxabiv1
 {
   class __class_type_info;
 }
-# 80 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/typeinfo" 3
+# 80 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\typeinfo" 3
 namespace std
 {
 
@@ -7337,7 +7669,7 @@ namespace std
 
     const char* name() const noexcept
     { return __name[0] == '*' ? __name + 1 : __name; }
-# 115 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/typeinfo" 3
+# 115 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\typeinfo" 3
     bool before(const type_info& __arg) const noexcept
     { return (__name[0] == '*' && __arg.__name[0] == '*')
  ? __name < __arg.__name
@@ -7349,7 +7681,7 @@ namespace std
        || (__name[0] != '*' &&
     __builtin_strcmp (__name, __arg.__name) == 0));
     }
-# 136 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/typeinfo" 3
+# 136 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\typeinfo" 3
     bool operator!=(const type_info& __arg) const noexcept
     { return !operator==(__arg); }
 
@@ -7435,13 +7767,13 @@ namespace std
 }
 
 #pragma GCC visibility pop
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception_ptr.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/new" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/new" 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception_ptr.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\new" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\new" 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/exception" 1 3
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/new" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\exception" 1 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\new" 2 3
 
 #pragma GCC visibility push(default)
 
@@ -7509,7 +7841,7 @@ namespace std
   new_handler get_new_handler() noexcept;
 
 }
-# 120 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/new" 3
+# 120 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\new" 3
 void* operator new(std::size_t)
   __attribute__((__externally_visible__));
 void* operator new[](std::size_t)
@@ -7532,7 +7864,7 @@ void operator delete(void*, const std::nothrow_t&) noexcept
   __attribute__((__externally_visible__));
 void operator delete[](void*, const std::nothrow_t&) noexcept
   __attribute__((__externally_visible__));
-# 168 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/new" 3
+# 168 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\new" 3
 inline void* operator new(std::size_t, void* __p) noexcept
 { return __p; }
 inline void* operator new[](std::size_t, void* __p) noexcept
@@ -7543,9 +7875,9 @@ inline void operator delete (void*, void*) noexcept { }
 inline void operator delete[](void*, void*) noexcept { }
 
 }
-# 216 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/new" 3
+# 216 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\new" 3
 #pragma GCC visibility pop
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception_ptr.h" 2 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception_ptr.h" 2 3
 
 extern "C++" {
 
@@ -7613,7 +7945,7 @@ namespace std
       exception_ptr(exception_ptr&& __o) noexcept
       : _M_exception_object(__o._M_exception_object)
       { __o._M_exception_object = 0; }
-# 117 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception_ptr.h" 3
+# 117 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception_ptr.h" 3
       exception_ptr&
       operator=(const exception_ptr&) noexcept;
 
@@ -7630,7 +7962,7 @@ namespace std
 
       void
       swap(exception_ptr&) noexcept;
-# 144 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception_ptr.h" 3
+# 144 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception_ptr.h" 3
       explicit operator bool() const
       { return _M_exception_object; }
 
@@ -7668,7 +8000,7 @@ namespace std
     exception_ptr
     make_exception_ptr(_Ex __ex) noexcept
     {
-# 206 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/exception_ptr.h" 3
+# 206 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/exception_ptr.h" 3
       return exception_ptr();
 
     }
@@ -7679,9 +8011,9 @@ namespace std
 }
 
 #pragma GCC visibility pop
-# 144 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/exception" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/nested_exception.h" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/nested_exception.h" 3
+# 144 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\exception" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/nested_exception.h" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/nested_exception.h" 3
 #pragma GCC visibility push(default)
 
 
@@ -7690,13 +8022,13 @@ namespace std
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/move.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/move.h" 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/concept_check.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/concept_check.h" 3
-# 35 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/move.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/move.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/move.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/concept_check.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/concept_check.h" 3
+# 35 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/move.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -7716,8 +8048,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
 
 
 
@@ -7725,9 +8057,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 56 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 56 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template<typename _Tp, _Tp __v>
     struct integral_constant
     {
@@ -7754,7 +8086,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<bool __v>
     using __bool_constant = integral_constant<bool, __v>;
-# 91 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 91 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template<bool, typename, typename>
     struct conditional;
 
@@ -7808,7 +8140,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __not_
     : public __bool_constant<!bool(_Pp::value)>
     { };
-# 180 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 180 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template<typename _Tp>
     struct __success_type
     { typedef _Tp type; };
@@ -7911,7 +8243,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __is_integral_helper<unsigned __int128>
     : public true_type { };
-# 312 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 312 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template<typename _Tp>
     struct is_integral
     : public __is_integral_helper<typename remove_cv<_Tp>::type>::type
@@ -7932,14 +8264,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __is_floating_point_helper<long double>
     : public true_type { };
-
-
-  template<>
-    struct __is_floating_point_helper<__float128>
-    : public true_type { };
-
-
-
+# 340 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template<typename _Tp>
     struct is_floating_point
     : public __is_floating_point_helper<typename remove_cv<_Tp>::type>::type
@@ -8338,7 +8663,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct is_unsigned
     : public __and_<is_arithmetic<_Tp>, __not_<is_signed<_Tp>>>
     { };
-# 747 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 747 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template<typename _Tp, typename _Up = _Tp&&>
     _Up
     __declval(int);
@@ -9164,7 +9489,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __make_unsigned<__int128>
     { typedef unsigned __int128 __type; };
-# 1590 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 1590 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template<typename _Tp,
     bool _IsInt = is_integral<_Tp>::value,
     bool _IsEnum = is_enum<_Tp>::value>
@@ -9251,7 +9576,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __make_signed<unsigned __int128>
     { typedef __int128 __type; };
-# 1694 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 1694 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template<typename _Tp,
     bool _IsInt = is_integral<_Tp>::value,
     bool _IsEnum = is_enum<_Tp>::value>
@@ -9387,7 +9712,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  struct __attribute__((__aligned__)) { } __align;
       };
     };
-# 1840 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 1840 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template<std::size_t _Len, std::size_t _Align =
     __alignof__(typename __aligned_storage_msa<_Len>::__type)>
     struct aligned_storage
@@ -9416,7 +9741,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
         sizeof(_Tp) > __strictest_alignment<_Types...>::_S_size
  ? sizeof(_Tp) : __strictest_alignment<_Types...>::_S_size;
     };
-# 1879 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 1879 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template <size_t _Len, typename... _Types>
     struct aligned_union
     {
@@ -9600,7 +9925,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       "declval() must not be used!");
       return __declval<_Tp>(0);
     }
-# 2072 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 2072 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template<>
     struct __make_unsigned<wchar_t>
     {
@@ -9920,7 +10245,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     typename... _Args>
     using __detected_or_t
       = typename __detected_or<_Default, _Op, _Args...>::type;
-# 2408 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 2408 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
   template <typename _Tp>
     struct __is_swappable;
 
@@ -10197,13 +10522,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __nonesuch(__nonesuch const&) = delete;
     void operator=(__nonesuch const&) = delete;
   };
-# 2974 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/type_traits" 3
+# 2974 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
 }
-# 56 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/move.h" 2 3
+# 56 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/move.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 72 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/move.h" 3
+# 72 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/move.h" 3
   template<typename _Tp>
     constexpr _Tp&&
     forward(typename std::remove_reference<_Tp>::type& __t) noexcept
@@ -10239,13 +10564,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __move_if_noexcept_cond
     : public __and_<__not_<is_nothrow_move_constructible<_Tp>>,
                     is_copy_constructible<_Tp>>::type { };
-# 116 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/move.h" 3
+# 116 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/move.h" 3
   template<typename _Tp>
     constexpr typename
     conditional<__move_if_noexcept_cond<_Tp>::value, const _Tp&, _Tp&&>::type
     move_if_noexcept(_Tp& __x) noexcept
     { return std::move(__x); }
-# 136 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/move.h" 3
+# 136 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/move.h" 3
   template<typename _Tp>
     inline _Tp*
     addressof(_Tp& __r) noexcept
@@ -10265,7 +10590,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __obj = std::forward<_Up>(__new_val);
       return __old_val;
     }
-# 176 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/move.h" 3
+# 176 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/move.h" 3
   template<typename _Tp>
     inline
 
@@ -10309,7 +10634,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/nested_exception.h" 2 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/nested_exception.h" 2 3
 
 extern "C++" {
 
@@ -10431,16 +10756,16 @@ namespace std
 
 
 #pragma GCC visibility pop
-# 145 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/exception" 2 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ios" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/char_traits.h" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/char_traits.h" 3
+# 145 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\exception" 2 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ios" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/char_traits.h" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/char_traits.h" 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 1 3
-# 60 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/functexcept.h" 1 3
-# 42 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/functexcept.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 1 3
+# 60 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/functexcept.h" 1 3
+# 42 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/functexcept.h" 3
+namespace std
 {
 
 
@@ -10507,13 +10832,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 61 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cpp_type_traits.h" 1 3
-# 36 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cpp_type_traits.h" 3
-# 67 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cpp_type_traits.h" 3
+# 61 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cpp_type_traits.h" 1 3
+# 36 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cpp_type_traits.h" 3
+# 67 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cpp_type_traits.h" 3
 extern "C++" {
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -10689,9 +11014,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 261 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cpp_type_traits.h" 3
+# 261 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cpp_type_traits.h" 3
 template<> struct __is_integer<__int128> { enum { __value = 1 }; typedef __true_type __type; }; template<> struct __is_integer<unsigned __int128> { enum { __value = 1 }; typedef __true_type __type; };
-# 278 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cpp_type_traits.h" 3
+# 278 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cpp_type_traits.h" 3
   template<typename _Tp>
     struct __is_floating
     {
@@ -10807,7 +11132,7 @@ template<> struct __is_integer<__int128> { enum { __value = 1 }; typedef __true_
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 408 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cpp_type_traits.h" 3
+# 408 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cpp_type_traits.h" 3
   template<typename _Tp>
     struct __is_move_iterator
     {
@@ -10825,16 +11150,16 @@ template<> struct __is_integer<__int128> { enum { __value = 1 }; typedef __true_
 
 }
 }
-# 62 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/type_traits.h" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/type_traits.h" 3
+# 62 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/type_traits.h" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/type_traits.h" 3
 
 
 
 
 extern "C++" {
 
-namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+namespace __gnu_cxx
 {
 
 
@@ -11015,16 +11340,16 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 }
 }
-# 63 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/numeric_traits.h" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/numeric_traits.h" 3
+# 63 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/numeric_traits.h" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/numeric_traits.h" 3
 
 
 
 
-namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+namespace __gnu_cxx
 {
-# 54 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/numeric_traits.h" 3
+# 54 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/numeric_traits.h" 3
   template<typename _Value>
     struct __numeric_traits_integer
     {
@@ -11049,7 +11374,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
   template<typename _Value>
     const int __numeric_traits_integer<_Value>::__digits;
-# 99 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/numeric_traits.h" 3
+# 99 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/numeric_traits.h" 3
   template<typename _Value>
     struct __numeric_traits_floating
     {
@@ -11083,12 +11408,12 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 64 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_pair.h" 1 3
-# 65 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_pair.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 64 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_pair.h" 1 3
+# 65 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_pair.h" 3
+namespace std
 {
-# 76 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_pair.h" 3
+# 76 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_pair.h" 3
   struct piecewise_construct_t { explicit piecewise_construct_t() = default; };
 
 
@@ -11257,7 +11582,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
                                    ::value, bool>::type = false>
       explicit constexpr pair()
       : first(), second() { }
-# 252 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_pair.h" 3
+# 252 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_pair.h" 3
       using _PCCP = _PCC<true, _T1, _T2>;
 
       template<typename _U1 = _T1, typename _U2=_T2, typename
@@ -11277,7 +11602,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
                          bool>::type=false>
       explicit constexpr pair(const _T1& __a, const _T2& __b)
       : first(__a), second(__b) { }
-# 280 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_pair.h" 3
+# 280 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_pair.h" 3
       template <typename _U1, typename _U2>
         using _PCCFP = _PCC<!is_same<_T1, _U1>::value
        || !is_same<_T2, _U2>::value,
@@ -11502,7 +11827,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     typename enable_if<!__and_<__is_swappable<_T1>,
           __is_swappable<_T2>>::value>::type
     swap(pair<_T1, _T2>&, pair<_T1, _T2>&) = delete;
-# 521 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_pair.h" 3
+# 521 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     constexpr pair<typename __decay_and_strip<_T1>::__type,
                    typename __decay_and_strip<_T2>::__type>
@@ -11513,11 +11838,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef pair<__ds_type1, __ds_type2> __pair_type;
       return __pair_type(std::forward<_T1>(__x), std::forward<_T2>(__y));
     }
-# 541 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_pair.h" 3
+# 541 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_pair.h" 3
 }
-# 65 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_types.h" 1 3
-# 63 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_types.h" 3
+# 65 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_types.h" 1 3
+# 63 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_types.h" 3
 
 
 
@@ -11525,9 +11850,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 89 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_types.h" 3
+# 89 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_types.h" 3
   struct input_iterator_tag { };
 
 
@@ -11543,7 +11868,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   struct random_access_iterator_tag : public bidirectional_iterator_tag { };
-# 116 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_types.h" 3
+# 116 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_types.h" 3
   template<typename _Category, typename _Tp, typename _Distance = ptrdiff_t,
            typename _Pointer = _Tp*, typename _Reference = _Tp&>
     struct iterator
@@ -11559,7 +11884,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       typedef _Reference reference;
     };
-# 143 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_types.h" 3
+# 143 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_types.h" 3
   template<typename _Iterator, typename = __void_t<>>
     struct __iterator_traits { };
 
@@ -11581,7 +11906,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Iterator>
     struct iterator_traits
     : public __iterator_traits<_Iterator> { };
-# 177 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_types.h" 3
+# 177 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_types.h" 3
   template<typename _Tp>
     struct iterator_traits<_Tp*>
     {
@@ -11612,7 +11937,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     typename iterator_traits<_Iter>::iterator_category
     __iterator_category(const _Iter&)
     { return typename iterator_traits<_Iter>::iterator_category(); }
-# 231 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_types.h" 3
+# 231 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_types.h" 3
   template<typename _InIter>
     using _RequireInputIter = typename
       enable_if<is_convertible<typename
@@ -11622,15 +11947,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 66 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_funcs.h" 1 3
-# 63 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_funcs.h" 3
+# 66 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_funcs.h" 1 3
+# 63 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_funcs.h" 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/debug/assertions.h" 1 3
-# 66 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_funcs.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\debug/assertions.h" 1 3
+# 66 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_funcs.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -11683,7 +12008,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __distance(std::_List_const_iterator<_Tp>,
         std::_List_const_iterator<_Tp>,
         input_iterator_tag);
-# 135 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_funcs.h" 3
+# 135 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_funcs.h" 3
   template<typename _InputIterator>
     inline
     typename iterator_traits<_InputIterator>::difference_type
@@ -11736,7 +12061,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       else
  __i += __n;
     }
-# 200 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator_base_funcs.h" 3
+# 200 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator_base_funcs.h" 3
   template<typename _InputIterator, typename _Distance>
     inline void
     advance(_InputIterator& __i, _Distance __n)
@@ -11775,12 +12100,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 67 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 1 3
-# 66 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ptr_traits.h" 1 3
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ptr_traits.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 67 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 1 3
+# 66 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ptr_traits.h" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ptr_traits.h" 3
+namespace std
 {
 
 
@@ -11905,17 +12230,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
     constexpr typename std::pointer_traits<_Ptr>::element_type*
     __to_address(const _Ptr& __ptr)
     { return std::__to_address(__ptr.operator->()); }
-# 199 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ptr_traits.h" 3
+# 199 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ptr_traits.h" 3
 }
-# 67 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 2 3
+# 67 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 2 3
 
 
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 100 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 100 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _Iterator>
     class reverse_iterator
     : public iterator<typename iterator_traits<_Iterator>::iterator_category,
@@ -11934,7 +12259,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef typename __traits_type::difference_type difference_type;
       typedef typename __traits_type::pointer pointer;
       typedef typename __traits_type::reference reference;
-# 127 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 127 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
       reverse_iterator() : current() { }
 
 
@@ -11965,14 +12290,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
                            iterator_type
       base() const
       { return current; }
-# 168 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 168 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
                            reference
       operator*() const
       {
  _Iterator __tmp = current;
  return *--__tmp;
       }
-# 182 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 182 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
                            pointer
       operator->() const
       { return std::__addressof(operator*()); }
@@ -12080,7 +12405,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator[](difference_type __n) const
       { return *(*this + __n); }
     };
-# 300 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 300 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _Iterator>
     inline bool
     operator==(const reverse_iterator<_Iterator>& __x,
@@ -12154,7 +12479,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     operator>=(const reverse_iterator<_IteratorL>& __x,
         const reverse_iterator<_IteratorR>& __y)
     { return !(__x < __y); }
-# 390 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 390 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR>
     inline auto
     operator-(const reverse_iterator<_IteratorL>& __x,
@@ -12206,7 +12531,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __miter_base(reverse_iterator<_Iterator> __it)
     -> decltype(__make_reverse_iterator(__miter_base(__it.base())))
     { return __make_reverse_iterator(__miter_base(__it.base())); }
-# 454 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 454 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _Container>
     class back_insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -12222,7 +12547,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       explicit
       back_insert_iterator(_Container& __x)
       : container(std::__addressof(__x)) { }
-# 489 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 489 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
       back_insert_iterator&
       operator=(const typename _Container::value_type& __value)
       {
@@ -12253,12 +12578,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator++(int)
       { return *this; }
     };
-# 531 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 531 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _Container>
     inline back_insert_iterator<_Container>
     back_inserter(_Container& __x)
     { return back_insert_iterator<_Container>(__x); }
-# 546 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 546 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _Container>
     class front_insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -12273,7 +12598,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       explicit front_insert_iterator(_Container& __x)
       : container(std::__addressof(__x)) { }
-# 580 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 580 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
       front_insert_iterator&
       operator=(const typename _Container::value_type& __value)
       {
@@ -12304,12 +12629,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator++(int)
       { return *this; }
     };
-# 622 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 622 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _Container>
     inline front_insert_iterator<_Container>
     front_inserter(_Container& __x)
     { return front_insert_iterator<_Container>(__x); }
-# 641 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 641 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _Container>
     class insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -12328,7 +12653,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       insert_iterator(_Container& __x, typename _Container::iterator __i)
       : container(std::__addressof(__x)), iter(__i) {}
-# 692 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 692 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
       insert_iterator&
       operator=(const typename _Container::value_type& __value)
       {
@@ -12361,7 +12686,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator++(int)
       { return *this; }
     };
-# 737 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 737 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _Container, typename _Iterator>
     inline insert_iterator<_Container>
     inserter(_Container& __x, _Iterator __i)
@@ -12375,9 +12700,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 
-namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+namespace __gnu_cxx
 {
-# 761 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 761 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   using std::iterator_traits;
   using std::iterator;
   template<typename _Iterator, typename _Container>
@@ -12468,7 +12793,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
       base() const noexcept
       { return _M_current; }
     };
-# 861 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 861 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR, typename _Container>
     inline bool
     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
@@ -12589,7 +12914,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 }
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -12597,7 +12922,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     _Iterator
     __niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container> __it)
     { return __it.base(); }
-# 1006 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 1006 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
   template<typename _Iterator>
     class move_iterator
     {
@@ -12833,12 +13158,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __miter_base(move_iterator<_Iterator> __it)
     -> decltype(__miter_base(__it.base()))
     { return __miter_base(__it.base()); }
-# 1272 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_iterator.h" 3
+# 1272 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_iterator.h" 3
 }
-# 68 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 2 3
+# 68 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 2 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/debug/debug.h" 1 3
-# 48 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/debug/debug.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\debug/debug.h" 1 3
+# 48 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\debug/debug.h" 3
 namespace std
 {
   namespace __debug { }
@@ -12851,10 +13176,10 @@ namespace __gnu_debug
 {
   using namespace std::__debug;
 }
-# 70 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 2 3
+# 70 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 2 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/predefined_ops.h" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/predefined_ops.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/predefined_ops.h" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/predefined_ops.h" 3
 namespace __gnu_cxx
 {
 namespace __ops
@@ -13183,20 +13508,20 @@ namespace __ops
 
 }
 }
-# 72 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 2 3
+# 72 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 118 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 118 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2>
     inline void
     iter_swap(_ForwardIterator1 __a, _ForwardIterator2 __b)
     {
-# 148 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 148 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
       swap(*__a, *__b);
 
     }
-# 164 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 164 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2>
     _ForwardIterator2
     swap_ranges(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
@@ -13213,7 +13538,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  std::iter_swap(__first1, __first2);
       return __first2;
     }
-# 192 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 192 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _Tp>
     constexpr
     inline const _Tp&
@@ -13226,7 +13551,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  return __b;
       return __a;
     }
-# 216 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 216 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _Tp>
     constexpr
     inline const _Tp&
@@ -13239,7 +13564,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  return __b;
       return __a;
     }
-# 240 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 240 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _Tp, typename _Compare>
     constexpr
     inline const _Tp&
@@ -13250,7 +13575,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  return __b;
       return __a;
     }
-# 262 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 262 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _Tp, typename _Compare>
     constexpr
     inline const _Tp&
@@ -13415,7 +13740,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
           std::__niter_base(__last),
           std::__niter_base(__result)));
     }
-# 444 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 444 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _II, typename _OI>
     inline _OI
     copy(_II __first, _II __last, _OI __result)
@@ -13430,7 +13755,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
        (std::__miter_base(__first), std::__miter_base(__last),
         __result));
     }
-# 477 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 477 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _II, typename _OI>
     inline _OI
     move(_II __first, _II __last, _OI __result)
@@ -13555,7 +13880,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     (std::__niter_base(__first), std::__niter_base(__last),
      std::__niter_base(__result)));
     }
-# 620 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 620 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _BI1, typename _BI2>
     inline _BI2
     copy_backward(_BI1 __first, _BI1 __last, _BI2 __result)
@@ -13572,7 +13897,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
        (std::__miter_base(__first), std::__miter_base(__last),
         __result));
     }
-# 656 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 656 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _BI1, typename _BI2>
     inline _BI2
     move_backward(_BI1 __first, _BI1 __last, _BI2 __result)
@@ -13626,7 +13951,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       if (const size_t __len = __last - __first)
  __builtin_memset(__first, static_cast<unsigned char>(__tmp), __len);
     }
-# 722 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 722 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _ForwardIterator, typename _Tp>
     inline void
     fill(_ForwardIterator __first, _ForwardIterator __last, const _Tp& __value)
@@ -13671,7 +13996,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       std::__fill_a(__first, __first + __n, __c);
       return __first + __n;
     }
-# 782 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 782 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _OI, typename _Size, typename _Tp>
     inline _OI
     fill_n(_OI __first, _Size __n, const _Tp& __value)
@@ -13860,7 +14185,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  }
       return __first;
     }
-# 982 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 982 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _ForwardIterator, typename _Tp>
     inline _ForwardIterator
     lower_bound(_ForwardIterator __first, _ForwardIterator __last,
@@ -13901,7 +14226,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   inline constexpr unsigned long long
   __lg(unsigned long long __n)
   { return sizeof(long long) * 8 - 1 - __builtin_clzll(__n); }
-# 1037 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1037 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
     inline bool
     equal(_II1 __first1, _II1 __last1, _II2 __first2)
@@ -13918,7 +14243,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
          std::__niter_base(__last1),
          std::__niter_base(__first2));
     }
-# 1069 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1069 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _IIter1, typename _IIter2, typename _BinaryPredicate>
     inline bool
     equal(_IIter1 __first1, _IIter1 __last1,
@@ -13987,7 +14312,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    return false;
       return __first1 == __last1 && __first2 == __last2;
     }
-# 1156 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1156 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
     inline bool
     equal(_II1 __first1, _II1 __last1, _II2 __first2, _II2 __last2)
@@ -14003,7 +14328,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       return std::__equal4(__first1, __last1, __first2, __last2);
     }
-# 1188 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1188 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _IIter1, typename _IIter2, typename _BinaryPredicate>
     inline bool
     equal(_IIter1 __first1, _IIter1 __last1,
@@ -14018,13 +14343,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
       return std::__equal4(__first1, __last1, __first2, __last2,
           __binary_pred);
     }
-# 1219 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1219 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
     inline bool
     lexicographical_compare(_II1 __first1, _II1 __last1,
        _II2 __first2, _II2 __last2)
     {
-# 1233 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1233 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
                                                        ;
                                                        ;
 
@@ -14033,7 +14358,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       std::__niter_base(__first2),
       std::__niter_base(__last2));
     }
-# 1255 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1255 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _II1, typename _II2, typename _Compare>
     inline bool
     lexicographical_compare(_II1 __first1, _II1 __last1,
@@ -14063,7 +14388,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  }
       return pair<_InputIterator1, _InputIterator2>(__first1, __first2);
     }
-# 1298 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1298 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2>
     inline pair<_InputIterator1, _InputIterator2>
     mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
@@ -14080,7 +14405,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       return std::__mismatch(__first1, __last1, __first2,
         __gnu_cxx::__ops::__iter_equal_to_iter());
     }
-# 1331 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1331 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
     inline pair<_InputIterator1, _InputIterator2>
@@ -14113,7 +14438,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  }
       return pair<_InputIterator1, _InputIterator2>(__first1, __first2);
     }
-# 1378 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1378 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2>
     inline pair<_InputIterator1, _InputIterator2>
     mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
@@ -14131,7 +14456,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       return std::__mismatch(__first1, __last1, __first2, __last2,
         __gnu_cxx::__ops::__iter_equal_to_iter());
     }
-# 1413 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_algobase.h" 3
+# 1413 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
     inline pair<_InputIterator1, _InputIterator2>
@@ -14153,19 +14478,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/char_traits.h" 2 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/char_traits.h" 2 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 3
-# 42 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/char_traits.h" 2 3
-
-
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 3
+# 42 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/char_traits.h" 2 3
 
 
 
-namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+
+
+namespace __gnu_cxx
 {
-# 61 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/char_traits.h" 3
+# 61 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/char_traits.h" 3
   template<typename _CharT>
     struct _Char_types
     {
@@ -14174,7 +14499,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
       typedef std::streamoff off_type;
       typedef std::mbstate_t state_type;
     };
-# 86 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/char_traits.h" 3
+# 86 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/char_traits.h" 3
   template<typename _CharT>
     struct char_traits
     {
@@ -14304,9 +14629,9 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 }
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 270 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/char_traits.h" 3
+# 270 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/char_traits.h" 3
   template<class _CharT>
     struct char_traits : public __gnu_cxx::char_traits<_CharT>
     { };
@@ -14526,7 +14851,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       static constexpr int_type
       eof() noexcept
-      { return static_cast<int_type>((0xffffffffu)); }
+      { return static_cast<int_type>((wint_t)(0xFFFF)); }
 
       static constexpr int_type
       not_eof(const int_type& __c) noexcept
@@ -14541,8 +14866,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdint" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdint" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdint" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdint" 3
 
 
 
@@ -14551,205 +14876,51 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stdint.h" 1 3
-# 63 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stdint.h" 3
-# 1 "/usr/include/stdint.h" 1 3 4
-# 26 "/usr/include/stdint.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
-# 27 "/usr/include/stdint.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types.h" 1 3 4
-# 27 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 28 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 1 3 4
-# 29 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+# 1 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stdint.h" 1 3
+# 63 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stdint.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdint.h" 1 3
+# 32 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdint.h" 3
+# 1 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stddef.h" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdint.h" 2 3
 
 
-typedef unsigned char __u_char;
-typedef unsigned short int __u_short;
-typedef unsigned int __u_int;
-typedef unsigned long int __u_long;
+typedef signed char int8_t;
+typedef unsigned char uint8_t;
+typedef short int16_t;
+typedef unsigned short uint16_t;
+typedef int int32_t;
+typedef unsigned uint32_t;
+__extension__ typedef long long int64_t;
+__extension__ typedef unsigned long long uint64_t;
 
 
-typedef signed char __int8_t;
-typedef unsigned char __uint8_t;
-typedef signed short int __int16_t;
-typedef unsigned short int __uint16_t;
-typedef signed int __int32_t;
-typedef unsigned int __uint32_t;
-
-typedef signed long int __int64_t;
-typedef unsigned long int __uint64_t;
-
-
-
-
-
-
-typedef __int8_t __int_least8_t;
-typedef __uint8_t __uint_least8_t;
-typedef __int16_t __int_least16_t;
-typedef __uint16_t __uint_least16_t;
-typedef __int32_t __int_least32_t;
-typedef __uint32_t __uint_least32_t;
-typedef __int64_t __int_least64_t;
-typedef __uint64_t __uint_least64_t;
-
-
-
-typedef long int __quad_t;
-typedef unsigned long int __u_quad_t;
-
-
-
-
-
-
-
-typedef long int __intmax_t;
-typedef unsigned long int __uintmax_t;
-# 141 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/typesizes.h" 1 3 4
-# 142 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/time64.h" 1 3 4
-# 143 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
-
-
-typedef unsigned long int __dev_t;
-typedef unsigned int __uid_t;
-typedef unsigned int __gid_t;
-typedef unsigned long int __ino_t;
-typedef unsigned long int __ino64_t;
-typedef unsigned int __mode_t;
-typedef unsigned long int __nlink_t;
-typedef long int __off_t;
-typedef long int __off64_t;
-typedef int __pid_t;
-typedef struct { int __val[2]; } __fsid_t;
-typedef long int __clock_t;
-typedef unsigned long int __rlim_t;
-typedef unsigned long int __rlim64_t;
-typedef unsigned int __id_t;
-typedef long int __time_t;
-typedef unsigned int __useconds_t;
-typedef long int __suseconds_t;
-
-typedef int __daddr_t;
-typedef int __key_t;
-
-
-typedef int __clockid_t;
-
-
-typedef void * __timer_t;
-
-
-typedef long int __blksize_t;
-
-
-
-
-typedef long int __blkcnt_t;
-typedef long int __blkcnt64_t;
-
-
-typedef unsigned long int __fsblkcnt_t;
-typedef unsigned long int __fsblkcnt64_t;
-
-
-typedef unsigned long int __fsfilcnt_t;
-typedef unsigned long int __fsfilcnt64_t;
-
-
-typedef long int __fsword_t;
-
-typedef long int __ssize_t;
-
-
-typedef long int __syscall_slong_t;
-
-typedef unsigned long int __syscall_ulong_t;
-
-
-
-typedef __off64_t __loff_t;
-typedef char *__caddr_t;
-
-
-typedef long int __intptr_t;
-
-
-typedef unsigned int __socklen_t;
-
-
-
-
-typedef int __sig_atomic_t;
-# 28 "/usr/include/stdint.h" 2 3 4
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 30 "/usr/include/stdint.h" 2 3 4
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/stdint-intn.h" 1 3 4
-# 24 "/usr/include/x86_64-linux-gnu/bits/stdint-intn.h" 3 4
-typedef __int8_t int8_t;
-typedef __int16_t int16_t;
-typedef __int32_t int32_t;
-typedef __int64_t int64_t;
-# 35 "/usr/include/stdint.h" 2 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h" 1 3 4
-# 24 "/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h" 3 4
-typedef __uint8_t uint8_t;
-typedef __uint16_t uint16_t;
-typedef __uint32_t uint32_t;
-typedef __uint64_t uint64_t;
-# 38 "/usr/include/stdint.h" 2 3 4
-
-
-
-
-
-typedef __int_least8_t int_least8_t;
-typedef __int_least16_t int_least16_t;
-typedef __int_least32_t int_least32_t;
-typedef __int_least64_t int_least64_t;
-
-
-typedef __uint_least8_t uint_least8_t;
-typedef __uint_least16_t uint_least16_t;
-typedef __uint_least32_t uint_least32_t;
-typedef __uint_least64_t uint_least64_t;
+typedef signed char int_least8_t;
+typedef unsigned char uint_least8_t;
+typedef short int_least16_t;
+typedef unsigned short uint_least16_t;
+typedef int int_least32_t;
+typedef unsigned uint_least32_t;
+__extension__ typedef long long int_least64_t;
+__extension__ typedef unsigned long long uint_least64_t;
 
 
 
 
 
 typedef signed char int_fast8_t;
-
-typedef long int int_fast16_t;
-typedef long int int_fast32_t;
-typedef long int int_fast64_t;
-# 71 "/usr/include/stdint.h" 3 4
 typedef unsigned char uint_fast8_t;
+typedef short int_fast16_t;
+typedef unsigned short uint_fast16_t;
+typedef int int_fast32_t;
+typedef unsigned int uint_fast32_t;
+__extension__ typedef long long int_fast64_t;
+__extension__ typedef unsigned long long uint_fast64_t;
 
-typedef unsigned long int uint_fast16_t;
-typedef unsigned long int uint_fast32_t;
-typedef unsigned long int uint_fast64_t;
-# 87 "/usr/include/stdint.h" 3 4
-typedef long int intptr_t;
 
-
-typedef unsigned long int uintptr_t;
-# 101 "/usr/include/stdint.h" 3 4
-typedef __intmax_t intmax_t;
-typedef __uintmax_t uintmax_t;
-# 64 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stdint.h" 2 3
-# 42 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdint" 2 3
+__extension__ typedef long long intmax_t;
+__extension__ typedef unsigned long long uintmax_t;
+# 64 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stdint.h" 2 3
+# 42 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdint" 2 3
 
 
 
@@ -14792,9 +14963,9 @@ namespace std
   using ::uintmax_t;
   using ::uintptr_t;
 }
-# 504 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/char_traits.h" 2 3
+# 504 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/char_traits.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -14994,111 +15165,429 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ios" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/localefwd.h" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/localefwd.h" 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ios" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/localefwd.h" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/localefwd.h" 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++locale.h" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++locale.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++locale.h" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++locale.h" 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/clocale" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/clocale" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\clocale" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\clocale" 3
 
 
-# 1 "/usr/include/locale.h" 1 3 4
-# 28 "/usr/include/locale.h" 3 4
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 1 3 4
-# 29 "/usr/include/locale.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/locale.h" 1 3 4
-# 30 "/usr/include/locale.h" 2 3 4
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\locale.h" 1 3
+# 12 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\locale.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 1 3
+# 11 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw_print_push.h" 1 3
+# 12 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 2 3
+
+#pragma pack(push,_CRT_PACKING)
+
 
 extern "C" {
-# 51 "/usr/include/locale.h" 3 4
-struct lconv
+# 82 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+__attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func(unsigned index);
+
+
+  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __iob_func(void);
+# 104 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+  __extension__ typedef long fpos_t;
+# 162 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+extern
+  __attribute__((__format__ (gnu_scanf, 2, 3))) __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_sscanf(const char * __restrict__ _Src,const char * __restrict__ _Format,...);
+extern
+  __attribute__((__format__ (gnu_scanf, 2, 0))) __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_vsscanf (const char * __restrict__ _Str,const char * __restrict__ Format,va_list argp);
+extern
+  __attribute__((__format__ (gnu_scanf, 1, 2))) __attribute__ ((__nonnull__ (1)))
+  int __attribute__((__cdecl__)) __mingw_scanf(const char * __restrict__ _Format,...);
+extern
+  __attribute__((__format__ (gnu_scanf, 1, 0))) __attribute__ ((__nonnull__ (1)))
+  int __attribute__((__cdecl__)) __mingw_vscanf(const char * __restrict__ Format, va_list argp);
+extern
+  __attribute__((__format__ (gnu_scanf, 2, 3))) __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_fscanf(FILE * __restrict__ _File,const char * __restrict__ _Format,...);
+extern
+  __attribute__((__format__ (gnu_scanf, 2, 0))) __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_vfscanf (FILE * __restrict__ fp, const char * __restrict__ Format,va_list argp);
+
+extern
+  __attribute__((__format__ (gnu_printf, 3, 0))) __attribute__ ((__nonnull__ (3)))
+  int __attribute__((__cdecl__)) __mingw_vsnprintf(char * __restrict__ _DstBuf,size_t _MaxCount,const char * __restrict__ _Format,
+                               va_list _ArgList);
+extern
+  __attribute__((__format__ (gnu_printf, 3, 4))) __attribute__ ((__nonnull__ (3)))
+  int __attribute__((__cdecl__)) __mingw_snprintf(char * __restrict__ s, size_t n, const char * __restrict__ format, ...);
+extern
+  __attribute__((__format__ (gnu_printf, 1, 2))) __attribute__ ((__nonnull__ (1)))
+  int __attribute__((__cdecl__)) __mingw_printf(const char * __restrict__ , ... ) __attribute__ ((__nothrow__));
+extern
+  __attribute__((__format__ (gnu_printf, 1, 0))) __attribute__ ((__nonnull__ (1)))
+  int __attribute__((__cdecl__)) __mingw_vprintf (const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
+extern
+  __attribute__((__format__ (gnu_printf, 2, 3))) __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_fprintf (FILE * __restrict__ , const char * __restrict__ , ...) __attribute__ ((__nothrow__));
+extern
+  __attribute__((__format__ (gnu_printf, 2, 0))) __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_vfprintf (FILE * __restrict__ , const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
+extern
+  __attribute__((__format__ (gnu_printf, 2, 3))) __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_sprintf (char * __restrict__ , const char * __restrict__ , ...) __attribute__ ((__nothrow__));
+extern
+  __attribute__((__format__ (gnu_printf, 2, 0))) __attribute__ ((__nonnull__ (2)))
+  int __attribute__((__cdecl__)) __mingw_vsprintf (char * __restrict__ , const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
+extern
+  __attribute__((__format__ (gnu_printf, 2, 3))) __attribute__((nonnull (1,2)))
+  int __attribute__((__cdecl__)) __mingw_asprintf(char ** __restrict__ , const char * __restrict__ , ...) __attribute__ ((__nothrow__));
+extern
+  __attribute__((__format__ (gnu_printf, 2, 0))) __attribute__((nonnull (1,2)))
+  int __attribute__((__cdecl__)) __mingw_vasprintf(char ** __restrict__ , const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
+# 262 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+extern "C++" {
+
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_scanf, 2, 3))) __attribute__ ((__nonnull__ (2)))
+int sscanf(const char *__source, const char *__format, ...)
 {
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vsscanf( __source, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
 
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_scanf, 1, 2))) __attribute__ ((__nonnull__ (1)))
+int scanf(const char *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vfscanf( (__acrt_iob_func(0)), __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
 
-  char *decimal_point;
-  char *thousands_sep;
-
-
-
-
-
-  char *grouping;
-
-
-
-
-
-  char *int_curr_symbol;
-  char *currency_symbol;
-  char *mon_decimal_point;
-  char *mon_thousands_sep;
-  char *mon_grouping;
-  char *positive_sign;
-  char *negative_sign;
-  char int_frac_digits;
-  char frac_digits;
-
-  char p_cs_precedes;
-
-  char p_sep_by_space;
-
-  char n_cs_precedes;
-
-  char n_sep_by_space;
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_scanf, 2, 3))) __attribute__ ((__nonnull__ (2)))
+int fscanf(FILE *__stream, const char *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vfscanf( __stream, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
 
 
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wshadow"
 
 
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_scanf, 2, 0))) __attribute__ ((__nonnull__ (2)))
+int vsscanf (const char *__source, const char *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vsscanf( __source, __format, __local_argv );
+}
 
-  char p_sign_posn;
-  char n_sign_posn;
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_scanf, 1, 0))) __attribute__ ((__nonnull__ (1)))
+int vscanf(const char *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vfscanf( (__acrt_iob_func(0)), __format, __local_argv );
+}
 
-
-  char int_p_cs_precedes;
-
-  char int_p_sep_by_space;
-
-  char int_n_cs_precedes;
-
-  char int_n_sep_by_space;
-
-
-
-
-
-
-  char int_p_sign_posn;
-  char int_n_sign_posn;
-# 118 "/usr/include/locale.h" 3 4
-};
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_scanf, 2, 0))) __attribute__ ((__nonnull__ (2)))
+int vfscanf (FILE *__stream, const char *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vfscanf( __stream, __format, __local_argv );
+}
 
 
-
-extern char *setlocale (int __category, const char *__locale) throw ();
-
-
-extern struct lconv *localeconv (void) throw ();
-# 141 "/usr/include/locale.h" 3 4
-extern locale_t newlocale (int __category_mask, const char *__locale,
-      locale_t __base) throw ();
-# 176 "/usr/include/locale.h" 3 4
-extern locale_t duplocale (locale_t __dataset) throw ();
-
-
-
-extern void freelocale (locale_t __dataset) throw ();
+#pragma GCC diagnostic pop
 
 
 
 
 
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_printf, 2, 3))) __attribute__ ((__nonnull__ (2)))
+int fprintf (FILE *__stream, const char *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vfprintf( __stream, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
 
-extern locale_t uselocale (locale_t __dataset) throw ();
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_printf, 1, 2))) __attribute__ ((__nonnull__ (1)))
+int printf (const char *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vfprintf( (__acrt_iob_func(1)), __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_printf, 2, 3))) __attribute__ ((__nonnull__ (2)))
+int sprintf (char *__stream, const char *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vsprintf( __stream, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_printf, 2, 0))) __attribute__ ((__nonnull__ (2)))
+int vfprintf (FILE *__stream, const char *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vfprintf( __stream, __format, __local_argv );
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_printf, 1, 0))) __attribute__ ((__nonnull__ (1)))
+int vprintf (const char *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vfprintf( (__acrt_iob_func(1)), __format, __local_argv );
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_printf, 2, 0))) __attribute__ ((__nonnull__ (2)))
+int vsprintf (char *__stream, const char *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vsprintf( __stream, __format, __local_argv );
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_printf, 3, 4))) __attribute__ ((__nonnull__ (3)))
+int snprintf (char *__stream, size_t __n, const char *__format, ...)
+{
+  int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+  __retval = __mingw_vsnprintf( __stream, __n, __format, __local_argv );
+  __builtin_va_end( __local_argv );
+  return __retval;
+}
+
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+__attribute__((__format__ (gnu_printf, 3, 0))) __attribute__ ((__nonnull__ (3)))
+int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_list __local_argv)
+{
+  return __mingw_vsnprintf( __stream, __n, __format, __local_argv );
+}
+# 411 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+}
+# 571 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _filbuf(FILE *_File);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _flsbuf(int _Ch,FILE *_File);
+
+
+
+  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _fsopen(const char *_Filename,const char *_Mode,int _ShFlag);
+
+  void __attribute__((__cdecl__)) clearerr(FILE *_File);
+  int __attribute__((__cdecl__)) fclose(FILE *_File);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fcloseall(void);
+
+
+
+  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _fdopen(int _FileHandle,const char *_Mode);
+
+  int __attribute__((__cdecl__)) feof(FILE *_File);
+  int __attribute__((__cdecl__)) ferror(FILE *_File);
+  int __attribute__((__cdecl__)) fflush(FILE *_File);
+  int __attribute__((__cdecl__)) fgetc(FILE *_File);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fgetchar(void);
+  int __attribute__((__cdecl__)) fgetpos(FILE * __restrict__ _File ,fpos_t * __restrict__ _Pos);
+  int __attribute__((__cdecl__)) fgetpos64(FILE * __restrict__ _File ,fpos_t * __restrict__ _Pos);
+  char *__attribute__((__cdecl__)) fgets(char * __restrict__ _Buf,int _MaxCount,FILE * __restrict__ _File);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fileno(FILE *_File);
+
+
+
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _tempnam(const char *_DirName,const char *_FilePrefix);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _flushall(void);
+  FILE *__attribute__((__cdecl__)) fopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode) ;
+  FILE *fopen64(const char * __restrict__ filename,const char * __restrict__ mode);
+  int __attribute__((__cdecl__)) fputc(int _Ch,FILE *_File);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fputchar(int _Ch);
+  int __attribute__((__cdecl__)) fputs(const char * __restrict__ _Str,FILE * __restrict__ _File);
+  size_t __attribute__((__cdecl__)) fread(void * __restrict__ _DstBuf,size_t _ElementSize,size_t _Count,FILE * __restrict__ _File);
+  FILE *__attribute__((__cdecl__)) freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) ;
+  int __attribute__((__cdecl__)) fsetpos(FILE *_File,const fpos_t *_Pos);
+  int __attribute__((__cdecl__)) fsetpos64(FILE *_File,const fpos_t *_Pos);
+  int __attribute__((__cdecl__)) fseek(FILE *_File,long _Offset,int _Origin);
+  long __attribute__((__cdecl__)) ftell(FILE *_File);
+# 631 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+  __extension__ int __attribute__((__cdecl__)) _fseeki64(FILE *_File,long _Offset,int _Origin);
+  __extension__ long __attribute__((__cdecl__)) _ftelli64(FILE *_File);
+  int fseeko64(FILE* stream, _off64_t offset, int whence);
+  int fseeko(FILE* stream, _off_t offset, int whence);
+
+  _off_t ftello(FILE * stream);
+  _off64_t ftello64(FILE * stream);
+# 654 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+  size_t __attribute__((__cdecl__)) fwrite(const void * __restrict__ _Str,size_t _Size,size_t _Count,FILE * __restrict__ _File);
+  int __attribute__((__cdecl__)) getc(FILE *_File);
+  int __attribute__((__cdecl__)) getchar(void);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _getmaxstdio(void);
+  char *__attribute__((__cdecl__)) gets(char *_Buffer) ;
+  int __attribute__((__cdecl__)) _getw(FILE *_File);
+
+
+  void __attribute__((__cdecl__)) perror(const char *_ErrMsg);
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _pclose(FILE *_File);
+  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _popen(const char *_Command,const char *_Mode);
+
+
+
+
+  int __attribute__((__cdecl__)) putc(int _Ch,FILE *_File);
+  int __attribute__((__cdecl__)) putchar(int _Ch);
+  int __attribute__((__cdecl__)) puts(const char *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putw(int _Word,FILE *_File);
+
+
+  int __attribute__((__cdecl__)) remove(const char *_Filename);
+  int __attribute__((__cdecl__)) rename(const char *_OldFilename,const char *_NewFilename);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _unlink(const char *_Filename);
+
+  int __attribute__((__cdecl__)) unlink(const char *_Filename) ;
+
+
+  void __attribute__((__cdecl__)) rewind(FILE *_File);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _rmtmp(void);
+  void __attribute__((__cdecl__)) setbuf(FILE * __restrict__ _File,char * __restrict__ _Buffer) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _setmaxstdio(int _Max);
+  __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) _set_output_format(unsigned int _Format);
+  __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) _get_output_format(void);
+  int __attribute__((__cdecl__)) setvbuf(FILE * __restrict__ _File,char * __restrict__ _Buf,int _Mode,size_t _Size);
+# 712 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _scprintf(const char * __restrict__ _Format,...);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snscanf(const char * __restrict__ _Src,size_t _MaxCount,const char * __restrict__ _Format,...) ;
+
+  FILE *__attribute__((__cdecl__)) tmpfile(void) ;
+  char *__attribute__((__cdecl__)) tmpnam(char *_Buffer);
+  int __attribute__((__cdecl__)) ungetc(int _Ch,FILE *_File);
+# 734 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+  __attribute__((__format__ (ms_printf, 3, 4))) __attribute__ ((__nonnull__ (3)))
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snprintf(char * __restrict__ _Dest,size_t _Count,const char * __restrict__ _Format,...) ;
+  __attribute__((__format__ (ms_printf, 3, 0))) __attribute__ ((__nonnull__ (3)))
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vsnprintf(char * __restrict__ _Dest,size_t _Count,const char * __restrict__ _Format,va_list _Args) ;
+# 811 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vscprintf(const char * __restrict__ _Format,va_list _ArgList);
+
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_printf_count_output(int _Value);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _get_printf_count_output(void);
+# 1293 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _lock_file(FILE *_File);
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _unlock_file(FILE *_File);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fclose_nolock(FILE *_File);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fflush_nolock(FILE *_File);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _fread_nolock(void * __restrict__ _DstBuf,size_t _ElementSize,size_t _Count,FILE * __restrict__ _File);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fseek_nolock(FILE *_File,long _Offset,int _Origin);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _ftell_nolock(FILE *_File);
+  __extension__ __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fseeki64_nolock(FILE *_File,long _Offset,int _Origin);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _ftelli64_nolock(FILE *_File);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _fwrite_nolock(const void * __restrict__ _DstBuf,size_t _Size,size_t _Count,FILE * __restrict__ _File);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _ungetc_nolock(int _Ch,FILE *_File);
+
+
+
+
+
+  char *__attribute__((__cdecl__)) tempnam(const char *_Directory,const char *_FilePrefix) ;
+  int __attribute__((__cdecl__)) fcloseall(void) ;
+  FILE *__attribute__((__cdecl__)) fdopen(int _FileHandle,const char *_Format) ;
+  int __attribute__((__cdecl__)) fgetchar(void) ;
+  int __attribute__((__cdecl__)) fileno(FILE *_File) ;
+  int __attribute__((__cdecl__)) flushall(void) ;
+  int __attribute__((__cdecl__)) fputchar(int _Ch) ;
+  int __attribute__((__cdecl__)) getw(FILE *_File) ;
+  int __attribute__((__cdecl__)) putw(int _Ch,FILE *_File) ;
+  int __attribute__((__cdecl__)) rmtmp(void) ;
+# 1388 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 3
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnv(int _Mode,const char *_Filename,const char *const *_ArgList);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnve(int _Mode,const char *_Filename,const char *const *_ArgList,const char *const *_Env);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnvp(int _Mode,const char *_Filename,const char *const *_ArgList);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnvpe(int _Mode,const char *_Filename,const char *const *_ArgList,const char *const *_Env);
+
+
+
+}
+
+
+#pragma pack(pop)
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\sec_api/stdio_s.h" 1 3
+
+
+
+
+
+
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 1 3
+# 10 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\sec_api/stdio_s.h" 2 3
+# 1401 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 2 3
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw_print_pop.h" 1 3
+# 1403 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdio.h" 2 3
+# 13 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\locale.h" 2 3
+
+
+#pragma pack(push,_CRT_PACKING)
+
+
+extern "C" {
+# 45 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\locale.h" 3
+  struct lconv {
+    char *decimal_point;
+    char *thousands_sep;
+    char *grouping;
+    char *int_curr_symbol;
+    char *currency_symbol;
+    char *mon_decimal_point;
+    char *mon_thousands_sep;
+    char *mon_grouping;
+    char *positive_sign;
+    char *negative_sign;
+    char int_frac_digits;
+    char frac_digits;
+    char p_cs_precedes;
+    char p_sep_by_space;
+    char n_cs_precedes;
+    char n_sep_by_space;
+    char p_sign_posn;
+    char n_sign_posn;
+  };
+# 79 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\locale.h" 3
+  int __attribute__((__cdecl__)) _configthreadlocale(int _Flag);
+  char *__attribute__((__cdecl__)) setlocale(int _Category,const char *_Locale);
+  __attribute__ ((__dllimport__)) struct lconv *__attribute__((__cdecl__)) localeconv(void);
+  __attribute__ ((__dllimport__)) _locale_t __attribute__((__cdecl__)) _get_current_locale(void);
+  _locale_t __attribute__((__cdecl__)) _create_locale(int _Category,const char *_Locale);
+  void __attribute__((__cdecl__)) _free_locale(_locale_t _Locale);
+  _locale_t __attribute__((__cdecl__)) __get_current_locale(void);
+  _locale_t __attribute__((__cdecl__)) __create_locale(int _Category,const char *_Locale);
+  void __attribute__((__cdecl__)) __free_locale(_locale_t _Locale);
 
 
 
@@ -15107,7 +15596,10 @@ extern locale_t uselocale (locale_t __dataset) throw ();
 
 
 }
-# 43 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/clocale" 2 3
+
+
+#pragma pack(pop)
+# 43 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\clocale" 2 3
 
 
 
@@ -15122,182 +15614,125 @@ namespace std
   using ::setlocale;
   using ::localeconv;
 }
-# 42 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++locale.h" 2 3
+# 42 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++locale.h" 2 3
 
 
 
-
-
-
-namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
-  extern "C" __typeof(uselocale) __uselocale;
-
-
-}
-
-
-namespace std __attribute__ ((__visibility__ ("default")))
-{
-
-
-  typedef __locale_t __c_locale;
+  typedef int* __c_locale;
 
 
 
 
 
   inline int
-  __convert_from_v(const __c_locale& __cloc __attribute__ ((__unused__)),
-     char* __out,
-     const int __size __attribute__ ((__unused__)),
+  __convert_from_v(const __c_locale&, char* __out,
+     const int __size __attribute__((__unused__)),
      const char* __fmt, ...)
   {
+    char* __old = std::setlocale(4, 0);
+    char* __sav = 0;
+    if (__builtin_strcmp(__old, "C"))
+      {
+ const size_t __len = __builtin_strlen(__old) + 1;
+ __sav = new char[__len];
+ __builtin_memcpy(__sav, __old, __len);
+ std::setlocale(4, "C");
+      }
 
-    __c_locale __old = __gnu_cxx::__uselocale(__cloc);
-# 88 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++locale.h" 3
     __builtin_va_list __args;
     __builtin_va_start(__args, __fmt);
 
 
-    const int __ret = __builtin_vsnprintf(__out, __size, __fmt, __args);
+    const int __ret = __mingw_vsnprintf(__out, __size, __fmt, __args);
 
 
 
 
     __builtin_va_end(__args);
 
-
-    __gnu_cxx::__uselocale(__old);
-
-
-
-
-
-
-
+    if (__sav)
+      {
+ std::setlocale(4, __sav);
+ delete [] __sav;
+      }
     return __ret;
   }
 
 
 }
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/localefwd.h" 2 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/localefwd.h" 2 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cctype" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cctype" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cctype" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cctype" 3
 
 
-# 1 "/usr/include/ctype.h" 1 3 4
-# 28 "/usr/include/ctype.h" 3 4
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\ctype.h" 1 3
+# 12 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\ctype.h" 3
 extern "C" {
-# 39 "/usr/include/ctype.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/endian.h" 1 3 4
-# 35 "/usr/include/x86_64-linux-gnu/bits/endian.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/endianness.h" 1 3 4
-# 36 "/usr/include/x86_64-linux-gnu/bits/endian.h" 2 3 4
-# 40 "/usr/include/ctype.h" 2 3 4
+# 80 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\ctype.h" 3
+  extern const unsigned char __newclmap[];
+  extern const unsigned char __newcumap[];
+  extern pthreadlocinfo __ptlocinfo;
+  extern pthreadmbcinfo __ptmbcinfo;
+  extern int __globallocalestatus;
+  extern int __locale_changed;
+  extern struct threadlocaleinfostruct __initiallocinfo;
+  extern _locale_tstruct __initiallocalestructinfo;
+  pthreadlocinfo __attribute__((__cdecl__)) __updatetlocinfo(void);
+  pthreadmbcinfo __attribute__((__cdecl__)) __updatetmbcinfo(void);
+# 108 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\ctype.h" 3
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isctype(int _C,int _Type);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isctype_l(int _C,int _Type,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isalpha(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isalpha_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isupper(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isupper_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) islower(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _islower_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isdigit(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isdigit_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isxdigit(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isxdigit_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isspace(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isspace_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ispunct(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _ispunct_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isalnum(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isalnum_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isprint(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isprint_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isgraph(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isgraph_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) iscntrl(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iscntrl_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) toupper(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) tolower(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _tolower(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _tolower_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _toupper(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _toupper_l(int _C,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __isascii(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __toascii(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __iscsymf(int _C);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __iscsym(int _C);
+
+
+int __attribute__((__cdecl__)) isblank(int _C);
+# 203 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\ctype.h" 3
+  extern int * __imp___mb_cur_max;
 
 
 
 
-
-
-enum
-{
-  _ISupper = ((0) < 8 ? ((1 << (0)) << 8) : ((1 << (0)) >> 8)),
-  _ISlower = ((1) < 8 ? ((1 << (1)) << 8) : ((1 << (1)) >> 8)),
-  _ISalpha = ((2) < 8 ? ((1 << (2)) << 8) : ((1 << (2)) >> 8)),
-  _ISdigit = ((3) < 8 ? ((1 << (3)) << 8) : ((1 << (3)) >> 8)),
-  _ISxdigit = ((4) < 8 ? ((1 << (4)) << 8) : ((1 << (4)) >> 8)),
-  _ISspace = ((5) < 8 ? ((1 << (5)) << 8) : ((1 << (5)) >> 8)),
-  _ISprint = ((6) < 8 ? ((1 << (6)) << 8) : ((1 << (6)) >> 8)),
-  _ISgraph = ((7) < 8 ? ((1 << (7)) << 8) : ((1 << (7)) >> 8)),
-  _ISblank = ((8) < 8 ? ((1 << (8)) << 8) : ((1 << (8)) >> 8)),
-  _IScntrl = ((9) < 8 ? ((1 << (9)) << 8) : ((1 << (9)) >> 8)),
-  _ISpunct = ((10) < 8 ? ((1 << (10)) << 8) : ((1 << (10)) >> 8)),
-  _ISalnum = ((11) < 8 ? ((1 << (11)) << 8) : ((1 << (11)) >> 8))
-};
-# 79 "/usr/include/ctype.h" 3 4
-extern const unsigned short int **__ctype_b_loc (void)
-     throw () __attribute__ ((__const__));
-extern const __int32_t **__ctype_tolower_loc (void)
-     throw () __attribute__ ((__const__));
-extern const __int32_t **__ctype_toupper_loc (void)
-     throw () __attribute__ ((__const__));
-# 108 "/usr/include/ctype.h" 3 4
-extern int isalnum (int) throw ();
-extern int isalpha (int) throw ();
-extern int iscntrl (int) throw ();
-extern int isdigit (int) throw ();
-extern int islower (int) throw ();
-extern int isgraph (int) throw ();
-extern int isprint (int) throw ();
-extern int ispunct (int) throw ();
-extern int isspace (int) throw ();
-extern int isupper (int) throw ();
-extern int isxdigit (int) throw ();
-
-
-
-extern int tolower (int __c) throw ();
-
-
-extern int toupper (int __c) throw ();
-
-
-
-
-extern int isblank (int) throw ();
-
-
-
-
-extern int isctype (int __c, int __mask) throw ();
-
-
-
-
-
-
-extern int isascii (int __c) throw ();
-
-
-
-extern int toascii (int __c) throw ();
-
-
-
-extern int _toupper (int) throw ();
-extern int _tolower (int) throw ();
-# 251 "/usr/include/ctype.h" 3 4
-extern int isalnum_l (int, locale_t) throw ();
-extern int isalpha_l (int, locale_t) throw ();
-extern int iscntrl_l (int, locale_t) throw ();
-extern int isdigit_l (int, locale_t) throw ();
-extern int islower_l (int, locale_t) throw ();
-extern int isgraph_l (int, locale_t) throw ();
-extern int isprint_l (int, locale_t) throw ();
-extern int ispunct_l (int, locale_t) throw ();
-extern int isspace_l (int, locale_t) throw ();
-extern int isupper_l (int, locale_t) throw ();
-extern int isxdigit_l (int, locale_t) throw ();
-
-extern int isblank_l (int, locale_t) throw ();
-
-
-
-extern int __tolower_l (int __c, locale_t __l) throw ();
-extern int tolower_l (int __c, locale_t __l) throw ();
-
-
-extern int __toupper_l (int __c, locale_t __l) throw ();
-extern int toupper_l (int __c, locale_t __l) throw ();
-# 327 "/usr/include/ctype.h" 3 4
+__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_func(void);
+# 286 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\ctype.h" 3
 }
-# 43 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cctype" 2 3
-# 62 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cctype" 3
+# 43 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cctype" 2 3
+# 62 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cctype" 3
 namespace std
 {
   using ::isalnum;
@@ -15325,11 +15760,11 @@ namespace std
 {
   using ::isblank;
 }
-# 43 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/localefwd.h" 2 3
+# 43 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/localefwd.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 55 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/localefwd.h" 3
+# 55 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/localefwd.h" 3
   class locale;
 
   template<typename _Facet>
@@ -15480,1618 +15915,104 @@ namespace __cxx11 {
 
 
 }
-# 42 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ios" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 42 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ios" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/atomicity.h" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/atomicity.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/atomicity.h" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/atomicity.h" 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr.h" 1 3
-# 30 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr.h" 1 3
+# 30 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr.h" 3
 #pragma GCC visibility push(default)
-# 148 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr.h" 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr-default.h" 1 3
-# 35 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr-default.h" 3
-# 1 "/usr/include/pthread.h" 1 3 4
-# 22 "/usr/include/pthread.h" 3 4
-# 1 "/usr/include/sched.h" 1 3 4
-# 29 "/usr/include/sched.h" 3 4
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 1 3 4
-# 30 "/usr/include/sched.h" 2 3 4
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/time_t.h" 1 3 4
-
-
-
-
-
-
-typedef __time_t time_t;
-# 32 "/usr/include/sched.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 1 3 4
-# 10 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 3 4
-struct timespec
-{
-  __time_t tv_sec;
-
-
-
-  __syscall_slong_t tv_nsec;
-# 26 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 3 4
-};
-# 33 "/usr/include/sched.h" 2 3 4
-
-
-
-
-
-typedef __pid_t pid_t;
-
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/sched.h" 1 3 4
-# 76 "/usr/include/x86_64-linux-gnu/bits/sched.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h" 1 3 4
-# 23 "/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h" 3 4
-struct sched_param
-{
-  int sched_priority;
-};
-# 77 "/usr/include/x86_64-linux-gnu/bits/sched.h" 2 3 4
-
-extern "C" {
-
-
-
-extern int clone (int (*__fn) (void *__arg), void *__child_stack,
-    int __flags, void *__arg, ...) throw ();
-
-
-extern int unshare (int __flags) throw ();
-
-
-extern int sched_getcpu (void) throw ();
-
-
-extern int getcpu (unsigned int *, unsigned int *) throw ();
-
-
-extern int setns (int __fd, int __nstype) throw ();
-
-
-}
-# 44 "/usr/include/sched.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/cpu-set.h" 1 3 4
-# 32 "/usr/include/x86_64-linux-gnu/bits/cpu-set.h" 3 4
-typedef unsigned long int __cpu_mask;
-
-
-
-
-
-
-typedef struct
-{
-  __cpu_mask __bits[1024 / (8 * sizeof (__cpu_mask))];
-} cpu_set_t;
-# 115 "/usr/include/x86_64-linux-gnu/bits/cpu-set.h" 3 4
-extern "C" {
-
-extern int __sched_cpucount (size_t __setsize, const cpu_set_t *__setp)
-     throw ();
-extern cpu_set_t *__sched_cpualloc (size_t __count) throw () ;
-extern void __sched_cpufree (cpu_set_t *__set) throw ();
-
-}
-# 45 "/usr/include/sched.h" 2 3 4
-
-
-
-
-
-
-extern "C" {
-
-
-extern int sched_setparam (__pid_t __pid, const struct sched_param *__param)
-     throw ();
-
-
-extern int sched_getparam (__pid_t __pid, struct sched_param *__param) throw ();
-
-
-extern int sched_setscheduler (__pid_t __pid, int __policy,
-          const struct sched_param *__param) throw ();
-
-
-extern int sched_getscheduler (__pid_t __pid) throw ();
-
-
-extern int sched_yield (void) throw ();
-
-
-extern int sched_get_priority_max (int __algorithm) throw ();
-
-
-extern int sched_get_priority_min (int __algorithm) throw ();
-
-
-extern int sched_rr_get_interval (__pid_t __pid, struct timespec *__t) throw ();
-# 121 "/usr/include/sched.h" 3 4
-extern int sched_setaffinity (__pid_t __pid, size_t __cpusetsize,
-         const cpu_set_t *__cpuset) throw ();
-
-
-extern int sched_getaffinity (__pid_t __pid, size_t __cpusetsize,
-         cpu_set_t *__cpuset) throw ();
-
-
-}
-# 23 "/usr/include/pthread.h" 2 3 4
-# 1 "/usr/include/time.h" 1 3 4
-# 29 "/usr/include/time.h" 3 4
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 1 3 4
-# 30 "/usr/include/time.h" 2 3 4
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/time.h" 1 3 4
-# 73 "/usr/include/x86_64-linux-gnu/bits/time.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/timex.h" 1 3 4
-# 22 "/usr/include/x86_64-linux-gnu/bits/timex.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h" 1 3 4
-
-
-
-
-
-
-
-struct timeval
-{
-  __time_t tv_sec;
-  __suseconds_t tv_usec;
-};
-# 23 "/usr/include/x86_64-linux-gnu/bits/timex.h" 2 3 4
-
-
-
-struct timex
-{
-  unsigned int modes;
-  __syscall_slong_t offset;
-  __syscall_slong_t freq;
-  __syscall_slong_t maxerror;
-  __syscall_slong_t esterror;
-  int status;
-  __syscall_slong_t constant;
-  __syscall_slong_t precision;
-  __syscall_slong_t tolerance;
-  struct timeval time;
-  __syscall_slong_t tick;
-  __syscall_slong_t ppsfreq;
-  __syscall_slong_t jitter;
-  int shift;
-  __syscall_slong_t stabil;
-  __syscall_slong_t jitcnt;
-  __syscall_slong_t calcnt;
-  __syscall_slong_t errcnt;
-  __syscall_slong_t stbcnt;
-
-  int tai;
-
-
-  int :32; int :32; int :32; int :32;
-  int :32; int :32; int :32; int :32;
-  int :32; int :32; int :32;
-};
-# 74 "/usr/include/x86_64-linux-gnu/bits/time.h" 2 3 4
-
-extern "C" {
-
-
-extern int clock_adjtime (__clockid_t __clock_id, struct timex *__utx) throw ();
-
-}
-# 34 "/usr/include/time.h" 2 3 4
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/clock_t.h" 1 3 4
-
-
-
-
-
-
-typedef __clock_t clock_t;
-# 38 "/usr/include/time.h" 2 3 4
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h" 1 3 4
-
-
-
-
-
-
-struct tm
-{
-  int tm_sec;
-  int tm_min;
-  int tm_hour;
-  int tm_mday;
-  int tm_mon;
-  int tm_year;
-  int tm_wday;
-  int tm_yday;
-  int tm_isdst;
-
-
-  long int tm_gmtoff;
-  const char *tm_zone;
-
-
-
-
-};
-# 40 "/usr/include/time.h" 2 3 4
-
-
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h" 1 3 4
-
-
-
-
-
-
-typedef __clockid_t clockid_t;
-# 47 "/usr/include/time.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/timer_t.h" 1 3 4
-
-
-
-
-
-
-typedef __timer_t timer_t;
-# 48 "/usr/include/time.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h" 1 3 4
-
-
-
-
-
-
-
-struct itimerspec
-  {
-    struct timespec it_interval;
-    struct timespec it_value;
-  };
-# 49 "/usr/include/time.h" 2 3 4
-struct sigevent;
-# 68 "/usr/include/time.h" 3 4
-extern "C" {
-
-
-
-extern clock_t clock (void) throw ();
-
-
-extern time_t time (time_t *__timer) throw ();
-
-
-extern double difftime (time_t __time1, time_t __time0)
-     throw () __attribute__ ((__const__));
-
-
-extern time_t mktime (struct tm *__tp) throw ();
-
-
-
-
-
-extern size_t strftime (char *__restrict __s, size_t __maxsize,
-   const char *__restrict __format,
-   const struct tm *__restrict __tp) throw ();
-
-
-
-
-extern char *strptime (const char *__restrict __s,
-         const char *__restrict __fmt, struct tm *__tp)
-     throw ();
-
-
-
-
-
-
-extern size_t strftime_l (char *__restrict __s, size_t __maxsize,
-     const char *__restrict __format,
-     const struct tm *__restrict __tp,
-     locale_t __loc) throw ();
-
-
-
-extern char *strptime_l (const char *__restrict __s,
-    const char *__restrict __fmt, struct tm *__tp,
-    locale_t __loc) throw ();
-
-
-
-
-
-extern struct tm *gmtime (const time_t *__timer) throw ();
-
-
-
-extern struct tm *localtime (const time_t *__timer) throw ();
-
-
-
-
-extern struct tm *gmtime_r (const time_t *__restrict __timer,
-       struct tm *__restrict __tp) throw ();
-
-
-
-extern struct tm *localtime_r (const time_t *__restrict __timer,
-          struct tm *__restrict __tp) throw ();
-
-
-
-
-extern char *asctime (const struct tm *__tp) throw ();
-
-
-extern char *ctime (const time_t *__timer) throw ();
-
-
-
-
-
-
-extern char *asctime_r (const struct tm *__restrict __tp,
-   char *__restrict __buf) throw ();
-
-
-extern char *ctime_r (const time_t *__restrict __timer,
-        char *__restrict __buf) throw ();
-
-
-
-
-extern char *__tzname[2];
-extern int __daylight;
-extern long int __timezone;
-
-
-
-
-extern char *tzname[2];
-
-
-
-extern void tzset (void) throw ();
-
-
-
-extern int daylight;
-extern long int timezone;
-# 190 "/usr/include/time.h" 3 4
-extern time_t timegm (struct tm *__tp) throw ();
-
-
-extern time_t timelocal (struct tm *__tp) throw ();
-
-
-extern int dysize (int __year) throw () __attribute__ ((__const__));
-# 205 "/usr/include/time.h" 3 4
-extern int nanosleep (const struct timespec *__requested_time,
-        struct timespec *__remaining);
-
-
-
-extern int clock_getres (clockid_t __clock_id, struct timespec *__res) throw ();
-
-
-extern int clock_gettime (clockid_t __clock_id, struct timespec *__tp) throw ();
-
-
-extern int clock_settime (clockid_t __clock_id, const struct timespec *__tp)
-     throw ();
-
-
-
-
-
-
-extern int clock_nanosleep (clockid_t __clock_id, int __flags,
-       const struct timespec *__req,
-       struct timespec *__rem);
-
-
-extern int clock_getcpuclockid (pid_t __pid, clockid_t *__clock_id) throw ();
-
-
-
-
-extern int timer_create (clockid_t __clock_id,
-    struct sigevent *__restrict __evp,
-    timer_t *__restrict __timerid) throw ();
-
-
-extern int timer_delete (timer_t __timerid) throw ();
-
-
-extern int timer_settime (timer_t __timerid, int __flags,
-     const struct itimerspec *__restrict __value,
-     struct itimerspec *__restrict __ovalue) throw ();
-
-
-extern int timer_gettime (timer_t __timerid, struct itimerspec *__value)
-     throw ();
-
-
-extern int timer_getoverrun (timer_t __timerid) throw ();
-
-
-
-
-
-extern int timespec_get (struct timespec *__ts, int __base)
-     throw () __attribute__ ((__nonnull__ (1)));
-# 274 "/usr/include/time.h" 3 4
-extern int getdate_err;
-# 283 "/usr/include/time.h" 3 4
-extern struct tm *getdate (const char *__string);
-# 297 "/usr/include/time.h" 3 4
-extern int getdate_r (const char *__restrict __string,
-        struct tm *__restrict __resbufp);
-
-
-}
-# 24 "/usr/include/pthread.h" 2 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 1 3 4
-# 23 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 1 3 4
-# 44 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 1 3 4
-# 21 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 22 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 2 3 4
-# 45 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
-
-
-
-
-typedef struct __pthread_internal_list
-{
-  struct __pthread_internal_list *__prev;
-  struct __pthread_internal_list *__next;
-} __pthread_list_t;
-
-typedef struct __pthread_internal_slist
-{
-  struct __pthread_internal_slist *__next;
-} __pthread_slist_t;
-# 74 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 1 3 4
-# 22 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 3 4
-struct __pthread_mutex_s
-{
-  int __lock;
-  unsigned int __count;
-  int __owner;
-
-  unsigned int __nusers;
-
-
-
-  int __kind;
-
-  short __spins;
-  short __elision;
-  __pthread_list_t __list;
-# 53 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 3 4
-};
-# 75 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
-# 87 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 1 3 4
-# 23 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 3 4
-struct __pthread_rwlock_arch_t
-{
-  unsigned int __readers;
-  unsigned int __writers;
-  unsigned int __wrphase_futex;
-  unsigned int __writers_futex;
-  unsigned int __pad3;
-  unsigned int __pad4;
-
-  int __cur_writer;
-  int __shared;
-  signed char __rwelision;
-
-
-
-
-  unsigned char __pad1[7];
-
-
-  unsigned long int __pad2;
-
-
-  unsigned int __flags;
-# 55 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 3 4
-};
-# 88 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
-
-
-
-
-struct __pthread_cond_s
-{
-  __extension__ union
-  {
-    __extension__ unsigned long long int __wseq;
-    struct
-    {
-      unsigned int __low;
-      unsigned int __high;
-    } __wseq32;
-  };
-  __extension__ union
-  {
-    __extension__ unsigned long long int __g1_start;
-    struct
-    {
-      unsigned int __low;
-      unsigned int __high;
-    } __g1_start32;
-  };
-  unsigned int __g_refs[2] ;
-  unsigned int __g_size[2];
-  unsigned int __g1_orig_size;
-  unsigned int __wrefs;
-  unsigned int __g_signals[2];
-};
-# 24 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 2 3 4
-
-
-
-typedef unsigned long int pthread_t;
-
-
-
-
-typedef union
-{
-  char __size[4];
-  int __align;
-} pthread_mutexattr_t;
-
-
-
-
-typedef union
-{
-  char __size[4];
-  int __align;
-} pthread_condattr_t;
-
-
-
-typedef unsigned int pthread_key_t;
-
-
-
-typedef int pthread_once_t;
-
-
-union pthread_attr_t
-{
-  char __size[56];
-  long int __align;
-};
-
-typedef union pthread_attr_t pthread_attr_t;
-
-
-
-
-typedef union
-{
-  struct __pthread_mutex_s __data;
-  char __size[40];
-  long int __align;
-} pthread_mutex_t;
-
-
-typedef union
-{
-  struct __pthread_cond_s __data;
-  char __size[48];
-  __extension__ long long int __align;
-} pthread_cond_t;
-
-
-
-
-
-typedef union
-{
-  struct __pthread_rwlock_arch_t __data;
-  char __size[56];
-  long int __align;
-} pthread_rwlock_t;
-
-typedef union
-{
-  char __size[8];
-  long int __align;
-} pthread_rwlockattr_t;
-
-
-
-
-
-typedef volatile int pthread_spinlock_t;
-
-
-
-
-typedef union
-{
-  char __size[32];
-  long int __align;
-} pthread_barrier_t;
-
-typedef union
-{
-  char __size[4];
-  int __align;
-} pthread_barrierattr_t;
-# 27 "/usr/include/pthread.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/setjmp.h" 1 3 4
-# 26 "/usr/include/x86_64-linux-gnu/bits/setjmp.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 27 "/usr/include/x86_64-linux-gnu/bits/setjmp.h" 2 3 4
-
-
-
-
-typedef long int __jmp_buf[8];
-# 28 "/usr/include/pthread.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 29 "/usr/include/pthread.h" 2 3 4
-
-
-
-
-enum
-{
-  PTHREAD_CREATE_JOINABLE,
-
-  PTHREAD_CREATE_DETACHED
-
-};
-
-
-
-enum
-{
-  PTHREAD_MUTEX_TIMED_NP,
-  PTHREAD_MUTEX_RECURSIVE_NP,
-  PTHREAD_MUTEX_ERRORCHECK_NP,
-  PTHREAD_MUTEX_ADAPTIVE_NP
-
-  ,
-  PTHREAD_MUTEX_NORMAL = PTHREAD_MUTEX_TIMED_NP,
-  PTHREAD_MUTEX_RECURSIVE = PTHREAD_MUTEX_RECURSIVE_NP,
-  PTHREAD_MUTEX_ERRORCHECK = PTHREAD_MUTEX_ERRORCHECK_NP,
-  PTHREAD_MUTEX_DEFAULT = PTHREAD_MUTEX_NORMAL
-
-
-
-  , PTHREAD_MUTEX_FAST_NP = PTHREAD_MUTEX_TIMED_NP
-
-};
-
-
-
-
-enum
-{
-  PTHREAD_MUTEX_STALLED,
-  PTHREAD_MUTEX_STALLED_NP = PTHREAD_MUTEX_STALLED,
-  PTHREAD_MUTEX_ROBUST,
-  PTHREAD_MUTEX_ROBUST_NP = PTHREAD_MUTEX_ROBUST
-};
-
-
-
-
-
-enum
-{
-  PTHREAD_PRIO_NONE,
-  PTHREAD_PRIO_INHERIT,
-  PTHREAD_PRIO_PROTECT
-};
-# 100 "/usr/include/pthread.h" 3 4
-enum
-{
-  PTHREAD_RWLOCK_PREFER_READER_NP,
-  PTHREAD_RWLOCK_PREFER_WRITER_NP,
-  PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP,
-  PTHREAD_RWLOCK_DEFAULT_NP = PTHREAD_RWLOCK_PREFER_READER_NP
-};
-# 120 "/usr/include/pthread.h" 3 4
-enum
-{
-  PTHREAD_INHERIT_SCHED,
-
-  PTHREAD_EXPLICIT_SCHED
-
-};
-
-
-
-enum
-{
-  PTHREAD_SCOPE_SYSTEM,
-
-  PTHREAD_SCOPE_PROCESS
-
-};
-
-
-
-enum
-{
-  PTHREAD_PROCESS_PRIVATE,
-
-  PTHREAD_PROCESS_SHARED
-
-};
-# 155 "/usr/include/pthread.h" 3 4
-struct _pthread_cleanup_buffer
-{
-  void (*__routine) (void *);
-  void *__arg;
-  int __canceltype;
-  struct _pthread_cleanup_buffer *__prev;
-};
-
-
-enum
-{
-  PTHREAD_CANCEL_ENABLE,
-
-  PTHREAD_CANCEL_DISABLE
-
-};
-enum
-{
-  PTHREAD_CANCEL_DEFERRED,
-
-  PTHREAD_CANCEL_ASYNCHRONOUS
-
-};
-# 193 "/usr/include/pthread.h" 3 4
+# 148 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr-default.h" 1 3
+# 69 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr-default.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\errno.h" 1 3
+# 12 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\errno.h" 3
 extern "C" {
 
 
 
 
-extern int pthread_create (pthread_t *__restrict __newthread,
-      const pthread_attr_t *__restrict __attr,
-      void *(*__start_routine) (void *),
-      void *__restrict __arg) throw () __attribute__ ((__nonnull__ (1, 3)));
+__attribute__ ((__dllimport__)) extern int *__attribute__((__cdecl__)) _errno(void);
 
 
-
-
-
-extern void pthread_exit (void *__retval) __attribute__ ((__noreturn__));
-
-
-
-
-
-
-
-extern int pthread_join (pthread_t __th, void **__thread_return);
-
-
-
-
-extern int pthread_tryjoin_np (pthread_t __th, void **__thread_return) throw ();
-
-
-
-
-
-
-
-extern int pthread_timedjoin_np (pthread_t __th, void **__thread_return,
-     const struct timespec *__abstime);
-# 238 "/usr/include/pthread.h" 3 4
-extern int pthread_clockjoin_np (pthread_t __th, void **__thread_return,
-                                 clockid_t __clockid,
-     const struct timespec *__abstime);
-
-
-
-
-
-
-extern int pthread_detach (pthread_t __th) throw ();
-
-
-
-extern pthread_t pthread_self (void) throw () __attribute__ ((__const__));
-
-
-extern int pthread_equal (pthread_t __thread1, pthread_t __thread2)
-  throw () __attribute__ ((__const__));
-
-
-
-
-
-
-
-extern int pthread_attr_init (pthread_attr_t *__attr) throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_attr_destroy (pthread_attr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_attr_getdetachstate (const pthread_attr_t *__attr,
-     int *__detachstate)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_attr_setdetachstate (pthread_attr_t *__attr,
-     int __detachstate)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_attr_getguardsize (const pthread_attr_t *__attr,
-          size_t *__guardsize)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_attr_setguardsize (pthread_attr_t *__attr,
-          size_t __guardsize)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_attr_getschedparam (const pthread_attr_t *__restrict __attr,
-           struct sched_param *__restrict __param)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_attr_setschedparam (pthread_attr_t *__restrict __attr,
-           const struct sched_param *__restrict
-           __param) throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_attr_getschedpolicy (const pthread_attr_t *__restrict
-     __attr, int *__restrict __policy)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_attr_setschedpolicy (pthread_attr_t *__attr, int __policy)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_attr_getinheritsched (const pthread_attr_t *__restrict
-      __attr, int *__restrict __inherit)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_attr_setinheritsched (pthread_attr_t *__attr,
-      int __inherit)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_attr_getscope (const pthread_attr_t *__restrict __attr,
-      int *__restrict __scope)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_attr_setscope (pthread_attr_t *__attr, int __scope)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_attr_getstackaddr (const pthread_attr_t *__restrict
-          __attr, void **__restrict __stackaddr)
-     throw () __attribute__ ((__nonnull__ (1, 2))) __attribute__ ((__deprecated__));
-
-
-
-
-
-extern int pthread_attr_setstackaddr (pthread_attr_t *__attr,
-          void *__stackaddr)
-     throw () __attribute__ ((__nonnull__ (1))) __attribute__ ((__deprecated__));
-
-
-extern int pthread_attr_getstacksize (const pthread_attr_t *__restrict
-          __attr, size_t *__restrict __stacksize)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-
-extern int pthread_attr_setstacksize (pthread_attr_t *__attr,
-          size_t __stacksize)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_attr_getstack (const pthread_attr_t *__restrict __attr,
-      void **__restrict __stackaddr,
-      size_t *__restrict __stacksize)
-     throw () __attribute__ ((__nonnull__ (1, 2, 3)));
-
-
-
-
-extern int pthread_attr_setstack (pthread_attr_t *__attr, void *__stackaddr,
-      size_t __stacksize) throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-extern int pthread_attr_setaffinity_np (pthread_attr_t *__attr,
-     size_t __cpusetsize,
-     const cpu_set_t *__cpuset)
-     throw () __attribute__ ((__nonnull__ (1, 3)));
-
-
-
-extern int pthread_attr_getaffinity_np (const pthread_attr_t *__attr,
-     size_t __cpusetsize,
-     cpu_set_t *__cpuset)
-     throw () __attribute__ ((__nonnull__ (1, 3)));
-
-
-extern int pthread_getattr_default_np (pthread_attr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_setattr_default_np (const pthread_attr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-extern int pthread_getattr_np (pthread_t __th, pthread_attr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (2)));
-
-
-
-
-
-
-
-extern int pthread_setschedparam (pthread_t __target_thread, int __policy,
-      const struct sched_param *__param)
-     throw () __attribute__ ((__nonnull__ (3)));
-
-
-extern int pthread_getschedparam (pthread_t __target_thread,
-      int *__restrict __policy,
-      struct sched_param *__restrict __param)
-     throw () __attribute__ ((__nonnull__ (2, 3)));
-
-
-extern int pthread_setschedprio (pthread_t __target_thread, int __prio)
-     throw ();
-
-
-
-
-extern int pthread_getname_np (pthread_t __target_thread, char *__buf,
-          size_t __buflen)
-     throw () __attribute__ ((__nonnull__ (2)));
-
-
-extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
-     throw () __attribute__ ((__nonnull__ (2)));
-
-
-
-
-
-extern int pthread_getconcurrency (void) throw ();
-
-
-extern int pthread_setconcurrency (int __level) throw ();
-
-
-
-
-
-
-
-extern int pthread_yield (void) throw ();
-
-
-
-
-extern int pthread_setaffinity_np (pthread_t __th, size_t __cpusetsize,
-       const cpu_set_t *__cpuset)
-     throw () __attribute__ ((__nonnull__ (3)));
-
-
-extern int pthread_getaffinity_np (pthread_t __th, size_t __cpusetsize,
-       cpu_set_t *__cpuset)
-     throw () __attribute__ ((__nonnull__ (3)));
-# 470 "/usr/include/pthread.h" 3 4
-extern int pthread_once (pthread_once_t *__once_control,
-    void (*__init_routine) (void)) __attribute__ ((__nonnull__ (1, 2)));
-# 482 "/usr/include/pthread.h" 3 4
-extern int pthread_setcancelstate (int __state, int *__oldstate);
-
-
-
-extern int pthread_setcanceltype (int __type, int *__oldtype);
-
-
-extern int pthread_cancel (pthread_t __th);
-
-
-
-
-extern void pthread_testcancel (void);
-
-
-
-
-typedef struct
-{
-  struct
-  {
-    __jmp_buf __cancel_jmp_buf;
-    int __mask_was_saved;
-  } __cancel_jmp_buf[1];
-  void *__pad[4];
-} __pthread_unwind_buf_t __attribute__ ((__aligned__));
-# 516 "/usr/include/pthread.h" 3 4
-struct __pthread_cleanup_frame
-{
-  void (*__cancel_routine) (void *);
-  void *__cancel_arg;
-  int __do_it;
-  int __cancel_type;
-};
-# 656 "/usr/include/pthread.h" 3 4
-extern void __pthread_register_cancel (__pthread_unwind_buf_t *__buf)
-                            ;
-# 668 "/usr/include/pthread.h" 3 4
-extern void __pthread_unregister_cancel (__pthread_unwind_buf_t *__buf)
-                         ;
-# 691 "/usr/include/pthread.h" 3 4
-extern void __pthread_register_cancel_defer (__pthread_unwind_buf_t *__buf)
-                            ;
-# 704 "/usr/include/pthread.h" 3 4
-extern void __pthread_unregister_cancel_restore (__pthread_unwind_buf_t *__buf)
-                         ;
-
-
-
-extern void __pthread_unwind_next (__pthread_unwind_buf_t *__buf)
-                             __attribute__ ((__noreturn__))
-
-     __attribute__ ((__weak__))
-
-     ;
-
-
-
-struct __jmp_buf_tag;
-extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) throw ();
-
-
-
-
-
-extern int pthread_mutex_init (pthread_mutex_t *__mutex,
-          const pthread_mutexattr_t *__mutexattr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_mutex_destroy (pthread_mutex_t *__mutex)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_mutex_trylock (pthread_mutex_t *__mutex)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_mutex_lock (pthread_mutex_t *__mutex)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_mutex_timedlock (pthread_mutex_t *__restrict __mutex,
-        const struct timespec *__restrict
-        __abstime) throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-extern int pthread_mutex_clocklock (pthread_mutex_t *__restrict __mutex,
-        clockid_t __clockid,
-        const struct timespec *__restrict
-        __abstime) throw () __attribute__ ((__nonnull__ (1, 3)));
-
-
-
-extern int pthread_mutex_unlock (pthread_mutex_t *__mutex)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_mutex_getprioceiling (const pthread_mutex_t *
-      __restrict __mutex,
-      int *__restrict __prioceiling)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-extern int pthread_mutex_setprioceiling (pthread_mutex_t *__restrict __mutex,
-      int __prioceiling,
-      int *__restrict __old_ceiling)
-     throw () __attribute__ ((__nonnull__ (1, 3)));
-
-
-
-
-extern int pthread_mutex_consistent (pthread_mutex_t *__mutex)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-extern int pthread_mutex_consistent_np (pthread_mutex_t *__mutex)
-     throw () __attribute__ ((__nonnull__ (1)));
-# 789 "/usr/include/pthread.h" 3 4
-extern int pthread_mutexattr_init (pthread_mutexattr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_mutexattr_destroy (pthread_mutexattr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_mutexattr_getpshared (const pthread_mutexattr_t *
-      __restrict __attr,
-      int *__restrict __pshared)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_mutexattr_setpshared (pthread_mutexattr_t *__attr,
-      int __pshared)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_mutexattr_gettype (const pthread_mutexattr_t *__restrict
-          __attr, int *__restrict __kind)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-
-extern int pthread_mutexattr_settype (pthread_mutexattr_t *__attr, int __kind)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_mutexattr_getprotocol (const pthread_mutexattr_t *
-       __restrict __attr,
-       int *__restrict __protocol)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-extern int pthread_mutexattr_setprotocol (pthread_mutexattr_t *__attr,
-       int __protocol)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_mutexattr_getprioceiling (const pthread_mutexattr_t *
-          __restrict __attr,
-          int *__restrict __prioceiling)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_mutexattr_setprioceiling (pthread_mutexattr_t *__attr,
-          int __prioceiling)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_mutexattr_getrobust (const pthread_mutexattr_t *__attr,
-     int *__robustness)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-extern int pthread_mutexattr_getrobust_np (const pthread_mutexattr_t *__attr,
-        int *__robustness)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-extern int pthread_mutexattr_setrobust (pthread_mutexattr_t *__attr,
-     int __robustness)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-extern int pthread_mutexattr_setrobust_np (pthread_mutexattr_t *__attr,
-        int __robustness)
-     throw () __attribute__ ((__nonnull__ (1)));
-# 871 "/usr/include/pthread.h" 3 4
-extern int pthread_rwlock_init (pthread_rwlock_t *__restrict __rwlock,
-    const pthread_rwlockattr_t *__restrict
-    __attr) throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_rwlock_destroy (pthread_rwlock_t *__rwlock)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_rwlock_rdlock (pthread_rwlock_t *__rwlock)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_rwlock_tryrdlock (pthread_rwlock_t *__rwlock)
-  throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_rwlock_timedrdlock (pthread_rwlock_t *__restrict __rwlock,
-           const struct timespec *__restrict
-           __abstime) throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-extern int pthread_rwlock_clockrdlock (pthread_rwlock_t *__restrict __rwlock,
-           clockid_t __clockid,
-           const struct timespec *__restrict
-           __abstime) throw () __attribute__ ((__nonnull__ (1, 3)));
-
-
-
-extern int pthread_rwlock_wrlock (pthread_rwlock_t *__rwlock)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_rwlock_trywrlock (pthread_rwlock_t *__rwlock)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_rwlock_timedwrlock (pthread_rwlock_t *__restrict __rwlock,
-           const struct timespec *__restrict
-           __abstime) throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-extern int pthread_rwlock_clockwrlock (pthread_rwlock_t *__restrict __rwlock,
-           clockid_t __clockid,
-           const struct timespec *__restrict
-           __abstime) throw () __attribute__ ((__nonnull__ (1, 3)));
-
-
-
-extern int pthread_rwlock_unlock (pthread_rwlock_t *__rwlock)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-extern int pthread_rwlockattr_init (pthread_rwlockattr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_rwlockattr_destroy (pthread_rwlockattr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_rwlockattr_getpshared (const pthread_rwlockattr_t *
-       __restrict __attr,
-       int *__restrict __pshared)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_rwlockattr_setpshared (pthread_rwlockattr_t *__attr,
-       int __pshared)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_rwlockattr_getkind_np (const pthread_rwlockattr_t *
-       __restrict __attr,
-       int *__restrict __pref)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_rwlockattr_setkind_np (pthread_rwlockattr_t *__attr,
-       int __pref) throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-
-
-extern int pthread_cond_init (pthread_cond_t *__restrict __cond,
-         const pthread_condattr_t *__restrict __cond_attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_cond_destroy (pthread_cond_t *__cond)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_cond_signal (pthread_cond_t *__cond)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_cond_broadcast (pthread_cond_t *__cond)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-
-extern int pthread_cond_wait (pthread_cond_t *__restrict __cond,
-         pthread_mutex_t *__restrict __mutex)
-     __attribute__ ((__nonnull__ (1, 2)));
-# 997 "/usr/include/pthread.h" 3 4
-extern int pthread_cond_timedwait (pthread_cond_t *__restrict __cond,
-       pthread_mutex_t *__restrict __mutex,
-       const struct timespec *__restrict __abstime)
-     __attribute__ ((__nonnull__ (1, 2, 3)));
-# 1010 "/usr/include/pthread.h" 3 4
-extern int pthread_cond_clockwait (pthread_cond_t *__restrict __cond,
-       pthread_mutex_t *__restrict __mutex,
-       __clockid_t __clock_id,
-       const struct timespec *__restrict __abstime)
-     __attribute__ ((__nonnull__ (1, 2, 4)));
-
-
-
-
-
-extern int pthread_condattr_init (pthread_condattr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_condattr_destroy (pthread_condattr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_condattr_getpshared (const pthread_condattr_t *
-     __restrict __attr,
-     int *__restrict __pshared)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_condattr_setpshared (pthread_condattr_t *__attr,
-     int __pshared) throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_condattr_getclock (const pthread_condattr_t *
-          __restrict __attr,
-          __clockid_t *__restrict __clock_id)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_condattr_setclock (pthread_condattr_t *__attr,
-          __clockid_t __clock_id)
-     throw () __attribute__ ((__nonnull__ (1)));
-# 1056 "/usr/include/pthread.h" 3 4
-extern int pthread_spin_init (pthread_spinlock_t *__lock, int __pshared)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_spin_destroy (pthread_spinlock_t *__lock)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_spin_lock (pthread_spinlock_t *__lock)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_spin_trylock (pthread_spinlock_t *__lock)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_spin_unlock (pthread_spinlock_t *__lock)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-
-extern int pthread_barrier_init (pthread_barrier_t *__restrict __barrier,
-     const pthread_barrierattr_t *__restrict
-     __attr, unsigned int __count)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_barrier_destroy (pthread_barrier_t *__barrier)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_barrier_wait (pthread_barrier_t *__barrier)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int pthread_barrierattr_init (pthread_barrierattr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_barrierattr_destroy (pthread_barrierattr_t *__attr)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_barrierattr_getpshared (const pthread_barrierattr_t *
-        __restrict __attr,
-        int *__restrict __pshared)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int pthread_barrierattr_setpshared (pthread_barrierattr_t *__attr,
-        int __pshared)
-     throw () __attribute__ ((__nonnull__ (1)));
-# 1123 "/usr/include/pthread.h" 3 4
-extern int pthread_key_create (pthread_key_t *__key,
-          void (*__destr_function) (void *))
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern int pthread_key_delete (pthread_key_t __key) throw ();
-
-
-extern void *pthread_getspecific (pthread_key_t __key) throw ();
-
-
-extern int pthread_setspecific (pthread_key_t __key,
-    const void *__pointer) throw () ;
-
-
-
-
-extern int pthread_getcpuclockid (pthread_t __thread_id,
-      __clockid_t *__clock_id)
-     throw () __attribute__ ((__nonnull__ (2)));
-# 1157 "/usr/include/pthread.h" 3 4
-extern int pthread_atfork (void (*__prepare) (void),
-      void (*__parent) (void),
-      void (*__child) (void)) throw ();
-# 1171 "/usr/include/pthread.h" 3 4
+errno_t __attribute__((__cdecl__)) _set_errno(int _Value);
+errno_t __attribute__((__cdecl__)) _get_errno(int *_Value);
+# 239 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\errno.h" 3
 }
-# 36 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr-default.h" 2 3
-# 47 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr-default.h" 3
-typedef pthread_t __gthread_t;
-typedef pthread_key_t __gthread_key_t;
-typedef pthread_once_t __gthread_once_t;
-typedef pthread_mutex_t __gthread_mutex_t;
-typedef pthread_mutex_t __gthread_recursive_mutex_t;
-typedef pthread_cond_t __gthread_cond_t;
-typedef struct timespec __gthread_time_t;
-# 101 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr-default.h" 3
-static __typeof(pthread_once) __gthrw_pthread_once __attribute__ ((__weakref__("pthread_once")));
-static __typeof(pthread_getspecific) __gthrw_pthread_getspecific __attribute__ ((__weakref__("pthread_getspecific")));
-static __typeof(pthread_setspecific) __gthrw_pthread_setspecific __attribute__ ((__weakref__("pthread_setspecific")));
+# 70 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr-default.h" 2 3
 
-static __typeof(pthread_create) __gthrw_pthread_create __attribute__ ((__weakref__("pthread_create")));
-static __typeof(pthread_join) __gthrw_pthread_join __attribute__ ((__weakref__("pthread_join")));
-static __typeof(pthread_equal) __gthrw_pthread_equal __attribute__ ((__weakref__("pthread_equal")));
-static __typeof(pthread_self) __gthrw_pthread_self __attribute__ ((__weakref__("pthread_self")));
-static __typeof(pthread_detach) __gthrw_pthread_detach __attribute__ ((__weakref__("pthread_detach")));
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 1 3
+# 72 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr-default.h" 2 3
+# 339 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr-default.h" 3
+extern "C" {
 
-static __typeof(pthread_cancel) __gthrw_pthread_cancel __attribute__ ((__weakref__("pthread_cancel")));
 
-static __typeof(sched_yield) __gthrw_sched_yield __attribute__ ((__weakref__("sched_yield")));
+typedef unsigned long __gthread_key_t;
 
-static __typeof(pthread_mutex_lock) __gthrw_pthread_mutex_lock __attribute__ ((__weakref__("pthread_mutex_lock")));
-static __typeof(pthread_mutex_trylock) __gthrw_pthread_mutex_trylock __attribute__ ((__weakref__("pthread_mutex_trylock")));
+typedef struct {
+  int done;
+  long started;
+} __gthread_once_t;
 
-static __typeof(pthread_mutex_timedlock) __gthrw_pthread_mutex_timedlock __attribute__ ((__weakref__("pthread_mutex_timedlock")));
+typedef struct {
+  long counter;
+  void *sema;
+} __gthread_mutex_t;
 
-static __typeof(pthread_mutex_unlock) __gthrw_pthread_mutex_unlock __attribute__ ((__weakref__("pthread_mutex_unlock")));
-static __typeof(pthread_mutex_init) __gthrw_pthread_mutex_init __attribute__ ((__weakref__("pthread_mutex_init")));
-static __typeof(pthread_mutex_destroy) __gthrw_pthread_mutex_destroy __attribute__ ((__weakref__("pthread_mutex_destroy")));
-
-static __typeof(pthread_cond_init) __gthrw_pthread_cond_init __attribute__ ((__weakref__("pthread_cond_init")));
-static __typeof(pthread_cond_broadcast) __gthrw_pthread_cond_broadcast __attribute__ ((__weakref__("pthread_cond_broadcast")));
-static __typeof(pthread_cond_signal) __gthrw_pthread_cond_signal __attribute__ ((__weakref__("pthread_cond_signal")));
-static __typeof(pthread_cond_wait) __gthrw_pthread_cond_wait __attribute__ ((__weakref__("pthread_cond_wait")));
-static __typeof(pthread_cond_timedwait) __gthrw_pthread_cond_timedwait __attribute__ ((__weakref__("pthread_cond_timedwait")));
-static __typeof(pthread_cond_destroy) __gthrw_pthread_cond_destroy __attribute__ ((__weakref__("pthread_cond_destroy")));
-
-static __typeof(pthread_key_create) __gthrw_pthread_key_create __attribute__ ((__weakref__("pthread_key_create")));
-static __typeof(pthread_key_delete) __gthrw_pthread_key_delete __attribute__ ((__weakref__("pthread_key_delete")));
-static __typeof(pthread_mutexattr_init) __gthrw_pthread_mutexattr_init __attribute__ ((__weakref__("pthread_mutexattr_init")));
-static __typeof(pthread_mutexattr_settype) __gthrw_pthread_mutexattr_settype __attribute__ ((__weakref__("pthread_mutexattr_settype")));
-static __typeof(pthread_mutexattr_destroy) __gthrw_pthread_mutexattr_destroy __attribute__ ((__weakref__("pthread_mutexattr_destroy")));
-# 236 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr-default.h" 3
-static __typeof(pthread_key_create) __gthrw___pthread_key_create __attribute__ ((__weakref__("__pthread_key_create")));
-# 246 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr-default.h" 3
+typedef struct {
+  long counter;
+  long depth;
+  unsigned long owner;
+  void *sema;
+} __gthread_recursive_mutex_t;
+# 373 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr-default.h" 3
+extern int _CRT_MT;
+extern int __mingwthr_key_dtor (unsigned long, void (*) (void *));
+# 400 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr-default.h" 3
 static inline int
 __gthread_active_p (void)
 {
-  static void *const __gthread_active_ptr
-    = __extension__ (void *) &__gthrw___pthread_key_create;
-  return __gthread_active_ptr != 0;
-}
-# 658 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr-default.h" 3
-static inline int
-__gthread_create (__gthread_t *__threadid, void *(*__func) (void*),
-    void *__args)
-{
-  return __gthrw_pthread_create (__threadid, __null, __func, __args);
+
+  return _CRT_MT;
+
+
+
 }
 
-static inline int
-__gthread_join (__gthread_t __threadid, void **__value_ptr)
-{
-  return __gthrw_pthread_join (__threadid, __value_ptr);
-}
 
-static inline int
-__gthread_detach (__gthread_t __threadid)
-{
-  return __gthrw_pthread_detach (__threadid);
-}
 
-static inline int
-__gthread_equal (__gthread_t __t1, __gthread_t __t2)
-{
-  return __gthrw_pthread_equal (__t1, __t2);
-}
 
-static inline __gthread_t
-__gthread_self (void)
-{
-  return __gthrw_pthread_self ();
-}
 
-static inline int
-__gthread_yield (void)
-{
-  return __gthrw_sched_yield ();
-}
+
+
+extern int __gthr_win32_once (__gthread_once_t *, void (*) (void));
+extern int __gthr_win32_key_create (__gthread_key_t *, void (*) (void*));
+extern int __gthr_win32_key_delete (__gthread_key_t);
+extern void * __gthr_win32_getspecific (__gthread_key_t);
+extern int __gthr_win32_setspecific (__gthread_key_t, const void *);
+extern void __gthr_win32_mutex_init_function (__gthread_mutex_t *);
+extern int __gthr_win32_mutex_lock (__gthread_mutex_t *);
+extern int __gthr_win32_mutex_trylock (__gthread_mutex_t *);
+extern int __gthr_win32_mutex_unlock (__gthread_mutex_t *);
+extern void
+  __gthr_win32_recursive_mutex_init_function (__gthread_recursive_mutex_t *);
+extern int __gthr_win32_recursive_mutex_lock (__gthread_recursive_mutex_t *);
+extern int
+  __gthr_win32_recursive_mutex_trylock (__gthread_recursive_mutex_t *);
+extern int __gthr_win32_recursive_mutex_unlock (__gthread_recursive_mutex_t *);
+extern void __gthr_win32_mutex_destroy (__gthread_mutex_t *);
+extern int
+  __gthr_win32_recursive_mutex_destroy (__gthread_recursive_mutex_t *);
 
 static inline int
 __gthread_once (__gthread_once_t *__once, void (*__func) (void))
 {
   if (__gthread_active_p ())
-    return __gthrw_pthread_once (__once, __func);
+    return __gthr_win32_once (__once, __func);
   else
     return -1;
 }
@@ -17099,48 +16020,44 @@ __gthread_once (__gthread_once_t *__once, void (*__func) (void))
 static inline int
 __gthread_key_create (__gthread_key_t *__key, void (*__dtor) (void *))
 {
-  return __gthrw_pthread_key_create (__key, __dtor);
+  return __gthr_win32_key_create (__key, __dtor);
 }
 
 static inline int
 __gthread_key_delete (__gthread_key_t __key)
 {
-  return __gthrw_pthread_key_delete (__key);
+  return __gthr_win32_key_delete (__key);
 }
 
 static inline void *
 __gthread_getspecific (__gthread_key_t __key)
 {
-  return __gthrw_pthread_getspecific (__key);
+  return __gthr_win32_getspecific (__key);
 }
 
 static inline int
 __gthread_setspecific (__gthread_key_t __key, const void *__ptr)
 {
-  return __gthrw_pthread_setspecific (__key, __ptr);
+  return __gthr_win32_setspecific (__key, __ptr);
 }
 
 static inline void
 __gthread_mutex_init_function (__gthread_mutex_t *__mutex)
 {
-  if (__gthread_active_p ())
-    __gthrw_pthread_mutex_init (__mutex, __null);
+  __gthr_win32_mutex_init_function (__mutex);
 }
 
-static inline int
+static inline void
 __gthread_mutex_destroy (__gthread_mutex_t *__mutex)
 {
-  if (__gthread_active_p ())
-    return __gthrw_pthread_mutex_destroy (__mutex);
-  else
-    return 0;
+  __gthr_win32_mutex_destroy (__mutex);
 }
 
 static inline int
 __gthread_mutex_lock (__gthread_mutex_t *__mutex)
 {
   if (__gthread_active_p ())
-    return __gthrw_pthread_mutex_lock (__mutex);
+    return __gthr_win32_mutex_lock (__mutex);
   else
     return 0;
 }
@@ -17149,113 +16066,71 @@ static inline int
 __gthread_mutex_trylock (__gthread_mutex_t *__mutex)
 {
   if (__gthread_active_p ())
-    return __gthrw_pthread_mutex_trylock (__mutex);
+    return __gthr_win32_mutex_trylock (__mutex);
   else
     return 0;
 }
-
-
-static inline int
-__gthread_mutex_timedlock (__gthread_mutex_t *__mutex,
-      const __gthread_time_t *__abs_timeout)
-{
-  if (__gthread_active_p ())
-    return __gthrw_pthread_mutex_timedlock (__mutex, __abs_timeout);
-  else
-    return 0;
-}
-
 
 static inline int
 __gthread_mutex_unlock (__gthread_mutex_t *__mutex)
 {
   if (__gthread_active_p ())
-    return __gthrw_pthread_mutex_unlock (__mutex);
+    return __gthr_win32_mutex_unlock (__mutex);
   else
     return 0;
 }
-# 807 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr-default.h" 3
+
+static inline void
+__gthread_recursive_mutex_init_function (__gthread_recursive_mutex_t *__mutex)
+{
+   __gthr_win32_recursive_mutex_init_function (__mutex);
+}
+
 static inline int
 __gthread_recursive_mutex_lock (__gthread_recursive_mutex_t *__mutex)
 {
-  return __gthread_mutex_lock (__mutex);
+  if (__gthread_active_p ())
+    return __gthr_win32_recursive_mutex_lock (__mutex);
+  else
+    return 0;
 }
 
 static inline int
 __gthread_recursive_mutex_trylock (__gthread_recursive_mutex_t *__mutex)
 {
-  return __gthread_mutex_trylock (__mutex);
+  if (__gthread_active_p ())
+    return __gthr_win32_recursive_mutex_trylock (__mutex);
+  else
+    return 0;
 }
-
-
-static inline int
-__gthread_recursive_mutex_timedlock (__gthread_recursive_mutex_t *__mutex,
-         const __gthread_time_t *__abs_timeout)
-{
-  return __gthread_mutex_timedlock (__mutex, __abs_timeout);
-}
-
 
 static inline int
 __gthread_recursive_mutex_unlock (__gthread_recursive_mutex_t *__mutex)
 {
-  return __gthread_mutex_unlock (__mutex);
+  if (__gthread_active_p ())
+    return __gthr_win32_recursive_mutex_unlock (__mutex);
+  else
+    return 0;
 }
 
 static inline int
 __gthread_recursive_mutex_destroy (__gthread_recursive_mutex_t *__mutex)
 {
-  return __gthread_mutex_destroy (__mutex);
+  return __gthr_win32_recursive_mutex_destroy (__mutex);
 }
-# 849 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr-default.h" 3
-static inline int
-__gthread_cond_broadcast (__gthread_cond_t *__cond)
-{
-  return __gthrw_pthread_cond_broadcast (__cond);
+# 782 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr-default.h" 3
 }
-
-static inline int
-__gthread_cond_signal (__gthread_cond_t *__cond)
-{
-  return __gthrw_pthread_cond_signal (__cond);
-}
-
-static inline int
-__gthread_cond_wait (__gthread_cond_t *__cond, __gthread_mutex_t *__mutex)
-{
-  return __gthrw_pthread_cond_wait (__cond, __mutex);
-}
-
-static inline int
-__gthread_cond_timedwait (__gthread_cond_t *__cond, __gthread_mutex_t *__mutex,
-     const __gthread_time_t *__abs_timeout)
-{
-  return __gthrw_pthread_cond_timedwait (__cond, __mutex, __abs_timeout);
-}
-
-static inline int
-__gthread_cond_wait_recursive (__gthread_cond_t *__cond,
-          __gthread_recursive_mutex_t *__mutex)
-{
-  return __gthread_cond_wait (__cond, __mutex);
-}
-
-static inline int
-__gthread_cond_destroy (__gthread_cond_t* __cond)
-{
-  return __gthrw_pthread_cond_destroy (__cond);
-}
-# 149 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/gthr.h" 2 3
+# 149 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/gthr.h" 2 3
 
 
 #pragma GCC visibility pop
-# 36 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/atomicity.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/atomic_word.h" 1 3
-# 32 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/atomic_word.h" 3
+# 36 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/atomicity.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/atomic_word.h" 1 3
+# 32 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/atomic_word.h" 3
 typedef int _Atomic_word;
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/atomicity.h" 2 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/atomicity.h" 2 3
 
-namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+namespace __gnu_cxx
 {
 
 
@@ -17271,7 +16146,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
   static inline void
   __atomic_add(volatile _Atomic_word* __mem, int __val)
   { __atomic_fetch_add(__mem, __val, 4); }
-# 64 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/atomicity.h" 3
+# 64 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/atomicity.h" 3
   static inline _Atomic_word
   __exchange_and_add_single(_Atomic_word* __mem, int __val)
   {
@@ -17314,31 +16189,31 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 2 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 2 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
-
-
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/string" 1 3
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/string" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
 
 
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\string" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\string" 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/allocator.h" 1 3
-# 46 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/allocator.h" 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++allocator.h" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++allocator.h" 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/new_allocator.h" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/new_allocator.h" 3
-namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/allocator.h" 1 3
+# 46 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/allocator.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++allocator.h" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++allocator.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/new_allocator.h" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/new_allocator.h" 3
+namespace __gnu_cxx
 {
 
 
   using std::size_t;
   using std::ptrdiff_t;
-# 57 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/new_allocator.h" 3
+# 57 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/new_allocator.h" 3
   template<typename _Tp>
     class new_allocator
     {
@@ -17385,7 +16260,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
       {
  if (__n > this->max_size())
    std::__throw_bad_alloc();
-# 111 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/new_allocator.h" 3
+# 111 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/new_allocator.h" 3
  return static_cast<_Tp*>(::operator new(__n * sizeof(_Tp)));
       }
 
@@ -17416,7 +16291,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
       template<typename _Up>
  void
  destroy(_Up* __p) { __p->~_Up(); }
-# 151 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/new_allocator.h" 3
+# 151 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/new_allocator.h" 3
     };
 
   template<typename _Tp>
@@ -17431,20 +16306,20 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++allocator.h" 2 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++allocator.h" 2 3
 
 
 namespace std
 {
-# 47 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++allocator.h" 3
+# 47 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++allocator.h" 3
   template<typename _Tp>
     using __allocator_base = __gnu_cxx::new_allocator<_Tp>;
 }
-# 47 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/allocator.h" 2 3
-# 57 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/allocator.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 47 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/allocator.h" 2 3
+# 57 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/allocator.h" 3
+namespace std
 {
-# 67 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/allocator.h" 3
+# 67 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/allocator.h" 3
   template<>
     class allocator<void>
     {
@@ -17476,7 +16351,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  destroy(_Up* __p) { __p->~_Up(); }
 
     };
-# 107 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/allocator.h" 3
+# 107 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/allocator.h" 3
   template<typename _Tp>
     class allocator : public __allocator_base<_Tp>
     {
@@ -17623,7 +16498,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       static bool
       _S_do_it(_Tp& __c) noexcept
       {
-# 264 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/allocator.h" 3
+# 264 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/allocator.h" 3
  return false;
 
       }
@@ -17632,15 +16507,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 42 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/string" 2 3
+# 42 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\string" 2 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ostream_insert.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ostream_insert.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ostream_insert.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ostream_insert.h" 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cxxabi_forced.h" 1 3
-# 35 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/cxxabi_forced.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cxxabi_forced.h" 1 3
+# 35 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cxxabi_forced.h" 3
 
 #pragma GCC visibility push(default)
 
@@ -17665,9 +16540,9 @@ namespace __cxxabiv1
 
 
 #pragma GCC visibility pop
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ostream_insert.h" 2 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ostream_insert.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -17757,15 +16632,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 45 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/string" 2 3
+# 45 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\string" 2 3
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_function.h" 1 3
-# 63 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_function.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_function.h" 1 3
+# 63 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_function.h" 3
+namespace std
 {
-# 104 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_function.h" 3
+# 104 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_function.h" 3
   template<typename _Arg, typename _Result>
     struct unary_function
     {
@@ -17791,7 +16666,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       typedef _Result result_type;
     };
-# 144 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_function.h" 3
+# 144 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_function.h" 3
   struct __is_transparent;
 
   template<typename _Tp = void>
@@ -17965,7 +16840,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       typedef __is_transparent is_transparent;
     };
-# 330 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_function.h" 3
+# 330 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_function.h" 3
   template<typename _Tp = void>
     struct equal_to;
 
@@ -18373,7 +17248,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
        is_convertible<_Tp, const volatile void*>,
        is_convertible<_Up, const volatile void*>>;
     };
-# 750 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_function.h" 3
+# 750 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_function.h" 3
   template<typename _Tp = void>
     struct logical_and;
 
@@ -18570,7 +17445,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       typedef __is_transparent is_transparent;
     };
-# 978 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_function.h" 3
+# 978 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_function.h" 3
   template<typename _Predicate>
     class unary_negate
     : public unary_function<typename _Predicate::argument_type, bool>
@@ -18623,7 +17498,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline binary_negate<_Predicate>
     not2(const _Predicate& __pred)
     { return binary_negate<_Predicate>(__pred); }
-# 1055 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_function.h" 3
+# 1055 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_function.h" 3
   template<typename _Arg, typename _Result>
     class pointer_to_unary_function : public unary_function<_Arg, _Result>
     {
@@ -18728,7 +17603,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator()(const _Pair& __x) const
       { return __x.second; }
     };
-# 1178 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_function.h" 3
+# 1178 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_function.h" 3
   template<typename _Ret, typename _Tp>
     class mem_fun_t : public unary_function<_Tp*, _Ret>
     {
@@ -18920,14 +17795,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward/binders.h" 1 3
-# 60 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward/binders.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\backward/binders.h" 1 3
+# 60 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\backward/binders.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 107 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward/binders.h" 3
+# 107 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\backward/binders.h" 3
   template<typename _Operation>
     class binder1st
     : public unary_function<typename _Operation::second_argument_type,
@@ -19002,16 +17877,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 
 #pragma GCC diagnostic pop
-# 1369 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/stl_function.h" 2 3
-# 49 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/string" 2 3
+# 1369 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/stl_function.h" 2 3
+# 49 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\string" 2 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/range_access.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/range_access.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/range_access.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/range_access.h" 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/initializer_list" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/initializer_list" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\initializer_list" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\initializer_list" 3
 
 
 
@@ -19082,8 +17957,8 @@ namespace std
 }
 
 #pragma GCC visibility pop
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/range_access.h" 2 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/range_access.h" 2 3
+namespace std
 {
 
 
@@ -19276,21 +18151,21 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline auto
     crend(const _Container& __cont) -> decltype(std::rend(__cont))
     { return std::rend(__cont); }
-# 324 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/range_access.h" 3
+# 324 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/range_access.h" 3
 }
-# 52 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/string" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 52 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\string" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/alloc_traits.h" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/alloc_traits.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/alloc_traits.h" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/alloc_traits.h" 3
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 1 3
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 1 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
+namespace std
 {
 
 
@@ -19540,31 +18415,31 @@ namespace std __attribute__ ((__visibility__ ("default")))
  { return __a; }
 
     public:
-# 299 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 299 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       static pointer
       allocate(_Alloc& __a, size_type __n)
       { return __a.allocate(__n); }
-# 314 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 314 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       static pointer
       allocate(_Alloc& __a, size_type __n, const_void_pointer __hint)
       { return _S_allocate(__a, __n, __hint, 0); }
-# 326 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 326 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       static void
       deallocate(_Alloc& __a, pointer __p, size_type __n)
       { __a.deallocate(__p, __n); }
-# 341 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 341 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       template<typename _Tp, typename... _Args>
  static auto construct(_Alloc& __a, _Tp* __p, _Args&&... __args)
  -> decltype(_S_construct(__a, __p, std::forward<_Args>(__args)...))
  { _S_construct(__a, __p, std::forward<_Args>(__args)...); }
-# 354 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 354 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       template<typename _Tp>
  static void destroy(_Alloc& __a, _Tp* __p)
  { _S_destroy(__a, __p, 0); }
-# 366 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 366 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       static size_type max_size(const _Alloc& __a) noexcept
       { return _S_max_size(__a, 0); }
-# 377 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 377 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       static _Alloc
       select_on_container_copy_construction(const _Alloc& __rhs)
       { return _S_select(__rhs, 0); }
@@ -19614,24 +18489,24 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       template<typename _Up>
  using rebind_traits = allocator_traits<allocator<_Up>>;
-# 434 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 434 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       static pointer
       allocate(allocator_type& __a, size_type __n)
       { return __a.allocate(__n); }
-# 448 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 448 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       static pointer
       allocate(allocator_type& __a, size_type __n, const_void_pointer __hint)
       { return __a.allocate(__n, __hint); }
-# 460 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 460 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       static void
       deallocate(allocator_type& __a, pointer __p, size_type __n)
       { __a.deallocate(__p, __n); }
-# 472 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 472 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       template<typename _Up, typename... _Args>
  static void
  construct(allocator_type& __a, _Up* __p, _Args&&... __args)
  { __a.construct(__p, std::forward<_Args>(__args)...); }
-# 484 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/alloc_traits.h" 3
+# 484 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/alloc_traits.h" 3
       template<typename _Up>
  static void
  destroy(allocator_type& __a, _Up* __p)
@@ -19765,12 +18640,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/alloc_traits.h" 2 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/alloc_traits.h" 2 3
 
 
 
 
-namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+namespace __gnu_cxx
 {
 
 
@@ -19847,20 +18722,20 @@ template<typename _Alloc, typename = typename _Alloc::value_type>
     template<typename _Tp>
       struct rebind
       { typedef typename _Base_type::template rebind_alloc<_Tp> other; };
-# 158 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/alloc_traits.h" 3
+# 158 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/alloc_traits.h" 3
   };
 
 
 }
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 2 3
-# 52 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 2 3
+# 52 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
+namespace std
 {
 
 
 
 namespace __cxx11 {
-# 76 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 76 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     class basic_string
     {
@@ -19894,7 +18769,7 @@ namespace __cxx11 {
 
 
       typedef const_iterator __const_iterator;
-# 139 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 139 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       struct _Alloc_hider : allocator_type
       {
 
@@ -20039,7 +18914,7 @@ namespace __cxx11 {
       { return _M_dataplus; }
 
     private:
-# 298 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 298 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       _M_check(size_type __pos, const char* __s) const
       {
@@ -20183,7 +19058,7 @@ namespace __cxx11 {
       : _M_dataplus(_M_local_data(),
       _Alloc_traits::_S_select_on_copy(__str._M_get_allocator()))
       { _M_construct(__str._M_data(), __str._M_data() + __str.length()); }
-# 450 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 450 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string(const basic_string& __str, size_type __pos,
      const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
@@ -20207,7 +19082,7 @@ namespace __cxx11 {
    + __str._M_check(__pos, "basic_string::basic_string");
  _M_construct(__start, __start + __str._M_limit(__pos, __n));
       }
-# 481 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 481 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string(const basic_string& __str, size_type __pos,
      size_type __n, const _Alloc& __a)
       : _M_dataplus(_M_local_data(), __a)
@@ -20216,20 +19091,20 @@ namespace __cxx11 {
    = __str._M_data() + __str._M_check(__pos, "string::string");
  _M_construct(__start, __start + __str._M_limit(__pos, __n));
       }
-# 499 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 499 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string(const _CharT* __s, size_type __n,
      const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
       { _M_construct(__s, __s + __n); }
-# 514 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 514 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
       { _M_construct(__s, __s ? __s + traits_type::length(__s) : __s+npos); }
-# 529 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 529 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string(size_type __n, _CharT __c, const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
       { _M_construct(__n, __c); }
-# 541 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 541 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string(basic_string&& __str) noexcept
       : _M_dataplus(_M_local_data(), std::move(__str._M_get_allocator()))
       {
@@ -20288,7 +19163,7 @@ namespace __cxx11 {
  else
    _M_construct(__str.begin(), __str.end());
       }
-# 609 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 609 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       template<typename _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -20298,7 +19173,7 @@ namespace __cxx11 {
        const _Alloc& __a = _Alloc())
  : _M_dataplus(_M_local_data(), __a)
  { _M_construct(__beg, __end); }
-# 656 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 656 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       ~basic_string()
       { _M_dispose(); }
 
@@ -20348,14 +19223,14 @@ namespace __cxx11 {
       basic_string&
       operator=(const _CharT* __s)
       { return this->assign(__s); }
-# 713 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 713 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       operator=(_CharT __c)
       {
  this->assign(1, __c);
  return *this;
       }
-# 731 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 731 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       operator=(basic_string&& __str)
       noexcept(_Alloc_traits::_S_nothrow_move())
@@ -20425,7 +19300,7 @@ namespace __cxx11 {
  this->assign(__l.begin(), __l.size());
  return *this;
       }
-# 825 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 825 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       iterator
       begin() noexcept
       { return iterator(_M_data()); }
@@ -20544,10 +19419,10 @@ namespace __cxx11 {
       size_type
       max_size() const noexcept
       { return (_Alloc_traits::max_size(_M_get_allocator()) - 1) / 2; }
-# 954 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 954 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       void
       resize(size_type __n, _CharT __c);
-# 967 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 967 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       void
       resize(size_type __n)
       { this->resize(__n, _CharT()); }
@@ -20557,7 +19432,7 @@ namespace __cxx11 {
       void
       shrink_to_fit() noexcept
       {
-# 985 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 985 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       }
 
 
@@ -20571,7 +19446,7 @@ namespace __cxx11 {
  return _M_is_local() ? size_type(_S_local_capacity)
                       : _M_allocated_capacity;
       }
-# 1016 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1016 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       void
       reserve(size_type __res_arg = 0);
 
@@ -20589,14 +19464,14 @@ namespace __cxx11 {
       bool
       empty() const noexcept
       { return this->size() == 0; }
-# 1045 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1045 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       const_reference
       operator[] (size_type __pos) const noexcept
       {
                                   ;
  return _M_data()[__pos];
       }
-# 1062 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1062 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       reference
       operator[](size_type __pos)
       {
@@ -20607,7 +19482,7 @@ namespace __cxx11 {
                                                                    ;
  return _M_data()[__pos];
       }
-# 1083 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1083 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       const_reference
       at(size_type __n) const
       {
@@ -20618,7 +19493,7 @@ namespace __cxx11 {
        __n, this->size());
  return _M_data()[__n];
       }
-# 1104 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1104 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       reference
       at(size_type __n)
       {
@@ -20674,7 +19549,7 @@ namespace __cxx11 {
                            ;
  return operator[](this->size() - 1);
       }
-# 1167 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1167 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       operator+=(const basic_string& __str)
       { return this->append(__str); }
@@ -20709,11 +19584,11 @@ namespace __cxx11 {
       basic_string&
       operator+=(initializer_list<_CharT> __l)
       { return this->append(__l.begin(), __l.size()); }
-# 1220 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1220 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       append(const basic_string& __str)
       { return _M_append(__str._M_data(), __str.size()); }
-# 1237 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1237 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       append(const basic_string& __str, size_type __pos, size_type __n = npos)
       { return _M_append(__str._M_data()
@@ -20747,7 +19622,7 @@ namespace __cxx11 {
  _M_check_length(size_type(0), __n, "basic_string::append");
  return _M_append(__s, __n);
       }
-# 1279 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1279 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       append(size_type __n, _CharT __c)
       { return _M_replace_aux(this->size(), size_type(0), __n, __c); }
@@ -20761,7 +19636,7 @@ namespace __cxx11 {
       basic_string&
       append(initializer_list<_CharT> __l)
       { return this->append(__l.begin(), __l.size()); }
-# 1303 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1303 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -20770,7 +19645,7 @@ namespace __cxx11 {
         basic_string&
         append(_InputIterator __first, _InputIterator __last)
         { return this->replace(end(), end(), __first, __last); }
-# 1348 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1348 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       void
       push_back(_CharT __c)
       {
@@ -20792,7 +19667,7 @@ namespace __cxx11 {
  this->_M_assign(__str);
  return *this;
       }
-# 1379 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1379 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       assign(basic_string&& __str)
       noexcept(_Alloc_traits::_S_nothrow_move())
@@ -20801,20 +19676,20 @@ namespace __cxx11 {
 
  return *this = std::move(__str);
       }
-# 1402 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1402 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       assign(const basic_string& __str, size_type __pos, size_type __n = npos)
       { return _M_replace(size_type(0), this->size(), __str._M_data()
      + __str._M_check(__pos, "basic_string::assign"),
      __str._M_limit(__pos, __n)); }
-# 1418 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1418 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       assign(const _CharT* __s, size_type __n)
       {
                                         ;
  return _M_replace(size_type(0), this->size(), __s, __n);
       }
-# 1434 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1434 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       assign(const _CharT* __s)
       {
@@ -20822,11 +19697,11 @@ namespace __cxx11 {
  return _M_replace(size_type(0), this->size(), __s,
      traits_type::length(__s));
       }
-# 1451 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1451 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       assign(size_type __n, _CharT __c)
       { return _M_replace_aux(size_type(0), this->size(), __n, __c); }
-# 1464 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1464 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -20845,7 +19720,7 @@ namespace __cxx11 {
       basic_string&
       assign(initializer_list<_CharT> __l)
       { return this->assign(__l.begin(), __l.size()); }
-# 1532 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1532 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       iterator
       insert(const_iterator __p, size_type __n, _CharT __c)
       {
@@ -20854,7 +19729,7 @@ namespace __cxx11 {
  this->replace(__p, __p, __n, __c);
  return iterator(this->_M_data() + __pos);
       }
-# 1574 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1574 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
  iterator
@@ -20865,30 +19740,30 @@ namespace __cxx11 {
    this->replace(__p, __p, __beg, __end);
    return iterator(this->_M_data() + __pos);
  }
-# 1610 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1610 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       void
       insert(iterator __p, initializer_list<_CharT> __l)
       {
                                                          ;
  this->insert(__p - begin(), __l.begin(), __l.size());
       }
-# 1630 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1630 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       insert(size_type __pos1, const basic_string& __str)
       { return this->replace(__pos1, size_type(0),
         __str._M_data(), __str.size()); }
-# 1653 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1653 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       insert(size_type __pos1, const basic_string& __str,
       size_type __pos2, size_type __n = npos)
       { return this->replace(__pos1, size_type(0), __str._M_data()
         + __str._M_check(__pos2, "basic_string::insert"),
         __str._M_limit(__pos2, __n)); }
-# 1676 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1676 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       insert(size_type __pos, const _CharT* __s, size_type __n)
       { return this->replace(__pos, size_type(0), __s, __n); }
-# 1695 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1695 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       insert(size_type __pos, const _CharT* __s)
       {
@@ -20896,12 +19771,12 @@ namespace __cxx11 {
  return this->replace(__pos, size_type(0), __s,
         traits_type::length(__s));
       }
-# 1719 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1719 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       insert(size_type __pos, size_type __n, _CharT __c)
       { return _M_replace_aux(_M_check(__pos, "basic_string::insert"),
          size_type(0), __n, __c); }
-# 1737 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1737 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       iterator
       insert(__const_iterator __p, _CharT __c)
       {
@@ -20910,7 +19785,7 @@ namespace __cxx11 {
  _M_replace_aux(__pos, size_type(0), size_type(1), __c);
  return iterator(_M_data() + __pos);
       }
-# 1797 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1797 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       erase(size_type __pos = 0, size_type __n = npos)
       {
@@ -20921,7 +19796,7 @@ namespace __cxx11 {
    this->_M_erase(__pos, _M_limit(__pos, __n));
  return *this;
       }
-# 1816 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1816 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       iterator
       erase(__const_iterator __position)
       {
@@ -20931,7 +19806,7 @@ namespace __cxx11 {
  this->_M_erase(__pos, size_type(1));
  return iterator(_M_data() + __pos);
       }
-# 1835 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1835 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       iterator
       erase(__const_iterator __first, __const_iterator __last)
       {
@@ -20957,18 +19832,18 @@ namespace __cxx11 {
                            ;
  _M_erase(size() - 1, 1);
       }
-# 1879 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1879 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       replace(size_type __pos, size_type __n, const basic_string& __str)
       { return this->replace(__pos, __n, __str._M_data(), __str.size()); }
-# 1901 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1901 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       replace(size_type __pos1, size_type __n1, const basic_string& __str,
        size_type __pos2, size_type __n2 = npos)
       { return this->replace(__pos1, __n1, __str._M_data()
         + __str._M_check(__pos2, "basic_string::replace"),
         __str._M_limit(__pos2, __n2)); }
-# 1926 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1926 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       replace(size_type __pos, size_type __n1, const _CharT* __s,
        size_type __n2)
@@ -20977,24 +19852,24 @@ namespace __cxx11 {
  return _M_replace(_M_check(__pos, "basic_string::replace"),
      _M_limit(__pos, __n1), __s, __n2);
       }
-# 1951 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1951 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       replace(size_type __pos, size_type __n1, const _CharT* __s)
       {
                                ;
  return this->replace(__pos, __n1, __s, traits_type::length(__s));
       }
-# 1975 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1975 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       replace(size_type __pos, size_type __n1, size_type __n2, _CharT __c)
       { return _M_replace_aux(_M_check(__pos, "basic_string::replace"),
          _M_limit(__pos, __n1), __n2, __c); }
-# 1993 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 1993 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
        const basic_string& __str)
       { return this->replace(__i1, __i2, __str._M_data(), __str.size()); }
-# 2013 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2013 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
        const _CharT* __s, size_type __n)
@@ -21003,14 +19878,14 @@ namespace __cxx11 {
                       ;
  return this->replace(__i1 - begin(), __i2 - __i1, __s, __n);
       }
-# 2035 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2035 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2, const _CharT* __s)
       {
                                ;
  return this->replace(__i1, __i2, __s, traits_type::length(__s));
       }
-# 2056 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2056 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2, size_type __n,
        _CharT __c)
@@ -21019,7 +19894,7 @@ namespace __cxx11 {
                       ;
  return _M_replace_aux(__i1 - begin(), __i2 - __i1, __n, __c);
       }
-# 2081 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2081 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
         basic_string&
@@ -21032,7 +19907,7 @@ namespace __cxx11 {
    return this->_M_replace_dispatch(__i1, __i2, __k1, __k2,
         std::__false_type());
  }
-# 2113 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2113 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
        _CharT* __k1, _CharT* __k2)
@@ -21076,11 +19951,11 @@ namespace __cxx11 {
  return this->replace(__i1 - begin(), __i2 - __i1,
         __k1.base(), __k2 - __k1);
       }
-# 2172 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2172 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string& replace(const_iterator __i1, const_iterator __i2,
        initializer_list<_CharT> __l)
       { return this->replace(__i1, __i2, __l.begin(), __l.size()); }
-# 2231 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2231 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
     private:
       template<class _Integer>
  basic_string&
@@ -21106,72 +19981,72 @@ namespace __cxx11 {
       _M_append(const _CharT* __s, size_type __n);
 
     public:
-# 2269 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2269 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       copy(_CharT* __s, size_type __n, size_type __pos = 0) const;
-# 2279 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2279 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       void
       swap(basic_string& __s) noexcept;
-# 2289 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2289 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       const _CharT*
       c_str() const noexcept
       { return _M_data(); }
-# 2301 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2301 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       const _CharT*
       data() const noexcept
       { return _M_data(); }
-# 2320 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2320 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       allocator_type
       get_allocator() const noexcept
       { return _M_get_allocator(); }
-# 2336 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2336 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2350 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2350 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find(__str.data(), __pos, __str.size()); }
-# 2382 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2382 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find(const _CharT* __s, size_type __pos = 0) const noexcept
       {
                                ;
  return this->find(__s, __pos, traits_type::length(__s));
       }
-# 2399 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2399 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find(_CharT __c, size_type __pos = 0) const noexcept;
-# 2412 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2412 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       rfind(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->rfind(__str.data(), __pos, __str.size()); }
-# 2446 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2446 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       rfind(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2460 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2460 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       rfind(const _CharT* __s, size_type __pos = npos) const
       {
                                ;
  return this->rfind(__s, __pos, traits_type::length(__s));
       }
-# 2477 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2477 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       rfind(_CharT __c, size_type __pos = npos) const noexcept;
-# 2491 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2491 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_first_of(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find_first_of(__str.data(), __pos, __str.size()); }
-# 2526 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2526 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_first_of(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2540 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2540 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_first_of(const _CharT* __s, size_type __pos = 0) const
       noexcept
@@ -21179,20 +20054,20 @@ namespace __cxx11 {
                                ;
  return this->find_first_of(__s, __pos, traits_type::length(__s));
       }
-# 2560 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2560 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_first_of(_CharT __c, size_type __pos = 0) const noexcept
       { return this->find(__c, __pos); }
-# 2575 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2575 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_last_of(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->find_last_of(__str.data(), __pos, __str.size()); }
-# 2610 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2610 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_last_of(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2624 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2624 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_last_of(const _CharT* __s, size_type __pos = npos) const
       noexcept
@@ -21200,20 +20075,20 @@ namespace __cxx11 {
                                ;
  return this->find_last_of(__s, __pos, traits_type::length(__s));
       }
-# 2644 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2644 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_last_of(_CharT __c, size_type __pos = npos) const noexcept
       { return this->rfind(__c, __pos); }
-# 2658 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2658 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_first_not_of(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find_first_not_of(__str.data(), __pos, __str.size()); }
-# 2693 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2693 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_first_not_of(const _CharT* __s, size_type __pos,
    size_type __n) const noexcept;
-# 2707 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2707 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_first_not_of(const _CharT* __s, size_type __pos = 0) const
       noexcept
@@ -21221,20 +20096,20 @@ namespace __cxx11 {
                                ;
  return this->find_first_not_of(__s, __pos, traits_type::length(__s));
       }
-# 2725 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2725 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_first_not_of(_CharT __c, size_type __pos = 0) const
       noexcept;
-# 2740 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2740 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_last_not_of(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->find_last_not_of(__str.data(), __pos, __str.size()); }
-# 2775 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2775 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_last_not_of(const _CharT* __s, size_type __pos,
          size_type __n) const noexcept;
-# 2789 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2789 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_last_not_of(const _CharT* __s, size_type __pos = npos) const
       noexcept
@@ -21242,16 +20117,16 @@ namespace __cxx11 {
                                ;
  return this->find_last_not_of(__s, __pos, traits_type::length(__s));
       }
-# 2807 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2807 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       size_type
       find_last_not_of(_CharT __c, size_type __pos = npos) const
       noexcept;
-# 2823 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2823 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       basic_string
       substr(size_type __pos = 0, size_type __n = npos) const
       { return basic_string(*this,
        _M_check(__pos, "basic_string::substr"), __n); }
-# 2842 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2842 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       int
       compare(const basic_string& __str) const
       {
@@ -21264,20 +20139,20 @@ namespace __cxx11 {
    __r = _S_compare(__size, __osize);
  return __r;
       }
-# 2935 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2935 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       int
       compare(size_type __pos, size_type __n, const basic_string& __str) const;
-# 2961 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2961 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       int
       compare(size_type __pos1, size_type __n1, const basic_string& __str,
        size_type __pos2, size_type __n2 = npos) const;
-# 2979 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 2979 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       int
       compare(const _CharT* __s) const noexcept;
-# 3003 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 3003 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       int
       compare(size_type __pos, size_type __n1, const _CharT* __s) const;
-# 3030 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 3030 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
       int
       compare(size_type __pos, size_type __n1, const _CharT* __s,
        size_type __n2) const;
@@ -21286,7 +20161,7 @@ namespace __cxx11 {
       template<typename, typename, typename> friend class basic_stringbuf;
     };
 }
-# 5925 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 5925 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_string<_CharT, _Traits, _Alloc>
     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -21399,7 +20274,7 @@ namespace __cxx11 {
     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
        _CharT __rhs)
     { return std::move(__lhs.append(1, __rhs)); }
-# 6046 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6046 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -21439,7 +20314,7 @@ namespace __cxx11 {
     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
         const _CharT* __rhs)
     { return __lhs.compare(__rhs) == 0; }
-# 6093 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6093 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -21470,7 +20345,7 @@ namespace __cxx11 {
     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
         const _CharT* __rhs)
     { return !(__lhs == __rhs); }
-# 6131 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6131 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -21501,7 +20376,7 @@ namespace __cxx11 {
     operator<(const _CharT* __lhs,
        const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) > 0; }
-# 6169 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6169 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator>(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -21532,7 +20407,7 @@ namespace __cxx11 {
     operator>(const _CharT* __lhs,
        const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) < 0; }
-# 6207 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6207 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator<=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -21563,7 +20438,7 @@ namespace __cxx11 {
     operator<=(const _CharT* __lhs,
         const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) >= 0; }
-# 6245 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6245 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator>=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -21594,14 +20469,14 @@ namespace __cxx11 {
     operator>=(const _CharT* __lhs,
       const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) <= 0; }
-# 6283 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6283 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline void
     swap(basic_string<_CharT, _Traits, _Alloc>& __lhs,
   basic_string<_CharT, _Traits, _Alloc>& __rhs)
     noexcept(noexcept(__lhs.swap(__rhs)))
     { __lhs.swap(__rhs); }
-# 6303 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6303 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& __is,
@@ -21610,7 +20485,7 @@ namespace __cxx11 {
   template<>
     basic_istream<char>&
     operator>>(basic_istream<char>& __is, basic_string<char>& __str);
-# 6321 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6321 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __os,
@@ -21620,12 +20495,12 @@ namespace __cxx11 {
 
       return __ostream_insert(__os, __str.data(), __str.size());
     }
-# 6344 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6344 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_istream<_CharT, _Traits>&
     getline(basic_istream<_CharT, _Traits>& __is,
      basic_string<_CharT, _Traits, _Alloc>& __str, _CharT __delim);
-# 6361 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 3
+# 6361 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline basic_istream<_CharT, _Traits>&
     getline(basic_istream<_CharT, _Traits>& __is,
@@ -21666,8 +20541,8 @@ namespace __cxx11 {
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/string_conversions.h" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/string_conversions.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/string_conversions.h" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/string_conversions.h" 3
 
 
 
@@ -21676,1045 +20551,517 @@ namespace __cxx11 {
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdlib" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdlib" 3
-# 75 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdlib" 3
-# 1 "/usr/include/stdlib.h" 1 3 4
-# 25 "/usr/include/stdlib.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
-# 26 "/usr/include/stdlib.h" 2 3 4
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
+# 75 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 1 3
+# 10 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+# 1 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\limits.h" 1 3
+# 37 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\limits.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\limits.h" 1 3
+# 38 "C:\\Xilinx\\Vitis_HLS\\2022.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\limits.h" 2 3
+# 11 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 2 3
+# 25 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+#pragma pack(push,_CRT_PACKING)
 
-
-
-
-
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 1 3 4
-# 32 "/usr/include/stdlib.h" 2 3 4
 
 extern "C" {
-
-
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/waitflags.h" 1 3 4
-# 52 "/usr/include/x86_64-linux-gnu/bits/waitflags.h" 3 4
-typedef enum
-{
-  P_ALL,
-  P_PID,
-  P_PGID
-} idtype_t;
-# 40 "/usr/include/stdlib.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/waitstatus.h" 1 3 4
-# 41 "/usr/include/stdlib.h" 2 3 4
-# 58 "/usr/include/stdlib.h" 3 4
-typedef struct
-  {
+# 49 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  typedef int (__attribute__((__cdecl__)) *_onexit_t)(void);
+# 59 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  typedef struct _div_t {
     int quot;
     int rem;
   } div_t;
 
-
-
-typedef struct
-  {
-    long int quot;
-    long int rem;
+  typedef struct _ldiv_t {
+    long quot;
+    long rem;
   } ldiv_t;
 
 
 
 
 
-__extension__ typedef struct
-  {
-    long long int quot;
-    long long int rem;
-  } lldiv_t;
-# 97 "/usr/include/stdlib.h" 3 4
-extern size_t __ctype_get_mb_cur_max (void) throw () ;
+#pragma pack(4)
+ typedef struct {
+    unsigned char ld[10];
+  } _LDOUBLE;
+#pragma pack()
 
 
 
-extern double atof (const char *__nptr)
-     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+ typedef struct {
+    double x;
+  } _CRT_DOUBLE;
 
-extern int atoi (const char *__nptr)
-     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+  typedef struct {
+    float f;
+  } _CRT_FLOAT;
 
-extern long int atol (const char *__nptr)
-     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
 
 
 
-__extension__ extern long long int atoll (const char *__nptr)
-     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+  typedef struct {
+    long double x;
+  } _LONGDOUBLE;
 
 
 
-extern double strtod (const char *__restrict __nptr,
-        char **__restrict __endptr)
-     throw () __attribute__ ((__nonnull__ (1)));
+#pragma pack(4)
+ typedef struct {
+    unsigned char ld12[12];
+  } _LDBL12;
+#pragma pack()
+# 142 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+ typedef void (__attribute__((__cdecl__)) *_purecall_handler)(void);
 
+  __attribute__ ((__dllimport__)) _purecall_handler __attribute__((__cdecl__)) _set_purecall_handler(_purecall_handler _Handler);
+  __attribute__ ((__dllimport__)) _purecall_handler __attribute__((__cdecl__)) _get_purecall_handler(void);
 
+  typedef void (__attribute__((__cdecl__)) *_invalid_parameter_handler)(const wchar_t *,const wchar_t *,const wchar_t *,unsigned int,uintptr_t);
+  __attribute__ ((__dllimport__)) _invalid_parameter_handler __attribute__((__cdecl__)) _set_invalid_parameter_handler(_invalid_parameter_handler _Handler);
+  __attribute__ ((__dllimport__)) _invalid_parameter_handler __attribute__((__cdecl__)) _get_invalid_parameter_handler(void);
+# 158 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  __attribute__ ((__dllimport__)) unsigned long *__attribute__((__cdecl__)) __doserrno(void);
 
-extern float strtof (const char *__restrict __nptr,
-       char **__restrict __endptr) throw () __attribute__ ((__nonnull__ (1)));
+  errno_t __attribute__((__cdecl__)) _set_doserrno(unsigned long _Value);
+  errno_t __attribute__((__cdecl__)) _get_doserrno(unsigned long *_Value);
+# 172 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  extern __attribute__((dllimport)) char *_sys_errlist[1];
+  extern __attribute__((dllimport)) int _sys_nerr;
 
-extern long double strtold (const char *__restrict __nptr,
-       char **__restrict __endptr)
-     throw () __attribute__ ((__nonnull__ (1)));
-# 140 "/usr/include/stdlib.h" 3 4
-extern _Float32 strtof32 (const char *__restrict __nptr,
-     char **__restrict __endptr)
-     throw () __attribute__ ((__nonnull__ (1)));
 
 
 
-extern _Float64 strtof64 (const char *__restrict __nptr,
-     char **__restrict __endptr)
-     throw () __attribute__ ((__nonnull__ (1)));
-# 158 "/usr/include/stdlib.h" 3 4
-extern _Float32x strtof32x (const char *__restrict __nptr,
-       char **__restrict __endptr)
-     throw () __attribute__ ((__nonnull__ (1)));
 
+  __attribute__ ((__dllimport__)) char ***__attribute__((__cdecl__)) __p___argv(void);
+  __attribute__ ((__dllimport__)) int *__attribute__((__cdecl__)) __p__fmode(void);
+# 190 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  errno_t __attribute__((__cdecl__)) _get_pgmptr(char **_Value);
+  errno_t __attribute__((__cdecl__)) _get_wpgmptr(wchar_t **_Value);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_fmode(int _Mode);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_fmode(int *_PMode);
+# 281 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  extern int * __imp___argc;
 
 
-extern _Float64x strtof64x (const char *__restrict __nptr,
-       char **__restrict __endptr)
-     throw () __attribute__ ((__nonnull__ (1)));
-# 176 "/usr/include/stdlib.h" 3 4
-extern long int strtol (const char *__restrict __nptr,
-   char **__restrict __endptr, int __base)
-     throw () __attribute__ ((__nonnull__ (1)));
 
-extern unsigned long int strtoul (const char *__restrict __nptr,
-      char **__restrict __endptr, int __base)
-     throw () __attribute__ ((__nonnull__ (1)));
+  extern char *** __imp___argv;
 
 
 
-__extension__
-extern long long int strtoq (const char *__restrict __nptr,
-        char **__restrict __endptr, int __base)
-     throw () __attribute__ ((__nonnull__ (1)));
+  extern wchar_t *** __imp___wargv;
 
-__extension__
-extern unsigned long long int strtouq (const char *__restrict __nptr,
-           char **__restrict __endptr, int __base)
-     throw () __attribute__ ((__nonnull__ (1)));
 
 
 
 
-__extension__
-extern long long int strtoll (const char *__restrict __nptr,
-         char **__restrict __endptr, int __base)
-     throw () __attribute__ ((__nonnull__ (1)));
+  extern char *** __imp__environ;
 
-__extension__
-extern unsigned long long int strtoull (const char *__restrict __nptr,
-     char **__restrict __endptr, int __base)
-     throw () __attribute__ ((__nonnull__ (1)));
 
 
 
+  extern wchar_t *** __imp__wenviron;
 
-extern int strfromd (char *__dest, size_t __size, const char *__format,
-       double __f)
-     throw () __attribute__ ((__nonnull__ (3)));
 
-extern int strfromf (char *__dest, size_t __size, const char *__format,
-       float __f)
-     throw () __attribute__ ((__nonnull__ (3)));
 
-extern int strfroml (char *__dest, size_t __size, const char *__format,
-       long double __f)
-     throw () __attribute__ ((__nonnull__ (3)));
-# 232 "/usr/include/stdlib.h" 3 4
-extern int strfromf32 (char *__dest, size_t __size, const char * __format,
-         _Float32 __f)
-     throw () __attribute__ ((__nonnull__ (3)));
 
 
+  extern char ** __imp__pgmptr;
 
-extern int strfromf64 (char *__dest, size_t __size, const char * __format,
-         _Float64 __f)
-     throw () __attribute__ ((__nonnull__ (3)));
-# 250 "/usr/include/stdlib.h" 3 4
-extern int strfromf32x (char *__dest, size_t __size, const char * __format,
-   _Float32x __f)
-     throw () __attribute__ ((__nonnull__ (3)));
 
 
 
-extern int strfromf64x (char *__dest, size_t __size, const char * __format,
-   _Float64x __f)
-     throw () __attribute__ ((__nonnull__ (3)));
-# 274 "/usr/include/stdlib.h" 3 4
-extern long int strtol_l (const char *__restrict __nptr,
-     char **__restrict __endptr, int __base,
-     locale_t __loc) throw () __attribute__ ((__nonnull__ (1, 4)));
+  extern wchar_t ** __imp__wpgmptr;
 
-extern unsigned long int strtoul_l (const char *__restrict __nptr,
-        char **__restrict __endptr,
-        int __base, locale_t __loc)
-     throw () __attribute__ ((__nonnull__ (1, 4)));
 
-__extension__
-extern long long int strtoll_l (const char *__restrict __nptr,
-    char **__restrict __endptr, int __base,
-    locale_t __loc)
-     throw () __attribute__ ((__nonnull__ (1, 4)));
 
-__extension__
-extern unsigned long long int strtoull_l (const char *__restrict __nptr,
-       char **__restrict __endptr,
-       int __base, locale_t __loc)
-     throw () __attribute__ ((__nonnull__ (1, 4)));
 
-extern double strtod_l (const char *__restrict __nptr,
-   char **__restrict __endptr, locale_t __loc)
-     throw () __attribute__ ((__nonnull__ (1, 3)));
+  extern unsigned int * __imp__osplatform;
 
-extern float strtof_l (const char *__restrict __nptr,
-         char **__restrict __endptr, locale_t __loc)
-     throw () __attribute__ ((__nonnull__ (1, 3)));
 
-extern long double strtold_l (const char *__restrict __nptr,
-         char **__restrict __endptr,
-         locale_t __loc)
-     throw () __attribute__ ((__nonnull__ (1, 3)));
-# 316 "/usr/include/stdlib.h" 3 4
-extern _Float32 strtof32_l (const char *__restrict __nptr,
-       char **__restrict __endptr,
-       locale_t __loc)
-     throw () __attribute__ ((__nonnull__ (1, 3)));
 
 
+  extern unsigned int * __imp__osver;
 
-extern _Float64 strtof64_l (const char *__restrict __nptr,
-       char **__restrict __endptr,
-       locale_t __loc)
-     throw () __attribute__ ((__nonnull__ (1, 3)));
-# 337 "/usr/include/stdlib.h" 3 4
-extern _Float32x strtof32x_l (const char *__restrict __nptr,
-         char **__restrict __endptr,
-         locale_t __loc)
-     throw () __attribute__ ((__nonnull__ (1, 3)));
 
 
 
-extern _Float64x strtof64x_l (const char *__restrict __nptr,
-         char **__restrict __endptr,
-         locale_t __loc)
-     throw () __attribute__ ((__nonnull__ (1, 3)));
-# 385 "/usr/include/stdlib.h" 3 4
-extern char *l64a (long int __n) throw () ;
+  extern unsigned int * __imp__winver;
 
 
-extern long int a64l (const char *__s)
-     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
 
 
+  extern unsigned int * __imp__winmajor;
 
 
 
-# 1 "/usr/include/x86_64-linux-gnu/sys/types.h" 1 3 4
-# 27 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-extern "C" {
 
+  extern unsigned int * __imp__winminor;
 
 
 
 
-typedef __u_char u_char;
-typedef __u_short u_short;
-typedef __u_int u_int;
-typedef __u_long u_long;
-typedef __quad_t quad_t;
-typedef __u_quad_t u_quad_t;
-typedef __fsid_t fsid_t;
 
+  errno_t __attribute__((__cdecl__)) _get_osplatform(unsigned int *_Value);
+  errno_t __attribute__((__cdecl__)) _get_osver(unsigned int *_Value);
+  errno_t __attribute__((__cdecl__)) _get_winver(unsigned int *_Value);
+  errno_t __attribute__((__cdecl__)) _get_winmajor(unsigned int *_Value);
+  errno_t __attribute__((__cdecl__)) _get_winminor(unsigned int *_Value);
 
-typedef __loff_t loff_t;
 
 
 
+  extern "C++" {
+    template <typename _CountofType,size_t _SizeOfArray> char (*__countof_helper( _CountofType (&_Array)[_SizeOfArray]))[_SizeOfArray];
 
-typedef __ino_t ino_t;
+  }
 
 
 
 
 
+  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) exit(int _Code) __attribute__ ((__noreturn__));
+  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) _exit(int _Code) __attribute__ ((__noreturn__));
 
-typedef __ino64_t ino64_t;
 
 
+  void __attribute__((__cdecl__)) _Exit(int) __attribute__ ((__noreturn__));
+# 374 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  void __attribute__((__cdecl__)) __attribute__ ((__noreturn__)) abort(void);
 
 
-typedef __dev_t dev_t;
 
 
+  __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) _set_abort_behavior(unsigned int _Flags,unsigned int _Mask);
 
 
-typedef __gid_t gid_t;
 
+  int __attribute__((__cdecl__)) abs(int _X);
+  long __attribute__((__cdecl__)) labs(long _X);
 
 
+  __extension__ long __attribute__((__cdecl__)) _abs64(long);
 
-typedef __mode_t mode_t;
+  extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) long __attribute__((__cdecl__)) _abs64(long x) {
+    return __builtin_llabs(x);
+  }
 
 
+  int __attribute__((__cdecl__)) atexit(void (__attribute__((__cdecl__)) *)(void));
 
 
-typedef __nlink_t nlink_t;
+  double __attribute__((__cdecl__)) atof(const char *_String);
+  double __attribute__((__cdecl__)) _atof_l(const char *_String,_locale_t _Locale);
 
+  int __attribute__((__cdecl__)) atoi(const char *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoi_l(const char *_Str,_locale_t _Locale);
+  long __attribute__((__cdecl__)) atol(const char *_Str);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _atol_l(const char *_Str,_locale_t _Locale);
 
 
+  void *__attribute__((__cdecl__)) bsearch(const void *_Key,const void *_Base,size_t _NumOfElements,size_t _SizeOfElements,int (__attribute__((__cdecl__)) *_PtFuncCompare)(const void *,const void *));
+  void __attribute__((__cdecl__)) qsort(void *_Base,size_t _NumOfElements,size_t _SizeOfElements,int (__attribute__((__cdecl__)) *_PtFuncCompare)(const void *,const void *));
 
-typedef __uid_t uid_t;
-
-
-
-
-
-typedef __off_t off_t;
-
-
-
-
-
-
-typedef __off64_t off64_t;
-# 103 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-typedef __id_t id_t;
-
-
-
-
-typedef __ssize_t ssize_t;
-
-
-
-
-
-typedef __daddr_t daddr_t;
-typedef __caddr_t caddr_t;
-
-
-
-
-
-typedef __key_t key_t;
-# 134 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-typedef __useconds_t useconds_t;
-
-
-
-typedef __suseconds_t suseconds_t;
-
-
-
-
-
-
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 1 3 4
-# 145 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-
-
-
-typedef unsigned long int ulong;
-typedef unsigned short int ushort;
-typedef unsigned int uint;
-
-
-
-
-
-
-
-typedef __uint8_t u_int8_t;
-typedef __uint16_t u_int16_t;
-typedef __uint32_t u_int32_t;
-typedef __uint64_t u_int64_t;
-
-
-typedef int register_t __attribute__ ((__mode__ (__word__)));
-# 176 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-# 1 "/usr/include/endian.h" 1 3 4
-# 35 "/usr/include/endian.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 1 3 4
-# 33 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
-static __inline __uint16_t
-__bswap_16 (__uint16_t __bsx)
+  unsigned short __attribute__((__cdecl__)) _byteswap_ushort(unsigned short _Short);
+  unsigned long __attribute__((__cdecl__)) _byteswap_ulong (unsigned long _Long);
+  __extension__ unsigned long __attribute__((__cdecl__)) _byteswap_uint64(unsigned long _Int64);
+  div_t __attribute__((__cdecl__)) div(int _Numerator,int _Denominator);
+  char *__attribute__((__cdecl__)) getenv(const char *_VarName) ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _itoa(int _Value,char *_Dest,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _i64toa(long _Val,char *_DstBuf,int _Radix) ;
+  __extension__ __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ui64toa(unsigned long _Val,char *_DstBuf,int _Radix) ;
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _atoi64(const char *_String);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _atoi64_l(const char *_String,_locale_t _Locale);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _strtoi64(const char *_String,char **_EndPtr,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _strtoi64_l(const char *_String,char **_EndPtr,int _Radix,_locale_t _Locale);
+  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _strtoui64(const char *_String,char **_EndPtr,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _strtoui64_l(const char *_String,char **_EndPtr,int _Radix,_locale_t _Locale);
+  ldiv_t __attribute__((__cdecl__)) ldiv(long _Numerator,long _Denominator);
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ltoa(long _Value,char *_Dest,int _Radix) ;
+  int __attribute__((__cdecl__)) mblen(const char *_Ch,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _mblen_l(const char *_Ch,size_t _MaxCount,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrlen(const char *_Str);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrlen_l(const char *_Str,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrnlen(const char *_Str,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrnlen_l(const char *_Str,size_t _MaxCount,_locale_t _Locale);
+  int __attribute__((__cdecl__)) mbtowc(wchar_t * __restrict__ _DstCh,const char * __restrict__ _SrcCh,size_t _SrcSizeInBytes);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _mbtowc_l(wchar_t * __restrict__ _DstCh,const char * __restrict__ _SrcCh,size_t _SrcSizeInBytes,_locale_t _Locale);
+  size_t __attribute__((__cdecl__)) mbstowcs(wchar_t * __restrict__ _Dest,const char * __restrict__ _Source,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstowcs_l(wchar_t * __restrict__ _Dest,const char * __restrict__ _Source,size_t _MaxCount,_locale_t _Locale);
+  int __attribute__((__cdecl__)) mkstemp(char *template_name);
+  int __attribute__((__cdecl__)) rand(void);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_error_mode(int _Mode);
+  void __attribute__((__cdecl__)) srand(unsigned int _Seed);
+# 449 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+double __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtod(const char * __restrict__ _Str,char ** __restrict__ _EndPtr)
 {
-
-
-
-  return ((__uint16_t) ((((__bsx) >> 8) & 0xff) | (((__bsx) & 0xff) << 8)));
-
+  double __attribute__((__cdecl__)) __mingw_strtod (const char * __restrict__, char ** __restrict__);
+  return __mingw_strtod( _Str, _EndPtr);
 }
 
-
-
-
-
-
-static __inline __uint32_t
-__bswap_32 (__uint32_t __bsx)
+static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
+float __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtof(const char * __restrict__ _Str,char ** __restrict__ _EndPtr)
 {
-
-
-
-  return ((((__bsx) & 0xff000000u) >> 24) | (((__bsx) & 0x00ff0000u) >> 8) | (((__bsx) & 0x0000ff00u) << 8) | (((__bsx) & 0x000000ffu) << 24));
-
-}
-# 69 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
-__extension__ static __inline __uint64_t
-__bswap_64 (__uint64_t __bsx)
-{
-
-
-
-  return ((((__bsx) & 0xff00000000000000ull) >> 56) | (((__bsx) & 0x00ff000000000000ull) >> 40) | (((__bsx) & 0x0000ff0000000000ull) >> 24) | (((__bsx) & 0x000000ff00000000ull) >> 8) | (((__bsx) & 0x00000000ff000000ull) << 8) | (((__bsx) & 0x0000000000ff0000ull) << 24) | (((__bsx) & 0x000000000000ff00ull) << 40) | (((__bsx) & 0x00000000000000ffull) << 56));
-
-}
-# 36 "/usr/include/endian.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 1 3 4
-# 32 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 3 4
-static __inline __uint16_t
-__uint16_identity (__uint16_t __x)
-{
-  return __x;
+  float __attribute__((__cdecl__)) __mingw_strtof (const char * __restrict__, char ** __restrict__);
+  return __mingw_strtof( _Str, _EndPtr);
 }
 
-static __inline __uint32_t
-__uint32_identity (__uint32_t __x)
-{
-  return __x;
+
+
+
+
+
+  long double __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtold(const char * __restrict__ , char ** __restrict__ );
+
+
+  extern double __attribute__((__cdecl__)) __attribute__ ((__nothrow__))
+  __strtod (const char * __restrict__ , char ** __restrict__);
+
+
+
+
+
+
+
+  float __attribute__((__cdecl__)) __mingw_strtof (const char * __restrict__, char ** __restrict__);
+  double __attribute__((__cdecl__)) __mingw_strtod (const char * __restrict__, char ** __restrict__);
+  long double __attribute__((__cdecl__)) __mingw_strtold(const char * __restrict__, char ** __restrict__);
+
+  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _strtod_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,_locale_t _Locale);
+  long __attribute__((__cdecl__)) strtol(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _strtol_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
+  unsigned long __attribute__((__cdecl__)) strtoul(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix);
+  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _strtoul_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
+
+
+  int __attribute__((__cdecl__)) system(const char *_Command);
+
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ultoa(unsigned long _Value,char *_Dest,int _Radix) ;
+  int __attribute__((__cdecl__)) wctomb(char *_MbCh,wchar_t _WCh) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wctomb_l(char *_MbCh,wchar_t _WCh,_locale_t _Locale) ;
+  size_t __attribute__((__cdecl__)) wcstombs(char * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _MaxCount) ;
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _wcstombs_l(char * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _MaxCount,_locale_t _Locale) ;
+
+
+
+  void *__attribute__((__cdecl__)) calloc(size_t _NumOfElements,size_t _SizeOfElements);
+  void __attribute__((__cdecl__)) free(void *_Memory);
+  void *__attribute__((__cdecl__)) malloc(size_t _Size);
+  void *__attribute__((__cdecl__)) realloc(void *_Memory,size_t _NewSize);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _recalloc(void *_Memory,size_t _Count,size_t _Size);
+
+
+
+
+
+
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _aligned_free(void *_Memory);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_malloc(size_t _Size,size_t _Alignment);
+
+
+
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_malloc(size_t _Size,size_t _Alignment,size_t _Offset);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_realloc(void *_Memory,size_t _Size,size_t _Alignment);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_recalloc(void *_Memory,size_t _Count,size_t _Size,size_t _Alignment);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_realloc(void *_Memory,size_t _Size,size_t _Alignment,size_t _Offset);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_recalloc(void *_Memory,size_t _Count,size_t _Size,size_t _Alignment,size_t _Offset);
+# 579 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putenv(const char *_EnvString);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wputenv(const wchar_t *_EnvString);
+
+
+
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _fullpath(char *_FullPath,const char *_Path,size_t _SizeInBytes);
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atodbl(_CRT_DOUBLE *_Result,char *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoldbl(_LDOUBLE *_Result,char *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoflt(_CRT_FLOAT *_Result,char *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atodbl_l(_CRT_DOUBLE *_Result,char *_Str,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoldbl_l(_LDOUBLE *_Result,char *_Str,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoflt_l(_CRT_FLOAT *_Result,char *_Str,_locale_t _Locale);
+# 609 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+unsigned long __attribute__((__cdecl__)) _lrotl(unsigned long,int);
+unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
+
+
+
+
+
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _makepath(char *_Path,const char *_Drive,const char *_Dir,const char *_Filename,const char *_Ext);
+  _onexit_t __attribute__((__cdecl__)) _onexit(_onexit_t _Func);
+# 627 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  __extension__ unsigned long __attribute__((__cdecl__)) _rotl64(unsigned long _Val,int _Shift);
+  __extension__ unsigned long __attribute__((__cdecl__)) _rotr64(unsigned long Value,int Shift);
+
+
+
+
+
+
+  unsigned int __attribute__((__cdecl__)) _rotr(unsigned int _Val,int _Shift);
+  unsigned int __attribute__((__cdecl__)) _rotl(unsigned int _Val,int _Shift);
+
+
+  __extension__ unsigned long __attribute__((__cdecl__)) _rotr64(unsigned long _Val,int _Shift);
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _searchenv(const char *_Filename,const char *_EnvVar,char *_ResultPath) ;
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _splitpath(const char *_FullPath,char *_Drive,char *_Dir,char *_Filename,char *_Ext) ;
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _swab(char *_Buf1,char *_Buf2,int _SizeInBytes);
+# 656 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _beep(unsigned _Frequency,unsigned _Duration) __attribute__ ((__deprecated__));
+
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _seterrormode(int _Mode) __attribute__ ((__deprecated__));
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _sleep(unsigned long _Duration) __attribute__ ((__deprecated__));
+# 680 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  char *__attribute__((__cdecl__)) ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
+  char *__attribute__((__cdecl__)) fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
+  char *__attribute__((__cdecl__)) gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
+  char *__attribute__((__cdecl__)) itoa(int _Val,char *_DstBuf,int _Radix) ;
+  char *__attribute__((__cdecl__)) ltoa(long _Val,char *_DstBuf,int _Radix) ;
+  int __attribute__((__cdecl__)) putenv(const char *_EnvString) ;
+
+
+
+  void __attribute__((__cdecl__)) swab(char *_Buf1,char *_Buf2,int _SizeInBytes) ;
+
+
+  char *__attribute__((__cdecl__)) ultoa(unsigned long _Val,char *_Dstbuf,int _Radix) ;
+  _onexit_t __attribute__((__cdecl__)) onexit(_onexit_t _Func);
+
+
+
+
+
+  typedef struct { __extension__ long long quot, rem; } lldiv_t;
+
+  __extension__ lldiv_t __attribute__((__cdecl__)) lldiv(long long, long long);
+
+  __extension__ long long __attribute__((__cdecl__)) llabs(long long);
+
+
+
+
+  __extension__ long long __attribute__((__cdecl__)) strtoll(const char * __restrict__, char ** __restrict, int);
+  __extension__ unsigned long long __attribute__((__cdecl__)) strtoull(const char * __restrict__, char ** __restrict__, int);
+
+
+  __extension__ long long __attribute__((__cdecl__)) atoll (const char *);
+
+
+  __extension__ long long __attribute__((__cdecl__)) wtoll (const wchar_t *);
+  __extension__ char *__attribute__((__cdecl__)) lltoa (long long, char *, int);
+  __extension__ char *__attribute__((__cdecl__)) ulltoa (unsigned long long , char *, int);
+  __extension__ wchar_t *__attribute__((__cdecl__)) lltow (long long, wchar_t *, int);
+  __extension__ wchar_t *__attribute__((__cdecl__)) ulltow (unsigned long long, wchar_t *, int);
+# 735 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
 }
 
-static __inline __uint64_t
-__uint64_identity (__uint64_t __x)
-{
-  return __x;
-}
-# 37 "/usr/include/endian.h" 2 3 4
-# 177 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
 
+#pragma pack(pop)
 
-# 1 "/usr/include/x86_64-linux-gnu/sys/select.h" 1 3 4
-# 30 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/select.h" 1 3 4
-# 22 "/usr/include/x86_64-linux-gnu/bits/select.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 23 "/usr/include/x86_64-linux-gnu/bits/select.h" 2 3 4
-# 31 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
 
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\sec_api/stdlib_s.h" 1 3
 
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h" 1 3 4
 
 
 
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h" 1 3 4
 
 
 
 
-typedef struct
-{
-  unsigned long int __val[(1024 / (8 * sizeof (unsigned long int)))];
-} __sigset_t;
-# 5 "/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h" 2 3 4
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 1 3
+# 30 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 1 3
+# 31 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 2 3
+# 10 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\sec_api/stdlib_s.h" 2 3
+# 741 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 1 3
+# 11 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+#pragma pack(push,_CRT_PACKING)
 
-
-typedef __sigset_t sigset_t;
-# 34 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
-# 49 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-typedef long int __fd_mask;
-# 59 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-typedef struct
-  {
-
-
-
-    __fd_mask fds_bits[1024 / (8 * (int) sizeof (__fd_mask))];
-
-
-
-
-
-  } fd_set;
-
-
-
-
-
-
-typedef __fd_mask fd_mask;
-# 91 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-extern "C" {
-# 101 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-extern int select (int __nfds, fd_set *__restrict __readfds,
-     fd_set *__restrict __writefds,
-     fd_set *__restrict __exceptfds,
-     struct timeval *__restrict __timeout);
-# 113 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-extern int pselect (int __nfds, fd_set *__restrict __readfds,
-      fd_set *__restrict __writefds,
-      fd_set *__restrict __exceptfds,
-      const struct timespec *__restrict __timeout,
-      const __sigset_t *__restrict __sigmask);
-# 126 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-}
-# 180 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-
-
-
-
-
-typedef __blksize_t blksize_t;
-
-
-
-
-
-
-typedef __blkcnt_t blkcnt_t;
-
-
-
-typedef __fsblkcnt_t fsblkcnt_t;
-
-
-
-typedef __fsfilcnt_t fsfilcnt_t;
-# 219 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-typedef __blkcnt64_t blkcnt64_t;
-typedef __fsblkcnt64_t fsblkcnt64_t;
-typedef __fsfilcnt64_t fsfilcnt64_t;
-# 230 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-}
-# 395 "/usr/include/stdlib.h" 2 3 4
-
-
-
-
-
-
-extern long int random (void) throw ();
-
-
-extern void srandom (unsigned int __seed) throw ();
-
-
-
-
-
-extern char *initstate (unsigned int __seed, char *__statebuf,
-   size_t __statelen) throw () __attribute__ ((__nonnull__ (2)));
-
-
-
-extern char *setstate (char *__statebuf) throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-
-
-struct random_data
-  {
-    int32_t *fptr;
-    int32_t *rptr;
-    int32_t *state;
-    int rand_type;
-    int rand_deg;
-    int rand_sep;
-    int32_t *end_ptr;
-  };
-
-extern int random_r (struct random_data *__restrict __buf,
-       int32_t *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
-
-extern int srandom_r (unsigned int __seed, struct random_data *__buf)
-     throw () __attribute__ ((__nonnull__ (2)));
-
-extern int initstate_r (unsigned int __seed, char *__restrict __statebuf,
-   size_t __statelen,
-   struct random_data *__restrict __buf)
-     throw () __attribute__ ((__nonnull__ (2, 4)));
-
-extern int setstate_r (char *__restrict __statebuf,
-         struct random_data *__restrict __buf)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-
-
-extern int rand (void) throw ();
-
-extern void srand (unsigned int __seed) throw ();
-
-
-
-extern int rand_r (unsigned int *__seed) throw ();
-
-
-
-
-
-
-
-extern double drand48 (void) throw ();
-extern double erand48 (unsigned short int __xsubi[3]) throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern long int lrand48 (void) throw ();
-extern long int nrand48 (unsigned short int __xsubi[3])
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern long int mrand48 (void) throw ();
-extern long int jrand48 (unsigned short int __xsubi[3])
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-extern void srand48 (long int __seedval) throw ();
-extern unsigned short int *seed48 (unsigned short int __seed16v[3])
-     throw () __attribute__ ((__nonnull__ (1)));
-extern void lcong48 (unsigned short int __param[7]) throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-struct drand48_data
-  {
-    unsigned short int __x[3];
-    unsigned short int __old_x[3];
-    unsigned short int __c;
-    unsigned short int __init;
-    __extension__ unsigned long long int __a;
-
-  };
-
-
-extern int drand48_r (struct drand48_data *__restrict __buffer,
-        double *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
-extern int erand48_r (unsigned short int __xsubi[3],
-        struct drand48_data *__restrict __buffer,
-        double *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int lrand48_r (struct drand48_data *__restrict __buffer,
-        long int *__restrict __result)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-extern int nrand48_r (unsigned short int __xsubi[3],
-        struct drand48_data *__restrict __buffer,
-        long int *__restrict __result)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int mrand48_r (struct drand48_data *__restrict __buffer,
-        long int *__restrict __result)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-extern int jrand48_r (unsigned short int __xsubi[3],
-        struct drand48_data *__restrict __buffer,
-        long int *__restrict __result)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int srand48_r (long int __seedval, struct drand48_data *__buffer)
-     throw () __attribute__ ((__nonnull__ (2)));
-
-extern int seed48_r (unsigned short int __seed16v[3],
-       struct drand48_data *__buffer) throw () __attribute__ ((__nonnull__ (1, 2)));
-
-extern int lcong48_r (unsigned short int __param[7],
-        struct drand48_data *__buffer)
-     throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-
-extern void *malloc (size_t __size) throw () __attribute__ ((__malloc__))
-                                         ;
-
-extern void *calloc (size_t __nmemb, size_t __size)
-     throw () __attribute__ ((__malloc__)) ;
-
-
-
-
-
-
-extern void *realloc (void *__ptr, size_t __size)
-     throw () __attribute__ ((__warn_unused_result__)) ;
-
-
-
-
-
-
-
-extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
-     throw () __attribute__ ((__warn_unused_result__))
-                                      ;
-
-
-
-extern void free (void *__ptr) throw ();
-
-
-
-# 1 "/usr/include/alloca.h" 1 3 4
-# 24 "/usr/include/alloca.h" 3 4
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 1 3 4
-# 25 "/usr/include/alloca.h" 2 3 4
 
 extern "C" {
+# 46 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+  typedef struct _heapinfo {
+    int *_pentry;
+    size_t _size;
+    int _useflag;
+  } _HEAPINFO;
+
+
+  extern unsigned int _amblksiz;
+# 103 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+void * __mingw_aligned_malloc (size_t _Size, size_t _Alignment);
+void __mingw_aligned_free (void *_Memory);
+void * __mingw_aligned_offset_realloc (void *_Memory, size_t _Size, size_t _Alignment, size_t _Offset);
+void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
+
+
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _resetstkoflw (void);
+  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _set_malloc_crt_max_wait(unsigned long _NewValue);
+
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _expand(void *_Memory,size_t _NewSize);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _msize(void *_Memory);
 
 
 
 
 
-extern void *alloca (size_t __size) throw ();
+
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _get_sbh_threshold(void);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_sbh_threshold(size_t _NewValue);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_amblksiz(size_t _Value);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_amblksiz(size_t *_Value);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapadd(void *_Memory,size_t _Size);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapchk(void);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapmin(void);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapset(unsigned int _Fill);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapwalk(_HEAPINFO *_EntryInfo);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _heapused(size_t *_Used,size_t *_Commit);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _get_heap_handle(void);
+# 144 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+  static __inline void *_MarkAllocaS(void *_Ptr,unsigned int _Marker) {
+    if(_Ptr) {
+      *((unsigned int*)_Ptr) = _Marker;
+      _Ptr = (char*)_Ptr + 16;
+    }
+    return _Ptr;
+  }
+# 163 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+  static __inline void __attribute__((__cdecl__)) _freea(void *_Memory) {
+    unsigned int _Marker;
+    if(_Memory) {
+      _Memory = (char*)_Memory - 16;
+      _Marker = *(unsigned int *)_Memory;
+      if(_Marker==0xDDDD) {
+ free(_Memory);
+      }
 
 
 
 
 
+    }
+  }
+# 206 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
 }
-# 569 "/usr/include/stdlib.h" 2 3 4
 
 
+#pragma pack(pop)
+# 742 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 2 3
+# 76 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 2 3
 
-
-
-extern void *valloc (size_t __size) throw () __attribute__ ((__malloc__))
-                                         ;
-
-
-
-
-extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
-     throw () __attribute__ ((__nonnull__ (1))) ;
-
-
-
-
-extern void *aligned_alloc (size_t __alignment, size_t __size)
-     throw () __attribute__ ((__malloc__)) ;
-
-
-
-extern void abort (void) throw () __attribute__ ((__noreturn__));
-
-
-
-extern int atexit (void (*__func) (void)) throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-extern "C++" int at_quick_exit (void (*__func) (void))
-     throw () __asm ("at_quick_exit") __attribute__ ((__nonnull__ (1)));
-# 610 "/usr/include/stdlib.h" 3 4
-extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
-     throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-extern void exit (int __status) throw () __attribute__ ((__noreturn__));
-
-
-
-
-
-extern void quick_exit (int __status) throw () __attribute__ ((__noreturn__));
-
-
-
-
-
-extern void _Exit (int __status) throw () __attribute__ ((__noreturn__));
-
-
-
-
-extern char *getenv (const char *__name) throw () __attribute__ ((__nonnull__ (1))) ;
-
-
-
-
-extern char *secure_getenv (const char *__name)
-     throw () __attribute__ ((__nonnull__ (1))) ;
-
-
-
-
-
-
-extern int putenv (char *__string) throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-extern int setenv (const char *__name, const char *__value, int __replace)
-     throw () __attribute__ ((__nonnull__ (2)));
-
-
-extern int unsetenv (const char *__name) throw () __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-
-extern int clearenv (void) throw ();
-# 675 "/usr/include/stdlib.h" 3 4
-extern char *mktemp (char *__template) throw () __attribute__ ((__nonnull__ (1)));
-# 688 "/usr/include/stdlib.h" 3 4
-extern int mkstemp (char *__template) __attribute__ ((__nonnull__ (1))) ;
-# 698 "/usr/include/stdlib.h" 3 4
-extern int mkstemp64 (char *__template) __attribute__ ((__nonnull__ (1))) ;
-# 710 "/usr/include/stdlib.h" 3 4
-extern int mkstemps (char *__template, int __suffixlen) __attribute__ ((__nonnull__ (1))) ;
-# 720 "/usr/include/stdlib.h" 3 4
-extern int mkstemps64 (char *__template, int __suffixlen)
-     __attribute__ ((__nonnull__ (1))) ;
-# 731 "/usr/include/stdlib.h" 3 4
-extern char *mkdtemp (char *__template) throw () __attribute__ ((__nonnull__ (1))) ;
-# 742 "/usr/include/stdlib.h" 3 4
-extern int mkostemp (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
-# 752 "/usr/include/stdlib.h" 3 4
-extern int mkostemp64 (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
-# 762 "/usr/include/stdlib.h" 3 4
-extern int mkostemps (char *__template, int __suffixlen, int __flags)
-     __attribute__ ((__nonnull__ (1))) ;
-# 774 "/usr/include/stdlib.h" 3 4
-extern int mkostemps64 (char *__template, int __suffixlen, int __flags)
-     __attribute__ ((__nonnull__ (1))) ;
-# 784 "/usr/include/stdlib.h" 3 4
-extern int system (const char *__command) ;
-
-
-
-
-
-extern char *canonicalize_file_name (const char *__name)
-     throw () __attribute__ ((__nonnull__ (1))) ;
-# 800 "/usr/include/stdlib.h" 3 4
-extern char *realpath (const char *__restrict __name,
-         char *__restrict __resolved) throw () ;
-
-
-
-
-
-
-typedef int (*__compar_fn_t) (const void *, const void *);
-
-
-typedef __compar_fn_t comparison_fn_t;
-
-
-
-typedef int (*__compar_d_fn_t) (const void *, const void *, void *);
-
-
-
-
-extern void *bsearch (const void *__key, const void *__base,
-        size_t __nmemb, size_t __size, __compar_fn_t __compar)
-     __attribute__ ((__nonnull__ (1, 2, 5))) ;
-
-
-
-
-
-
-
-extern void qsort (void *__base, size_t __nmemb, size_t __size,
-     __compar_fn_t __compar) __attribute__ ((__nonnull__ (1, 4)));
-
-extern void qsort_r (void *__base, size_t __nmemb, size_t __size,
-       __compar_d_fn_t __compar, void *__arg)
-  __attribute__ ((__nonnull__ (1, 4)));
-
-
-
-
-extern int abs (int __x) throw () __attribute__ ((__const__)) ;
-extern long int labs (long int __x) throw () __attribute__ ((__const__)) ;
-
-
-__extension__ extern long long int llabs (long long int __x)
-     throw () __attribute__ ((__const__)) ;
-
-
-
-
-
-
-extern div_t div (int __numer, int __denom)
-     throw () __attribute__ ((__const__)) ;
-extern ldiv_t ldiv (long int __numer, long int __denom)
-     throw () __attribute__ ((__const__)) ;
-
-
-__extension__ extern lldiv_t lldiv (long long int __numer,
-        long long int __denom)
-     throw () __attribute__ ((__const__)) ;
-# 872 "/usr/include/stdlib.h" 3 4
-extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
-     int *__restrict __sign) throw () __attribute__ ((__nonnull__ (3, 4))) ;
-
-
-
-
-extern char *fcvt (double __value, int __ndigit, int *__restrict __decpt,
-     int *__restrict __sign) throw () __attribute__ ((__nonnull__ (3, 4))) ;
-
-
-
-
-extern char *gcvt (double __value, int __ndigit, char *__buf)
-     throw () __attribute__ ((__nonnull__ (3))) ;
-
-
-
-
-extern char *qecvt (long double __value, int __ndigit,
-      int *__restrict __decpt, int *__restrict __sign)
-     throw () __attribute__ ((__nonnull__ (3, 4))) ;
-extern char *qfcvt (long double __value, int __ndigit,
-      int *__restrict __decpt, int *__restrict __sign)
-     throw () __attribute__ ((__nonnull__ (3, 4))) ;
-extern char *qgcvt (long double __value, int __ndigit, char *__buf)
-     throw () __attribute__ ((__nonnull__ (3))) ;
-
-
-
-
-extern int ecvt_r (double __value, int __ndigit, int *__restrict __decpt,
-     int *__restrict __sign, char *__restrict __buf,
-     size_t __len) throw () __attribute__ ((__nonnull__ (3, 4, 5)));
-extern int fcvt_r (double __value, int __ndigit, int *__restrict __decpt,
-     int *__restrict __sign, char *__restrict __buf,
-     size_t __len) throw () __attribute__ ((__nonnull__ (3, 4, 5)));
-
-extern int qecvt_r (long double __value, int __ndigit,
-      int *__restrict __decpt, int *__restrict __sign,
-      char *__restrict __buf, size_t __len)
-     throw () __attribute__ ((__nonnull__ (3, 4, 5)));
-extern int qfcvt_r (long double __value, int __ndigit,
-      int *__restrict __decpt, int *__restrict __sign,
-      char *__restrict __buf, size_t __len)
-     throw () __attribute__ ((__nonnull__ (3, 4, 5)));
-
-
-
-
-
-extern int mblen (const char *__s, size_t __n) throw ();
-
-
-extern int mbtowc (wchar_t *__restrict __pwc,
-     const char *__restrict __s, size_t __n) throw ();
-
-
-extern int wctomb (char *__s, wchar_t __wchar) throw ();
-
-
-
-extern size_t mbstowcs (wchar_t *__restrict __pwcs,
-   const char *__restrict __s, size_t __n) throw ();
-
-extern size_t wcstombs (char *__restrict __s,
-   const wchar_t *__restrict __pwcs, size_t __n)
-     throw ();
-
-
-
-
-
-
-
-extern int rpmatch (const char *__response) throw () __attribute__ ((__nonnull__ (1))) ;
-# 957 "/usr/include/stdlib.h" 3 4
-extern int getsubopt (char **__restrict __optionp,
-        char *const *__restrict __tokens,
-        char **__restrict __valuep)
-     throw () __attribute__ ((__nonnull__ (1, 2, 3))) ;
-
-
-
-
-
-
-
-extern int posix_openpt (int __oflag) ;
-
-
-
-
-
-
-
-extern int grantpt (int __fd) throw ();
-
-
-
-extern int unlockpt (int __fd) throw ();
-
-
-
-
-extern char *ptsname (int __fd) throw () ;
-
-
-
-
-
-
-extern int ptsname_r (int __fd, char *__buf, size_t __buflen)
-     throw () __attribute__ ((__nonnull__ (2)));
-
-
-extern int getpt (void);
-
-
-
-
-
-
-extern int getloadavg (double __loadavg[], int __nelem)
-     throw () __attribute__ ((__nonnull__ (1)));
-# 1013 "/usr/include/stdlib.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/stdlib-float.h" 1 3 4
-# 1014 "/usr/include/stdlib.h" 2 3 4
-# 1023 "/usr/include/stdlib.h" 3 4
-}
-# 76 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdlib" 2 3
-
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/std_abs.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/std_abs.h" 3
-# 46 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/std_abs.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 3
+# 46 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 3
 extern "C++"
 {
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -22751,21 +21098,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   inline constexpr __int128
   abs(__int128 __x) { return __x >= 0 ? __x : -__x; }
-# 100 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/std_abs.h" 3
-  inline constexpr
-  __float128
-  abs(__float128 __x)
-  { return __x < 0 ? -__x : __x; }
-
-
-
+# 107 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 3
 }
 }
-# 78 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdlib" 2 3
-# 121 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdlib" 3
+# 78 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 2 3
+# 121 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
 extern "C++"
 {
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -22779,7 +21119,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   using ::atexit;
 
 
-  using ::at_quick_exit;
+
 
 
   using ::atof;
@@ -22802,7 +21142,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   using ::qsort;
 
 
-  using ::quick_exit;
+
 
 
   using ::rand;
@@ -22825,8 +21165,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 195 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdlib" 3
-namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+# 195 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
+namespace __gnu_cxx
 {
 
 
@@ -22848,7 +21188,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
   { lldiv_t __q; __q.quot = __n / __d; __q.rem = __n % __d; return __q; }
 
   using ::lldiv;
-# 227 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdlib" 3
+# 227 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
   using ::atoll;
   using ::strtoll;
   using ::strtoull;
@@ -22880,683 +21220,13 @@ namespace std
 
 
 }
-# 42 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/string_conversions.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwchar" 3
-# 43 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/string_conversions.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdio" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdio" 3
-
-
-# 1 "/usr/include/stdio.h" 1 3 4
-# 27 "/usr/include/stdio.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
-# 28 "/usr/include/stdio.h" 2 3 4
-
-extern "C" {
-
-
-
-
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include/stddef.h" 1 3 4
-# 34 "/usr/include/stdio.h" 2 3 4
-
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h" 1 3 4
-# 10 "/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h" 3 4
-typedef struct _G_fpos_t
-{
-  __off_t __pos;
-  __mbstate_t __state;
-} __fpos_t;
-# 40 "/usr/include/stdio.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h" 1 3 4
-# 10 "/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h" 3 4
-typedef struct _G_fpos64_t
-{
-  __off64_t __pos;
-  __mbstate_t __state;
-} __fpos64_t;
-# 41 "/usr/include/stdio.h" 2 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 1 3 4
-# 35 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 3 4
-struct _IO_FILE;
-struct _IO_marker;
-struct _IO_codecvt;
-struct _IO_wide_data;
-
-
-
-
-typedef void _IO_lock_t;
-
-
-
-
-
-struct _IO_FILE
-{
-  int _flags;
-
-
-  char *_IO_read_ptr;
-  char *_IO_read_end;
-  char *_IO_read_base;
-  char *_IO_write_base;
-  char *_IO_write_ptr;
-  char *_IO_write_end;
-  char *_IO_buf_base;
-  char *_IO_buf_end;
-
-
-  char *_IO_save_base;
-  char *_IO_backup_base;
-  char *_IO_save_end;
-
-  struct _IO_marker *_markers;
-
-  struct _IO_FILE *_chain;
-
-  int _fileno;
-  int _flags2;
-  __off_t _old_offset;
-
-
-  unsigned short _cur_column;
-  signed char _vtable_offset;
-  char _shortbuf[1];
-
-  _IO_lock_t *_lock;
-
-
-
-
-
-
-
-  __off64_t _offset;
-
-  struct _IO_codecvt *_codecvt;
-  struct _IO_wide_data *_wide_data;
-  struct _IO_FILE *_freeres_list;
-  void *_freeres_buf;
-  size_t __pad5;
-  int _mode;
-
-  char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
-};
-# 44 "/usr/include/stdio.h" 2 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h" 1 3 4
-# 27 "/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h" 3 4
-typedef __ssize_t cookie_read_function_t (void *__cookie, char *__buf,
-                                          size_t __nbytes);
-
-
-
-
-
-
-
-typedef __ssize_t cookie_write_function_t (void *__cookie, const char *__buf,
-                                           size_t __nbytes);
-
-
-
-
-
-
-
-typedef int cookie_seek_function_t (void *__cookie, __off64_t *__pos, int __w);
-
-
-typedef int cookie_close_function_t (void *__cookie);
-
-
-
-
-
-
-typedef struct _IO_cookie_io_functions_t
-{
-  cookie_read_function_t *read;
-  cookie_write_function_t *write;
-  cookie_seek_function_t *seek;
-  cookie_close_function_t *close;
-} cookie_io_functions_t;
-# 47 "/usr/include/stdio.h" 2 3 4
-
-
-
-
-
-typedef __gnuc_va_list va_list;
-# 84 "/usr/include/stdio.h" 3 4
-typedef __fpos_t fpos_t;
-
-
-
-
-typedef __fpos64_t fpos64_t;
-# 133 "/usr/include/stdio.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/stdio_lim.h" 1 3 4
-# 134 "/usr/include/stdio.h" 2 3 4
-
-
-
-extern FILE *stdin;
-extern FILE *stdout;
-extern FILE *stderr;
-
-
-
-
-
-
-extern int remove (const char *__filename) throw ();
-
-extern int rename (const char *__old, const char *__new) throw ();
-
-
-
-extern int renameat (int __oldfd, const char *__old, int __newfd,
-       const char *__new) throw ();
-# 164 "/usr/include/stdio.h" 3 4
-extern int renameat2 (int __oldfd, const char *__old, int __newfd,
-        const char *__new, unsigned int __flags) throw ();
-
-
-
-
-
-
-
-extern FILE *tmpfile (void) ;
-# 183 "/usr/include/stdio.h" 3 4
-extern FILE *tmpfile64 (void) ;
-
-
-
-extern char *tmpnam (char *__s) throw () ;
-
-
-
-
-extern char *tmpnam_r (char *__s) throw () ;
-# 204 "/usr/include/stdio.h" 3 4
-extern char *tempnam (const char *__dir, const char *__pfx)
-     throw () __attribute__ ((__malloc__)) ;
-
-
-
-
-
-
-
-extern int fclose (FILE *__stream);
-
-
-
-
-extern int fflush (FILE *__stream);
-# 227 "/usr/include/stdio.h" 3 4
-extern int fflush_unlocked (FILE *__stream);
-# 237 "/usr/include/stdio.h" 3 4
-extern int fcloseall (void);
-# 246 "/usr/include/stdio.h" 3 4
-extern FILE *fopen (const char *__restrict __filename,
-      const char *__restrict __modes) ;
-
-
-
-
-extern FILE *freopen (const char *__restrict __filename,
-        const char *__restrict __modes,
-        FILE *__restrict __stream) ;
-# 270 "/usr/include/stdio.h" 3 4
-extern FILE *fopen64 (const char *__restrict __filename,
-        const char *__restrict __modes) ;
-extern FILE *freopen64 (const char *__restrict __filename,
-   const char *__restrict __modes,
-   FILE *__restrict __stream) ;
-
-
-
-
-extern FILE *fdopen (int __fd, const char *__modes) throw () ;
-
-
-
-
-
-extern FILE *fopencookie (void *__restrict __magic_cookie,
-     const char *__restrict __modes,
-     cookie_io_functions_t __io_funcs) throw () ;
-
-
-
-
-extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
-  throw () ;
-
-
-
-
-extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) throw () ;
-
-
-
-
-
-extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) throw ();
-
-
-
-extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,
-      int __modes, size_t __n) throw ();
-
-
-
-
-extern void setbuffer (FILE *__restrict __stream, char *__restrict __buf,
-         size_t __size) throw ();
-
-
-extern void setlinebuf (FILE *__stream) throw ();
-
-
-
-
-
-
-
-extern int fprintf (FILE *__restrict __stream,
-      const char *__restrict __format, ...);
-
-
-
-
-extern int printf (const char *__restrict __format, ...);
-
-extern int sprintf (char *__restrict __s,
-      const char *__restrict __format, ...) throw ();
-
-
-
-
-
-extern int vfprintf (FILE *__restrict __s, const char *__restrict __format,
-       __gnuc_va_list __arg);
-
-
-
-
-extern int vprintf (const char *__restrict __format, __gnuc_va_list __arg);
-
-extern int vsprintf (char *__restrict __s, const char *__restrict __format,
-       __gnuc_va_list __arg) throw ();
-
-
-
-extern int snprintf (char *__restrict __s, size_t __maxlen,
-       const char *__restrict __format, ...)
-     throw () __attribute__ ((__format__ (__printf__, 3, 4)));
-
-extern int vsnprintf (char *__restrict __s, size_t __maxlen,
-        const char *__restrict __format, __gnuc_va_list __arg)
-     throw () __attribute__ ((__format__ (__printf__, 3, 0)));
-
-
-
-
-
-extern int vasprintf (char **__restrict __ptr, const char *__restrict __f,
-        __gnuc_va_list __arg)
-     throw () __attribute__ ((__format__ (__printf__, 2, 0))) ;
-extern int __asprintf (char **__restrict __ptr,
-         const char *__restrict __fmt, ...)
-     throw () __attribute__ ((__format__ (__printf__, 2, 3))) ;
-extern int asprintf (char **__restrict __ptr,
-       const char *__restrict __fmt, ...)
-     throw () __attribute__ ((__format__ (__printf__, 2, 3))) ;
-
-
-
-
-extern int vdprintf (int __fd, const char *__restrict __fmt,
-       __gnuc_va_list __arg)
-     __attribute__ ((__format__ (__printf__, 2, 0)));
-extern int dprintf (int __fd, const char *__restrict __fmt, ...)
-     __attribute__ ((__format__ (__printf__, 2, 3)));
-
-
-
-
-
-
-
-extern int fscanf (FILE *__restrict __stream,
-     const char *__restrict __format, ...) ;
-
-
-
-
-extern int scanf (const char *__restrict __format, ...) ;
-
-extern int sscanf (const char *__restrict __s,
-     const char *__restrict __format, ...) throw ();
-
-
-
-
-
-
-extern int fscanf (FILE *__restrict __stream, const char *__restrict __format, ...) __asm__ ("" "__isoc99_fscanf") ;
-
-
-extern int scanf (const char *__restrict __format, ...) __asm__ ("" "__isoc99_scanf") ;
-
-extern int sscanf (const char *__restrict __s, const char *__restrict __format, ...) throw () __asm__ ("" "__isoc99_sscanf");
-# 432 "/usr/include/stdio.h" 3 4
-extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
-      __gnuc_va_list __arg)
-     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
-
-
-
-
-
-extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg)
-     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
-
-
-extern int vsscanf (const char *__restrict __s,
-      const char *__restrict __format, __gnuc_va_list __arg)
-     throw () __attribute__ ((__format__ (__scanf__, 2, 0)));
-
-
-
-
-extern int vfscanf (FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vfscanf")
-
-
-
-     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
-extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vscanf")
-
-     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
-extern int vsscanf (const char *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) throw () __asm__ ("" "__isoc99_vsscanf")
-
-
-
-     __attribute__ ((__format__ (__scanf__, 2, 0)));
-# 485 "/usr/include/stdio.h" 3 4
-extern int fgetc (FILE *__stream);
-extern int getc (FILE *__stream);
-
-
-
-
-
-extern int getchar (void);
-
-
-
-
-
-
-extern int getc_unlocked (FILE *__stream);
-extern int getchar_unlocked (void);
-# 510 "/usr/include/stdio.h" 3 4
-extern int fgetc_unlocked (FILE *__stream);
-# 521 "/usr/include/stdio.h" 3 4
-extern int fputc (int __c, FILE *__stream);
-extern int putc (int __c, FILE *__stream);
-
-
-
-
-
-extern int putchar (int __c);
-# 537 "/usr/include/stdio.h" 3 4
-extern int fputc_unlocked (int __c, FILE *__stream);
-
-
-
-
-
-
-
-extern int putc_unlocked (int __c, FILE *__stream);
-extern int putchar_unlocked (int __c);
-
-
-
-
-
-
-extern int getw (FILE *__stream);
-
-
-extern int putw (int __w, FILE *__stream);
-
-
-
-
-
-
-
-extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
-          ;
-# 587 "/usr/include/stdio.h" 3 4
-extern char *fgets_unlocked (char *__restrict __s, int __n,
-        FILE *__restrict __stream) ;
-# 603 "/usr/include/stdio.h" 3 4
-extern __ssize_t __getdelim (char **__restrict __lineptr,
-                             size_t *__restrict __n, int __delimiter,
-                             FILE *__restrict __stream) ;
-extern __ssize_t getdelim (char **__restrict __lineptr,
-                           size_t *__restrict __n, int __delimiter,
-                           FILE *__restrict __stream) ;
-
-
-
-
-
-
-
-extern __ssize_t getline (char **__restrict __lineptr,
-                          size_t *__restrict __n,
-                          FILE *__restrict __stream) ;
-
-
-
-
-
-
-
-extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
-
-
-
-
-
-extern int puts (const char *__s);
-
-
-
-
-
-
-extern int ungetc (int __c, FILE *__stream);
-
-
-
-
-
-
-extern size_t fread (void *__restrict __ptr, size_t __size,
-       size_t __n, FILE *__restrict __stream) ;
-
-
-
-
-extern size_t fwrite (const void *__restrict __ptr, size_t __size,
-        size_t __n, FILE *__restrict __s);
-# 662 "/usr/include/stdio.h" 3 4
-extern int fputs_unlocked (const char *__restrict __s,
-      FILE *__restrict __stream);
-# 673 "/usr/include/stdio.h" 3 4
-extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
-         size_t __n, FILE *__restrict __stream) ;
-extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
-          size_t __n, FILE *__restrict __stream);
-
-
-
-
-
-
-
-extern int fseek (FILE *__stream, long int __off, int __whence);
-
-
-
-
-extern long int ftell (FILE *__stream) ;
-
-
-
-
-extern void rewind (FILE *__stream);
-# 707 "/usr/include/stdio.h" 3 4
-extern int fseeko (FILE *__stream, __off_t __off, int __whence);
-
-
-
-
-extern __off_t ftello (FILE *__stream) ;
-# 731 "/usr/include/stdio.h" 3 4
-extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);
-
-
-
-
-extern int fsetpos (FILE *__stream, const fpos_t *__pos);
-# 750 "/usr/include/stdio.h" 3 4
-extern int fseeko64 (FILE *__stream, __off64_t __off, int __whence);
-extern __off64_t ftello64 (FILE *__stream) ;
-extern int fgetpos64 (FILE *__restrict __stream, fpos64_t *__restrict __pos);
-extern int fsetpos64 (FILE *__stream, const fpos64_t *__pos);
-
-
-
-extern void clearerr (FILE *__stream) throw ();
-
-extern int feof (FILE *__stream) throw () ;
-
-extern int ferror (FILE *__stream) throw () ;
-
-
-
-extern void clearerr_unlocked (FILE *__stream) throw ();
-extern int feof_unlocked (FILE *__stream) throw () ;
-extern int ferror_unlocked (FILE *__stream) throw () ;
-
-
-
-
-
-
-
-extern void perror (const char *__s);
-
-
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h" 1 3 4
-# 26 "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h" 3 4
-extern int sys_nerr;
-extern const char *const sys_errlist[];
-
-
-extern int _sys_nerr;
-extern const char *const _sys_errlist[];
-# 782 "/usr/include/stdio.h" 2 3 4
-
-
-
-
-extern int fileno (FILE *__stream) throw () ;
-
-
-
-
-extern int fileno_unlocked (FILE *__stream) throw () ;
-# 800 "/usr/include/stdio.h" 3 4
-extern FILE *popen (const char *__command, const char *__modes) ;
-
-
-
-
-
-extern int pclose (FILE *__stream);
-
-
-
-
-
-extern char *ctermid (char *__s) throw ();
-
-
-
-
-
-extern char *cuserid (char *__s);
-
-
-
-
-struct obstack;
-
-
-extern int obstack_printf (struct obstack *__restrict __obstack,
-      const char *__restrict __format, ...)
-     throw () __attribute__ ((__format__ (__printf__, 2, 3)));
-extern int obstack_vprintf (struct obstack *__restrict __obstack,
-       const char *__restrict __format,
-       __gnuc_va_list __args)
-     throw () __attribute__ ((__format__ (__printf__, 2, 0)));
-
-
-
-
-
-
-
-extern void flockfile (FILE *__stream) throw ();
-
-
-
-extern int ftrylockfile (FILE *__stream) throw () ;
-
-
-extern void funlockfile (FILE *__stream) throw ();
-# 858 "/usr/include/stdio.h" 3 4
-extern int __uflow (FILE *);
-extern int __overflow (FILE *, int);
-# 873 "/usr/include/stdio.h" 3 4
-}
-# 43 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdio" 2 3
-# 96 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdio" 3
+# 42 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/string_conversions.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwchar" 3
+# 43 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/string_conversions.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdio" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdio" 3
+# 96 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdio" 3
 namespace std
 {
   using ::FILE;
@@ -23609,10 +21279,10 @@ namespace std
   using ::vprintf;
   using ::vsprintf;
 }
-# 157 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdio" 3
+# 157 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdio" 3
 namespace __gnu_cxx
 {
-# 175 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdio" 3
+# 175 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdio" 3
   using ::snprintf;
   using ::vfscanf;
   using ::vscanf;
@@ -23629,60 +21299,12 @@ namespace std
   using ::__gnu_cxx::vsnprintf;
   using ::__gnu_cxx::vsscanf;
 }
-# 44 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/string_conversions.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cerrno" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cerrno" 3
+# 44 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/string_conversions.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cerrno" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cerrno" 3
+# 45 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ext/string_conversions.h" 2 3
 
-
-# 1 "/usr/include/errno.h" 1 3 4
-# 28 "/usr/include/errno.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/errno.h" 1 3 4
-# 26 "/usr/include/x86_64-linux-gnu/bits/errno.h" 3 4
-# 1 "/usr/include/linux/errno.h" 1 3 4
-# 1 "/usr/include/x86_64-linux-gnu/asm/errno.h" 1 3 4
-# 1 "/usr/include/asm-generic/errno.h" 1 3 4
-
-
-
-
-# 1 "/usr/include/asm-generic/errno-base.h" 1 3 4
-# 6 "/usr/include/asm-generic/errno.h" 2 3 4
-# 2 "/usr/include/x86_64-linux-gnu/asm/errno.h" 2 3 4
-# 2 "/usr/include/linux/errno.h" 2 3 4
-# 27 "/usr/include/x86_64-linux-gnu/bits/errno.h" 2 3 4
-# 29 "/usr/include/errno.h" 2 3 4
-
-
-
-
-
-extern "C" {
-
-
-extern int *__errno_location (void) throw () __attribute__ ((__const__));
-
-
-
-
-
-
-
-extern char *program_invocation_name;
-extern char *program_invocation_short_name;
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/error_t.h" 1 3 4
-# 22 "/usr/include/x86_64-linux-gnu/bits/types/error_t.h" 3 4
-typedef int error_t;
-# 49 "/usr/include/errno.h" 2 3 4
-
-
-
-}
-# 43 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cerrno" 2 3
-# 45 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ext/string_conversions.h" 2 3
-
-namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+namespace __gnu_cxx
 {
 
 
@@ -23699,8 +21321,8 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
       _CharT* __endptr;
 
       struct _Save_errno {
- _Save_errno() : _M_errno((*__errno_location ())) { (*__errno_location ()) = 0; }
- ~_Save_errno() { if ((*__errno_location ()) == 0) (*__errno_location ()) = _M_errno; }
+ _Save_errno() : _M_errno((*_errno())) { (*_errno()) = 0; }
+ ~_Save_errno() { if ((*_errno()) == 0) (*_errno()) = _M_errno; }
  int _M_errno;
       } const __save_errno;
 
@@ -23720,7 +21342,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
       if (__endptr == __str)
  std::__throw_invalid_argument(__name);
-      else if ((*__errno_location ()) == 34
+      else if ((*_errno()) == 34
    || _Range_chk::_S_chk(__tmp, std::is_same<_Ret, int>{}))
  std::__throw_out_of_range(__name);
       else
@@ -23756,9 +21378,9 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 6401 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 2 3
+# 6401 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 namespace __cxx11 {
@@ -23983,14 +21605,14 @@ namespace __cxx11 {
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/functional_hash.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/functional_hash.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/functional_hash.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/functional_hash.h" 3
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 49 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/functional_hash.h" 3
+# 49 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/functional_hash.h" 3
   template<typename _Result, typename _Arg>
     struct __hash_base
     {
@@ -24054,7 +21676,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator()(_Tp* __p) const noexcept
       { return reinterpret_cast<size_t>(__p); }
     };
-# 124 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/functional_hash.h" 3
+# 124 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/functional_hash.h" 3
   template<> struct hash<bool> : public __hash_base<size_t, bool> { size_t operator()(bool __val) const noexcept { return static_cast<size_t>(__val); } };
 
 
@@ -24102,7 +21724,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<> struct hash<__int128> : public __hash_base<size_t, __int128> { size_t operator()(__int128 __val) const noexcept { return static_cast<size_t>(__val); } };
   template<> struct hash<__int128 unsigned> : public __hash_base<size_t, __int128 unsigned> { size_t operator()(__int128 unsigned __val) const noexcept { return static_cast<size_t>(__val); } };
-# 187 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/functional_hash.h" 3
+# 187 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/functional_hash.h" 3
   struct _Hash_impl
   {
     static size_t
@@ -24189,9 +21811,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 6627 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.h" 2 3
+# 6627 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -24304,13 +21926,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 53 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/string" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.tcc" 1 3
-# 43 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.tcc" 3
+# 53 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\string" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.tcc" 1 3
+# 43 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.tcc" 3
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -24749,7 +22371,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       return __n;
     }
-# 1155 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.tcc" 3
+# 1155 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.tcc" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_string<_CharT, _Traits, _Alloc>
     operator+(const _CharT* __lhs,
@@ -25192,7 +22814,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __in.setstate(__err);
       return __in;
     }
-# 1607 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_string.tcc" 3
+# 1607 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_string.tcc" 3
   extern template class basic_string<char>;
 
 
@@ -25239,13 +22861,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 54 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/string" 2 3
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 2 3
+# 54 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\string" 2 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 2 3
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 62 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 62 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
   class locale
   {
   public:
@@ -25271,7 +22893,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
     template<typename _Cache>
       friend struct __use_cache;
-# 98 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 98 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     static const category none = 0;
     static const category ctype = 1L << 0;
     static const category numeric = 1L << 1;
@@ -25281,33 +22903,33 @@ namespace std __attribute__ ((__visibility__ ("default")))
     static const category messages = 1L << 5;
     static const category all = (ctype | numeric | collate |
         time | monetary | messages);
-# 117 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 117 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     locale() throw();
-# 126 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 126 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     locale(const locale& __other) throw();
-# 136 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 136 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     explicit
     locale(const char* __s);
-# 151 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 151 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     locale(const locale& __base, const char* __s, category __cat);
-# 162 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 162 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     explicit
     locale(const std::string& __s) : locale(__s.c_str()) { }
-# 177 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 177 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     locale(const locale& __base, const std::string& __s, category __cat)
     : locale(__base, __s.c_str(), __cat) { }
-# 192 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 192 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     locale(const locale& __base, const locale& __add, category __cat);
-# 205 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 205 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     template<typename _Facet>
       locale(const locale& __other, _Facet* __f);
 
 
     ~locale() throw();
-# 219 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 219 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     const locale&
     operator=(const locale& __other) throw();
-# 234 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 234 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     template<typename _Facet>
       locale
       combine(const locale& __other) const;
@@ -25320,7 +22942,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __attribute ((__abi_tag__ ("cxx11")))
     string
     name() const;
-# 254 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 254 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     bool
     operator==(const locale& __other) const throw();
 
@@ -25333,12 +22955,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
     bool
     operator!=(const locale& __other) const throw()
     { return !(this->operator==(__other)); }
-# 282 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 282 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     template<typename _Char, typename _Traits, typename _Alloc>
       bool
       operator()(const basic_string<_Char, _Traits, _Alloc>& __s1,
    const basic_string<_Char, _Traits, _Alloc>& __s2) const;
-# 298 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 298 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     static locale
     global(const locale& __loc);
 
@@ -25363,8 +22985,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     static const char* const* const _S_categories;
-# 333 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
-    enum { _S_categories_size = 6 + 6 };
+# 333 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
+    enum { _S_categories_size = 6 + 0 };
 
 
     static __gthread_once_t _S_once;
@@ -25389,7 +23011,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     static const id* const _S_twinned_facets[];
 
   };
-# 371 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 371 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
   class locale::facet
   {
   private:
@@ -25412,7 +23034,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     _S_initialize_once();
 
   protected:
-# 402 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 402 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     explicit
     facet(size_t __refs = 0) throw() : _M_refcount(__refs ? 1 : 0)
     { }
@@ -25441,7 +23063,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
     __attribute__ ((__const__)) static const char*
     _S_get_c_name() throw();
-# 438 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 438 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
     facet(const facet&) = delete;
 
     facet&
@@ -25474,7 +23096,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   protected:
     class __shim;
   };
-# 483 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 483 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
   class locale::id
   {
   private:
@@ -25619,7 +23241,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     void _M_init_extra(facet**);
     void _M_init_extra(void*, void*, const char*, const char*);
   };
-# 641 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 641 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
   template<typename _CharT>
     class __cxx11:: collate : public locale::facet
     {
@@ -25639,26 +23261,26 @@ namespace std __attribute__ ((__visibility__ ("default")))
     public:
 
       static locale::id id;
-# 668 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 668 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
       explicit
       collate(size_t __refs = 0)
       : facet(__refs), _M_c_locale_collate(_S_get_c_locale())
       { }
-# 682 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 682 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
       explicit
       collate(__c_locale __cloc, size_t __refs = 0)
       : facet(__refs), _M_c_locale_collate(_S_clone_c_locale(__cloc))
       { }
-# 699 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 699 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
       int
       compare(const _CharT* __lo1, const _CharT* __hi1,
        const _CharT* __lo2, const _CharT* __hi2) const
       { return this->do_compare(__lo1, __hi1, __lo2, __hi2); }
-# 718 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 718 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
       string_type
       transform(const _CharT* __lo, const _CharT* __hi) const
       { return this->do_transform(__lo, __hi); }
-# 732 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 732 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
       long
       hash(const _CharT* __lo, const _CharT* __hi) const
       { return this->do_hash(__lo, __hi); }
@@ -25675,14 +23297,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
       virtual
       ~collate()
       { _S_destroy_c_locale(_M_c_locale_collate); }
-# 761 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 761 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
       virtual int
       do_compare(const _CharT* __lo1, const _CharT* __hi1,
    const _CharT* __lo2, const _CharT* __hi2) const;
-# 775 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 775 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
       virtual string_type
       do_transform(const _CharT* __lo, const _CharT* __hi) const;
-# 788 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 3
+# 788 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 3
       virtual long
       do_hash(const _CharT* __lo, const _CharT* __hi) const;
     };
@@ -25747,10 +23369,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.tcc" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.tcc" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.tcc" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.tcc" 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -25800,7 +23422,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       return (__collate.compare(__s1.data(), __s1.data() + __s1.length(),
     __s2.data(), __s2.data() + __s2.length()) < 0);
     }
-# 102 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.tcc" 3
+# 102 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.tcc" 3
   template<typename _Facet>
     bool
     has_facet(const locale& __loc) throw()
@@ -25814,7 +23436,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     }
-# 130 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.tcc" 3
+# 130 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.tcc" 3
   template<typename _Facet>
     const _Facet&
     use_facet(const locale& __loc)
@@ -25982,176 +23604,161 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 852 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_classes.h" 2 3
-# 42 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 2 3
+# 852 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_classes.h" 2 3
+# 42 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 2 3
 
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/system_error" 1 3
-# 33 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/system_error" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\system_error" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\system_error" 3
 
 
 
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/error_constants.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/error_constants.h" 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cerrno" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cerrno" 3
-# 35 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/error_constants.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/error_constants.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/error_constants.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cerrno" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cerrno" 3
+# 35 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/error_constants.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
+
+
 
 
   enum class errc
     {
-      address_family_not_supported = 97,
-      address_in_use = 98,
-      address_not_available = 99,
-      already_connected = 106,
+      address_family_not_supported = 102,
+      address_in_use = 100,
+      address_not_available = 101,
+      already_connected = 113,
       argument_list_too_long = 7,
       argument_out_of_domain = 33,
       bad_address = 14,
       bad_file_descriptor = 9,
 
-
-      bad_message = 74,
-
+      bad_message = 104,
 
       broken_pipe = 32,
-      connection_aborted = 103,
-      connection_already_in_progress = 114,
-      connection_refused = 111,
-      connection_reset = 104,
+      connection_aborted = 106,
+      connection_already_in_progress = 103,
+      connection_refused = 107,
+      connection_reset = 108,
       cross_device_link = 18,
-      destination_address_required = 89,
+      destination_address_required = 109,
       device_or_resource_busy = 16,
-      directory_not_empty = 39,
+      directory_not_empty = 41,
       executable_format_error = 8,
       file_exists = 17,
       file_too_large = 27,
-      filename_too_long = 36,
-      function_not_supported = 38,
-      host_unreachable = 113,
+      filename_too_long = 38,
+      function_not_supported = 40,
+      host_unreachable = 110,
 
+      identifier_removed = 111,
 
-      identifier_removed = 43,
-
-
-      illegal_byte_sequence = 84,
+      illegal_byte_sequence = 42,
       inappropriate_io_control_operation = 25,
       interrupted = 4,
       invalid_argument = 22,
       invalid_seek = 29,
       io_error = 5,
       is_a_directory = 21,
-      message_size = 90,
-      network_down = 100,
-      network_reset = 102,
-      network_unreachable = 101,
-      no_buffer_space = 105,
+      message_size = 115,
+      network_down = 116,
+      network_reset = 117,
+      network_unreachable = 118,
+      no_buffer_space = 119,
+
       no_child_process = 10,
 
 
-      no_link = 67,
+      no_link = 121,
+
+      no_lock_available = 39,
+
+      no_message_available = 120,
 
 
-      no_lock_available = 37,
 
 
-      no_message_available = 61,
+      no_protocol_option = 123,
 
-
-      no_message = 42,
-      no_protocol_option = 92,
       no_space_on_device = 28,
 
 
-      no_stream_resources = 63,
-
+      no_stream_resources = 124,
 
       no_such_device_or_address = 6,
       no_such_device = 19,
       no_such_file_or_directory = 2,
       no_such_process = 3,
       not_a_directory = 20,
-      not_a_socket = 88,
+      not_a_socket = 128,
 
+      not_a_stream = 125,
 
-      not_a_stream = 60,
-
-
-      not_connected = 107,
+      not_connected = 126,
       not_enough_memory = 12,
 
+      not_supported = 129,
 
-      not_supported = 95,
+      operation_canceled = 105,
+      operation_in_progress = 112,
 
-
-
-      operation_canceled = 125,
-
-
-      operation_in_progress = 115,
       operation_not_permitted = 1,
-      operation_not_supported = 95,
-      operation_would_block = 11,
+
+      operation_not_supported = 130,
+
+      operation_would_block = 140,
 
 
-      owner_dead = 130,
-
+      owner_dead = 133,
 
       permission_denied = 13,
-
-
-      protocol_error = 71,
-
-
-      protocol_not_supported = 93,
+      protocol_error = 134,
+      protocol_not_supported = 135,
       read_only_file_system = 30,
-      resource_deadlock_would_occur = 35,
+      resource_deadlock_would_occur = 36,
       resource_unavailable_try_again = 11,
       result_out_of_range = 34,
 
-
-      state_not_recoverable = 131,
-
+      state_not_recoverable = 127,
 
 
-      stream_timeout = 62,
+      stream_timeout = 137,
 
 
+      text_file_busy = 139,
 
-      text_file_busy = 26,
 
+      timed_out = 138,
 
-      timed_out = 110,
       too_many_files_open_in_system = 23,
       too_many_files_open = 24,
       too_many_links = 31,
-      too_many_symbolic_link_levels = 40,
+      too_many_symbolic_link_levels = 114,
 
+      value_too_large = 132,
 
-      value_too_large = 75,
-
-
-      wrong_protocol_type = 91
-    };
+      wrong_protocol_type = 136
+   };
 
 
 }
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/system_error" 2 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\system_error" 2 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/stdexcept" 1 3
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/stdexcept" 3
-
-
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdexcept" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdexcept" 3
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+
+
+namespace std
 {
 
 
@@ -26178,7 +23785,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   };
 
   typedef basic_string<char> __sso_string;
-# 113 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/stdexcept" 3
+# 113 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdexcept" 3
   class logic_error : public exception
   {
     __cow_string _M_msg;
@@ -26332,9 +23939,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 42 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/system_error" 2 3
+# 42 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\system_error" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -26353,7 +23960,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct is_error_condition_enum<errc>
     : public true_type { };
-# 71 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/system_error" 3
+# 71 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\system_error" 3
   inline namespace _V2 {
 
 
@@ -26384,7 +23991,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __attribute ((__abi_tag__ ("cxx11")))
     virtual string
     message(int) const = 0;
-# 110 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/system_error" 3
+# 110 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\system_error" 3
   public:
     virtual error_condition
     default_error_condition(int __i) const noexcept;
@@ -26653,7 +24260,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -26671,12 +24278,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
  return std::_Hash_impl::__hash_combine(__e._M_cat, __tmp);
       }
     };
-# 415 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/system_error" 3
+# 415 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\system_error" 3
 }
-# 47 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 2 3
+# 47 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 2 3
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -26843,12 +24450,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
   inline error_condition
   make_error_condition(io_errc __e) noexcept
   { return error_condition(static_cast<int>(__e), iostream_category()); }
-# 228 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 228 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
   class ios_base
   {
-# 246 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 246 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
   public:
-# 255 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 255 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     class __attribute ((__abi_tag__ ("cxx11"))) failure : public system_error
     {
     public:
@@ -26869,7 +24476,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       virtual const char*
       what() const throw();
     };
-# 323 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 323 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     typedef _Ios_Fmtflags fmtflags;
 
 
@@ -26932,7 +24539,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     static const fmtflags floatfield = _S_floatfield;
-# 398 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 398 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     typedef _Ios_Iostate iostate;
 
 
@@ -26949,7 +24556,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     static const iostate goodbit = _S_goodbit;
-# 429 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 429 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     typedef _Ios_Openmode openmode;
 
 
@@ -26971,7 +24578,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     static const openmode trunc = _S_trunc;
-# 461 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 461 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     typedef _Ios_Seekdir seekdir;
 
 
@@ -26991,16 +24598,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
     typedef std::streampos streampos;
     typedef std::streamoff streamoff;
-# 489 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 489 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     enum event
     {
       erase_event,
       imbue_event,
       copyfmt_event
     };
-# 506 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 506 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     typedef void (*event_callback) (event __e, ios_base& __b, int __i);
-# 518 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 518 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     void
     register_callback(event_callback __fn, int __index);
 
@@ -27106,7 +24713,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     fmtflags
     flags() const
     { return _M_flags; }
-# 631 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 631 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     fmtflags
     flags(fmtflags __fmtfl)
     {
@@ -27114,7 +24721,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _M_flags = __fmtfl;
       return __old;
     }
-# 647 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 647 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     fmtflags
     setf(fmtflags __fmtfl)
     {
@@ -27122,7 +24729,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _M_flags |= __fmtfl;
       return __old;
     }
-# 664 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 664 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     fmtflags
     setf(fmtflags __fmtfl, fmtflags __mask)
     {
@@ -27141,7 +24748,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     void
     unsetf(fmtflags __mask)
     { _M_flags &= ~__mask; }
-# 690 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 690 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     streamsize
     precision() const
     { return _M_precision; }
@@ -27181,24 +24788,24 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _M_width = __wide;
       return __old;
     }
-# 741 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 741 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     static bool
     sync_with_stdio(bool __sync = true);
-# 753 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 753 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     locale
     imbue(const locale& __loc) throw();
-# 764 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 764 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     locale
     getloc() const
     { return _M_ios_locale; }
-# 775 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 775 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     const locale&
     _M_getloc() const
     { return _M_ios_locale; }
-# 794 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 794 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     static int
     xalloc() throw();
-# 810 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 810 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     long&
     iword(int __ix)
     {
@@ -27206,7 +24813,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    ? _M_word[__ix] : _M_grow_words(__ix, true);
       return __word._M_iword;
     }
-# 831 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 831 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     void*&
     pword(int __ix)
     {
@@ -27214,12 +24821,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
    ? _M_word[__ix] : _M_grow_words(__ix, false);
       return __word._M_pword;
     }
-# 848 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 848 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
     virtual ~ios_base();
 
   protected:
     ios_base() throw ();
-# 862 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ios_base.h" 3
+# 862 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ios_base.h" 3
   public:
     ios_base(const ios_base&) = delete;
 
@@ -27438,9 +25045,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 43 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ios" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 1 3
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 43 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ios" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
 
 
 
@@ -27449,7 +25056,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -27459,7 +25066,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     streamsize
     __copy_streambufs_eof(basic_streambuf<_CharT, _Traits>*,
      basic_streambuf<_CharT, _Traits>*, bool&);
-# 121 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 121 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
   template<typename _CharT, typename _Traits>
     class basic_streambuf
     {
@@ -27545,7 +25152,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       virtual
       ~basic_streambuf()
       { }
-# 215 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 215 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       locale
       pubimbue(const locale& __loc)
       {
@@ -27554,20 +25161,20 @@ namespace std __attribute__ ((__visibility__ ("default")))
  _M_buf_locale = __loc;
  return __tmp;
       }
-# 232 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 232 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       locale
       getloc() const
       { return _M_buf_locale; }
-# 245 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 245 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       basic_streambuf*
       pubsetbuf(char_type* __s, streamsize __n)
       { return this->setbuf(__s, __n); }
-# 257 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 257 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       pos_type
       pubseekoff(off_type __off, ios_base::seekdir __way,
    ios_base::openmode __mode = ios_base::in | ios_base::out)
       { return this->seekoff(__off, __way, __mode); }
-# 269 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 269 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       pos_type
       pubseekpos(pos_type __sp,
    ios_base::openmode __mode = ios_base::in | ios_base::out)
@@ -27578,14 +25185,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       int
       pubsync() { return this->sync(); }
-# 290 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 290 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       streamsize
       in_avail()
       {
  const streamsize __ret = this->egptr() - this->gptr();
  return __ret ? __ret : this->showmanyc();
       }
-# 304 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 304 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       int_type
       snextc()
       {
@@ -27595,7 +25202,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret = this->sgetc();
  return __ret;
       }
-# 322 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 322 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       int_type
       sbumpc()
       {
@@ -27609,7 +25216,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret = this->uflow();
  return __ret;
       }
-# 344 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 344 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       int_type
       sgetc()
       {
@@ -27620,11 +25227,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret = this->underflow();
  return __ret;
       }
-# 363 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 363 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       streamsize
       sgetn(char_type* __s, streamsize __n)
       { return this->xsgetn(__s, __n); }
-# 378 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 378 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       int_type
       sputbackc(char_type __c)
       {
@@ -27640,7 +25247,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    }
  return __ret;
       }
-# 403 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 403 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       int_type
       sungetc()
       {
@@ -27654,7 +25261,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret = this->pbackfail();
  return __ret;
       }
-# 430 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 430 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       int_type
       sputc(char_type __c)
       {
@@ -27669,19 +25276,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret = this->overflow(traits_type::to_int_type(__c));
  return __ret;
       }
-# 456 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 456 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       streamsize
       sputn(const char_type* __s, streamsize __n)
       { return this->xsputn(__s, __n); }
 
     protected:
-# 470 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 470 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       basic_streambuf()
       : _M_in_beg(0), _M_in_cur(0), _M_in_end(0),
       _M_out_beg(0), _M_out_cur(0), _M_out_end(0),
       _M_buf_locale(locale())
       { }
-# 488 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 488 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       char_type*
       eback() const { return _M_in_beg; }
 
@@ -27690,10 +25297,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       char_type*
       egptr() const { return _M_in_end; }
-# 504 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 504 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       void
       gbump(int __n) { _M_in_cur += __n; }
-# 515 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 515 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       void
       setg(char_type* __gbeg, char_type* __gnext, char_type* __gend)
       {
@@ -27701,7 +25308,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  _M_in_cur = __gnext;
  _M_in_end = __gend;
       }
-# 535 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 535 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       char_type*
       pbase() const { return _M_out_beg; }
 
@@ -27710,48 +25317,48 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       char_type*
       epptr() const { return _M_out_end; }
-# 551 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 551 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       void
       pbump(int __n) { _M_out_cur += __n; }
-# 561 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 561 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       void
       setp(char_type* __pbeg, char_type* __pend)
       {
  _M_out_beg = _M_out_cur = __pbeg;
  _M_out_end = __pend;
       }
-# 582 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 582 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual void
       imbue(const locale& __loc __attribute__ ((__unused__)))
       { }
-# 597 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 597 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual basic_streambuf<char_type,_Traits>*
       setbuf(char_type*, streamsize)
       { return this; }
-# 608 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 608 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual pos_type
       seekoff(off_type, ios_base::seekdir,
        ios_base::openmode = ios_base::in | ios_base::out)
       { return pos_type(off_type(-1)); }
-# 620 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 620 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual pos_type
       seekpos(pos_type,
        ios_base::openmode = ios_base::in | ios_base::out)
       { return pos_type(off_type(-1)); }
-# 633 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 633 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual int
       sync() { return 0; }
-# 655 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 655 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual streamsize
       showmanyc() { return 0; }
-# 671 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 671 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual streamsize
       xsgetn(char_type* __s, streamsize __n);
-# 693 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 693 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual int_type
       underflow()
       { return traits_type::eof(); }
-# 706 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 706 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual int_type
       uflow()
       {
@@ -27765,14 +25372,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
    }
  return __ret;
       }
-# 730 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 730 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual int_type
       pbackfail(int_type __c __attribute__ ((__unused__)) = traits_type::eof())
       { return traits_type::eof(); }
-# 748 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 748 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual streamsize
       xsputn(const char_type* __s, streamsize __n);
-# 774 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 774 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       virtual int_type
       overflow(int_type __c __attribute__ ((__unused__)) = traits_type::eof())
       { return traits_type::eof(); }
@@ -27780,7 +25387,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     public:
-# 790 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 3
+# 790 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 3
       [[__deprecated__("stossc is deprecated, use sbumpc instead")]]
 
       void
@@ -27854,10 +25461,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/streambuf.tcc" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/streambuf.tcc" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/streambuf.tcc" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/streambuf.tcc" 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -27992,245 +25599,38 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 863 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/streambuf" 2 3
-# 44 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ios" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 863 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\streambuf" 2 3
+# 44 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ios" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwctype" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwctype" 3
-# 50 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwctype" 3
-# 1 "/usr/include/wctype.h" 1 3 4
-# 38 "/usr/include/wctype.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h" 1 3 4
-# 38 "/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h" 3 4
-typedef unsigned long int wctype_t;
-# 56 "/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h" 3 4
-enum
-{
-  __ISwupper = 0,
-  __ISwlower = 1,
-  __ISwalpha = 2,
-  __ISwdigit = 3,
-  __ISwxdigit = 4,
-  __ISwspace = 5,
-  __ISwprint = 6,
-  __ISwgraph = 7,
-  __ISwblank = 8,
-  __ISwcntrl = 9,
-  __ISwpunct = 10,
-  __ISwalnum = 11,
-
-  _ISwupper = ((__ISwupper) < 8 ? (int) ((1UL << (__ISwupper)) << 24) : ((__ISwupper) < 16 ? (int) ((1UL << (__ISwupper)) << 8) : ((__ISwupper) < 24 ? (int) ((1UL << (__ISwupper)) >> 8) : (int) ((1UL << (__ISwupper)) >> 24)))),
-  _ISwlower = ((__ISwlower) < 8 ? (int) ((1UL << (__ISwlower)) << 24) : ((__ISwlower) < 16 ? (int) ((1UL << (__ISwlower)) << 8) : ((__ISwlower) < 24 ? (int) ((1UL << (__ISwlower)) >> 8) : (int) ((1UL << (__ISwlower)) >> 24)))),
-  _ISwalpha = ((__ISwalpha) < 8 ? (int) ((1UL << (__ISwalpha)) << 24) : ((__ISwalpha) < 16 ? (int) ((1UL << (__ISwalpha)) << 8) : ((__ISwalpha) < 24 ? (int) ((1UL << (__ISwalpha)) >> 8) : (int) ((1UL << (__ISwalpha)) >> 24)))),
-  _ISwdigit = ((__ISwdigit) < 8 ? (int) ((1UL << (__ISwdigit)) << 24) : ((__ISwdigit) < 16 ? (int) ((1UL << (__ISwdigit)) << 8) : ((__ISwdigit) < 24 ? (int) ((1UL << (__ISwdigit)) >> 8) : (int) ((1UL << (__ISwdigit)) >> 24)))),
-  _ISwxdigit = ((__ISwxdigit) < 8 ? (int) ((1UL << (__ISwxdigit)) << 24) : ((__ISwxdigit) < 16 ? (int) ((1UL << (__ISwxdigit)) << 8) : ((__ISwxdigit) < 24 ? (int) ((1UL << (__ISwxdigit)) >> 8) : (int) ((1UL << (__ISwxdigit)) >> 24)))),
-  _ISwspace = ((__ISwspace) < 8 ? (int) ((1UL << (__ISwspace)) << 24) : ((__ISwspace) < 16 ? (int) ((1UL << (__ISwspace)) << 8) : ((__ISwspace) < 24 ? (int) ((1UL << (__ISwspace)) >> 8) : (int) ((1UL << (__ISwspace)) >> 24)))),
-  _ISwprint = ((__ISwprint) < 8 ? (int) ((1UL << (__ISwprint)) << 24) : ((__ISwprint) < 16 ? (int) ((1UL << (__ISwprint)) << 8) : ((__ISwprint) < 24 ? (int) ((1UL << (__ISwprint)) >> 8) : (int) ((1UL << (__ISwprint)) >> 24)))),
-  _ISwgraph = ((__ISwgraph) < 8 ? (int) ((1UL << (__ISwgraph)) << 24) : ((__ISwgraph) < 16 ? (int) ((1UL << (__ISwgraph)) << 8) : ((__ISwgraph) < 24 ? (int) ((1UL << (__ISwgraph)) >> 8) : (int) ((1UL << (__ISwgraph)) >> 24)))),
-  _ISwblank = ((__ISwblank) < 8 ? (int) ((1UL << (__ISwblank)) << 24) : ((__ISwblank) < 16 ? (int) ((1UL << (__ISwblank)) << 8) : ((__ISwblank) < 24 ? (int) ((1UL << (__ISwblank)) >> 8) : (int) ((1UL << (__ISwblank)) >> 24)))),
-  _ISwcntrl = ((__ISwcntrl) < 8 ? (int) ((1UL << (__ISwcntrl)) << 24) : ((__ISwcntrl) < 16 ? (int) ((1UL << (__ISwcntrl)) << 8) : ((__ISwcntrl) < 24 ? (int) ((1UL << (__ISwcntrl)) >> 8) : (int) ((1UL << (__ISwcntrl)) >> 24)))),
-  _ISwpunct = ((__ISwpunct) < 8 ? (int) ((1UL << (__ISwpunct)) << 24) : ((__ISwpunct) < 16 ? (int) ((1UL << (__ISwpunct)) << 8) : ((__ISwpunct) < 24 ? (int) ((1UL << (__ISwpunct)) >> 8) : (int) ((1UL << (__ISwpunct)) >> 24)))),
-  _ISwalnum = ((__ISwalnum) < 8 ? (int) ((1UL << (__ISwalnum)) << 24) : ((__ISwalnum) < 16 ? (int) ((1UL << (__ISwalnum)) << 8) : ((__ISwalnum) < 24 ? (int) ((1UL << (__ISwalnum)) >> 8) : (int) ((1UL << (__ISwalnum)) >> 24))))
-};
-
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwctype" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwctype" 3
+# 50 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwctype" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wctype.h" 1 3
+# 15 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wctype.h" 3
+#pragma pack(push,_CRT_PACKING)
 
 
 extern "C" {
-
-
-
-
-
-
-
-extern int iswalnum (wint_t __wc) throw ();
-
-
-
-
-
-extern int iswalpha (wint_t __wc) throw ();
-
-
-extern int iswcntrl (wint_t __wc) throw ();
-
-
-
-extern int iswdigit (wint_t __wc) throw ();
-
-
-
-extern int iswgraph (wint_t __wc) throw ();
-
-
-
-
-extern int iswlower (wint_t __wc) throw ();
-
-
-extern int iswprint (wint_t __wc) throw ();
-
-
-
-
-extern int iswpunct (wint_t __wc) throw ();
-
-
-
-
-extern int iswspace (wint_t __wc) throw ();
-
-
-
-
-extern int iswupper (wint_t __wc) throw ();
-
-
-
-
-extern int iswxdigit (wint_t __wc) throw ();
-
-
-
-
-
-extern int iswblank (wint_t __wc) throw ();
-# 155 "/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h" 3 4
-extern wctype_t wctype (const char *__property) throw ();
-
-
-
-extern int iswctype (wint_t __wc, wctype_t __desc) throw ();
-
-
-
-
-
-
-extern wint_t towlower (wint_t __wc) throw ();
-
-
-extern wint_t towupper (wint_t __wc) throw ();
-
-}
-# 39 "/usr/include/wctype.h" 2 3 4
-
-
-
-
-
-extern "C" {
-
-
-
-typedef const __int32_t *wctrans_t;
-
-
-
-extern wctrans_t wctrans (const char *__property) throw ();
-
-
-extern wint_t towctrans (wint_t __wc, wctrans_t __desc) throw ();
-
-
-
-
-
-
-
-extern int iswalnum_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-
-
-extern int iswalpha_l (wint_t __wc, locale_t __locale) throw ();
-
-
-extern int iswcntrl_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-extern int iswdigit_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-extern int iswgraph_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-
-extern int iswlower_l (wint_t __wc, locale_t __locale) throw ();
-
-
-extern int iswprint_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-
-extern int iswpunct_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-
-extern int iswspace_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-
-extern int iswupper_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-
-extern int iswxdigit_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-
-extern int iswblank_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-extern wctype_t wctype_l (const char *__property, locale_t __locale)
-     throw ();
-
-
-
-extern int iswctype_l (wint_t __wc, wctype_t __desc, locale_t __locale)
-     throw ();
-
-
-
-
-
-
-extern wint_t towlower_l (wint_t __wc, locale_t __locale) throw ();
-
-
-extern wint_t towupper_l (wint_t __wc, locale_t __locale) throw ();
-
-
-
-extern wctrans_t wctrans_l (const char *__property, locale_t __locale)
-     throw ();
-
-
-extern wint_t towctrans_l (wint_t __wc, wctrans_t __desc,
-      locale_t __locale) throw ();
-
+# 174 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\wctype.h" 3
+  typedef wchar_t wctrans_t;
+  wint_t __attribute__((__cdecl__)) towctrans(wint_t,wctrans_t);
+  wctrans_t __attribute__((__cdecl__)) wctrans(const char *);
+  wctype_t __attribute__((__cdecl__)) wctype(const char *);
 
 
 }
-# 51 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwctype" 2 3
-# 80 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cwctype" 3
+
+
+#pragma pack(pop)
+# 51 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwctype" 2 3
+# 80 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cwctype" 3
 namespace std
 {
   using ::wctrans_t;
@@ -28258,13 +25658,13 @@ namespace std
   using ::wctrans;
   using ::wctype;
 }
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cctype" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cctype" 3
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/ctype_base.h" 1 3
-# 36 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/ctype_base.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cctype" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cctype" 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/ctype_base.h" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/ctype_base.h" 3
+namespace std
 {
 
 
@@ -28277,40 +25677,40 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     typedef unsigned short mask;
-    static const mask upper = _ISupper;
-    static const mask lower = _ISlower;
-    static const mask alpha = _ISalpha;
-    static const mask digit = _ISdigit;
-    static const mask xdigit = _ISxdigit;
-    static const mask space = _ISspace;
-    static const mask print = _ISprint;
-    static const mask graph = _ISalpha | _ISdigit | _ISpunct;
-    static const mask cntrl = _IScntrl;
-    static const mask punct = _ISpunct;
-    static const mask alnum = _ISalpha | _ISdigit;
+    static const mask upper = 1 << 0;
+    static const mask lower = 1 << 1;
+    static const mask alpha = 1 << 2;
+    static const mask digit = 1 << 3;
+    static const mask xdigit = 1 << 4;
+    static const mask space = 1 << 5;
+    static const mask print = 1 << 6;
+    static const mask graph = (1 << 2) | (1 << 3) | (1 << 9);
+    static const mask cntrl = 1 << 8;
+    static const mask punct = 1 << 9;
+    static const mask alnum = (1 << 2) | (1 << 3);
 
-    static const mask blank = _ISblank;
+    static const mask blank = 1 << 10;
 
   };
 
 
 }
-# 42 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 2 3
+# 42 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 2 3
 
 
 
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/streambuf_iterator.h" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/streambuf_iterator.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/streambuf_iterator.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/streambuf_iterator.h" 3
 
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 49 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/streambuf_iterator.h" 3
+# 49 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/streambuf_iterator.h" 3
   template<typename _CharT, typename _Traits>
     class istreambuf_iterator
     : public iterator<input_iterator_tag, _CharT, typename _Traits::off_type,
@@ -28393,7 +25793,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator*() const
       {
  int_type __c = _M_get();
-# 139 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/streambuf_iterator.h" 3
+# 139 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/streambuf_iterator.h" 3
  return traits_type::to_char_type(__c);
       }
 
@@ -28707,11 +26107,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 49 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 2 3
+# 49 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 71 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 71 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
   template<typename _Tp>
     void
     __convert_to_v(const char*, _Tp&, ios_base::iostate&,
@@ -28776,7 +26176,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  *__s = __ws[__j];
       return __s;
     }
-# 149 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 149 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
   template<typename _CharT>
     class __ctype_abstract_base : public locale::facet, public ctype_base
     {
@@ -28784,51 +26184,51 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
       typedef _CharT char_type;
-# 168 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 168 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       bool
       is(mask __m, char_type __c) const
       { return this->do_is(__m, __c); }
-# 185 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 185 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char_type*
       is(const char_type *__lo, const char_type *__hi, mask *__vec) const
       { return this->do_is(__lo, __hi, __vec); }
-# 201 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 201 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char_type*
       scan_is(mask __m, const char_type* __lo, const char_type* __hi) const
       { return this->do_scan_is(__m, __lo, __hi); }
-# 217 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 217 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char_type*
       scan_not(mask __m, const char_type* __lo, const char_type* __hi) const
       { return this->do_scan_not(__m, __lo, __hi); }
-# 231 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 231 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       char_type
       toupper(char_type __c) const
       { return this->do_toupper(__c); }
-# 246 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 246 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char_type*
       toupper(char_type *__lo, const char_type* __hi) const
       { return this->do_toupper(__lo, __hi); }
-# 260 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 260 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       char_type
       tolower(char_type __c) const
       { return this->do_tolower(__c); }
-# 275 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 275 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char_type*
       tolower(char_type* __lo, const char_type* __hi) const
       { return this->do_tolower(__lo, __hi); }
-# 292 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 292 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       char_type
       widen(char __c) const
       { return this->do_widen(__c); }
-# 311 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 311 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char*
       widen(const char* __lo, const char* __hi, char_type* __to) const
       { return this->do_widen(__lo, __hi, __to); }
-# 330 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 330 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       char
       narrow(char_type __c, char __dfault) const
       { return this->do_narrow(__c, __dfault); }
-# 352 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 352 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char_type*
       narrow(const char_type* __lo, const char_type* __hi,
        char __dfault, char* __to) const
@@ -28840,48 +26240,48 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       virtual
       ~__ctype_abstract_base() { }
-# 377 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 377 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual bool
       do_is(mask __m, char_type __c) const = 0;
-# 396 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 396 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_is(const char_type* __lo, const char_type* __hi,
      mask* __vec) const = 0;
-# 415 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 415 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_is(mask __m, const char_type* __lo,
    const char_type* __hi) const = 0;
-# 434 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 434 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_not(mask __m, const char_type* __lo,
     const char_type* __hi) const = 0;
-# 452 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 452 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const = 0;
-# 469 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 469 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const = 0;
-# 485 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 485 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const = 0;
-# 502 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 502 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const = 0;
-# 521 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 521 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const = 0;
-# 542 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 542 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const = 0;
-# 563 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 563 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault) const = 0;
-# 588 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 588 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault, char* __to) const = 0;
     };
-# 611 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 611 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
   template<typename _CharT>
     class ctype : public __ctype_abstract_base<_CharT>
     {
@@ -28941,7 +26341,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _CharT>
     locale::id ctype<_CharT>::id;
-# 680 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 680 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
   template<>
     class ctype<char> : public locale::facet, public ctype_base
     {
@@ -28968,42 +26368,42 @@ namespace std __attribute__ ((__visibility__ ("default")))
       static locale::id id;
 
       static const size_t table_size = 1 + static_cast<unsigned char>(-1);
-# 717 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 717 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       explicit
       ctype(const mask* __table = 0, bool __del = false, size_t __refs = 0);
-# 730 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 730 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       explicit
       ctype(__c_locale __cloc, const mask* __table = 0, bool __del = false,
      size_t __refs = 0);
-# 743 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 743 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       inline bool
       is(mask __m, char __c) const;
-# 758 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 758 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       inline const char*
       is(const char* __lo, const char* __hi, mask* __vec) const;
-# 772 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 772 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       inline const char*
       scan_is(mask __m, const char* __lo, const char* __hi) const;
-# 786 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 786 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       inline const char*
       scan_not(mask __m, const char* __lo, const char* __hi) const;
-# 801 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 801 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       char_type
       toupper(char_type __c) const
       { return this->do_toupper(__c); }
-# 818 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 818 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char_type*
       toupper(char_type *__lo, const char_type* __hi) const
       { return this->do_toupper(__lo, __hi); }
-# 834 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 834 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       char_type
       tolower(char_type __c) const
       { return this->do_tolower(__c); }
-# 851 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 851 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char_type*
       tolower(char_type* __lo, const char_type* __hi) const
       { return this->do_tolower(__lo, __hi); }
-# 871 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 871 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       char_type
       widen(char __c) const
       {
@@ -29012,7 +26412,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  this->_M_widen_init();
  return this->do_widen(__c);
       }
-# 898 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 898 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char*
       widen(const char* __lo, const char* __hi, char_type* __to) const
       {
@@ -29026,7 +26426,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    _M_widen_init();
  return this->do_widen(__lo, __hi, __to);
       }
-# 930 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 930 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       char
       narrow(char_type __c, char __dfault) const
       {
@@ -29037,7 +26437,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    _M_narrow[static_cast<unsigned char>(__c)] = __t;
  return __t;
       }
-# 963 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 963 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       const char_type*
       narrow(const char_type* __lo, const char_type* __hi,
       char __dfault, char* __to) const
@@ -29074,23 +26474,23 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       virtual
       ~ctype();
-# 1013 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1013 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const;
-# 1030 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1030 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const;
-# 1046 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1046 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const;
-# 1063 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1063 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const;
-# 1083 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1083 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const
       { return __c; }
-# 1106 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1106 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const
       {
@@ -29098,11 +26498,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __builtin_memcpy(__to, __lo, __hi - __lo);
  return __hi;
       }
-# 1133 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1133 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault __attribute__((__unused__))) const
       { return __c; }
-# 1159 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1159 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault __attribute__((__unused__)), char* __to) const
@@ -29116,7 +26516,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       void _M_narrow_init() const;
       void _M_widen_init() const;
     };
-# 1185 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1185 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
   template<>
     class ctype<wchar_t> : public __ctype_abstract_base<wchar_t>
     {
@@ -29142,10 +26542,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
       static locale::id id;
-# 1218 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1218 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       explicit
       ctype(size_t __refs = 0);
-# 1229 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1229 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       explicit
       ctype(__c_locale __cloc, size_t __refs = 0);
 
@@ -29156,41 +26556,41 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       virtual
       ~ctype();
-# 1253 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1253 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual bool
       do_is(mask __m, char_type __c) const;
-# 1272 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1272 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_is(const char_type* __lo, const char_type* __hi, mask* __vec) const;
-# 1290 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1290 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_is(mask __m, const char_type* __lo, const char_type* __hi) const;
-# 1308 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1308 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_not(mask __m, const char_type* __lo,
     const char_type* __hi) const;
-# 1325 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1325 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const;
-# 1342 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1342 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const;
-# 1358 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1358 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const;
-# 1375 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1375 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const;
-# 1395 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1395 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const;
-# 1417 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1417 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const;
-# 1440 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1440 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault) const;
-# 1466 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1466 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault, char* __to) const;
@@ -29264,16 +26664,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/ctype_inline.h" 1 3
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/ctype_inline.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/ctype_inline.h" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/ctype_inline.h" 3
+namespace std
 {
 
 
   bool
   ctype<char>::
   is(mask __m, char __c) const
-  { return _M_table[static_cast<unsigned char>(__c)] & __m; }
+  { return (_M_table[static_cast<unsigned char>(__c) ] & __m); }
+
 
   const char*
   ctype<char>::
@@ -29288,8 +26689,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   ctype<char>::
   scan_is(mask __m, const char* __low, const char* __high) const
   {
-    while (__low < __high
-    && !(_M_table[static_cast<unsigned char>(*__low)] & __m))
+    while (__low < __high && !this->is(__m, *__low))
       ++__low;
     return __low;
   }
@@ -29298,17 +26698,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
   ctype<char>::
   scan_not(mask __m, const char* __low, const char* __high) const
   {
-    while (__low < __high
-    && (_M_table[static_cast<unsigned char>(*__low)] & __m) != 0)
+    while (__low < __high && this->is(__m, *__low) != 0)
       ++__low;
     return __low;
   }
 
 
 }
-# 1539 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 2 3
+# 1539 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -29422,7 +26821,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 namespace __cxx11 {
-# 1669 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1669 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
   template<typename _CharT>
     class numpunct : public locale::facet
     {
@@ -29451,33 +26850,33 @@ namespace __cxx11 {
       numpunct(size_t __refs = 0)
       : facet(__refs), _M_data(0)
       { _M_initialize_numpunct(); }
-# 1707 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1707 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       explicit
       numpunct(__cache_type* __cache, size_t __refs = 0)
       : facet(__refs), _M_data(__cache)
       { _M_initialize_numpunct(); }
-# 1721 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1721 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       explicit
       numpunct(__c_locale __cloc, size_t __refs = 0)
       : facet(__refs), _M_data(0)
       { _M_initialize_numpunct(__cloc); }
-# 1735 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1735 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       char_type
       decimal_point() const
       { return this->do_decimal_point(); }
-# 1748 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1748 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       char_type
       thousands_sep() const
       { return this->do_thousands_sep(); }
-# 1779 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1779 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       string
       grouping() const
       { return this->do_grouping(); }
-# 1792 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1792 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       string_type
       truename() const
       { return this->do_truename(); }
-# 1805 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1805 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       string_type
       falsename() const
       { return this->do_falsename(); }
@@ -29486,23 +26885,23 @@ namespace __cxx11 {
 
       virtual
       ~numpunct();
-# 1822 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1822 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_decimal_point() const
       { return _M_data->_M_decimal_point; }
-# 1834 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1834 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual char_type
       do_thousands_sep() const
       { return _M_data->_M_thousands_sep; }
-# 1847 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1847 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual string
       do_grouping() const
       { return _M_data->_M_grouping; }
-# 1860 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1860 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual string_type
       do_truename() const
       { return _M_data->_M_truename; }
-# 1873 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1873 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual string_type
       do_falsename() const
       { return _M_data->_M_falsename; }
@@ -29565,7 +26964,7 @@ namespace __cxx11 {
     };
 
 }
-# 1951 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1951 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
   template<typename _CharT, typename _InIter>
     class num_get : public locale::facet
     {
@@ -29579,15 +26978,15 @@ namespace __cxx11 {
 
 
       static locale::id id;
-# 1972 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1972 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       explicit
       num_get(size_t __refs = 0) : facet(__refs) { }
-# 1998 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 1998 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, bool& __v) const
       { return this->do_get(__in, __end, __io, __err, __v); }
-# 2035 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2035 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, long& __v) const
@@ -29618,7 +27017,7 @@ namespace __cxx11 {
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, unsigned long long& __v) const
       { return this->do_get(__in, __end, __io, __err, __v); }
-# 2095 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2095 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, float& __v) const
@@ -29633,7 +27032,7 @@ namespace __cxx11 {
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, long double& __v) const
       { return this->do_get(__in, __end, __io, __err, __v); }
-# 2138 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2138 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, void*& __v) const
@@ -29691,7 +27090,7 @@ namespace __cxx11 {
      }
    return __ret;
  }
-# 2211 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2211 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&, bool&) const;
 
@@ -29747,12 +27146,12 @@ namespace __cxx11 {
 
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&, void*&) const;
-# 2274 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2274 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
     };
 
   template<typename _CharT, typename _InIter>
     locale::id num_get<_CharT, _InIter>::id;
-# 2292 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2292 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
   template<typename _CharT, typename _OutIter>
     class num_put : public locale::facet
     {
@@ -29766,14 +27165,14 @@ namespace __cxx11 {
 
 
       static locale::id id;
-# 2313 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2313 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       explicit
       num_put(size_t __refs = 0) : facet(__refs) { }
-# 2331 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2331 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, bool __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2373 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2373 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, long __v) const
       { return this->do_put(__s, __io, __fill, __v); }
@@ -29792,7 +27191,7 @@ namespace __cxx11 {
       put(iter_type __s, ios_base& __io, char_type __fill,
    unsigned long long __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2436 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2436 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, double __v) const
       { return this->do_put(__s, __io, __fill, __v); }
@@ -29801,7 +27200,7 @@ namespace __cxx11 {
       put(iter_type __s, ios_base& __io, char_type __fill,
    long double __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2461 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2461 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill,
    const void* __v) const
@@ -29835,7 +27234,7 @@ namespace __cxx11 {
 
       virtual
       ~num_put() { }
-# 2509 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2509 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
       virtual iter_type
       do_put(iter_type __s, ios_base& __io, char_type __fill, bool __v) const;
 
@@ -29885,7 +27284,7 @@ namespace __cxx11 {
 
   template <typename _CharT, typename _OutIter>
     locale::id num_put<_CharT, _OutIter>::id;
-# 2567 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 3
+# 2567 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 3
   template<typename _CharT>
     inline bool
     isspace(_CharT __c, const locale& __loc)
@@ -29975,10 +27374,10 @@ namespace __cxx11 {
 }
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.tcc" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.tcc" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.tcc" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.tcc" 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -30073,7 +27472,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
                           ;
  }
     }
-# 139 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.tcc" 3
+# 139 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.tcc" 3
   __attribute__ ((__pure__)) bool
   __verify_grouping(const char* __grouping, size_t __grouping_size,
       const string& __grouping_tmp) throw ();
@@ -30652,7 +28051,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __err |= ios_base::eofbit;
       return __beg;
     }
-# 735 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.tcc" 3
+# 735 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.tcc" 3
   template<typename _CharT, typename _InIter>
     _InIter
     num_get<_CharT, _InIter>::
@@ -30878,7 +28277,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  }
       __len = __newlen;
     }
-# 971 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.tcc" 3
+# 971 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.tcc" 3
   template<typename _CharT, typename _OutIter>
     template<typename _ValueT>
       _OutIter
@@ -30931,7 +28330,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
        __len = std::__convert_from_v(_S_get_c_locale(), __cs, __cs_size,
          __fbuf, __v);
    }
-# 1044 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.tcc" 3
+# 1044 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.tcc" 3
  const ctype<_CharT>& __ctype = use_facet<ctype<_CharT> >(__loc);
 
  _CharT* __ws = static_cast<_CharT*>(__builtin_alloca(sizeof(_CharT)
@@ -31048,7 +28447,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     num_put<_CharT, _OutIter>::
     do_put(iter_type __s, ios_base& __io, char_type __fill, double __v) const
     { return _M_insert_float(__s, __io, __fill, char(), __v); }
-# 1169 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.tcc" 3
+# 1169 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.tcc" 3
   template<typename _CharT, typename _OutIter>
     _OutIter
     num_put<_CharT, _OutIter>::
@@ -31076,7 +28475,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __io.flags(__flags);
       return __s;
     }
-# 1206 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.tcc" 3
+# 1206 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.tcc" 3
   template<typename _CharT, typename _Traits>
     void
     __pad<_CharT, _Traits>::_S_pad(ios_base& __io, _CharT __fill,
@@ -31247,12 +28646,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 2656 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/locale_facets.h" 2 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 2 3
+# 2656 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/locale_facets.h" 2 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 2 3
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -31264,7 +28663,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __throw_bad_cast();
       return *__f;
     }
-# 66 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 66 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
   template<typename _CharT, typename _Traits>
     class basic_ios : public ios_base
     {
@@ -31308,7 +28707,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const __num_get_type* _M_num_get;
 
     public:
-# 117 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 117 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       explicit operator bool() const
       { return !this->fail(); }
 
@@ -31319,11 +28718,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
       bool
       operator!() const
       { return this->fail(); }
-# 136 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 136 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       iostate
       rdstate() const
       { return _M_streambuf_state; }
-# 147 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 147 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       void
       clear(iostate __state = goodbit);
 
@@ -31369,7 +28768,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       bool
       eof() const
       { return (this->rdstate() & eofbit) != 0; }
-# 200 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 200 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       bool
       fail() const
       { return (this->rdstate() & (badbit | failbit)) != 0; }
@@ -31383,11 +28782,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
       bool
       bad() const
       { return (this->rdstate() & badbit) != 0; }
-# 221 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 221 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       iostate
       exceptions() const
       { return _M_exception; }
-# 256 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 256 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       void
       exceptions(iostate __except)
       {
@@ -31415,11 +28814,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       virtual
       ~basic_ios() { }
-# 294 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 294 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       basic_ostream<_CharT, _Traits>*
       tie() const
       { return _M_tie; }
-# 306 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 306 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       basic_ostream<_CharT, _Traits>*
       tie(basic_ostream<_CharT, _Traits>* __tiestr)
       {
@@ -31437,10 +28836,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       basic_streambuf<_CharT, _Traits>*
       rdbuf() const
       { return _M_streambuf; }
-# 346 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 346 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       basic_streambuf<_CharT, _Traits>*
       rdbuf(basic_streambuf<_CharT, _Traits>* __sb);
-# 360 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 360 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       basic_ios&
       copyfmt(const basic_ios& __rhs);
 
@@ -31460,7 +28859,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    }
  return _M_fill;
       }
-# 389 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 389 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       char_type
       fill(char_type __ch)
       {
@@ -31468,14 +28867,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
  _M_fill = __ch;
  return __old;
       }
-# 409 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 409 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       locale
       imbue(const locale& __loc);
-# 429 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 429 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       char
       narrow(char_type __c, char __dfault) const
       { return __check_facet(_M_ctype).narrow(__c, __dfault); }
-# 448 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 3
+# 448 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 3
       char_type
       widen(char __c) const
       { return __check_facet(_M_ctype).widen(__c); }
@@ -31545,10 +28944,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.tcc" 1 3
-# 34 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.tcc" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.tcc" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.tcc" 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -31646,7 +29045,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
       _M_cache_locale(_M_ios_locale);
-# 146 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.tcc" 3
+# 146 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.tcc" 3
       _M_fill = _CharT();
       _M_fill_init = false;
 
@@ -31688,14 +29087,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 517 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/basic_ios.h" 2 3
-# 45 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ios" 2 3
-# 39 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 2 3
+# 517 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/basic_ios.h" 2 3
+# 45 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ios" 2 3
+# 39 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 2 3
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 57 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 57 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
   template<typename _CharT, typename _Traits>
     class basic_ostream : virtual public basic_ios<_CharT, _Traits>
     {
@@ -31714,7 +29113,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef num_put<_CharT, ostreambuf_iterator<_CharT, _Traits> >
              __num_put_type;
       typedef ctype<_CharT> __ctype_type;
-# 83 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 83 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       explicit
       basic_ostream(__streambuf_type* __sb)
       { this->init(__sb); }
@@ -31730,7 +29129,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       class sentry;
       friend class sentry;
-# 107 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 107 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       __ostream_type&
       operator<<(__ostream_type& (*__pf)(__ostream_type&))
       {
@@ -31759,7 +29158,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __pf(*this);
  return *this;
       }
-# 165 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 165 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       __ostream_type&
       operator<<(long __n)
       { return _M_insert(__n); }
@@ -31802,7 +29201,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __ostream_type&
       operator<<(unsigned long long __n)
       { return _M_insert(__n); }
-# 219 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 219 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       __ostream_type&
       operator<<(double __f)
       { return _M_insert(__f); }
@@ -31818,14 +29217,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __ostream_type&
       operator<<(long double __f)
       { return _M_insert(__f); }
-# 244 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 244 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       __ostream_type&
       operator<<(const void* __p)
       { return _M_insert(__p); }
-# 269 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 269 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       __ostream_type&
       operator<<(__streambuf_type* __sb);
-# 302 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 302 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       __ostream_type&
       put(char_type __c);
 
@@ -31841,19 +29240,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
  if (__put != __n)
    this->setstate(ios_base::badbit);
       }
-# 334 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 334 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       __ostream_type&
       write(const char_type* __s, streamsize __n);
-# 347 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 347 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       __ostream_type&
       flush();
-# 357 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 357 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       pos_type
       tellp();
-# 368 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 368 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       __ostream_type&
       seekp(pos_type);
-# 380 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 380 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
        __ostream_type&
       seekp(off_type, ios_base::seekdir);
 
@@ -31891,7 +29290,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __ostream_type&
  _M_insert(_ValueT __v);
     };
-# 425 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 425 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
   template <typename _CharT, typename _Traits>
     class basic_ostream<_CharT, _Traits>::sentry
     {
@@ -31900,10 +29299,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       basic_ostream<_CharT, _Traits>& _M_os;
 
     public:
-# 444 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 444 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       explicit
       sentry(basic_ostream<_CharT, _Traits>& __os);
-# 454 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 454 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       ~sentry()
       {
 
@@ -31914,13 +29313,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
        _M_os.setstate(ios_base::badbit);
    }
       }
-# 473 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 473 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
       explicit
 
       operator bool() const
       { return _M_ok; }
     };
-# 495 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 495 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
@@ -31947,7 +29346,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline basic_ostream<char, _Traits>&
     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
     { return (__out << static_cast<char>(__c)); }
-# 537 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 537 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
@@ -31987,12 +29386,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline basic_ostream<char, _Traits> &
     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
     { return (__out << reinterpret_cast<const char*>(__s)); }
-# 588 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 588 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     endl(basic_ostream<_CharT, _Traits>& __os)
     { return flush(__os.put(__os.widen('\n'))); }
-# 600 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 600 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     ends(basic_ostream<_CharT, _Traits>& __os)
@@ -32056,7 +29455,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     using __rvalue_ostream_type =
       typename __is_convertible_to_basic_ostream<
  _Ostream>::__ostream_type;
-# 674 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 3
+# 674 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 3
   template<typename _Ostream, typename _Tp>
     inline
     typename enable_if<__and_<__not_<is_lvalue_reference<_Ostream>>,
@@ -32077,12 +29476,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ostream.tcc" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/ostream.tcc" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ostream.tcc" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/ostream.tcc" 3
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -32447,17 +29846,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 694 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/ostream" 2 3
-# 40 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iostream" 2 3
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 1 3
-# 37 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 694 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\ostream" 2 3
+# 40 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iostream" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 1 3
+# 37 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
 
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 57 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 57 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
   template<typename _CharT, typename _Traits>
     class basic_istream : virtual public basic_ios<_CharT, _Traits>
     {
@@ -32510,7 +29909,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       class sentry;
       friend class sentry;
-# 119 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 119 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       operator>>(__istream_type& (*__pf)(__istream_type&))
       { return __pf(*this); }
@@ -32528,7 +29927,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __pf(*this);
  return *this;
       }
-# 167 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 167 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       operator>>(bool& __n)
       { return _M_extract(__n); }
@@ -32563,7 +29962,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __istream_type&
       operator>>(unsigned long long& __n)
       { return _M_extract(__n); }
-# 213 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 213 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       operator>>(float& __f)
       { return _M_extract(__f); }
@@ -32575,45 +29974,45 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __istream_type&
       operator>>(long double& __f)
       { return _M_extract(__f); }
-# 234 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 234 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       operator>>(void*& __p)
       { return _M_extract(__p); }
-# 258 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 258 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       operator>>(__streambuf_type* __sb);
-# 268 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 268 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       streamsize
       gcount() const
       { return _M_gcount; }
-# 301 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 301 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       int_type
       get();
-# 315 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 315 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       get(char_type& __c);
-# 342 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 342 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       get(char_type* __s, streamsize __n, char_type __delim);
-# 353 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 353 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       get(char_type* __s, streamsize __n)
       { return this->get(__s, __n, this->widen('\n')); }
-# 376 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 376 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       get(__streambuf_type& __sb, char_type __delim);
-# 386 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 386 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       get(__streambuf_type& __sb)
       { return this->get(__sb, this->widen('\n')); }
-# 415 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 415 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       getline(char_type* __s, streamsize __n, char_type __delim);
-# 426 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 426 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       getline(char_type* __s, streamsize __n)
       { return this->getline(__s, __n, this->widen('\n')); }
-# 450 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 450 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       ignore(streamsize __n, int_type __delim);
 
@@ -32622,31 +30021,31 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       __istream_type&
       ignore();
-# 467 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 467 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       int_type
       peek();
-# 485 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 485 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       read(char_type* __s, streamsize __n);
-# 504 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 504 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       streamsize
       readsome(char_type* __s, streamsize __n);
-# 521 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 521 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       putback(char_type __c);
-# 537 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 537 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       unget();
-# 555 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 555 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       int
       sync();
-# 570 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 570 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       pos_type
       tellg();
-# 585 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 585 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       seekg(pos_type);
-# 601 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 601 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       __istream_type&
       seekg(off_type, ios_base::seekdir);
 
@@ -32721,7 +30120,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     basic_istream<wchar_t>&
     basic_istream<wchar_t>::
     ignore(streamsize __n, int_type __delim);
-# 685 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 685 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
   template<typename _CharT, typename _Traits>
     class basic_istream<_CharT, _Traits>::sentry
     {
@@ -32735,16 +30134,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef basic_istream<_CharT, _Traits> __istream_type;
       typedef typename __istream_type::__ctype_type __ctype_type;
       typedef typename _Traits::int_type __int_type;
-# 721 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 721 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       explicit
       sentry(basic_istream<_CharT, _Traits>& __is, bool __noskipws = false);
-# 732 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 732 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
       explicit
 
       operator bool() const
       { return _M_ok; }
     };
-# 750 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 750 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
   template<typename _CharT, typename _Traits>
     basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c);
@@ -32758,7 +30157,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline basic_istream<char, _Traits>&
     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
     { return (__in >> reinterpret_cast<char&>(__c)); }
-# 792 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 792 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
   template<typename _CharT, typename _Traits>
     basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s);
@@ -32777,7 +30176,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline basic_istream<char, _Traits>&
     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
     { return (__in >> reinterpret_cast<char*>(__s)); }
-# 823 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 823 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
   template<typename _CharT, typename _Traits>
     class basic_iostream
     : public basic_istream<_CharT, _Traits>,
@@ -32840,7 +30239,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       { __istream_type::swap(__rhs); }
 
     };
-# 906 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 906 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
   template<typename _CharT, typename _Traits>
     basic_istream<_CharT, _Traits>&
     ws(basic_istream<_CharT, _Traits>& __is);
@@ -32893,7 +30292,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     using __rvalue_istream_type =
       typename __is_convertible_to_basic_istream<
  _Istream>::__istream_type;
-# 972 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 3
+# 972 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 3
   template<typename _Istream, typename _Tp>
     inline
     typename enable_if<__and_<__not_<is_lvalue_reference<_Istream>>,
@@ -32914,12 +30313,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 
 
-# 1 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/istream.tcc" 1 3
-# 38 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/istream.tcc" 3
+# 1 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/istream.tcc" 1 3
+# 38 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/istream.tcc" 3
 
 
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
 
 
@@ -33391,7 +30790,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
               const int_type __eof = traits_type::eof();
               __streambuf_type* __sb = this->rdbuf();
               int_type __c = __sb->sgetc();
-# 521 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/istream.tcc" 3
+# 521 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/istream.tcc" 3
        bool __large_ignore = false;
        while (true)
   {
@@ -33970,12 +31369,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 992 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/istream" 2 3
-# 41 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iostream" 2 3
+# 992 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\istream" 2 3
+# 41 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iostream" 2 3
 
-namespace std __attribute__ ((__visibility__ ("default")))
+namespace std
 {
-# 60 "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/iostream" 3
+# 60 "C:/Xilinx/Vitis_HLS/2022.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iostream" 3
   extern istream cin;
   extern ostream cout;
   extern ostream cerr;
@@ -33994,72 +31393,29 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 22 "test2/test.h" 2
+# 22 "cgcn/src/test.h" 2
 using namespace std;
 __attribute__((sdx_kernel("vector_add", 0))) void vector_add(
     int *featrue_data, int featrue_length, int *weight_array, int output_size, int node_cnt, int *output_data);
-# 24 "test2/test.cpp" 2
-# 1 "test2/systolic.h" 1
+# 24 "cgcn/src/test.cpp" 2
+# 1 "cgcn/src/systolic.h" 1
 
 
 
 void PE(hls::stream<int> &property_input, hls::stream<int> &weight_input, hls::stream<int> &data_output, int turn);
 void rerArray(int *featrue_data, int featrue_length, int *weight_array, int output_size, int node_cnt, int *output_data);
-# 25 "test2/test.cpp" 2
-
-
-template <int ID>
-void proc(stream<int, 16> &in, stream<int, 16> &out)
-{
-    VITIS_LOOP_30_1: for (int i = 0; i < 25; i++)
-    {
-#pragma HLS PIPELINE II = 4
-#pragma HLS LATENCY min = 2 max = 2
- int var;
-        in.read(var);
-        out.write(var);
-    }
-}
-
-
-void mux(stream<int, 16> (&inter)[2], stream<int> &mux_output)
-{
-    int mux_sel = 0;
-    VITIS_LOOP_44_1: for (int i = 0; i < 50; i++)
-    {
-#pragma HLS PIPELINE II = 1
- int var;
-        inter[mux_sel].read(var);
-        mux_output.write(var);
-        mux_sel = (mux_sel == 0) ? (1) : (0);
-    }
-}
-
-
-void demux(stream<int> &in, stream<int, 16> (&inter)[2])
-{
-    int demux_sel = 0;
-    VITIS_LOOP_58_1: for (int i = 0; i < 50; i++)
-    {
-#pragma HLS PIPELINE II = 1
-
- int var;
-        in.read(var);
-        inter[demux_sel].write(var);
-        demux_sel = (demux_sel == 0) ? 1 : 0;
-    }
-}
-
+# 25 "cgcn/src/test.cpp" 2
+# 69 "cgcn/src/test.cpp"
 __attribute__((sdx_kernel("vector_add", 0))) void vector_add(
     int *featrue_data, int featrue_length, int *weight_array, int output_size, int node_cnt, int *output_data)
 {
-#line 15 "/home/ubuntu/VitisCodes/test2/solution1/csynth.tcl"
+#line 15 "C:/code/vitiscode/cgcn/solution1/csynth.tcl"
 #pragma HLSDIRECTIVE TOP name=vector_add
-# 71 "test2/test.cpp"
+# 71 "cgcn/src/test.cpp"
 
-#line 7 "/home/ubuntu/VitisCodes/test2/solution1/directives.tcl"
+#line 7 "C:/code/vitiscode/cgcn/solution1/directives.tcl"
 #pragma HLSDIRECTIVE TOP name=vector_add
-# 71 "test2/test.cpp"
+# 71 "cgcn/src/test.cpp"
 
     rerArray(featrue_data, featrue_length, weight_array, output_size, node_cnt, output_data);
 }
