@@ -2,42 +2,70 @@
 <vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
   <errorLogs>
     <logs>
-      <csimLog/>
+      <synLog/>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
-      <csimLog>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>0' contains leftover data, which may result in RTL simulation hanging.&#xA;000000000000000000000000-213655419232766-213655419232766-213655419232766   Generating dot files" projectName="test2" solutionName="solution2" date="2022-10-30T17:54:19.731+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>1' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.438+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>2' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.434+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>32' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.431+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>33' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.428+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>34' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.424+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>64' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.420+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>65' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.415+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>66' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.410+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>96' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.406+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>97' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.401+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>98' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.397+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>128' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.394+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>129' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.390+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>130' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.386+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>160' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.382+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>161' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.378+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>162' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.374+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>192' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.371+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>193' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.367+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>194' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.363+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>224' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.360+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>225' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.357+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>226' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.354+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>354' is read while empty, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.351+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>322' is read while empty, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.348+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>290' is read while empty, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.345+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>258' is read while empty, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.342+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>353' is read while empty, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.339+0800" type="Warning"/>
-      </csimLog>
+      <synLog>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_31 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:41.624+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_30 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:41.494+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_29 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:41.392+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_28 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:41.264+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_27 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:41.149+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_26 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:41.055+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_25 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:40.978+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_24 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:40.834+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_23 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:40.739+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_22 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:40.638+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_21 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:40.545+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_20 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:40.446+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_19 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:40.321+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_18 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:40.154+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_17 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:40.005+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_16 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:39.845+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_15 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:39.742+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_14 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:39.614+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_13 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:39.487+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_12 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:39.380+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_11 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:39.261+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_10 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:39.169+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_9 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:39.054+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_8 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:38.947+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_7 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:38.854+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_6 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:38.720+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_5 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:38.636+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_4 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:38.487+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_3 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:38.370+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_2 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:38.291+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel weight_input_3_1 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:38.173+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_31 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:38.066+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_30 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:37.934+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_29 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:37.847+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_28 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:37.750+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_27 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:37.626+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_26 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:37.564+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_25 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:37.471+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_24 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:37.375+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_23 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:37.278+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_22 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:37.172+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_21 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:37.071+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_20 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:36.959+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_19 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:36.829+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_18 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:36.698+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_17 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:36.569+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_16 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:36.394+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_15 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:36.298+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_14 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:36.202+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_13 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:36.089+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_12 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:35.961+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_11 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:35.885+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_10 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:35.783+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_9 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:35.675+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_8 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:35.551+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_7 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:35.439+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-657] Generating channel property_input_3_6 that flows backwards in the dataflow region." projectName="cgcn" solutionName="solution1" date="2022-11-02T17:30:35.336+0800" type="Warning"/>
+      </synLog>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>

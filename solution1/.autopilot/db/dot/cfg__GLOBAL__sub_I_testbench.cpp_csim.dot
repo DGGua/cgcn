@@ -1,7 +1,0 @@
-digraph "CFG for '_GLOBAL__sub_I_testbench.cpp' function" {
-	label="CFG for '_GLOBAL__sub_I_testbench.cpp' function";
-
-	Node0x421bd00 [shape=record,filename="../../../testbench.cpp",linenumber="0",label="{entry.predFake}"];
-	Node0x421bd00 -> Node0x41ecab0[ callList="" memoryops="" filename="../../../testbench.cpp" execusionnum="0"];
-	Node0x41ecab0 [shape=record,filename="",linenumber="",label="{entry.succFake}"];
-}

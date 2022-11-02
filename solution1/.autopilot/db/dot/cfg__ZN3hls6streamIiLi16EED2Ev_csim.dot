@@ -1,7 +1,0 @@
-digraph "CFG for 'hls::stream\<int, 16\>::~stream' function" {
-	label="CFG for 'hls::stream\<int, 16\>::~stream' function";
-
-	Node0x43ef430 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
-	Node0x43ef430 -> Node0x441da80[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h" execusionnum="0"];
-	Node0x441da80 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h",linenumber="431",label="{entry.succFake}"];
-}

@@ -6,7 +6,7 @@
           "label": "conpute",
           "functionLabel": "",
           "id": "1",
-          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution1\/directives.tcl",
+          "sourceFile": "C:\/code\/vitiscode\/cgcn\/solution1\/directives.tcl",
           "sourceLine": "6",
           "pragma": {"name": "LOOP_MERGE"}
         },
@@ -15,7 +15,7 @@
           "label": "",
           "functionLabel": "",
           "id": "2",
-          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution1\/directives.tcl",
+          "sourceFile": "C:\/code\/vitiscode\/cgcn\/solution1\/directives.tcl",
           "sourceLine": "7",
           "pragma": {
             "name": "TOP",
@@ -30,7 +30,7 @@
           "label": "",
           "functionLabel": "",
           "id": "3",
-          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution1\/directives.tcl",
+          "sourceFile": "C:\/code\/vitiscode\/cgcn\/solution1\/directives.tcl",
           "sourceLine": "8",
           "pragma": {
             "name": "ALLOCATION",
@@ -51,7 +51,7 @@
           "label": "vector_add_label0",
           "functionLabel": "",
           "id": "4",
-          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution1\/directives.tcl",
+          "sourceFile": "C:\/code\/vitiscode\/cgcn\/solution1\/directives.tcl",
           "sourceLine": "9",
           "pragma": {
             "name": "ALLOCATION",
@@ -72,7 +72,7 @@
           "label": "write_out_label2",
           "functionLabel": "",
           "id": "5",
-          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution1\/directives.tcl",
+          "sourceFile": "C:\/code\/vitiscode\/cgcn\/solution1\/directives.tcl",
           "sourceLine": "10",
           "pragma": {"name": "PIPELINE"}
         },
@@ -81,7 +81,7 @@
           "label": "read_in_label1",
           "functionLabel": "",
           "id": "6",
-          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution1\/directives.tcl",
+          "sourceFile": "C:\/code\/vitiscode\/cgcn\/solution1\/directives.tcl",
           "sourceLine": "11",
           "pragma": {"name": "PIPELINE"}
         },
@@ -90,16 +90,31 @@
           "label": "",
           "functionLabel": "",
           "id": "7",
-          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution1\/directives.tcl",
+          "sourceFile": "C:\/code\/vitiscode\/cgcn\/solution1\/directives.tcl",
           "sourceLine": "12",
           "pragma": {"name": "DATAFLOW"}
+        },
+        {
+          "functionName": "PE",
+          "label": "PE_Compute",
+          "functionLabel": "",
+          "id": "8",
+          "sourceFile": "C:\/code\/vitiscode\/cgcn\/solution1\/directives.tcl",
+          "sourceLine": "13",
+          "pragma": {
+            "name": "LOOP_TRIPCOUNT",
+            "option": [{
+                "name": "max",
+                "value": "32"
+              }]
+          }
         },
         {
           "functionName": "vector_add",
           "label": "",
           "functionLabel": "",
-          "id": "8",
-          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution1\/csynth.tcl",
+          "id": "9",
+          "sourceFile": "C:\/code\/vitiscode\/cgcn\/solution1\/csynth.tcl",
           "sourceLine": "15",
           "pragma": {
             "name": "TOP",
@@ -113,8 +128,8 @@
           "functionName": "vector_add",
           "label": "",
           "functionLabel": "",
-          "id": "9",
-          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution1\/csynth.tcl",
+          "id": "10",
+          "sourceFile": "C:\/code\/vitiscode\/cgcn\/solution1\/csynth.tcl",
           "sourceLine": "15",
           "pragma": {
             "name": "TOP",

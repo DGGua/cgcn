@@ -1,7 +1,0 @@
-digraph "CFG for 'hls::stream\<int, 0\>::operator\<\<' function" {
-	label="CFG for 'hls::stream\<int, 0\>::operator\<\<' function";
-
-	Node0x42d2f90 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
-	Node0x42d2f90 -> Node0x43a8210[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h" execusionnum="50"];
-	Node0x43a8210 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h",linenumber="334",label="{entry.succFake}"];
-}
