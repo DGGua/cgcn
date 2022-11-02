@@ -1,0 +1,282 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "vector_add",
+          "label": "conpute",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {"name": "LOOP_MERGE"}
+        },
+        {
+          "functionName": "vector_add",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "7",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "vector_add"
+              }]
+          }
+        },
+        {
+          "functionName": "worker",
+          "label": "",
+          "functionLabel": "",
+          "id": "3",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "8",
+          "pragma": {
+            "name": "ALLOCATION",
+            "option": [
+              {
+                "name": "function",
+                "value": ""
+              },
+              {
+                "name": "instances",
+                "value": "4"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "vector_add",
+          "label": "vector_add_label0",
+          "functionLabel": "",
+          "id": "4",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "9",
+          "pragma": {
+            "name": "ALLOCATION",
+            "option": [
+              {
+                "name": "function",
+                "value": ""
+              },
+              {
+                "name": "instances",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "write_out",
+          "label": "write_out_label2",
+          "functionLabel": "",
+          "id": "5",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "10",
+          "pragma": {"name": "PIPELINE"}
+        },
+        {
+          "functionName": "read_in",
+          "label": "read_in_label1",
+          "functionLabel": "",
+          "id": "6",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "11",
+          "pragma": {"name": "PIPELINE"}
+        },
+        {
+          "functionName": "rerArray",
+          "label": "",
+          "functionLabel": "",
+          "id": "7",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "12",
+          "pragma": {"name": "DATAFLOW"}
+        },
+        {
+          "functionName": "PE",
+          "label": "PE_Compute",
+          "functionLabel": "",
+          "id": "8",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "13",
+          "pragma": {
+            "name": "LOOP_TRIPCOUNT",
+            "option": [{
+                "name": "max",
+                "value": "32"
+              }]
+          }
+        },
+        {
+          "functionName": "rerArray",
+          "label": "compute_row",
+          "functionLabel": "",
+          "id": "9",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "14",
+          "pragma": {"name": "UNROLL"}
+        },
+        {
+          "functionName": "PE",
+          "label": "PE_Compute",
+          "functionLabel": "",
+          "id": "10",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "15",
+          "pragma": {
+            "name": "UNROLL",
+            "option": [{
+                "name": "factor",
+                "value": "1"
+              }]
+          }
+        },
+        {
+          "functionName": "rerArray",
+          "label": "compute_col",
+          "functionLabel": "",
+          "id": "11",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "16",
+          "pragma": {
+            "name": "LOOP_TRIPCOUNT",
+            "option": [{
+                "name": "max",
+                "value": "32"
+              }]
+          }
+        },
+        {
+          "functionName": "rerArray",
+          "label": "",
+          "functionLabel": "",
+          "id": "12",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "17",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "property_input"
+              },
+              {
+                "name": "complete",
+                "value": ""
+              },
+              {
+                "name": "dim",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "rerArray",
+          "label": "",
+          "functionLabel": "",
+          "id": "13",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "18",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "weight_input"
+              },
+              {
+                "name": "complete",
+                "value": ""
+              },
+              {
+                "name": "dim",
+                "value": "2"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "rerArray",
+          "label": "",
+          "functionLabel": "",
+          "id": "14",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "19",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "output"
+              },
+              {
+                "name": "complete",
+                "value": ""
+              },
+              {
+                "name": "dim",
+                "value": "2"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "rerArray",
+          "label": "",
+          "functionLabel": "",
+          "id": "15",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/directives.tcl",
+          "sourceLine": "20",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "buff"
+              },
+              {
+                "name": "complete",
+                "value": ""
+              },
+              {
+                "name": "dim",
+                "value": "2"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "vector_add",
+          "label": "",
+          "functionLabel": "",
+          "id": "16",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/csynth.tcl",
+          "sourceLine": "15",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "vector_add"
+              }]
+          }
+        },
+        {
+          "functionName": "vector_add",
+          "label": "",
+          "functionLabel": "",
+          "id": "17",
+          "sourceFile": "\/home\/ubuntu\/VitisCodes\/test2\/solution2\/csynth.tcl",
+          "sourceLine": "15",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "vector_add"
+              }]
+          }
+        }
+      ]
+    }]}

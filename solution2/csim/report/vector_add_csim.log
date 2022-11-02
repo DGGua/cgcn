@@ -1,0 +1,285 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../testbench.cpp in debug mode
+   Compiling ../../../systolic.cpp in debug mode
+   Compiling ../../../test.cpp in debug mode
+   Generating csim.exe
+WARNING: Hls::stream 'hls::stream<int, 0>0' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>0' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>0' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>0' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>0' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>0' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>0' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>0' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>0' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>0' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>256' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>288' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>320' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>352' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>257' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>289' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>321' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>353' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>258' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>290' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>322' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>354' is read while empty, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>226' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>225' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>224' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>194' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>193' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>192' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>162' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>161' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>160' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>130' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>129' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>128' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>98' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>97' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>96' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>66' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>65' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>64' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>34' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>33' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>32' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>2' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>1' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<int, 0>0' contains leftover data, which may result in RTL simulation hanging.
+000000000000000000000000-213655419232766-213655419232766-213655419232766
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

@@ -1,0 +1,51 @@
+digraph "CFG for 'vector_add' function" {
+	label="CFG for 'vector_add' function";
+
+	Node0x43e9c20 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
+	Node0x43e9c20 -> Node0x43e9c70[ callList="" memoryops="" filename="../../../test.cpp" execusionnum="1"];
+	Node0x441d030 [shape=record,filename="../../../test.cpp",linenumber="80",label="{arraydestroy.done18.succFake}"];
+subgraph cluster_0 {
+	label="arraydestroy.done12";
+	tripcount="0";
+	invocationtime="1";
+
+	Node0x43e9e50 [shape=record,filename="../../../test.cpp",linenumber="80",label="{arraydestroy.body14.predFake}"];
+	Node0x43e9e50 -> Node0x441cf80[ callList="" memoryops="" filename="../../../test.cpp" execusionnum="0"];
+	Node0x441cf80 [shape=record,filename="../../../test.cpp",linenumber="80",label="{arraydestroy.body14.succFake|{<s0>T|<s1>F}}"];
+	Node0x441cf80:s0 -> Node0x441d030[ callList="" memoryops="" filename="../../../test.cpp" execusionnum="0"];
+	Node0x441cf80:s1 -> Node0x43e9e50;
+}
+subgraph cluster_1 {
+	label="arrayctor.cont7";
+	tripcount="0";
+	invocationtime="1";
+
+	Node0x43e9db0 [shape=record,filename="../../../test.cpp",linenumber="80",label="{arraydestroy.body.predFake}"];
+	Node0x43e9db0 -> Node0x441cdf0[ callList="" memoryops="" filename="../../../test.cpp" execusionnum="0"];
+	Node0x441cdf0 [shape=record,filename="../../../test.cpp",linenumber="80",label="{arraydestroy.body.succFake|{<s0>T|<s1>F}}"];
+	Node0x441cdf0:s0 -> Node0x43e9e50[ callList="" memoryops="" filename="../../../test.cpp" execusionnum="0"];
+	Node0x441cdf0:s1 -> Node0x43e9db0;
+}
+subgraph cluster_2 {
+	label="arrayctor.cont";
+	tripcount="0";
+	invocationtime="1";
+
+	Node0x43e9d10 [shape=record,filename="../../../test.cpp",linenumber="74",label="{arrayctor.loop3.predFake}"];
+	Node0x43e9d10 -> Node0x441cc30[ callList="" memoryops="" filename="../../../test.cpp" execusionnum="0"];
+	Node0x441cc30 [shape=record,filename="../../../test.cpp",linenumber="74",label="{arrayctor.loop3.succFake|{<s0>T|<s1>F}}"];
+	Node0x441cc30:s0 -> Node0x43e9db0[ callList="2:76; 3:77; 4:78; 5:79" memoryops="" filename="../../../test.cpp" execusionnum="0"];
+	Node0x441cc30:s1 -> Node0x43e9d10;
+}
+subgraph cluster_3 {
+	label="entry";
+	tripcount="0";
+	invocationtime="1";
+
+	Node0x43e9c70 [shape=record,filename="../../../test.cpp",linenumber="73",label="{arrayctor.loop.predFake}"];
+	Node0x43e9c70 -> Node0x441ca00[ callList="" memoryops="" filename="../../../test.cpp" execusionnum="0"];
+	Node0x441ca00 [shape=record,filename="../../../test.cpp",linenumber="73",label="{arrayctor.loop.succFake|{<s0>T|<s1>F}}"];
+	Node0x441ca00:s0 -> Node0x43e9d10[ callList="" memoryops="" filename="../../../test.cpp" execusionnum="0"];
+	Node0x441ca00:s1 -> Node0x43e9c70;
+}
+}

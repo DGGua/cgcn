@@ -1,0 +1,179 @@
+
+
+================================================================
+== Vitis HLS Report for 'rerArray_Loop_compute_col_proc2'
+================================================================
+* Date:           Sat Oct 29 23:33:38 2022
+
+* Version:        2022.1 (Build 3526262 on Mon Apr 18 15:47:01 MDT 2022)
+* Project:        test2
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z010-clg400-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.050 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------------------------------------------------+-----------------------------------------------------+---------+---------+-----------+----------+-----+-----+---------+
+        |                                                                |                                                     |  Latency (cycles) |  Latency (absolute)  |  Interval | Pipeline|
+        |                            Instance                            |                        Module                       |   min   |   max   |    min    |    max   | min | max |   Type  |
+        +----------------------------------------------------------------+-----------------------------------------------------+---------+---------+-----------+----------+-----+-----+---------+
+        |grp_rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute_fu_105  |rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute  |        2|       36|  20.000 ns|  0.360 us|    2|   36|       no|
+        +----------------------------------------------------------------+-----------------------------------------------------+---------+---------+-----------+----------+-----+-----+---------+
+
+        * Loop: 
+        +---------------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                           |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |         Loop Name         |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +---------------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- compute_col_compute_row  |        ?|        ?|    5 ~ 39|          -|          -|     ?|        no|
+        +---------------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+----+-------+-------+-----+
+|       Name      | BRAM_18K| DSP|   FF  |  LUT  | URAM|
++-----------------+---------+----+-------+-------+-----+
+|DSP              |        -|   -|      -|      -|    -|
+|Expression       |        -|   -|      0|     47|    -|
+|FIFO             |        -|   -|      -|      -|    -|
+|Instance         |        -|   3|    168|    163|    -|
+|Memory           |        -|   -|      -|      -|    -|
+|Multiplexer      |        -|   -|      -|     84|    -|
+|Register         |        -|   -|     72|      -|    -|
++-----------------+---------+----+-------+-------+-----+
+|Total            |        0|   3|    240|    294|    0|
++-----------------+---------+----+-------+-------+-----+
+|Available        |      120|  80|  35200|  17600|    0|
++-----------------+---------+----+-------+-------+-----+
+|Utilization (%)  |        0|   3|     ~0|      1|    0|
++-----------------+---------+----+-------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +----------------------------------------------------------------+-----------------------------------------------------+---------+----+-----+-----+-----+
+    |                            Instance                            |                        Module                       | BRAM_18K| DSP|  FF | LUT | URAM|
+    +----------------------------------------------------------------+-----------------------------------------------------+---------+----+-----+-----+-----+
+    |grp_rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute_fu_105  |rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute  |        0|   3|  168|  163|    0|
+    +----------------------------------------------------------------+-----------------------------------------------------+---------+----+-----+-----+-----+
+    |Total                                                           |                                                     |        0|   3|  168|  163|    0|
+    +----------------------------------------------------------------+-----------------------------------------------------+---------+----+-----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------+----------+----+---+----+------------+------------+
+    |    Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------+----------+----+---+----+------------+------------+
+    |add_ln27_fu_136_p2   |         +|   0|  0|  34|          34|           1|
+    |icmp_ln27_fu_131_p2  |      icmp|   0|  0|  12|          34|          34|
+    |ap_block_state1      |        or|   0|  0|   1|           1|           1|
+    +---------------------+----------+----+---+----+------------+------------+
+    |Total                |          |   0|  0|  47|          69|          36|
+    +---------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------------------------+----+-----------+-----+-----------+
+    |          Name          | LUT| Input Size| Bits| Total Bits|
+    +------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm               |  21|          5|    1|          5|
+    |ap_done                 |   9|          2|    1|          2|
+    |featrue_length_c_blk_n  |   9|          2|    1|          2|
+    |indvar_flatten_fu_62    |   9|          2|   34|         68|
+    |output_r_blk_n          |   9|          2|    1|          2|
+    |output_size_c_blk_n     |   9|          2|    1|          2|
+    |property_input_read     |   9|          2|    1|          2|
+    |weight_input_read       |   9|          2|    1|          2|
+    +------------------------+----+-----------+-----+-----------+
+    |Total                   |  84|         19|   41|         85|
+    +------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-----------------------------------------------------------------------------+----+----+-----+-----------+
+    |                                     Name                                    | FF | LUT| Bits| Const Bits|
+    +-----------------------------------------------------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                                                                    |   4|   0|    4|          0|
+    |ap_done_reg                                                                  |   1|   0|    1|          0|
+    |grp_rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute_fu_105_ap_start_reg  |   1|   0|    1|          0|
+    |indvar_flatten_fu_62                                                         |  34|   0|   34|          0|
+    |tmp_4_reg_169                                                                |  32|   0|   34|          2|
+    +-----------------------------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                                        |  72|   0|   74|          2|
+    +-----------------------------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------------------+-----+-----+------------+---------------------------------+--------------+
+|            RTL Ports            | Dir | Bits|  Protocol  |          Source Object          |    C Type    |
++---------------------------------+-----+-----+------------+---------------------------------+--------------+
+|ap_clk                           |   in|    1|  ap_ctrl_hs|  rerArray_Loop_compute_col_proc2|  return value|
+|ap_rst                           |   in|    1|  ap_ctrl_hs|  rerArray_Loop_compute_col_proc2|  return value|
+|ap_start                         |   in|    1|  ap_ctrl_hs|  rerArray_Loop_compute_col_proc2|  return value|
+|ap_done                          |  out|    1|  ap_ctrl_hs|  rerArray_Loop_compute_col_proc2|  return value|
+|ap_continue                      |   in|    1|  ap_ctrl_hs|  rerArray_Loop_compute_col_proc2|  return value|
+|ap_idle                          |  out|    1|  ap_ctrl_hs|  rerArray_Loop_compute_col_proc2|  return value|
+|ap_ready                         |  out|    1|  ap_ctrl_hs|  rerArray_Loop_compute_col_proc2|  return value|
+|output_size                      |   in|   32|     ap_none|                      output_size|        scalar|
+|output_r_din                     |  out|   32|     ap_fifo|                         output_r|       pointer|
+|output_r_num_data_valid          |   in|    2|     ap_fifo|                         output_r|       pointer|
+|output_r_fifo_cap                |   in|    2|     ap_fifo|                         output_r|       pointer|
+|output_r_full_n                  |   in|    1|     ap_fifo|                         output_r|       pointer|
+|output_r_write                   |  out|    1|     ap_fifo|                         output_r|       pointer|
+|featrue_length                   |   in|   32|     ap_none|                   featrue_length|        scalar|
+|property_input_dout              |   in|   32|     ap_fifo|                   property_input|       pointer|
+|property_input_num_data_valid    |   in|    2|     ap_fifo|                   property_input|       pointer|
+|property_input_fifo_cap          |   in|    2|     ap_fifo|                   property_input|       pointer|
+|property_input_empty_n           |   in|    1|     ap_fifo|                   property_input|       pointer|
+|property_input_read              |  out|    1|     ap_fifo|                   property_input|       pointer|
+|weight_input_dout                |   in|   32|     ap_fifo|                     weight_input|       pointer|
+|weight_input_num_data_valid      |   in|    2|     ap_fifo|                     weight_input|       pointer|
+|weight_input_fifo_cap            |   in|    2|     ap_fifo|                     weight_input|       pointer|
+|weight_input_empty_n             |   in|    1|     ap_fifo|                     weight_input|       pointer|
+|weight_input_read                |  out|    1|     ap_fifo|                     weight_input|       pointer|
+|featrue_length_c_din             |  out|   32|     ap_fifo|                 featrue_length_c|       pointer|
+|featrue_length_c_num_data_valid  |   in|    2|     ap_fifo|                 featrue_length_c|       pointer|
+|featrue_length_c_fifo_cap        |   in|    2|     ap_fifo|                 featrue_length_c|       pointer|
+|featrue_length_c_full_n          |   in|    1|     ap_fifo|                 featrue_length_c|       pointer|
+|featrue_length_c_write           |  out|    1|     ap_fifo|                 featrue_length_c|       pointer|
+|output_size_c_din                |  out|   32|     ap_fifo|                    output_size_c|       pointer|
+|output_size_c_num_data_valid     |   in|    2|     ap_fifo|                    output_size_c|       pointer|
+|output_size_c_fifo_cap           |   in|    2|     ap_fifo|                    output_size_c|       pointer|
+|output_size_c_full_n             |   in|    1|     ap_fifo|                    output_size_c|       pointer|
+|output_size_c_write              |  out|    1|     ap_fifo|                    output_size_c|       pointer|
++---------------------------------+-----+-----+------------+---------------------------------+--------------+
+

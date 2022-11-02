@@ -1,0 +1,18 @@
+digraph "CFG for 'demux' function" {
+	label="CFG for 'demux' function";
+
+	Node0x43e4da0 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
+	Node0x43e4da0 -> Node0x43e7760[ callList="" memoryops="" filename="../../../test.cpp" execusionnum="1"];
+	Node0x441a680 [shape=record,filename="../../../test.cpp",linenumber="66",label="{for.end.succFake}"];
+subgraph cluster_0 {
+	label="entry";
+	tripcount="50";
+	invocationtime="1";
+
+	Node0x43e7760 [shape=record,filename="../../../test.cpp",linenumber="57",label="{for.cond.predFake}"];
+	Node0x43e7760 -> Node0x441a710[ callList="" memoryops="" filename="../../../test.cpp" execusionnum="51"];
+	Node0x441a710 [shape=record,filename="../../../test.cpp",linenumber="57",label="{for.cond.succFake|{<s0>T|<s1>F}}"];
+	Node0x441a710:s0 -> Node0x43e7760[label="W:51" callList="" memoryops="" filename="../../../test.cpp" execusionnum="50"];
+	Node0x441a710:s1 -> Node0x441a680[label="W:2" callList="" memoryops="" filename="../../../test.cpp" execusionnum="1"];
+}
+}

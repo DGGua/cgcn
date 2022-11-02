@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1667057619823">
+  <ports id="1" name="featrue_data" type="PortType" originalName="featrue_data" coreId="2764136256" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="featrue_length" type="PortType" originalName="featrue_length" coreId="1330007625" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="3" name="weight_array" type="PortType" originalName="weight_array" coreId="2761647648" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="4" name="output_size" type="PortType" originalName="output_size" coreId="1212371803" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="5" name="node_cnt" type="PortType" originalName="node_cnt" coreId="2764101456" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="6" name="output_data" type="PortType" originalName="output_data" coreId="784" bitwidth="32" direction="DirOut">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <edges id="30" source_obj="//@ports.4" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="32" source_obj="//@ports.3" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="34" source_obj="//@ports.1" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="37" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="39" source_obj="//@ports.2" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="42" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="43" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="44" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="45" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="46" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="47" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@ports.5"/>
+  <blocks id="27" name="vector_add" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="node_cnt_read" lineNumber="70" originalName="node_cnt" fileName="test2/test.cpp" fileDirectory=".." coreId="2762441248" contextFuncName="vector_add" bitwidth="32" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="test2/test.cpp" linenumber="70" fileDirectory="/home/ubuntu/VitisCodes" functionName="vector_add"/>
+      <dataInputObjs>node_cnt</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="21" name="output_size_read" lineNumber="70" originalName="output_size" fileName="test2/test.cpp" fileDirectory=".." coreId="2764068448" contextFuncName="vector_add" bitwidth="32" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="test2/test.cpp" linenumber="70" fileDirectory="/home/ubuntu/VitisCodes" functionName="vector_add"/>
+      <dataInputObjs>output_size</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="featrue_length_read" lineNumber="70" originalName="featrue_length" fileName="test2/test.cpp" fileDirectory=".." coreId="2761647648" contextFuncName="vector_add" bitwidth="32" opcode="read" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="test2/test.cpp" linenumber="70" fileDirectory="/home/ubuntu/VitisCodes" functionName="vector_add"/>
+      <dataInputObjs>featrue_length</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="featrue_data_read" lineNumber="72" fileName="test2/test.cpp" fileDirectory=".." coreId="0" contextFuncName="vector_add" bitwidth="32" opcode="read" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="test2/test.cpp" linenumber="72" fileDirectory="/home/ubuntu/VitisCodes" functionName="vector_add"/>
+      <dataInputObjs>featrue_data</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="weight_array_read" lineNumber="72" fileName="test2/test.cpp" fileDirectory=".." coreId="2764068224" contextFuncName="vector_add" bitwidth="32" opcode="read" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="test2/test.cpp" linenumber="72" fileDirectory="/home/ubuntu/VitisCodes" functionName="vector_add"/>
+      <dataInputObjs>weight_array</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="_ln72" lineNumber="72" fileName="test2/test.cpp" fileDirectory=".." rtlName="grp_rerArray_fu_64" coreId="2" contextFuncName="vector_add" opcode="call" nodeLatency="1" m_display="0" m_delay="3.4" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="test2/test.cpp" linenumber="72" fileDirectory="/home/ubuntu/VitisCodes" functionName="vector_add"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>output_data</dataOutputObjs>
+      <constName>rerArray</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="_ln73" lineNumber="73" fileName="test2/test.cpp" fileDirectory=".." coreId="2764109664" contextFuncName="vector_add" opcode="ret" nodeLabel="1.0" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="test2/test.cpp" linenumber="73" fileDirectory="/home/ubuntu/VitisCodes" functionName="vector_add"/>
+    </node_objs>
+    <fileValidLineNumbers fileName="test2/test.cpp">
+      <validLinenumbers>70</validLinenumbers>
+      <validLinenumbers>72</validLinenumbers>
+      <validLinenumbers>73</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <regnodes realName="output_size_read_reg_85">
+    <nodeIds>21</nodeIds>
+  </regnodes>
+  <regnodes realName="node_cnt_read_reg_80">
+    <nodeIds>20</nodeIds>
+  </regnodes>
+  <regnodes realName="featrue_data_read_reg_95">
+    <nodeIds>23</nodeIds>
+  </regnodes>
+  <regnodes realName="featrue_length_read_reg_90">
+    <nodeIds>22</nodeIds>
+  </regnodes>
+  <regnodes realName="weight_array_read_reg_100">
+    <nodeIds>24</nodeIds>
+  </regnodes>
+  <moduleNodes realName="grp_rerArray_fu_64">
+    <nodeIds>25</nodeIds>
+  </moduleNodes>
+  <ioNodes realName="featrue_data_read_read_fu_52">
+    <nodeIds>23</nodeIds>
+  </ioNodes>
+  <ioNodes realName="featrue_length_read_read_fu_46">
+    <nodeIds>22</nodeIds>
+  </ioNodes>
+  <ioNodes realName="weight_array_read_read_fu_58">
+    <nodeIds>24</nodeIds>
+  </ioNodes>
+  <ioNodes realName="output_size_read_read_fu_40">
+    <nodeIds>21</nodeIds>
+  </ioNodes>
+  <ioNodes realName="node_cnt_read_read_fu_34">
+    <nodeIds>20</nodeIds>
+  </ioNodes>
+  <ioPorts name="featrue_data">
+    <contents name="read">
+      <nodeIds>23</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="featrue_length">
+    <contents name="read">
+      <nodeIds>22</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="node_cnt">
+    <contents name="read">
+      <nodeIds>20</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_data">
+    <contents name="call">
+      <nodeIds>25</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_size">
+    <contents name="read">
+      <nodeIds>21</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="weight_array">
+    <contents name="read">
+      <nodeIds>24</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="2" latency="2"/>
+    </states>
+    <states id="2">
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="2"/>
+      <operations id="26" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="vector_add" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="-1" mMaxLatency="-1">
+      <basicBlocks>27</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

@@ -1,0 +1,7 @@
+digraph "CFG for 'hls::stream\<int, 0\>::read' function" {
+	label="CFG for 'hls::stream\<int, 0\>::read' function";
+
+	Node0x42d40e0 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
+	Node0x42d40e0 -> Node0x41f9c10[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h" execusionnum="200"];
+	Node0x41f9c10 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h",linenumber="365",label="{entry.succFake}"];
+}

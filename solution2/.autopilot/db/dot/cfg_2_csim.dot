@@ -1,0 +1,205 @@
+digraph "CFG for 'rerArray' function" {
+	label="CFG for 'rerArray' function";
+
+	Node0x4a35cb0 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
+	Node0x4a35cb0 -> Node0x4a36c30[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="1"];
+	Node0x4aabce0 [shape=record,filename="../../../systolic.cpp",linenumber="76",label="{arraydestroy.done142.succFake}"];
+subgraph cluster_0 {
+	label="arraydestroy.done136";
+	tripcount="0";
+	invocationtime="2";
+
+	Node0x4a38080 [shape=record,filename="../../../systolic.cpp",linenumber="76",label="{arraydestroy.body138.predFake}"];
+	Node0x4a38080 -> Node0x4aabbf0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aabbf0 [shape=record,filename="../../../systolic.cpp",linenumber="76",label="{arraydestroy.body138.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aabbf0:s0 -> Node0x4aabce0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aabbf0:s1 -> Node0x4a38080;
+}
+subgraph cluster_1 {
+	label="arraydestroy.done130";
+	tripcount="0";
+	invocationtime="2";
+
+	Node0x4a37fe0 [shape=record,filename="../../../systolic.cpp",linenumber="76",label="{arraydestroy.body132.predFake}"];
+	Node0x4a37fe0 -> Node0x4aaba10[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aaba10 [shape=record,filename="../../../systolic.cpp",linenumber="76",label="{arraydestroy.body132.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aaba10:s0 -> Node0x4a38080[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aaba10:s1 -> Node0x4a37fe0;
+}
+subgraph cluster_2 {
+	label="for.end128";
+	tripcount="0";
+	invocationtime="2";
+
+	Node0x4a37f40 [shape=record,filename="../../../systolic.cpp",linenumber="76",label="{arraydestroy.body.predFake}"];
+	Node0x4a37f40 -> Node0x4aab7d0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aab7d0 [shape=record,filename="../../../systolic.cpp",linenumber="76",label="{arraydestroy.body.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aab7d0:s0 -> Node0x4a37fe0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aab7d0:s1 -> Node0x4a37f40;
+}
+subgraph cluster_3 {
+	label="input_batch";
+	tripcount="2";
+	invocationtime="2";
+
+subgraph cluster_3_0 {
+	label="input_turn_property";
+	tripcount="20";
+	invocationtime="3";
+
+subgraph cluster_3_0_0 {
+	label="input_property";
+	tripcount="80";
+	invocationtime="21";
+
+subgraph cluster_3_0_0_0 {
+	label="for.body40";
+	tripcount="240";
+	invocationtime="81";
+
+	Node0x4a37400 [shape=record,filename="../../../systolic.cpp",linenumber="44",label="{for.cond46.predFake}"];
+	Node0x4a37400 -> Node0x4aaa2f0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="320"];
+	Node0x4aaa2f0 [shape=record,filename="../../../systolic.cpp",linenumber="44",label="{for.cond46.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aaa2f0:s0 -> Node0x4a37400[label="W:241" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="240"];
+	Node0x4aaa2f0:s1 -> Node0x4a37360[label="W:81" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="80"];
+}
+	Node0x4a37360 [shape=record,filename="../../../systolic.cpp",linenumber="41",label="{for.cond38.predFake}"];
+	Node0x4a37360 -> Node0x4aaa130[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="100"];
+	Node0x4aaa130 [shape=record,filename="../../../systolic.cpp",linenumber="41",label="{for.cond38.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aaa130:s0 -> Node0x4a37400[label="W:81" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="80"];
+	Node0x4aaa130:s1 -> Node0x4a37270[label="W:21" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="20"];
+}
+	Node0x4a37270 [shape=record,filename="../../../systolic.cpp",linenumber="38",label="{for.cond34.predFake}"];
+	Node0x4a37270 -> Node0x4aa9f70[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="22"];
+	Node0x4aa9f70 [shape=record,filename="../../../systolic.cpp",linenumber="38",label="{for.cond34.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aa9f70:s0 -> Node0x4a37360[label="W:21" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="20"];
+	Node0x4aa9f70:s1 -> Node0x4a376d0[label="W:3" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="2"];
+}
+subgraph cluster_3_1 {
+	label="input_turn_weight";
+	tripcount="20";
+	invocationtime="3";
+
+subgraph cluster_3_1_0 {
+	label="input_weight";
+	tripcount="60";
+	invocationtime="21";
+
+subgraph cluster_3_1_0_0 {
+	label="for.body69";
+	tripcount="240";
+	invocationtime="61";
+
+	Node0x4a37860 [shape=record,filename="../../../systolic.cpp",linenumber="58",label="{for.cond75.predFake}"];
+	Node0x4a37860 -> Node0x4aaac40[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="300"];
+	Node0x4aaac40 [shape=record,filename="../../../systolic.cpp",linenumber="58",label="{for.cond75.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aaac40:s0 -> Node0x4a37860[label="W:241" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="240"];
+	Node0x4aaac40:s1 -> Node0x4a377c0[label="W:61" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="60"];
+}
+	Node0x4a377c0 [shape=record,filename="../../../systolic.cpp",linenumber="55",label="{for.cond67.predFake}"];
+	Node0x4a377c0 -> Node0x4aaa670[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="80"];
+	Node0x4aaa670 [shape=record,filename="../../../systolic.cpp",linenumber="55",label="{for.cond67.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aaa670:s0 -> Node0x4a37860[label="W:61" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="60"];
+	Node0x4aaa670:s1 -> Node0x4a376d0[label="W:21" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="20"];
+}
+	Node0x4a376d0 [shape=record,filename="../../../systolic.cpp",linenumber="52",label="{for.cond63.predFake}"];
+	Node0x4a376d0 -> Node0x4aaa4b0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="22"];
+	Node0x4aaa4b0 [shape=record,filename="../../../systolic.cpp",linenumber="52",label="{for.cond63.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aaa4b0:s0 -> Node0x4a377c0[label="W:21" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="20"];
+	Node0x4aaa4b0:s1 -> Node0x4a37ae0[label="W:3" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="2"];
+}
+subgraph cluster_3_2 {
+	label="for.end90";
+	tripcount="6";
+	invocationtime="3";
+
+subgraph cluster_3_2_0 {
+	label="for.body94";
+	tripcount="24";
+	invocationtime="7";
+
+	Node0x4a37b80 [shape=record,filename="../../../systolic.cpp",linenumber="66",label="{for.cond96.predFake}"];
+	Node0x4a37b80 -> Node0x4aab3d0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="30"];
+	Node0x4aab3d0 [shape=record,filename="../../../systolic.cpp",linenumber="66",label="{for.cond96.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aab3d0:s0 -> Node0x4a37b80[label="W:25" callList="" memoryops="; buff_write:68" filename="../../../systolic.cpp" execusionnum="24"];
+	Node0x4aab3d0:s1 -> Node0x4a37ae0[label="W:7" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="6"];
+}
+	Node0x4a37ae0 [shape=record,filename="../../../systolic.cpp",linenumber="64",label="{for.cond92.predFake}"];
+	Node0x4a37ae0 -> Node0x4aaae00[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="8"];
+	Node0x4aaae00 [shape=record,filename="../../../systolic.cpp",linenumber="64",label="{for.cond92.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aaae00:s0 -> Node0x4a37b80[label="W:7" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="6"];
+	Node0x4aaae00:s1 -> Node0x4a37d60[label="W:3" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="2"];
+}
+subgraph cluster_3_3 {
+	label="for.end112";
+	tripcount="8";
+	invocationtime="3";
+
+	Node0x4a37d60 [shape=record,filename="../../../systolic.cpp",linenumber="71",label="{for.cond114.predFake}"];
+	Node0x4a37d60 -> Node0x4aab5d0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="10"];
+	Node0x4aab5d0 [shape=record,filename="../../../systolic.cpp",linenumber="71",label="{for.cond114.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aab5d0:s0 -> Node0x4a37d60[label="W:9" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="8"];
+	Node0x4aab5d0:s1 -> Node0x4a37180[label="W:3" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="2"];
+}
+	Node0x4a37180 [shape=record,filename="../../../systolic.cpp",linenumber="35",label="{for.cond31.predFake}"];
+	Node0x4a37180 -> Node0x4aa9db0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="3"];
+	Node0x4aa9db0 [shape=record,filename="../../../systolic.cpp",linenumber="35",label="{for.cond31.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aa9db0:s0 -> Node0x4a37270[label="W:3" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="2"];
+	Node0x4aa9db0:s1 -> Node0x4a37f40[label="W:2" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="1"];
+}
+subgraph cluster_4 {
+	label="compute_col";
+	tripcount="3";
+	invocationtime="1";
+
+subgraph cluster_4_0 {
+	label="compute_row";
+	tripcount="12";
+	invocationtime="4";
+
+	Node0x4a36f50 [shape=record,filename="../../../systolic.cpp",linenumber="29",label="{for.cond15.predFake}"];
+	Node0x4a36f50 -> Node0x4aa9930[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="15"];
+	Node0x4aa9930 [shape=record,filename="../../../systolic.cpp",linenumber="29",label="{for.cond15.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aa9930:s0 -> Node0x4a36f50[label="W:13" callList="3:31" memoryops="" filename="../../../systolic.cpp" execusionnum="12"];
+	Node0x4aa9930:s1 -> Node0x4a36e60[label="W:4" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="3"];
+}
+	Node0x4a36e60 [shape=record,filename="../../../systolic.cpp",linenumber="26",label="{for.cond.predFake}"];
+	Node0x4a36e60 -> Node0x4aa7ab0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="4"];
+	Node0x4aa7ab0 [shape=record,filename="../../../systolic.cpp",linenumber="26",label="{for.cond.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aa7ab0:s0 -> Node0x4a36f50[label="W:4" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="3"];
+	Node0x4aa7ab0:s1 -> Node0x4a37180[label="W:2" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="1"];
+}
+subgraph cluster_5 {
+	label="arrayctor.cont7";
+	tripcount="0";
+	invocationtime="1";
+
+	Node0x4a36d70 [shape=record,filename="../../../systolic.cpp",linenumber="22",label="{arrayctor.loop10.predFake}"];
+	Node0x4a36d70 -> Node0x4aa95e0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aa95e0 [shape=record,filename="../../../systolic.cpp",linenumber="22",label="{arrayctor.loop10.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aa95e0:s0 -> Node0x4a36e60[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aa95e0:s1 -> Node0x4a36d70;
+}
+subgraph cluster_6 {
+	label="arrayctor.cont";
+	tripcount="0";
+	invocationtime="1";
+
+	Node0x4a36cd0 [shape=record,filename="../../../systolic.cpp",linenumber="21",label="{arrayctor.loop3.predFake}"];
+	Node0x4a36cd0 -> Node0x4aa93a0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aa93a0 [shape=record,filename="../../../systolic.cpp",linenumber="21",label="{arrayctor.loop3.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aa93a0:s0 -> Node0x4a36d70[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aa93a0:s1 -> Node0x4a36cd0;
+}
+subgraph cluster_7 {
+	label="entry";
+	tripcount="0";
+	invocationtime="1";
+
+	Node0x4a36c30 [shape=record,filename="../../../systolic.cpp",linenumber="20",label="{arrayctor.loop.predFake}"];
+	Node0x4a36c30 -> Node0x4aa9170[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aa9170 [shape=record,filename="../../../systolic.cpp",linenumber="20",label="{arrayctor.loop.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aa9170:s0 -> Node0x4a36cd0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="0"];
+	Node0x4aa9170:s1 -> Node0x4a36c30;
+}
+}

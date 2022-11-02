@@ -1,0 +1,7 @@
+digraph "CFG for 'hls::stream\<int, 0\>::empty' function" {
+	label="CFG for 'hls::stream\<int, 0\>::empty' function";
+
+	Node0x49c9f10 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
+	Node0x49c9f10 -> Node0x4aab880[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h" execusionnum="384"];
+	Node0x4aab880 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h",linenumber="357",label="{entry.succFake}"];
+}

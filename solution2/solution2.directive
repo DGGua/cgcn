@@ -1,0 +1,80 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="vector_add" label="conpute" functionLabel="">
+            <pragma name="LOOP_MERGE"/>
+        </directive>
+        <directive functionName="vector_add" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="vector_add"/>
+            </pragma>
+        </directive>
+        <directive functionName="worker" label="" functionLabel="">
+            <pragma name="ALLOCATION">
+                <option name="function" value="" positionalBoolean="type"/>
+                <option name="instances" positionalBoolean="4" value="4"/>
+            </pragma>
+        </directive>
+        <directive functionName="vector_add" label="vector_add_label0" functionLabel="">
+            <pragma name="ALLOCATION">
+                <option name="function" value="" positionalBoolean="type"/>
+                <option name="instances" positionalBoolean="4" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="write_out" label="write_out_label2" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="read_in" label="read_in_label1" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="DATAFLOW"/>
+        </directive>
+        <directive functionName="PE" label="PE_Compute" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="max" value="32"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="compute_row" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="PE" label="PE_Compute" functionLabel="">
+            <pragma name="UNROLL">
+                <option name="factor" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="compute_col" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="max" value="32"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="property_input"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="weight_input"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="output"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="buff"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="2"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

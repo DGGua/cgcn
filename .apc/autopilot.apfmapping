@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="systolic.cpp" path="/home/ubuntu/VitisCodes/test2/systolic.cpp"/>
+    <originFiles name="test.cpp" path="/home/ubuntu/VitisCodes/test2/test.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="testbench.cpp" path="/home/ubuntu/VitisCodes/test2/testbench.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

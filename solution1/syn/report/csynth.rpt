@@ -1,0 +1,172 @@
+
+
+================================================================
+== Synthesis Summary Report of 'vector_add'
+================================================================
++ General Information: 
+    * Date:           Sat Oct 29 23:33:39 2022
+    * Version:        2022.1 (Build 3526262 on Mon Apr 18 15:47:01 MDT 2022)
+    * Project:        test2
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z010-clg400-2
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------------------------------------------------------------------------------+------+------+---------+---------+----------+---------+------+----------+---------+--------+-----------+-----------+-----+
+    |                                     Modules                                    | Issue|      | Latency | Latency | Iteration|         | Trip |          |         |        |           |           |     |
+    |                                     & Loops                                    | Type | Slack| (cycles)|   (ns)  |  Latency | Interval| Count| Pipelined|  BRAM   |   DSP  |     FF    |    LUT    | URAM|
+    +--------------------------------------------------------------------------------+------+------+---------+---------+----------+---------+------+----------+---------+--------+-----------+-----------+-----+
+    |+ vector_add                                                                    |     -|  0.25|        -|        -|         -|        -|     -|        no|  1 (~0%)|  3 (3%)|  1635 (4%)|  1716 (9%)|    -|
+    | + rerArray*                                                                    |     -|  0.25|        -|        -|         -|        -|     -|  dataflow|  1 (~0%)|  3 (3%)|  1630 (4%)|  1701 (9%)|    -|
+    |  + rerArray_Loop_compute_col_proc2                                             |     -|  0.25|        -|        -|         -|        -|     -|        no|        -|  3 (3%)|  240 (~0%)|   294 (1%)|    -|
+    |   o compute_col_compute_row                                                    |     -|  7.30|        -|        -|        39|        -|     -|        no|        -|       -|          -|          -|    -|
+    |    + rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute                       |     -|  0.25|       36|  360.000|         -|       36|     -|        no|        -|  3 (3%)|  168 (~0%)|  163 (~0%)|    -|
+    |     o PE_Compute                                                               |     -|  7.30|       34|  340.000|         4|        1|    32|       yes|        -|       -|          -|          -|    -|
+    |  + entry_proc                                                                  |     -|  3.90|        0|    0.000|         -|        0|     -|        no|        -|       -|    3 (~0%)|   46 (~0%)|    -|
+    |  + rerArray_Loop_input_batch_proc3                                             |     -|  0.61|        -|        -|         -|        -|     -|        no|  1 (~0%)|       -|   593 (1%)|   793 (4%)|    -|
+    |   o input_batch                                                                |     -|  7.30|        -|        -|         -|        -|     -|        no|        -|       -|          -|          -|    -|
+    |    + rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_60_3_VITIS_LOOP_62_4  |     -|  0.61|        -|        -|         -|        -|     -|        no|        -|       -|   73 (~0%)|   192 (1%)|    -|
+    |     o VITIS_LOOP_60_3_VITIS_LOOP_62_4                                          |     -|  7.30|        -|        -|         2|        1|     -|       yes|        -|       -|          -|          -|    -|
+    |    o input_turn                                                                |     -|  7.30|        -|        -|         -|        -|     -|        no|        -|       -|          -|          -|    -|
+    |     + rerArray_Loop_input_batch_proc3_Pipeline_input_property_VITIS_LOOP_45_1  |     -|  3.90|        -|        -|         -|        -|     -|        no|        -|       -|   38 (~0%)|   94 (~0%)|    -|
+    |      o input_property_VITIS_LOOP_45_1                                          |     -|  7.30|        -|        -|         2|        1|     -|       yes|        -|       -|          -|          -|    -|
+    |     + rerArray_Loop_input_batch_proc3_Pipeline_input_weight_VITIS_LOOP_54_2    |     -|  3.90|        -|        -|         -|        -|     -|        no|        -|       -|   38 (~0%)|   94 (~0%)|    -|
+    |      o input_weight_VITIS_LOOP_54_2                                            |     -|  7.30|        -|        -|         2|        1|     -|       yes|        -|       -|          -|          -|    -|
+    |    o VITIS_LOOP_67_5                                                           |     -|  7.30|        8|   80.000|         2|        -|     4|        no|        -|       -|          -|          -|    -|
+    +--------------------------------------------------------------------------------+------+------+---------+---------+----------+---------+------+----------+---------+--------+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* REGISTER
++----------------+---------+----------+
+| Interface      | Mode    | Bitwidth |
++----------------+---------+----------+
+| featrue_data   | ap_none | 32       |
+| featrue_length | ap_none | 32       |
+| node_cnt       | ap_none | 32       |
+| output_data    | ap_none | 32       |
+| output_size    | ap_none | 32       |
+| weight_array   | ap_none | 32       |
++----------------+---------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------------+-----------+----------+
+| Argument       | Direction | Datatype |
++----------------+-----------+----------+
+| featrue_data   | in        | int*     |
+| featrue_length | in        | int      |
+| weight_array   | in        | int*     |
+| output_size    | in        | int      |
+| node_cnt       | in        | int      |
+| output_data    | out       | int*     |
++----------------+-----------+----------+
+
+* SW-to-HW Mapping
++----------------+--------------------+---------+
+| Argument       | HW Interface       | HW Type |
++----------------+--------------------+---------+
+| featrue_data   | featrue_data       | port    |
+| featrue_length | featrue_length     | port    |
+| weight_array   | weight_array       | port    |
+| output_size    | output_size        | port    |
+| node_cnt       | node_cnt           | port    |
+| output_data    | output_data        | port    |
+| output_data    | output_data_ap_vld | port    |
++----------------+--------------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------------------------------------------------------------+-----+--------+------------+-----+--------+---------+
+| Name                                                                          | DSP | Pragma | Variable   | Op  | Impl   | Latency |
++-------------------------------------------------------------------------------+-----+--------+------------+-----+--------+---------+
+| + vector_add                                                                  | 3   |        |            |     |        |         |
+|  + rerArray                                                                   | 3   |        |            |     |        |         |
+|   + rerArray_Loop_compute_col_proc2                                           | 3   |        |            |     |        |         |
+|     add_ln27_fu_136_p2                                                        | -   |        | add_ln27   | add | fabric | 0       |
+|    + rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute                      | 3   |        |            |     |        |         |
+|      i_1_fu_102_p2                                                            | -   |        | i_1        | add | fabric | 0       |
+|      mul_32s_32s_32_1_1_U7                                                    | 3   |        | mul_ln14   | mul | auto   | 0       |
+|      sum_1_fu_120_p2                                                          | -   |        | sum_1      | add | fabric | 0       |
+|   + rerArray_Loop_input_batch_proc3                                           | 0   |        |            |     |        |         |
+|     sub_ln24_fu_208_p2                                                        | -   |        | sub_ln24   | sub | fabric | 0       |
+|     sub_ln24_1_fu_246_p2                                                      | -   |        | sub_ln24_1 | sub | fabric | 0       |
+|     add_ln36_1_fu_267_p2                                                      | -   |        | add_ln36_1 | add | fabric | 0       |
+|     add_ln36_fu_291_p2                                                        | -   |        | add_ln36   | add | fabric | 0       |
+|     add_ln39_fu_302_p2                                                        | -   |        | add_ln39   | add | fabric | 0       |
+|     empty_19_fu_320_p2                                                        | -   |        | empty_19   | add | fabric | 0       |
+|     add_ln67_fu_336_p2                                                        | -   |        | add_ln67   | add | fabric | 0       |
+|    + rerArray_Loop_input_batch_proc3_Pipeline_input_property_VITIS_LOOP_45_1  | 0   |        |            |     |        |         |
+|      add_ln42_fu_74_p2                                                        | -   |        | add_ln42   | add | fabric | 0       |
+|    + rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_60_3_VITIS_LOOP_62_4 | 0   |        |            |     |        |         |
+|      add_ln60_1_fu_109_p2                                                     | -   |        | add_ln60_1 | add | fabric | 0       |
+|      add_ln60_fu_126_p2                                                       | -   |        | add_ln60   | add | fabric | 0       |
+|      add_ln64_fu_170_p2                                                       | -   |        | add_ln64   | add | fabric | 0       |
+|      add_ln62_fu_181_p2                                                       | -   |        | add_ln62   | add | fabric | 0       |
+|    + rerArray_Loop_input_batch_proc3_Pipeline_input_weight_VITIS_LOOP_54_2    | 0   |        |            |     |        |         |
+|      add_ln51_fu_74_p2                                                        | -   |        | add_ln51   | add | fabric | 0       |
++-------------------------------------------------------------------------------+-----+--------+------------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++-------------------------------------+------+------+--------+------------------+---------+------+---------+
+| Name                                | BRAM | URAM | Pragma | Variable         | Storage | Impl | Latency |
++-------------------------------------+------+------+--------+------------------+---------+------+---------+
+| + vector_add                        | 1    | 0    |        |                  |         |      |         |
+|  + rerArray                         | 1    | 0    |        |                  |         |      |         |
+|    node_cnt_c_U                     | -    | -    |        | node_cnt_c       | fifo    | srl  | 0       |
+|    output_size_c_U                  | -    | -    |        | output_size_c    | fifo    | srl  | 0       |
+|    p_read1_c_U                      | -    | -    |        | p_read1_c        | fifo    | srl  | 0       |
+|    featrue_length_c_U               | -    | -    |        | featrue_length_c | fifo    | srl  | 0       |
+|    p_read_c_U                       | -    | -    |        | p_read_c         | fifo    | srl  | 0       |
+|    property_input_U                 | -    | -    |        | property_input   | fifo    | srl  | 0       |
+|    weight_input_U                   | -    | -    |        | weight_input     | fifo    | srl  | 0       |
+|    output_U                         | -    | -    |        | output           | fifo    | srl  | 0       |
+|   + rerArray_Loop_input_batch_proc3 | 1    | 0    |        |                  |         |      |         |
+|     buff_U                          | 1    | -    |        | buff             | ram_1p  | auto | 1       |
++-------------------------------------+------+------+--------+------------------+---------+------+---------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Pragmas with Warnings
++----------+---------+-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Type     | Options | Location                                      | Messages                                                                                                                                                                           |
++----------+---------+-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| dataflow |         | test2/solution1/directives.tcl:12 in rerarray | Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region |
++----------+---------+-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+* Valid Pragma Syntax
++----------------+-----------------+-----------------------------+
+| Type           | Options         | Location                    |
++----------------+-----------------+-----------------------------+
+| loop_tripcount | max=32          | test2/systolic.cpp:11 in pe |
+| pipeline       | II = 4          | test2/test.cpp:32 in proc   |
+| latency        | min = 2 max = 2 | test2/test.cpp:33 in proc   |
+| pipeline       | II = 1          | test2/test.cpp:46 in mux    |
+| pipeline       | II = 1          | test2/test.cpp:60 in demux  |
++----------------+-----------------+-----------------------------+
+
+

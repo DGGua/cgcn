@@ -1,0 +1,15 @@
+digraph "CFG for 'hls::stream_entity\<4ul\>::read' function" {
+	label="CFG for 'hls::stream_entity\<4ul\>::read' function";
+
+	Node0x4a21160 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
+	Node0x4a21160 -> Node0x4aa2d30[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h" execusionnum="264"];
+	Node0x4aa2d30 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h",linenumber="117",label="{entry.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aa2d30:s0 -> Node0x4a219d0[label="W:1" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h" execusionnum="0"];
+	Node0x4aa2d30:s1 -> Node0x4aa4a00[label="W:265" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h" execusionnum="264"];
+	Node0x4aa4a00 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h",linenumber="130",label="{if.end.succFake|{<s0>T|<s1>F}}"];
+	Node0x4aa4a00:s0 -> Node0x4a219d0[label="W:253" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h" execusionnum="252"];
+	Node0x4aa4a00:s1 -> Node0x4a219d0[label="W:13" callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h" execusionnum="12"];
+	Node0x4a219d0 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h",linenumber="143",label="{return.predFake}"];
+	Node0x4a219d0 -> Node0x4aa4b60[ callList="" memoryops="" filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h" execusionnum="264"];
+	Node0x4aa4b60 [shape=record,filename="/tools/Xilinx/Vitis_HLS/2022.1/include/hls_stream_thread_unsafe.h",linenumber="143",label="{return.succFake}"];
+}

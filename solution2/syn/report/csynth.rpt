@@ -1,0 +1,613 @@
+
+
+================================================================
+== Synthesis Summary Report of 'vector_add'
+================================================================
++ General Information: 
+    * Date:           Sun Oct 30 17:39:20 2022
+    * Version:        2022.1 (Build 3526262 on Mon Apr 18 15:47:01 MDT 2022)
+    * Project:        test2
+    * Solution:       solution2 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z010-clg400-2
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------------------------------------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+------+----------+--------------+--------------+-----+
+    |                                         Modules                                        | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |      |          |              |              |     |
+    |                                         & Loops                                        | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined| BRAM |    DSP   |      FF      |      LUT     | URAM|
+    +----------------------------------------------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+------+----------+--------------+--------------+-----+
+    |+ vector_add                                                                            |     -|  0.25|        -|          -|         -|        -|     -|        no|     -|  15 (18%)|  41855 (118%)|  44992 (255%)|    -|
+    | + rerArray*                                                                            |     -|  0.25|        -|          -|         -|        -|     -|  dataflow|     -|  15 (18%)|  41850 (118%)|  44977 (255%)|    -|
+    |  + rerArray_Loop_compute_col_proc2                                                     |     -|  0.25|     4993|  4.993e+04|         -|     4993|     -|        no|     -|  12 (15%)|     1265 (3%)|    7933 (45%)|    -|
+    |   o compute_col                                                                        |     -|  7.30|     4992|  4.992e+04|       156|        -|    32|        no|     -|         -|             -|             -|    -|
+    |    + rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute                               |     -|  0.25|       36|    360.000|         -|       36|     -|        no|     -|    3 (3%)|     295 (~0%)|     1084 (6%)|    -|
+    |     o PE_Compute                                                                       |     -|  7.30|       34|    340.000|         4|        1|    32|       yes|     -|         -|             -|             -|    -|
+    |    + rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute1                              |     -|  0.25|       36|    360.000|         -|       36|     -|        no|     -|    3 (3%)|     295 (~0%)|     1084 (6%)|    -|
+    |     o PE_Compute                                                                       |     -|  7.30|       34|    340.000|         4|        1|    32|       yes|     -|         -|             -|             -|    -|
+    |    + rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute2                              |     -|  0.25|       36|    360.000|         -|       36|     -|        no|     -|    3 (3%)|     295 (~0%)|     1084 (6%)|    -|
+    |     o PE_Compute                                                                       |     -|  7.30|       34|    340.000|         4|        1|    32|       yes|     -|         -|             -|             -|    -|
+    |    + rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute3                              |     -|  0.25|       36|    360.000|         -|       36|     -|        no|     -|    3 (3%)|     295 (~0%)|     1084 (6%)|    -|
+    |     o PE_Compute                                                                       |     -|  7.30|       34|    340.000|         4|        1|    32|       yes|     -|         -|             -|             -|    -|
+    |  + entry_proc                                                                          |     -|  3.90|        0|      0.000|         -|        0|     -|        no|     -|         -|       3 (~0%)|      46 (~0%)|    -|
+    |  + rerArray_Loop_input_batch_proc3                                                     |     -|  0.25|        -|          -|         -|        -|     -|        no|     -|    3 (3%)|     2069 (5%)|   10522 (59%)|    -|
+    |   o input_batch                                                                        |     -|  7.30|        -|          -|         -|        -|     -|        no|     -|         -|             -|             -|    -|
+    |    + rerArray_Loop_input_batch_proc3_Pipeline_input_turn_property_input_property_VITI  |     -|  0.48|        -|          -|         -|        -|     -|        no|     -|         -|     180 (~0%)|     1611 (9%)|    -|
+    |     o input_turn_property_input_property_VITIS_LOOP_44_1                               |     -|  7.30|        -|          -|         2|        1|     -|       yes|     -|         -|             -|             -|    -|
+    |    + rerArray_Loop_input_batch_proc3_Pipeline_input_turn_weight_input_weight_VITIS_LO  |     -|  0.68|        -|          -|         -|        -|     -|        no|     -|         -|     180 (~0%)|     1637 (9%)|    -|
+    |     o input_turn_weight_input_weight_VITIS_LOOP_58_2                                   |     -|  7.30|        -|          -|         2|        1|     -|       yes|     -|         -|             -|             -|    -|
+    |    + rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_64_3_VITIS_LOOP_66_4          |     -|  3.40|        -|          -|         -|        -|     -|        no|     -|         -|     190 (~0%)|    2135 (12%)|    -|
+    |     o VITIS_LOOP_64_3_VITIS_LOOP_66_4                                                  |     -|  7.30|        -|          -|         3|        1|     -|       yes|     -|         -|             -|             -|    -|
+    |    o VITIS_LOOP_71_5                                                                   |     -|  7.30|        8|     80.000|         2|        -|     4|        no|     -|         -|             -|             -|    -|
+    +----------------------------------------------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+------+----------+--------------+--------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* REGISTER
++----------------+---------+----------+
+| Interface      | Mode    | Bitwidth |
++----------------+---------+----------+
+| featrue_data   | ap_none | 32       |
+| featrue_length | ap_none | 32       |
+| node_cnt       | ap_none | 32       |
+| output_data    | ap_none | 32       |
+| output_size    | ap_none | 32       |
+| weight_array   | ap_none | 32       |
++----------------+---------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------------+-----------+----------+
+| Argument       | Direction | Datatype |
++----------------+-----------+----------+
+| featrue_data   | in        | int*     |
+| featrue_length | in        | int      |
+| weight_array   | in        | int*     |
+| output_size    | in        | int      |
+| node_cnt       | in        | int      |
+| output_data    | out       | int*     |
++----------------+-----------+----------+
+
+* SW-to-HW Mapping
++----------------+--------------------+---------+
+| Argument       | HW Interface       | HW Type |
++----------------+--------------------+---------+
+| featrue_data   | featrue_data       | port    |
+| featrue_length | featrue_length     | port    |
+| weight_array   | weight_array       | port    |
+| output_size    | output_size        | port    |
+| node_cnt       | node_cnt           | port    |
+| output_data    | output_data        | port    |
+| output_data    | output_data_ap_vld | port    |
++----------------+--------------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++---------------------------------------------------------------------------------------+-----+--------+------------+-----+--------+---------+
+| Name                                                                                  | DSP | Pragma | Variable   | Op  | Impl   | Latency |
++---------------------------------------------------------------------------------------+-----+--------+------------+-----+--------+---------+
+| + vector_add                                                                          | 15  |        |            |     |        |         |
+|  + rerArray                                                                           | 15  |        |            |     |        |         |
+|   + rerArray_Loop_compute_col_proc2                                                   | 12  |        |            |     |        |         |
+|     add_ln26_fu_2395_p2                                                               | -   |        | add_ln26   | add | fabric | 0       |
+|    + rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute                              | 3   |        |            |     |        |         |
+|      i_1_fu_808_p2                                                                    | -   |        | i_1        | add | fabric | 0       |
+|      mul_32s_32s_32_1_1_U7                                                            | 3   |        | mul_ln13   | mul | auto   | 0       |
+|      sum_3_fu_828_p2                                                                  | -   |        | sum_3      | add | fabric | 0       |
+|    + rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute1                             | 3   |        |            |     |        |         |
+|      i_3_fu_808_p2                                                                    | -   |        | i_3        | add | fabric | 0       |
+|      mul_32s_32s_32_1_1_U76                                                           | 3   |        | mul_ln13   | mul | auto   | 0       |
+|      sum_fu_828_p2                                                                    | -   |        | sum        | add | fabric | 0       |
+|    + rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute2                             | 3   |        |            |     |        |         |
+|      i_5_fu_808_p2                                                                    | -   |        | i_5        | add | fabric | 0       |
+|      mul_32s_32s_32_1_1_U144                                                          | 3   |        | mul_ln13   | mul | auto   | 0       |
+|      sum_2_fu_828_p2                                                                  | -   |        | sum_2      | add | fabric | 0       |
+|    + rerArray_Loop_compute_col_proc2_Pipeline_PE_Compute3                             | 3   |        |            |     |        |         |
+|      i_7_fu_808_p2                                                                    | -   |        | i_7        | add | fabric | 0       |
+|      mul_32s_32s_32_1_1_U212                                                          | 3   |        | mul_ln13   | mul | auto   | 0       |
+|      sum_1_fu_828_p2                                                                  | -   |        | sum_1      | add | fabric | 0       |
+|   + rerArray_Loop_input_batch_proc3                                                   | 3   |        |            |     |        |         |
+|     sub_ln23_fu_2247_p2                                                               | -   |        | sub_ln23   | sub | fabric | 0       |
+|     sub_ln23_1_fu_2286_p2                                                             | -   |        | sub_ln23_1 | sub | fabric | 0       |
+|     add_ln35_1_fu_2310_p2                                                             | -   |        | add_ln35_1 | add | fabric | 0       |
+|     mul_32ns_34ns_65_1_1_U1093                                                        | 3   |        | bound4     | mul | auto   | 0       |
+|     add_ln35_fu_2352_p2                                                               | -   |        | add_ln35   | add | fabric | 0       |
+|     add_ln71_fu_2400_p2                                                               | -   |        | add_ln71   | add | fabric | 0       |
+|    + rerArray_Loop_input_batch_proc3_Pipeline_input_turn_property_input_property_VITI | 0   |        |            |     |        |         |
+|      add_ln38_fu_1354_p2                                                              | -   |        | add_ln38   | add | fabric | 0       |
+|      add_ln41_fu_1406_p2                                                              | -   |        | add_ln41   | add | fabric | 0       |
+|      add_ln44_fu_1453_p2                                                              | -   |        | add_ln44   | add | fabric | 0       |
+|      add_ln41_1_fu_1459_p2                                                            | -   |        | add_ln41_1 | add | fabric | 0       |
+|    + rerArray_Loop_input_batch_proc3_Pipeline_input_turn_weight_input_weight_VITIS_LO | 0   |        |            |     |        |         |
+|      add_ln52_fu_1340_p2                                                              | -   |        | add_ln52   | add | fabric | 0       |
+|      add_ln55_fu_1398_p2                                                              | -   |        | add_ln55   | add | fabric | 0       |
+|      add_ln58_fu_1445_p2                                                              | -   |        | add_ln58   | add | fabric | 0       |
+|      add_ln55_1_fu_1451_p2                                                            | -   |        | add_ln55_1 | add | fabric | 0       |
+|    + rerArray_Loop_input_batch_proc3_Pipeline_VITIS_LOOP_64_3_VITIS_LOOP_66_4         | 0   |        |            |     |        |         |
+|      add_ln64_fu_1946_p2                                                              | -   |        | add_ln64   | add | fabric | 0       |
+|      add_ln64_1_fu_1972_p2                                                            | -   |        | add_ln64_1 | add | fabric | 0       |
+|      add_ln66_fu_1994_p2                                                              | -   |        | add_ln66   | add | fabric | 0       |
++---------------------------------------------------------------------------------------+-----+--------+------------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++-------------------------------------+------+------+--------+---------------------+---------+------+---------+
+| Name                                | BRAM | URAM | Pragma | Variable            | Storage | Impl | Latency |
++-------------------------------------+------+------+--------+---------------------+---------+------+---------+
+| + vector_add                        | 0    | 0    |        |                     |         |      |         |
+|  + rerArray                         | 0    | 0    |        |                     |         |      |         |
+|    node_cnt_c_U                     | -    | -    |        | node_cnt_c          | fifo    | srl  | 0       |
+|    output_size_c_U                  | -    | -    |        | output_size_c       | fifo    | srl  | 0       |
+|    p_read1_c_U                      | -    | -    |        | p_read1_c           | fifo    | srl  | 0       |
+|    featrue_length_c_U               | -    | -    |        | featrue_length_c    | fifo    | srl  | 0       |
+|    p_read_c_U                       | -    | -    |        | p_read_c            | fifo    | srl  | 0       |
+|    property_input_0_0_U             | -    | -    |        | property_input_0_0  | fifo    | srl  | 0       |
+|    property_input_0_1_U             | -    | -    |        | property_input_0_1  | fifo    | srl  | 0       |
+|    property_input_0_2_U             | -    | -    |        | property_input_0_2  | fifo    | srl  | 0       |
+|    property_input_0_3_U             | -    | -    |        | property_input_0_3  | fifo    | srl  | 0       |
+|    property_input_0_4_U             | -    | -    |        | property_input_0_4  | fifo    | srl  | 0       |
+|    property_input_0_5_U             | -    | -    |        | property_input_0_5  | fifo    | srl  | 0       |
+|    property_input_0_6_U             | -    | -    |        | property_input_0_6  | fifo    | srl  | 0       |
+|    property_input_0_7_U             | -    | -    |        | property_input_0_7  | fifo    | srl  | 0       |
+|    property_input_0_8_U             | -    | -    |        | property_input_0_8  | fifo    | srl  | 0       |
+|    property_input_0_9_U             | -    | -    |        | property_input_0_9  | fifo    | srl  | 0       |
+|    property_input_0_10_U            | -    | -    |        | property_input_0_10 | fifo    | srl  | 0       |
+|    property_input_0_11_U            | -    | -    |        | property_input_0_11 | fifo    | srl  | 0       |
+|    property_input_0_12_U            | -    | -    |        | property_input_0_12 | fifo    | srl  | 0       |
+|    property_input_0_13_U            | -    | -    |        | property_input_0_13 | fifo    | srl  | 0       |
+|    property_input_0_14_U            | -    | -    |        | property_input_0_14 | fifo    | srl  | 0       |
+|    property_input_0_15_U            | -    | -    |        | property_input_0_15 | fifo    | srl  | 0       |
+|    property_input_0_16_U            | -    | -    |        | property_input_0_16 | fifo    | srl  | 0       |
+|    property_input_0_17_U            | -    | -    |        | property_input_0_17 | fifo    | srl  | 0       |
+|    property_input_0_18_U            | -    | -    |        | property_input_0_18 | fifo    | srl  | 0       |
+|    property_input_0_19_U            | -    | -    |        | property_input_0_19 | fifo    | srl  | 0       |
+|    property_input_0_20_U            | -    | -    |        | property_input_0_20 | fifo    | srl  | 0       |
+|    property_input_0_21_U            | -    | -    |        | property_input_0_21 | fifo    | srl  | 0       |
+|    property_input_0_22_U            | -    | -    |        | property_input_0_22 | fifo    | srl  | 0       |
+|    property_input_0_23_U            | -    | -    |        | property_input_0_23 | fifo    | srl  | 0       |
+|    property_input_0_24_U            | -    | -    |        | property_input_0_24 | fifo    | srl  | 0       |
+|    property_input_0_25_U            | -    | -    |        | property_input_0_25 | fifo    | srl  | 0       |
+|    property_input_0_26_U            | -    | -    |        | property_input_0_26 | fifo    | srl  | 0       |
+|    property_input_0_27_U            | -    | -    |        | property_input_0_27 | fifo    | srl  | 0       |
+|    property_input_0_28_U            | -    | -    |        | property_input_0_28 | fifo    | srl  | 0       |
+|    property_input_0_29_U            | -    | -    |        | property_input_0_29 | fifo    | srl  | 0       |
+|    property_input_0_30_U            | -    | -    |        | property_input_0_30 | fifo    | srl  | 0       |
+|    property_input_0_31_U            | -    | -    |        | property_input_0_31 | fifo    | srl  | 0       |
+|    property_input_1_0_U             | -    | -    |        | property_input_1_0  | fifo    | srl  | 0       |
+|    property_input_1_1_U             | -    | -    |        | property_input_1_1  | fifo    | srl  | 0       |
+|    property_input_1_2_U             | -    | -    |        | property_input_1_2  | fifo    | srl  | 0       |
+|    property_input_1_3_U             | -    | -    |        | property_input_1_3  | fifo    | srl  | 0       |
+|    property_input_1_4_U             | -    | -    |        | property_input_1_4  | fifo    | srl  | 0       |
+|    property_input_1_5_U             | -    | -    |        | property_input_1_5  | fifo    | srl  | 0       |
+|    property_input_1_6_U             | -    | -    |        | property_input_1_6  | fifo    | srl  | 0       |
+|    property_input_1_7_U             | -    | -    |        | property_input_1_7  | fifo    | srl  | 0       |
+|    property_input_1_8_U             | -    | -    |        | property_input_1_8  | fifo    | srl  | 0       |
+|    property_input_1_9_U             | -    | -    |        | property_input_1_9  | fifo    | srl  | 0       |
+|    property_input_1_10_U            | -    | -    |        | property_input_1_10 | fifo    | srl  | 0       |
+|    property_input_1_11_U            | -    | -    |        | property_input_1_11 | fifo    | srl  | 0       |
+|    property_input_1_12_U            | -    | -    |        | property_input_1_12 | fifo    | srl  | 0       |
+|    property_input_1_13_U            | -    | -    |        | property_input_1_13 | fifo    | srl  | 0       |
+|    property_input_1_14_U            | -    | -    |        | property_input_1_14 | fifo    | srl  | 0       |
+|    property_input_1_15_U            | -    | -    |        | property_input_1_15 | fifo    | srl  | 0       |
+|    property_input_1_16_U            | -    | -    |        | property_input_1_16 | fifo    | srl  | 0       |
+|    property_input_1_17_U            | -    | -    |        | property_input_1_17 | fifo    | srl  | 0       |
+|    property_input_1_18_U            | -    | -    |        | property_input_1_18 | fifo    | srl  | 0       |
+|    property_input_1_19_U            | -    | -    |        | property_input_1_19 | fifo    | srl  | 0       |
+|    property_input_1_20_U            | -    | -    |        | property_input_1_20 | fifo    | srl  | 0       |
+|    property_input_1_21_U            | -    | -    |        | property_input_1_21 | fifo    | srl  | 0       |
+|    property_input_1_22_U            | -    | -    |        | property_input_1_22 | fifo    | srl  | 0       |
+|    property_input_1_23_U            | -    | -    |        | property_input_1_23 | fifo    | srl  | 0       |
+|    property_input_1_24_U            | -    | -    |        | property_input_1_24 | fifo    | srl  | 0       |
+|    property_input_1_25_U            | -    | -    |        | property_input_1_25 | fifo    | srl  | 0       |
+|    property_input_1_26_U            | -    | -    |        | property_input_1_26 | fifo    | srl  | 0       |
+|    property_input_1_27_U            | -    | -    |        | property_input_1_27 | fifo    | srl  | 0       |
+|    property_input_1_28_U            | -    | -    |        | property_input_1_28 | fifo    | srl  | 0       |
+|    property_input_1_29_U            | -    | -    |        | property_input_1_29 | fifo    | srl  | 0       |
+|    property_input_1_30_U            | -    | -    |        | property_input_1_30 | fifo    | srl  | 0       |
+|    property_input_1_31_U            | -    | -    |        | property_input_1_31 | fifo    | srl  | 0       |
+|    property_input_2_0_U             | -    | -    |        | property_input_2_0  | fifo    | srl  | 0       |
+|    property_input_2_1_U             | -    | -    |        | property_input_2_1  | fifo    | srl  | 0       |
+|    property_input_2_2_U             | -    | -    |        | property_input_2_2  | fifo    | srl  | 0       |
+|    property_input_2_3_U             | -    | -    |        | property_input_2_3  | fifo    | srl  | 0       |
+|    property_input_2_4_U             | -    | -    |        | property_input_2_4  | fifo    | srl  | 0       |
+|    property_input_2_5_U             | -    | -    |        | property_input_2_5  | fifo    | srl  | 0       |
+|    property_input_2_6_U             | -    | -    |        | property_input_2_6  | fifo    | srl  | 0       |
+|    property_input_2_7_U             | -    | -    |        | property_input_2_7  | fifo    | srl  | 0       |
+|    property_input_2_8_U             | -    | -    |        | property_input_2_8  | fifo    | srl  | 0       |
+|    property_input_2_9_U             | -    | -    |        | property_input_2_9  | fifo    | srl  | 0       |
+|    property_input_2_10_U            | -    | -    |        | property_input_2_10 | fifo    | srl  | 0       |
+|    property_input_2_11_U            | -    | -    |        | property_input_2_11 | fifo    | srl  | 0       |
+|    property_input_2_12_U            | -    | -    |        | property_input_2_12 | fifo    | srl  | 0       |
+|    property_input_2_13_U            | -    | -    |        | property_input_2_13 | fifo    | srl  | 0       |
+|    property_input_2_14_U            | -    | -    |        | property_input_2_14 | fifo    | srl  | 0       |
+|    property_input_2_15_U            | -    | -    |        | property_input_2_15 | fifo    | srl  | 0       |
+|    property_input_2_16_U            | -    | -    |        | property_input_2_16 | fifo    | srl  | 0       |
+|    property_input_2_17_U            | -    | -    |        | property_input_2_17 | fifo    | srl  | 0       |
+|    property_input_2_18_U            | -    | -    |        | property_input_2_18 | fifo    | srl  | 0       |
+|    property_input_2_19_U            | -    | -    |        | property_input_2_19 | fifo    | srl  | 0       |
+|    property_input_2_20_U            | -    | -    |        | property_input_2_20 | fifo    | srl  | 0       |
+|    property_input_2_21_U            | -    | -    |        | property_input_2_21 | fifo    | srl  | 0       |
+|    property_input_2_22_U            | -    | -    |        | property_input_2_22 | fifo    | srl  | 0       |
+|    property_input_2_23_U            | -    | -    |        | property_input_2_23 | fifo    | srl  | 0       |
+|    property_input_2_24_U            | -    | -    |        | property_input_2_24 | fifo    | srl  | 0       |
+|    property_input_2_25_U            | -    | -    |        | property_input_2_25 | fifo    | srl  | 0       |
+|    property_input_2_26_U            | -    | -    |        | property_input_2_26 | fifo    | srl  | 0       |
+|    property_input_2_27_U            | -    | -    |        | property_input_2_27 | fifo    | srl  | 0       |
+|    property_input_2_28_U            | -    | -    |        | property_input_2_28 | fifo    | srl  | 0       |
+|    property_input_2_29_U            | -    | -    |        | property_input_2_29 | fifo    | srl  | 0       |
+|    property_input_2_30_U            | -    | -    |        | property_input_2_30 | fifo    | srl  | 0       |
+|    property_input_2_31_U            | -    | -    |        | property_input_2_31 | fifo    | srl  | 0       |
+|    property_input_3_0_U             | -    | -    |        | property_input_3_0  | fifo    | srl  | 0       |
+|    property_input_3_1_U             | -    | -    |        | property_input_3_1  | fifo    | srl  | 0       |
+|    property_input_3_2_U             | -    | -    |        | property_input_3_2  | fifo    | srl  | 0       |
+|    property_input_3_3_U             | -    | -    |        | property_input_3_3  | fifo    | srl  | 0       |
+|    property_input_3_4_U             | -    | -    |        | property_input_3_4  | fifo    | srl  | 0       |
+|    property_input_3_5_U             | -    | -    |        | property_input_3_5  | fifo    | srl  | 0       |
+|    property_input_3_6_U             | -    | -    |        | property_input_3_6  | fifo    | srl  | 0       |
+|    property_input_3_7_U             | -    | -    |        | property_input_3_7  | fifo    | srl  | 0       |
+|    property_input_3_8_U             | -    | -    |        | property_input_3_8  | fifo    | srl  | 0       |
+|    property_input_3_9_U             | -    | -    |        | property_input_3_9  | fifo    | srl  | 0       |
+|    property_input_3_10_U            | -    | -    |        | property_input_3_10 | fifo    | srl  | 0       |
+|    property_input_3_11_U            | -    | -    |        | property_input_3_11 | fifo    | srl  | 0       |
+|    property_input_3_12_U            | -    | -    |        | property_input_3_12 | fifo    | srl  | 0       |
+|    property_input_3_13_U            | -    | -    |        | property_input_3_13 | fifo    | srl  | 0       |
+|    property_input_3_14_U            | -    | -    |        | property_input_3_14 | fifo    | srl  | 0       |
+|    property_input_3_15_U            | -    | -    |        | property_input_3_15 | fifo    | srl  | 0       |
+|    property_input_3_16_U            | -    | -    |        | property_input_3_16 | fifo    | srl  | 0       |
+|    property_input_3_17_U            | -    | -    |        | property_input_3_17 | fifo    | srl  | 0       |
+|    property_input_3_18_U            | -    | -    |        | property_input_3_18 | fifo    | srl  | 0       |
+|    property_input_3_19_U            | -    | -    |        | property_input_3_19 | fifo    | srl  | 0       |
+|    property_input_3_20_U            | -    | -    |        | property_input_3_20 | fifo    | srl  | 0       |
+|    property_input_3_21_U            | -    | -    |        | property_input_3_21 | fifo    | srl  | 0       |
+|    property_input_3_22_U            | -    | -    |        | property_input_3_22 | fifo    | srl  | 0       |
+|    property_input_3_23_U            | -    | -    |        | property_input_3_23 | fifo    | srl  | 0       |
+|    property_input_3_24_U            | -    | -    |        | property_input_3_24 | fifo    | srl  | 0       |
+|    property_input_3_25_U            | -    | -    |        | property_input_3_25 | fifo    | srl  | 0       |
+|    property_input_3_26_U            | -    | -    |        | property_input_3_26 | fifo    | srl  | 0       |
+|    property_input_3_27_U            | -    | -    |        | property_input_3_27 | fifo    | srl  | 0       |
+|    property_input_3_28_U            | -    | -    |        | property_input_3_28 | fifo    | srl  | 0       |
+|    property_input_3_29_U            | -    | -    |        | property_input_3_29 | fifo    | srl  | 0       |
+|    property_input_3_30_U            | -    | -    |        | property_input_3_30 | fifo    | srl  | 0       |
+|    property_input_3_31_U            | -    | -    |        | property_input_3_31 | fifo    | srl  | 0       |
+|    weight_input_0_0_U               | -    | -    |        | weight_input_0_0    | fifo    | srl  | 0       |
+|    weight_input_0_1_U               | -    | -    |        | weight_input_0_1    | fifo    | srl  | 0       |
+|    weight_input_0_2_U               | -    | -    |        | weight_input_0_2    | fifo    | srl  | 0       |
+|    weight_input_0_3_U               | -    | -    |        | weight_input_0_3    | fifo    | srl  | 0       |
+|    weight_input_0_4_U               | -    | -    |        | weight_input_0_4    | fifo    | srl  | 0       |
+|    weight_input_0_5_U               | -    | -    |        | weight_input_0_5    | fifo    | srl  | 0       |
+|    weight_input_0_6_U               | -    | -    |        | weight_input_0_6    | fifo    | srl  | 0       |
+|    weight_input_0_7_U               | -    | -    |        | weight_input_0_7    | fifo    | srl  | 0       |
+|    weight_input_0_8_U               | -    | -    |        | weight_input_0_8    | fifo    | srl  | 0       |
+|    weight_input_0_9_U               | -    | -    |        | weight_input_0_9    | fifo    | srl  | 0       |
+|    weight_input_0_10_U              | -    | -    |        | weight_input_0_10   | fifo    | srl  | 0       |
+|    weight_input_0_11_U              | -    | -    |        | weight_input_0_11   | fifo    | srl  | 0       |
+|    weight_input_0_12_U              | -    | -    |        | weight_input_0_12   | fifo    | srl  | 0       |
+|    weight_input_0_13_U              | -    | -    |        | weight_input_0_13   | fifo    | srl  | 0       |
+|    weight_input_0_14_U              | -    | -    |        | weight_input_0_14   | fifo    | srl  | 0       |
+|    weight_input_0_15_U              | -    | -    |        | weight_input_0_15   | fifo    | srl  | 0       |
+|    weight_input_0_16_U              | -    | -    |        | weight_input_0_16   | fifo    | srl  | 0       |
+|    weight_input_0_17_U              | -    | -    |        | weight_input_0_17   | fifo    | srl  | 0       |
+|    weight_input_0_18_U              | -    | -    |        | weight_input_0_18   | fifo    | srl  | 0       |
+|    weight_input_0_19_U              | -    | -    |        | weight_input_0_19   | fifo    | srl  | 0       |
+|    weight_input_0_20_U              | -    | -    |        | weight_input_0_20   | fifo    | srl  | 0       |
+|    weight_input_0_21_U              | -    | -    |        | weight_input_0_21   | fifo    | srl  | 0       |
+|    weight_input_0_22_U              | -    | -    |        | weight_input_0_22   | fifo    | srl  | 0       |
+|    weight_input_0_23_U              | -    | -    |        | weight_input_0_23   | fifo    | srl  | 0       |
+|    weight_input_0_24_U              | -    | -    |        | weight_input_0_24   | fifo    | srl  | 0       |
+|    weight_input_0_25_U              | -    | -    |        | weight_input_0_25   | fifo    | srl  | 0       |
+|    weight_input_0_26_U              | -    | -    |        | weight_input_0_26   | fifo    | srl  | 0       |
+|    weight_input_0_27_U              | -    | -    |        | weight_input_0_27   | fifo    | srl  | 0       |
+|    weight_input_0_28_U              | -    | -    |        | weight_input_0_28   | fifo    | srl  | 0       |
+|    weight_input_0_29_U              | -    | -    |        | weight_input_0_29   | fifo    | srl  | 0       |
+|    weight_input_0_30_U              | -    | -    |        | weight_input_0_30   | fifo    | srl  | 0       |
+|    weight_input_0_31_U              | -    | -    |        | weight_input_0_31   | fifo    | srl  | 0       |
+|    weight_input_1_0_U               | -    | -    |        | weight_input_1_0    | fifo    | srl  | 0       |
+|    weight_input_1_1_U               | -    | -    |        | weight_input_1_1    | fifo    | srl  | 0       |
+|    weight_input_1_2_U               | -    | -    |        | weight_input_1_2    | fifo    | srl  | 0       |
+|    weight_input_1_3_U               | -    | -    |        | weight_input_1_3    | fifo    | srl  | 0       |
+|    weight_input_1_4_U               | -    | -    |        | weight_input_1_4    | fifo    | srl  | 0       |
+|    weight_input_1_5_U               | -    | -    |        | weight_input_1_5    | fifo    | srl  | 0       |
+|    weight_input_1_6_U               | -    | -    |        | weight_input_1_6    | fifo    | srl  | 0       |
+|    weight_input_1_7_U               | -    | -    |        | weight_input_1_7    | fifo    | srl  | 0       |
+|    weight_input_1_8_U               | -    | -    |        | weight_input_1_8    | fifo    | srl  | 0       |
+|    weight_input_1_9_U               | -    | -    |        | weight_input_1_9    | fifo    | srl  | 0       |
+|    weight_input_1_10_U              | -    | -    |        | weight_input_1_10   | fifo    | srl  | 0       |
+|    weight_input_1_11_U              | -    | -    |        | weight_input_1_11   | fifo    | srl  | 0       |
+|    weight_input_1_12_U              | -    | -    |        | weight_input_1_12   | fifo    | srl  | 0       |
+|    weight_input_1_13_U              | -    | -    |        | weight_input_1_13   | fifo    | srl  | 0       |
+|    weight_input_1_14_U              | -    | -    |        | weight_input_1_14   | fifo    | srl  | 0       |
+|    weight_input_1_15_U              | -    | -    |        | weight_input_1_15   | fifo    | srl  | 0       |
+|    weight_input_1_16_U              | -    | -    |        | weight_input_1_16   | fifo    | srl  | 0       |
+|    weight_input_1_17_U              | -    | -    |        | weight_input_1_17   | fifo    | srl  | 0       |
+|    weight_input_1_18_U              | -    | -    |        | weight_input_1_18   | fifo    | srl  | 0       |
+|    weight_input_1_19_U              | -    | -    |        | weight_input_1_19   | fifo    | srl  | 0       |
+|    weight_input_1_20_U              | -    | -    |        | weight_input_1_20   | fifo    | srl  | 0       |
+|    weight_input_1_21_U              | -    | -    |        | weight_input_1_21   | fifo    | srl  | 0       |
+|    weight_input_1_22_U              | -    | -    |        | weight_input_1_22   | fifo    | srl  | 0       |
+|    weight_input_1_23_U              | -    | -    |        | weight_input_1_23   | fifo    | srl  | 0       |
+|    weight_input_1_24_U              | -    | -    |        | weight_input_1_24   | fifo    | srl  | 0       |
+|    weight_input_1_25_U              | -    | -    |        | weight_input_1_25   | fifo    | srl  | 0       |
+|    weight_input_1_26_U              | -    | -    |        | weight_input_1_26   | fifo    | srl  | 0       |
+|    weight_input_1_27_U              | -    | -    |        | weight_input_1_27   | fifo    | srl  | 0       |
+|    weight_input_1_28_U              | -    | -    |        | weight_input_1_28   | fifo    | srl  | 0       |
+|    weight_input_1_29_U              | -    | -    |        | weight_input_1_29   | fifo    | srl  | 0       |
+|    weight_input_1_30_U              | -    | -    |        | weight_input_1_30   | fifo    | srl  | 0       |
+|    weight_input_1_31_U              | -    | -    |        | weight_input_1_31   | fifo    | srl  | 0       |
+|    weight_input_2_0_U               | -    | -    |        | weight_input_2_0    | fifo    | srl  | 0       |
+|    weight_input_2_1_U               | -    | -    |        | weight_input_2_1    | fifo    | srl  | 0       |
+|    weight_input_2_2_U               | -    | -    |        | weight_input_2_2    | fifo    | srl  | 0       |
+|    weight_input_2_3_U               | -    | -    |        | weight_input_2_3    | fifo    | srl  | 0       |
+|    weight_input_2_4_U               | -    | -    |        | weight_input_2_4    | fifo    | srl  | 0       |
+|    weight_input_2_5_U               | -    | -    |        | weight_input_2_5    | fifo    | srl  | 0       |
+|    weight_input_2_6_U               | -    | -    |        | weight_input_2_6    | fifo    | srl  | 0       |
+|    weight_input_2_7_U               | -    | -    |        | weight_input_2_7    | fifo    | srl  | 0       |
+|    weight_input_2_8_U               | -    | -    |        | weight_input_2_8    | fifo    | srl  | 0       |
+|    weight_input_2_9_U               | -    | -    |        | weight_input_2_9    | fifo    | srl  | 0       |
+|    weight_input_2_10_U              | -    | -    |        | weight_input_2_10   | fifo    | srl  | 0       |
+|    weight_input_2_11_U              | -    | -    |        | weight_input_2_11   | fifo    | srl  | 0       |
+|    weight_input_2_12_U              | -    | -    |        | weight_input_2_12   | fifo    | srl  | 0       |
+|    weight_input_2_13_U              | -    | -    |        | weight_input_2_13   | fifo    | srl  | 0       |
+|    weight_input_2_14_U              | -    | -    |        | weight_input_2_14   | fifo    | srl  | 0       |
+|    weight_input_2_15_U              | -    | -    |        | weight_input_2_15   | fifo    | srl  | 0       |
+|    weight_input_2_16_U              | -    | -    |        | weight_input_2_16   | fifo    | srl  | 0       |
+|    weight_input_2_17_U              | -    | -    |        | weight_input_2_17   | fifo    | srl  | 0       |
+|    weight_input_2_18_U              | -    | -    |        | weight_input_2_18   | fifo    | srl  | 0       |
+|    weight_input_2_19_U              | -    | -    |        | weight_input_2_19   | fifo    | srl  | 0       |
+|    weight_input_2_20_U              | -    | -    |        | weight_input_2_20   | fifo    | srl  | 0       |
+|    weight_input_2_21_U              | -    | -    |        | weight_input_2_21   | fifo    | srl  | 0       |
+|    weight_input_2_22_U              | -    | -    |        | weight_input_2_22   | fifo    | srl  | 0       |
+|    weight_input_2_23_U              | -    | -    |        | weight_input_2_23   | fifo    | srl  | 0       |
+|    weight_input_2_24_U              | -    | -    |        | weight_input_2_24   | fifo    | srl  | 0       |
+|    weight_input_2_25_U              | -    | -    |        | weight_input_2_25   | fifo    | srl  | 0       |
+|    weight_input_2_26_U              | -    | -    |        | weight_input_2_26   | fifo    | srl  | 0       |
+|    weight_input_2_27_U              | -    | -    |        | weight_input_2_27   | fifo    | srl  | 0       |
+|    weight_input_2_28_U              | -    | -    |        | weight_input_2_28   | fifo    | srl  | 0       |
+|    weight_input_2_29_U              | -    | -    |        | weight_input_2_29   | fifo    | srl  | 0       |
+|    weight_input_2_30_U              | -    | -    |        | weight_input_2_30   | fifo    | srl  | 0       |
+|    weight_input_2_31_U              | -    | -    |        | weight_input_2_31   | fifo    | srl  | 0       |
+|    weight_input_3_0_U               | -    | -    |        | weight_input_3_0    | fifo    | srl  | 0       |
+|    weight_input_3_1_U               | -    | -    |        | weight_input_3_1    | fifo    | srl  | 0       |
+|    weight_input_3_2_U               | -    | -    |        | weight_input_3_2    | fifo    | srl  | 0       |
+|    weight_input_3_3_U               | -    | -    |        | weight_input_3_3    | fifo    | srl  | 0       |
+|    weight_input_3_4_U               | -    | -    |        | weight_input_3_4    | fifo    | srl  | 0       |
+|    weight_input_3_5_U               | -    | -    |        | weight_input_3_5    | fifo    | srl  | 0       |
+|    weight_input_3_6_U               | -    | -    |        | weight_input_3_6    | fifo    | srl  | 0       |
+|    weight_input_3_7_U               | -    | -    |        | weight_input_3_7    | fifo    | srl  | 0       |
+|    weight_input_3_8_U               | -    | -    |        | weight_input_3_8    | fifo    | srl  | 0       |
+|    weight_input_3_9_U               | -    | -    |        | weight_input_3_9    | fifo    | srl  | 0       |
+|    weight_input_3_10_U              | -    | -    |        | weight_input_3_10   | fifo    | srl  | 0       |
+|    weight_input_3_11_U              | -    | -    |        | weight_input_3_11   | fifo    | srl  | 0       |
+|    weight_input_3_12_U              | -    | -    |        | weight_input_3_12   | fifo    | srl  | 0       |
+|    weight_input_3_13_U              | -    | -    |        | weight_input_3_13   | fifo    | srl  | 0       |
+|    weight_input_3_14_U              | -    | -    |        | weight_input_3_14   | fifo    | srl  | 0       |
+|    weight_input_3_15_U              | -    | -    |        | weight_input_3_15   | fifo    | srl  | 0       |
+|    weight_input_3_16_U              | -    | -    |        | weight_input_3_16   | fifo    | srl  | 0       |
+|    weight_input_3_17_U              | -    | -    |        | weight_input_3_17   | fifo    | srl  | 0       |
+|    weight_input_3_18_U              | -    | -    |        | weight_input_3_18   | fifo    | srl  | 0       |
+|    weight_input_3_19_U              | -    | -    |        | weight_input_3_19   | fifo    | srl  | 0       |
+|    weight_input_3_20_U              | -    | -    |        | weight_input_3_20   | fifo    | srl  | 0       |
+|    weight_input_3_21_U              | -    | -    |        | weight_input_3_21   | fifo    | srl  | 0       |
+|    weight_input_3_22_U              | -    | -    |        | weight_input_3_22   | fifo    | srl  | 0       |
+|    weight_input_3_23_U              | -    | -    |        | weight_input_3_23   | fifo    | srl  | 0       |
+|    weight_input_3_24_U              | -    | -    |        | weight_input_3_24   | fifo    | srl  | 0       |
+|    weight_input_3_25_U              | -    | -    |        | weight_input_3_25   | fifo    | srl  | 0       |
+|    weight_input_3_26_U              | -    | -    |        | weight_input_3_26   | fifo    | srl  | 0       |
+|    weight_input_3_27_U              | -    | -    |        | weight_input_3_27   | fifo    | srl  | 0       |
+|    weight_input_3_28_U              | -    | -    |        | weight_input_3_28   | fifo    | srl  | 0       |
+|    weight_input_3_29_U              | -    | -    |        | weight_input_3_29   | fifo    | srl  | 0       |
+|    weight_input_3_30_U              | -    | -    |        | weight_input_3_30   | fifo    | srl  | 0       |
+|    weight_input_3_31_U              | -    | -    |        | weight_input_3_31   | fifo    | srl  | 0       |
+|    output_0_0_U                     | -    | -    |        | output_0_0          | fifo    | srl  | 0       |
+|    output_0_1_U                     | -    | -    |        | output_0_1          | fifo    | srl  | 0       |
+|    output_0_2_U                     | -    | -    |        | output_0_2          | fifo    | srl  | 0       |
+|    output_0_3_U                     | -    | -    |        | output_0_3          | fifo    | srl  | 0       |
+|    output_0_4_U                     | -    | -    |        | output_0_4          | fifo    | srl  | 0       |
+|    output_0_5_U                     | -    | -    |        | output_0_5          | fifo    | srl  | 0       |
+|    output_0_6_U                     | -    | -    |        | output_0_6          | fifo    | srl  | 0       |
+|    output_0_7_U                     | -    | -    |        | output_0_7          | fifo    | srl  | 0       |
+|    output_0_8_U                     | -    | -    |        | output_0_8          | fifo    | srl  | 0       |
+|    output_0_9_U                     | -    | -    |        | output_0_9          | fifo    | srl  | 0       |
+|    output_0_10_U                    | -    | -    |        | output_0_10         | fifo    | srl  | 0       |
+|    output_0_11_U                    | -    | -    |        | output_0_11         | fifo    | srl  | 0       |
+|    output_0_12_U                    | -    | -    |        | output_0_12         | fifo    | srl  | 0       |
+|    output_0_13_U                    | -    | -    |        | output_0_13         | fifo    | srl  | 0       |
+|    output_0_14_U                    | -    | -    |        | output_0_14         | fifo    | srl  | 0       |
+|    output_0_15_U                    | -    | -    |        | output_0_15         | fifo    | srl  | 0       |
+|    output_0_16_U                    | -    | -    |        | output_0_16         | fifo    | srl  | 0       |
+|    output_0_17_U                    | -    | -    |        | output_0_17         | fifo    | srl  | 0       |
+|    output_0_18_U                    | -    | -    |        | output_0_18         | fifo    | srl  | 0       |
+|    output_0_19_U                    | -    | -    |        | output_0_19         | fifo    | srl  | 0       |
+|    output_0_20_U                    | -    | -    |        | output_0_20         | fifo    | srl  | 0       |
+|    output_0_21_U                    | -    | -    |        | output_0_21         | fifo    | srl  | 0       |
+|    output_0_22_U                    | -    | -    |        | output_0_22         | fifo    | srl  | 0       |
+|    output_0_23_U                    | -    | -    |        | output_0_23         | fifo    | srl  | 0       |
+|    output_0_24_U                    | -    | -    |        | output_0_24         | fifo    | srl  | 0       |
+|    output_0_25_U                    | -    | -    |        | output_0_25         | fifo    | srl  | 0       |
+|    output_0_26_U                    | -    | -    |        | output_0_26         | fifo    | srl  | 0       |
+|    output_0_27_U                    | -    | -    |        | output_0_27         | fifo    | srl  | 0       |
+|    output_0_28_U                    | -    | -    |        | output_0_28         | fifo    | srl  | 0       |
+|    output_0_29_U                    | -    | -    |        | output_0_29         | fifo    | srl  | 0       |
+|    output_0_30_U                    | -    | -    |        | output_0_30         | fifo    | srl  | 0       |
+|    output_0_31_U                    | -    | -    |        | output_0_31         | fifo    | srl  | 0       |
+|    output_1_0_U                     | -    | -    |        | output_1_0          | fifo    | srl  | 0       |
+|    output_1_1_U                     | -    | -    |        | output_1_1          | fifo    | srl  | 0       |
+|    output_1_2_U                     | -    | -    |        | output_1_2          | fifo    | srl  | 0       |
+|    output_1_3_U                     | -    | -    |        | output_1_3          | fifo    | srl  | 0       |
+|    output_1_4_U                     | -    | -    |        | output_1_4          | fifo    | srl  | 0       |
+|    output_1_5_U                     | -    | -    |        | output_1_5          | fifo    | srl  | 0       |
+|    output_1_6_U                     | -    | -    |        | output_1_6          | fifo    | srl  | 0       |
+|    output_1_7_U                     | -    | -    |        | output_1_7          | fifo    | srl  | 0       |
+|    output_1_8_U                     | -    | -    |        | output_1_8          | fifo    | srl  | 0       |
+|    output_1_9_U                     | -    | -    |        | output_1_9          | fifo    | srl  | 0       |
+|    output_1_10_U                    | -    | -    |        | output_1_10         | fifo    | srl  | 0       |
+|    output_1_11_U                    | -    | -    |        | output_1_11         | fifo    | srl  | 0       |
+|    output_1_12_U                    | -    | -    |        | output_1_12         | fifo    | srl  | 0       |
+|    output_1_13_U                    | -    | -    |        | output_1_13         | fifo    | srl  | 0       |
+|    output_1_14_U                    | -    | -    |        | output_1_14         | fifo    | srl  | 0       |
+|    output_1_15_U                    | -    | -    |        | output_1_15         | fifo    | srl  | 0       |
+|    output_1_16_U                    | -    | -    |        | output_1_16         | fifo    | srl  | 0       |
+|    output_1_17_U                    | -    | -    |        | output_1_17         | fifo    | srl  | 0       |
+|    output_1_18_U                    | -    | -    |        | output_1_18         | fifo    | srl  | 0       |
+|    output_1_19_U                    | -    | -    |        | output_1_19         | fifo    | srl  | 0       |
+|    output_1_20_U                    | -    | -    |        | output_1_20         | fifo    | srl  | 0       |
+|    output_1_21_U                    | -    | -    |        | output_1_21         | fifo    | srl  | 0       |
+|    output_1_22_U                    | -    | -    |        | output_1_22         | fifo    | srl  | 0       |
+|    output_1_23_U                    | -    | -    |        | output_1_23         | fifo    | srl  | 0       |
+|    output_1_24_U                    | -    | -    |        | output_1_24         | fifo    | srl  | 0       |
+|    output_1_25_U                    | -    | -    |        | output_1_25         | fifo    | srl  | 0       |
+|    output_1_26_U                    | -    | -    |        | output_1_26         | fifo    | srl  | 0       |
+|    output_1_27_U                    | -    | -    |        | output_1_27         | fifo    | srl  | 0       |
+|    output_1_28_U                    | -    | -    |        | output_1_28         | fifo    | srl  | 0       |
+|    output_1_29_U                    | -    | -    |        | output_1_29         | fifo    | srl  | 0       |
+|    output_1_30_U                    | -    | -    |        | output_1_30         | fifo    | srl  | 0       |
+|    output_1_31_U                    | -    | -    |        | output_1_31         | fifo    | srl  | 0       |
+|    output_2_0_U                     | -    | -    |        | output_2_0          | fifo    | srl  | 0       |
+|    output_2_1_U                     | -    | -    |        | output_2_1          | fifo    | srl  | 0       |
+|    output_2_2_U                     | -    | -    |        | output_2_2          | fifo    | srl  | 0       |
+|    output_2_3_U                     | -    | -    |        | output_2_3          | fifo    | srl  | 0       |
+|    output_2_4_U                     | -    | -    |        | output_2_4          | fifo    | srl  | 0       |
+|    output_2_5_U                     | -    | -    |        | output_2_5          | fifo    | srl  | 0       |
+|    output_2_6_U                     | -    | -    |        | output_2_6          | fifo    | srl  | 0       |
+|    output_2_7_U                     | -    | -    |        | output_2_7          | fifo    | srl  | 0       |
+|    output_2_8_U                     | -    | -    |        | output_2_8          | fifo    | srl  | 0       |
+|    output_2_9_U                     | -    | -    |        | output_2_9          | fifo    | srl  | 0       |
+|    output_2_10_U                    | -    | -    |        | output_2_10         | fifo    | srl  | 0       |
+|    output_2_11_U                    | -    | -    |        | output_2_11         | fifo    | srl  | 0       |
+|    output_2_12_U                    | -    | -    |        | output_2_12         | fifo    | srl  | 0       |
+|    output_2_13_U                    | -    | -    |        | output_2_13         | fifo    | srl  | 0       |
+|    output_2_14_U                    | -    | -    |        | output_2_14         | fifo    | srl  | 0       |
+|    output_2_15_U                    | -    | -    |        | output_2_15         | fifo    | srl  | 0       |
+|    output_2_16_U                    | -    | -    |        | output_2_16         | fifo    | srl  | 0       |
+|    output_2_17_U                    | -    | -    |        | output_2_17         | fifo    | srl  | 0       |
+|    output_2_18_U                    | -    | -    |        | output_2_18         | fifo    | srl  | 0       |
+|    output_2_19_U                    | -    | -    |        | output_2_19         | fifo    | srl  | 0       |
+|    output_2_20_U                    | -    | -    |        | output_2_20         | fifo    | srl  | 0       |
+|    output_2_21_U                    | -    | -    |        | output_2_21         | fifo    | srl  | 0       |
+|    output_2_22_U                    | -    | -    |        | output_2_22         | fifo    | srl  | 0       |
+|    output_2_23_U                    | -    | -    |        | output_2_23         | fifo    | srl  | 0       |
+|    output_2_24_U                    | -    | -    |        | output_2_24         | fifo    | srl  | 0       |
+|    output_2_25_U                    | -    | -    |        | output_2_25         | fifo    | srl  | 0       |
+|    output_2_26_U                    | -    | -    |        | output_2_26         | fifo    | srl  | 0       |
+|    output_2_27_U                    | -    | -    |        | output_2_27         | fifo    | srl  | 0       |
+|    output_2_28_U                    | -    | -    |        | output_2_28         | fifo    | srl  | 0       |
+|    output_2_29_U                    | -    | -    |        | output_2_29         | fifo    | srl  | 0       |
+|    output_2_30_U                    | -    | -    |        | output_2_30         | fifo    | srl  | 0       |
+|    output_2_31_U                    | -    | -    |        | output_2_31         | fifo    | srl  | 0       |
+|    output_3_0_U                     | -    | -    |        | output_3_0          | fifo    | srl  | 0       |
+|    output_3_1_U                     | -    | -    |        | output_3_1          | fifo    | srl  | 0       |
+|    output_3_2_U                     | -    | -    |        | output_3_2          | fifo    | srl  | 0       |
+|    output_3_3_U                     | -    | -    |        | output_3_3          | fifo    | srl  | 0       |
+|    output_3_4_U                     | -    | -    |        | output_3_4          | fifo    | srl  | 0       |
+|    output_3_5_U                     | -    | -    |        | output_3_5          | fifo    | srl  | 0       |
+|    output_3_6_U                     | -    | -    |        | output_3_6          | fifo    | srl  | 0       |
+|    output_3_7_U                     | -    | -    |        | output_3_7          | fifo    | srl  | 0       |
+|    output_3_8_U                     | -    | -    |        | output_3_8          | fifo    | srl  | 0       |
+|    output_3_9_U                     | -    | -    |        | output_3_9          | fifo    | srl  | 0       |
+|    output_3_10_U                    | -    | -    |        | output_3_10         | fifo    | srl  | 0       |
+|    output_3_11_U                    | -    | -    |        | output_3_11         | fifo    | srl  | 0       |
+|    output_3_12_U                    | -    | -    |        | output_3_12         | fifo    | srl  | 0       |
+|    output_3_13_U                    | -    | -    |        | output_3_13         | fifo    | srl  | 0       |
+|    output_3_14_U                    | -    | -    |        | output_3_14         | fifo    | srl  | 0       |
+|    output_3_15_U                    | -    | -    |        | output_3_15         | fifo    | srl  | 0       |
+|    output_3_16_U                    | -    | -    |        | output_3_16         | fifo    | srl  | 0       |
+|    output_3_17_U                    | -    | -    |        | output_3_17         | fifo    | srl  | 0       |
+|    output_3_18_U                    | -    | -    |        | output_3_18         | fifo    | srl  | 0       |
+|    output_3_19_U                    | -    | -    |        | output_3_19         | fifo    | srl  | 0       |
+|    output_3_20_U                    | -    | -    |        | output_3_20         | fifo    | srl  | 0       |
+|    output_3_21_U                    | -    | -    |        | output_3_21         | fifo    | srl  | 0       |
+|    output_3_22_U                    | -    | -    |        | output_3_22         | fifo    | srl  | 0       |
+|    output_3_23_U                    | -    | -    |        | output_3_23         | fifo    | srl  | 0       |
+|    output_3_24_U                    | -    | -    |        | output_3_24         | fifo    | srl  | 0       |
+|    output_3_25_U                    | -    | -    |        | output_3_25         | fifo    | srl  | 0       |
+|    output_3_26_U                    | -    | -    |        | output_3_26         | fifo    | srl  | 0       |
+|    output_3_27_U                    | -    | -    |        | output_3_27         | fifo    | srl  | 0       |
+|    output_3_28_U                    | -    | -    |        | output_3_28         | fifo    | srl  | 0       |
+|    output_3_29_U                    | -    | -    |        | output_3_29         | fifo    | srl  | 0       |
+|    output_3_30_U                    | -    | -    |        | output_3_30         | fifo    | srl  | 0       |
+|    output_3_31_U                    | -    | -    |        | output_3_31         | fifo    | srl  | 0       |
+|   + rerArray_Loop_input_batch_proc3 | 0    | 0    |        |                     |         |      |         |
+|     buff_U                          | -    | -    |        | buff                | ram_1p  | auto | 1       |
+|     buff_1_U                        | -    | -    |        | buff_1              | ram_1p  | auto | 1       |
+|     buff_2_U                        | -    | -    |        | buff_2              | ram_1p  | auto | 1       |
+|     buff_3_U                        | -    | -    |        | buff_3              | ram_1p  | auto | 1       |
+|     buff_4_U                        | -    | -    |        | buff_4              | ram_1p  | auto | 1       |
+|     buff_5_U                        | -    | -    |        | buff_5              | ram_1p  | auto | 1       |
+|     buff_6_U                        | -    | -    |        | buff_6              | ram_1p  | auto | 1       |
+|     buff_7_U                        | -    | -    |        | buff_7              | ram_1p  | auto | 1       |
+|     buff_8_U                        | -    | -    |        | buff_8              | ram_1p  | auto | 1       |
+|     buff_9_U                        | -    | -    |        | buff_9              | ram_1p  | auto | 1       |
+|     buff_10_U                       | -    | -    |        | buff_10             | ram_1p  | auto | 1       |
+|     buff_11_U                       | -    | -    |        | buff_11             | ram_1p  | auto | 1       |
+|     buff_12_U                       | -    | -    |        | buff_12             | ram_1p  | auto | 1       |
+|     buff_13_U                       | -    | -    |        | buff_13             | ram_1p  | auto | 1       |
+|     buff_14_U                       | -    | -    |        | buff_14             | ram_1p  | auto | 1       |
+|     buff_15_U                       | -    | -    |        | buff_15             | ram_1p  | auto | 1       |
+|     buff_16_U                       | -    | -    |        | buff_16             | ram_1p  | auto | 1       |
+|     buff_17_U                       | -    | -    |        | buff_17             | ram_1p  | auto | 1       |
+|     buff_18_U                       | -    | -    |        | buff_18             | ram_1p  | auto | 1       |
+|     buff_19_U                       | -    | -    |        | buff_19             | ram_1p  | auto | 1       |
+|     buff_20_U                       | -    | -    |        | buff_20             | ram_1p  | auto | 1       |
+|     buff_21_U                       | -    | -    |        | buff_21             | ram_1p  | auto | 1       |
+|     buff_22_U                       | -    | -    |        | buff_22             | ram_1p  | auto | 1       |
+|     buff_23_U                       | -    | -    |        | buff_23             | ram_1p  | auto | 1       |
+|     buff_24_U                       | -    | -    |        | buff_24             | ram_1p  | auto | 1       |
+|     buff_25_U                       | -    | -    |        | buff_25             | ram_1p  | auto | 1       |
+|     buff_26_U                       | -    | -    |        | buff_26             | ram_1p  | auto | 1       |
+|     buff_27_U                       | -    | -    |        | buff_27             | ram_1p  | auto | 1       |
+|     buff_28_U                       | -    | -    |        | buff_28             | ram_1p  | auto | 1       |
+|     buff_29_U                       | -    | -    |        | buff_29             | ram_1p  | auto | 1       |
+|     buff_30_U                       | -    | -    |        | buff_30             | ram_1p  | auto | 1       |
+|     buff_31_U                       | -    | -    |        | buff_31             | ram_1p  | auto | 1       |
++-------------------------------------+------+------+--------+---------------------+---------+------+---------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Pragmas with Warnings
++----------+---------+-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Type     | Options | Location                                      | Messages                                                                                                                                                                           |
++----------+---------+-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| dataflow |         | test2/solution2/directives.tcl:12 in rerarray | Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region |
+|          |         |                                               | There are a total of 6 such instances of non-canonical statements in the dataflow region                                                                                           |
++----------+---------+-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+* Valid Pragma Syntax
++-----------------+----------------------------------------+---------------------------------------------------------------+
+| Type            | Options                                | Location                                                      |
++-----------------+----------------------------------------+---------------------------------------------------------------+
+| pipeline        | II = 4                                 | test2/test.cpp:32 in proc                                     |
+| latency         | min = 2 max = 2                        | test2/test.cpp:33 in proc                                     |
+| pipeline        | II = 1                                 | test2/test.cpp:46 in mux                                      |
+| pipeline        | II = 1                                 | test2/test.cpp:60 in demux                                    |
+| loop_tripcount  | max=32                                 | test2/solution2/directives.tcl:13 in pe                       |
+| unroll          | factor=1                               | test2/solution2/directives.tcl:15 in pe                       |
+| array_partition | variable=buff complete dim=2           | test2/solution2/directives.tcl:20 in rerarray, buff           |
+| array_partition | variable=output complete dim=2         | test2/solution2/directives.tcl:19 in rerarray, output         |
+| array_partition | variable=property_input complete dim=1 | test2/solution2/directives.tcl:17 in rerarray, property_input |
+| array_partition | variable=weight_input complete dim=2   | test2/solution2/directives.tcl:18 in rerarray, weight_input   |
+| loop_tripcount  | max=32                                 | test2/solution2/directives.tcl:16 in rerarray                 |
+| unroll          |                                        | test2/solution2/directives.tcl:14 in rerarray                 |
++-----------------+----------------------------------------+---------------------------------------------------------------+
+
+

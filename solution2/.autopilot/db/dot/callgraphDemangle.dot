@@ -1,0 +1,21 @@
+digraph "Call graph demangled" {
+	label="Call graph demangled";
+
+	Node0x53dad80 [shape=record,label="{vector_add(int*, int, int*, int, int, int*)}" fid="1" demanglename="vector_add" manglename="_Z10vector_addPiiS_iiS_" filename="../../../test.cpp" linenumber="69"];
+	Node0x53dad80 -> Node0x56472a0;
+	Node0x56472a0 [shape=record,label="{rerArray(int*, int, int*, int, int, int*)}" fid="2" demanglename="rerArray" manglename="_Z8rerArrayPiiS_iiS_" filename="../../../systolic.cpp" linenumber="18"];
+	Node0x56472a0 -> Node0x5647310;
+	Node0x56472a0 -> Node0x5647310;
+	Node0x56472a0 -> Node0x5647310;
+	Node0x56472a0 -> Node0x53db040;
+	Node0x56472a0 -> Node0x53db170;
+	Node0x56472a0 -> Node0x53db170;
+	Node0x56472a0 -> Node0x53db140;
+	Node0x56472a0 -> Node0x5647340;
+	Node0x56472a0 -> Node0x5647340;
+	Node0x56472a0 -> Node0x5647340;
+	Node0x53db040 [shape=record,label="{PE(hls::stream\<int, 0\>&, hls::stream\<int, 0\>&, hls::stream\<int, 0\>&, int)}" fid="3" demanglename="PE" manglename="_Z2PERN3hls6streamIiLi0EEES2_S2_i" filename="../../../systolic.cpp" linenumber="4"];
+	Node0x53db040 -> Node0x53db140;
+	Node0x53db040 -> Node0x53db140;
+	Node0x53db040 -> Node0x53db170;
+}

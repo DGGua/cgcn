@@ -1,0 +1,43 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-721" msg_severity="WARNING" msg_loc="test2/test.cpp:18:44" msg_body="backslash and newline separated by space">
+        <args ClangWarningOption="backslash-newline-escape"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:724:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:738:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_int_ref.h:752:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="test2/test.cpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="proc" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 4" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="test2/test.cpp:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="proc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 2 max = 2" ARG_PragmaType="latency" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="test2/test.cpp:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mux" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="test2/test.cpp:60:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="demux" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/ubuntu/VitisCodes/test2/solution1/csynth.tcl:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="vector_add" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=vector_add" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="vector_add" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=vector_add" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:12:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="test2/systolic.cpp:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="PE" ARG_PragmaIsValid="1" ARG_PragmaOptions="max=32" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/ubuntu/VitisCodes/test2/solution1/directives.tcl:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="rerArray" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="test2/systolic.cpp:20:0" msg_body="Inlining function 'PE(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, int)' into 'rerArray(int*, int, int*, int, int, int*)'">
+        <args Callee="PE(hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, hls::stream&lt;int, 0&gt;&amp;, int)" Caller="rerArray(int*, int, int*, int, int, int*)"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>0' contains leftover data, which may result in RTL simulation hanging.&#xA;000000000000000000000000-213655419232766-213655419232766-213655419232766   Generating dot files" projectName="test2" solutionName="solution2" date="2022-10-30T17:54:19.731+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>1' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.438+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>2' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.434+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>32' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.431+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>33' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.428+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>34' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.424+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>64' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.420+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>65' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.415+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>66' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.410+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>96' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.406+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>97' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.401+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>98' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.397+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>128' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.394+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>129' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.390+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>130' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.386+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>160' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.382+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>161' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.378+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>162' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.374+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>192' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.371+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>193' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.367+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>194' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.363+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>224' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.360+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>225' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.357+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>226' contains leftover data, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.354+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>354' is read while empty, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.351+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>322' is read while empty, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.348+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>290' is read while empty, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.345+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>258' is read while empty, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.342+0800" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;int, 0>353' is read while empty, which may result in RTL simulation hanging." projectName="test2" solutionName="solution2" date="2022-10-30T17:54:16.339+0800" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

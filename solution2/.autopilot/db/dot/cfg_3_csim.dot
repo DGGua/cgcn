@@ -1,0 +1,18 @@
+digraph "CFG for 'PE' function" {
+	label="CFG for 'PE' function";
+
+	Node0x494a7d0 [shape=record,filename="",linenumber="",label="{entry.predFake}"];
+	Node0x494a7d0 -> Node0x494ad00[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="12"];
+	Node0x4976b50 [shape=record,filename="../../../systolic.cpp",linenumber="16",label="{for.end.succFake}"];
+subgraph cluster_0 {
+	label="PE_Compute";
+	tripcount="120";
+	invocationtime="12";
+
+	Node0x494ad00 [shape=record,filename="../../../systolic.cpp",linenumber="9",label="{for.cond.predFake}"];
+	Node0x494ad00 -> Node0x4976aa0[ callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="132"];
+	Node0x4976aa0 [shape=record,filename="../../../systolic.cpp",linenumber="9",label="{for.cond.succFake|{<s0>T|<s1>F}}"];
+	Node0x4976aa0:s0 -> Node0x494ad00[label="W:121" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="120"];
+	Node0x4976aa0:s1 -> Node0x4976b50[label="W:13" callList="" memoryops="" filename="../../../systolic.cpp" execusionnum="12"];
+}
+}
