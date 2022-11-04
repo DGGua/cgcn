@@ -18,7 +18,7 @@
             "name": "Windows",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Xilinx/Vitis_HLS/2022.1/include"
+                "C:/Xilinx/Vitis_HLS/2022.1/include/**"
             ],
             "defines": [],
             "compilerPath": "C:/MinGW/bin/g++.exe",

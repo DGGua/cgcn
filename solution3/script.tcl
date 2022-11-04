@@ -8,10 +8,10 @@ set_top rerArray
 add_files cgcn/src/systolic.cpp
 add_files cgcn/src/test.cpp
 add_files -tb cgcn/src/testbench.cpp -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
-open_solution "solution2" -flow_target vivado
+open_solution "solution3" -flow_target vivado
 set_part {xc7z010-clg400-2}
 create_clock -period 10 -name default
-source "./cgcn/solution2/directives.tcl"
+source "./cgcn/solution3/directives.tcl"
 csim_design -clean -profile
 csynth_design
 cosim_design

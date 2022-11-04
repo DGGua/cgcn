@@ -3,6 +3,7 @@
         "random": "cpp",
         "limits": "cpp",
         "algorithm": "cpp",
-        "atomic": "cpp"
+        "atomic": "cpp",
+        "string": "cpp"
     }
 }

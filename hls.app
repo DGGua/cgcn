@@ -1,4 +1,4 @@
-<project xmlns="com.autoesl.autopilot.project" name="cgcn" top="vector_add">
+<project xmlns="com.autoesl.autopilot.project" name="cgcn" top="rerArray">
     <includePaths/>
     <libraryPaths/>
     <Simulation>
@@ -10,8 +10,9 @@
         <file name="cgcn/src/systolic.cpp" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>
     </files>
     <solutions xmlns="">
-        <solution name="solution1" status="active"/>
+        <solution name="solution1" status="inactive"/>
         <solution name="solution2" status="inactive"/>
+        <solution name="solution3" status="active"/>
     </solutions>
 </project>
 
