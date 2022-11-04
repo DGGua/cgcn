@@ -1,31 +1,33 @@
 #include "systolic.h"
+#include <ap_fixed.h>
 #include <string.h>
 #include "defines.h"
-
-void PE(hls::stream<int>& property_input,
-        hls::stream<int>& weight_input,
-        hls::stream<int>& data_output,
+void PE(hls::stream<compute_type>& property_input,
+        hls::stream<compute_type>& weight_input,
+        hls::stream<compute_type>& data_output,
         int turn) {
-  int a = 0, b = 0;
-  int sum = 0;
+  compute_type a = 0, b = 0;
+  compute_type sum[8] = {0, 0, 0, 0,0, 0, 0, 0};
+  ap_uint<3> flag = 0;
 PE_Compute:
   for (int i = 0; i < turn; i++) {
     a = property_input.read();
     b = weight_input.read();
-    sum += a * b;
+    sum[flag] += a * b;
+    flag += 1;
   }
-  data_output.write(sum);
+  data_output.write(((sum[7] + sum[6]) + (sum[5] + sum[4]))+((sum[3] + sum[2]) + (sum[1] + sum[0])));
 }
 
-void input_property(
-    int batch,
-    int* featrue_data,
-    hls::stream<int, MAX_INPUT> property_input[ARRAY_HEIGHT][MAX_OUTPUT]) {
+void input_property(int batch,
+                    compute_type* featrue_data,
+                    hls::stream<compute_type, MAX_INPUT>
+                        property_input[ARRAY_HEIGHT][MAX_OUTPUT]) {
 input_turn_property:
   for (int turn = 0; turn < FEATURE_LENGTH; turn++) {
   input_property_row:
     for (int row = 0; row < ARRAY_HEIGHT; row++) {
-      int featrue_val =
+      compute_type featrue_val =
           featrue_data[(batch * ARRAY_HEIGHT + row) * FEATURE_LENGTH + turn];
     input_property_col:
       for (int col = 0; col < MAX_OUTPUT; col++) {
@@ -35,16 +37,16 @@ input_turn_property:
   }
 }
 
-void input_weight(
-    int batch,
-    int* weight_array,
-    int output_size,
-    hls::stream<int, MAX_INPUT> weight_input[ARRAY_HEIGHT][MAX_OUTPUT]) {
+void input_weight(int batch,
+                  compute_type* weight_array,
+                  int output_size,
+                  hls::stream<compute_type, MAX_INPUT>
+                      weight_input[ARRAY_HEIGHT][MAX_OUTPUT]) {
 input_turn_weight:
   for (int turn = 0; turn < FEATURE_LENGTH; turn++) {
   input_weight_col:
     for (int col = 0; col < MAX_OUTPUT; col++) {
-      int weight_val = weight_array[turn * output_size + col];
+      compute_type weight_val = weight_array[turn * output_size + col];
     input_weight_row:
       for (int row = 0; row < ARRAY_HEIGHT; row++) {
         weight_input[row][col].write(weight_val);
@@ -53,9 +55,10 @@ input_turn_weight:
   }
 }
 
-void output(int* output_data,
-            int output_size,
-            hls::stream<int, 1> output_stream[ARRAY_HEIGHT][MAX_OUTPUT]) {
+void output(
+    compute_type* output_data,
+    int output_size,
+    hls::stream<compute_type, 1> output_stream[ARRAY_HEIGHT][MAX_OUTPUT]) {
 output_col:
   for (int col = 0; col < MAX_OUTPUT; col++) {
   output_row:
@@ -65,10 +68,11 @@ output_col:
   }
 }
 
-void PE_compute(
-    hls::stream<int, MAX_INPUT> property_input[ARRAY_HEIGHT][MAX_OUTPUT],
-    hls::stream<int, MAX_OUTPUT> weight_input[ARRAY_HEIGHT][MAX_OUTPUT],
-    hls::stream<int, 1> output[ARRAY_HEIGHT][MAX_OUTPUT]) {
+void PE_compute(hls::stream<compute_type, MAX_INPUT>
+                    property_input[ARRAY_HEIGHT][MAX_OUTPUT],
+                hls::stream<compute_type, MAX_OUTPUT> weight_input[ARRAY_HEIGHT]
+                                                                  [MAX_OUTPUT],
+                hls::stream<compute_type, 1> output[ARRAY_HEIGHT][MAX_OUTPUT]) {
 compute_col:
   for (int col = 0; col < MAX_OUTPUT; col++) {
   compute_row:
@@ -79,15 +83,15 @@ compute_col:
   }
 }
 
-void rerArray(int* featrue_data,
+void rerArray(compute_type* featrue_data,
               int featrue_length,
-              int* weight_array,
+              compute_type* weight_array,
               int output_size,
               int node_cnt,
-              int* output_data) {
-  hls::stream<int, MAX_INPUT> property_input[ARRAY_HEIGHT][MAX_OUTPUT];
-  hls::stream<int, MAX_OUTPUT> weight_input[ARRAY_HEIGHT][MAX_OUTPUT];
-  hls::stream<int, 1> output_stream[ARRAY_HEIGHT][MAX_OUTPUT];
+              compute_type* output_data) {
+  hls::stream<compute_type, MAX_INPUT> property_input[ARRAY_HEIGHT][MAX_OUTPUT];
+  hls::stream<compute_type, MAX_OUTPUT> weight_input[ARRAY_HEIGHT][MAX_OUTPUT];
+  hls::stream<compute_type, 1> output_stream[ARRAY_HEIGHT][MAX_OUTPUT];
   const unsigned batchnum = node_cnt / ARRAY_HEIGHT;
   int buff[ARRAY_HEIGHT][MAX_OUTPUT];
 batch_round:
