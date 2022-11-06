@@ -1,4 +1,4 @@
-
+#include <hls_stream.h>
 #define ARRAY_HEIGHT 4
 #define MAX_OUTPUT 8
 #define MAX_INPUT 8

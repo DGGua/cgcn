@@ -3,6 +3,10 @@
   <errorLogs>
     <logs>
       <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
     </logs>
   </errorLogs>
   <warningLogs>
@@ -100,6 +104,10 @@
         <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'rerArray_Pipeline_rerArray_label2/m_axi_weight_input_ARVALID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-05T15:50:05.415+0800" type="Warning"/>
         <logs message="WARNING: [HLS 200-1018] Consider increasing the depth of FIFO output_stream_3_796 (from PE_compute_U0 to output_U0) to 2 to improve performance and/or avoid deadlocks." projectName="cgcn" solutionName="solution3" date="2022-11-05T15:49:47.437+0800" type="Warning"/>
       </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>

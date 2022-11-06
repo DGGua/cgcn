@@ -1,6 +1,7 @@
 #include "systolic.h"
 #include <ap_fixed.h>
 #include <string.h>
+#include "agg.h"
 #include "defines.h"
 void PE(hls::stream<compute_type>& property_input,
         hls::stream<compute_type>& weight_input,
@@ -59,7 +60,7 @@ input_turn_weight:
   }
 }
 
-void output(
+void output_combine(
     compute_type* output_data,
     int output_size,
     hls::stream<compute_type, 1> output_stream[ARRAY_HEIGHT][MAX_OUTPUT]) {
@@ -87,18 +88,25 @@ compute_col:
   }
 }
 
-void rerArray(compute_type* featrue_data,
+void rerArray(float* adj_mat,
+              compute_type* featrue_data,
               int featrue_length,
               compute_type* weight_array,
               int output_size,
               int node_cnt,
+              compute_type* inter_data,
               compute_type* output_data) {
   hls::stream<compute_type, MAX_INPUT> property_input[ARRAY_HEIGHT][MAX_OUTPUT];
   hls::stream<compute_type, MAX_OUTPUT> weight_input[ARRAY_HEIGHT][MAX_OUTPUT];
-  hls::stream<compute_type, 1> output_stream[ARRAY_HEIGHT][MAX_OUTPUT];
+  hls::stream<compute_type, 1> output_compute_stream[ARRAY_HEIGHT][MAX_OUTPUT];
+  hls::stream<compute_type, 1> agg_dst_input_stream[ARRAY_HEIGHT][MAX_OUTPUT];
+  hls::stream<compute_type, 1> agg_rer_stream[ARRAY_HEIGHT][MAX_OUTPUT];
+  hls::stream<float, 1> agg_contorl_stream[ARRAY_HEIGHT][MAX_OUTPUT];
+  hls::stream<float, 1> agg_output_stream[ARRAY_HEIGHT][MAX_OUTPUT];
   const unsigned batchnum = node_cnt / ARRAY_HEIGHT;
   compute_type weight_buff[MAX_OUTPUT * FEATURE_LENGTH];
-  rerArray_label2:for (int i = 0; i < MAX_OUTPUT * FEATURE_LENGTH; i++) {
+rerArray_label2:
+  for (int i = 0; i < MAX_OUTPUT * FEATURE_LENGTH; i++) {
     weight_buff[i] = weight_array[i];
   }
   compute_type buff[ARRAY_HEIGHT][MAX_OUTPUT];
@@ -106,7 +114,25 @@ batch_round:
   for (int batch = 0; batch < batchnum; batch++) {
     input_property(batch, featrue_data, property_input);
     input_weight(batch, weight_buff, output_size, weight_input);
-    PE_compute(property_input, weight_input, output_stream);
-    output(output_data, output_size, output_stream);
+    PE_compute(property_input, weight_input, output_compute_stream);
+    output_combine(inter_data, output_size, output_compute_stream);
   }
-}
+/**
+ *   src dst → 0 1 2 3 4
+ *    ↓
+ *    0        x x x x x
+ *    1        x x x x x
+ *    2        x x x x x
+ *    3        x x x x x (x are float type)
+ */
+agg:
+  for (int row = 0; row < batchnum; row++) {
+    input_src_nodes(row, agg_rer_stream, inter_data);
+    for (int col = 0; col < batchnum; col++) {
+      input_target_nodes(col, agg_dst_input_stream, output_data);
+      control_agg(row, col, adj_mat, agg_contorl_stream);
+      PE_aggregate(agg_dst_input_stream, agg_rer_stream, agg_contorl_stream,
+                   agg_output_stream);
+      output(col, agg_output_stream, output_data);
+    }
+  }
