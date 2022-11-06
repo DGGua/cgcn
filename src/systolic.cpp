@@ -1,7 +1,6 @@
 #include "systolic.h"
 #include <ap_fixed.h>
 #include <string.h>
-#include "defines.h"
 void PE(hls::stream<compute_type>& property_input,
         hls::stream<compute_type>& weight_input,
         hls::stream<compute_type>& data_output,
