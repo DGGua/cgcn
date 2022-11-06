@@ -67,6 +67,11 @@
 			<location>C:/code/vitiscode/cgcn/src/test.cpp</location>
 		</link>
 		<link>
+			<name>test/constraints</name>
+			<type>2</type>
+			<location>C:/code/vitiscode/cgcn/test/.tcls</location>
+		</link>
+		<link>
 			<name>testbench/testbench.cpp</name>
 			<type>1</type>
 			<location>C:/code/vitiscode/cgcn/src/testbench.cpp</location>
@@ -115,6 +120,21 @@
 			<name>solution3/constraints/script.tcl</name>
 			<type>1</type>
 			<location>C:/code/vitiscode/cgcn/solution3/script.tcl</location>
+		</link>
+		<link>
+			<name>test/constraints/.xml.directive</name>
+			<type>1</type>
+			<location>C:/code/vitiscode/cgcn/test/test.directive</location>
+		</link>
+		<link>
+			<name>test/constraints/directives.tcl</name>
+			<type>1</type>
+			<location>C:/code/vitiscode/cgcn/test/directives.tcl</location>
+		</link>
+		<link>
+			<name>test/constraints/script.tcl</name>
+			<type>1</type>
+			<location>C:/code/vitiscode/cgcn/test/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>
