@@ -3,6 +3,10 @@
   <errorLogs>
     <logs>
       <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
     </logs>
   </errorLogs>
   <warningLogs>
@@ -35,6 +39,10 @@
         <logs message="WARNING: [RTGEN 206-101] Port 'rerArray/m_axi_feature_input_ARPROT' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="cgcn" solutionName="test" date="2022-11-05T15:59:30.199+0800" type="Warning"/>
         <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'rerArray/m_axi_feature_input_ARCACHE' to 0." projectName="cgcn" solutionName="test" date="2022-11-05T15:59:30.148+0800" type="Warning"/>
       </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>

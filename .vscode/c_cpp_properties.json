@@ -3,7 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/**",
                 "/tools/Xilinx/Vitis_HLS/2022.1/include/**",
                 "C:/Xilinx/Vitis_HLS/2022.1/include"
             ],
@@ -17,7 +17,7 @@
         {
             "name": "Windows",
             "includePath": [
-                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/**",
                 "C:/Xilinx/Vitis_HLS/2022.1/include/**"
             ],
             "defines": [],
