@@ -3,7 +3,7 @@
   <files>
     <file name="../src/testbench.cpp" sc="0" tb="1" cflags=" -Wno-unknown-pragmas" blackbox="false" csimflags=" -Wno-unknown-pragmas"/>
     <file name="cgcn/src/systolic.cpp" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
-    <file name="cgcn/src/test.cpp" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
+    <file name="cgcn/src/agg.cpp" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
   </files>
   <solutions>
     <solution name="solution1" status="inactive"/>
@@ -14,6 +14,6 @@
   <includePaths/>
   <libraryPaths/>
   <Simulation>
-    <SimFlow name="csim" profile="true" clean="true" csimMode="0" lastCsimMode="0"/>
+    <SimFlow name="csim" clean="true" csimMode="2" lastCsimMode="0"/>
   </Simulation>
 </project>

@@ -5,8 +5,8 @@
 ############################################################
 open_project cgcn
 set_top rerArray
+add_files cgcn/src/agg.cpp
 add_files cgcn/src/systolic.cpp
-add_files cgcn/src/test.cpp
 add_files -tb cgcn/src/testbench.cpp -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 open_solution "test" -flow_target vivado
 set_part {xc7z045ffv900-1}

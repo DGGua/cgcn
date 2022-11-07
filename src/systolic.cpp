@@ -3,9 +3,9 @@
 #include <string.h>
 #include "agg.h"
 #include "defines.h"
-void PE(hls::stream<compute_type>& property_input,
-        hls::stream<compute_type>& weight_input,
-        hls::stream<compute_type>& data_output,
+void PE(hls::stream<compute_type, MAX_INPUT>& property_input,
+        hls::stream<compute_type, MAX_INPUT>& weight_input,
+        hls::stream<compute_type, 1>& data_output,
         int turn) {
   compute_type a = 0, b = 0;
   compute_type sum[8] = {0, 0, 0, 0, 0, 0, 0, 0};
@@ -26,15 +26,14 @@ void input_property(int batch,
                     hls::stream<compute_type, MAX_INPUT>
                         property_input[ARRAY_HEIGHT][MAX_OUTPUT]) {
 input_turn_property:
-  for (int turn = 0; turn < FEATURE_LENGTH; turn++) {
-    compute_type property_val[ARRAY_HEIGHT];
-    memcpy(property_val, featrue_data + turn * ARRAY_HEIGHT,
-           sizeof(compute_type) * ARRAY_HEIGHT);
+  for (int turn = 0; turn < MAX_INPUT; turn++) {
+    const int offset = batch * MAX_INPUT * ARRAY_HEIGHT;
   input_property_row:
     for (int row = 0; row < ARRAY_HEIGHT; row++) {
     input_property_col:
       for (int col = 0; col < MAX_OUTPUT; col++) {
-        property_input[row][col].write(property_val[row]);
+        property_input[row][col].write(
+            featrue_data[offset + row * MAX_INPUT + turn]);
       }
     }
   }
@@ -46,7 +45,7 @@ void input_weight(int batch,
                   hls::stream<compute_type, MAX_INPUT>
                       weight_input[ARRAY_HEIGHT][MAX_OUTPUT]) {
 input_turn_weight:
-  for (int turn = 0; turn < FEATURE_LENGTH; turn++) {
+  for (int turn = 0; turn < MAX_INPUT; turn++) {
     compute_type weight_val[MAX_OUTPUT];
     memcpy(weight_val, weight_array + turn * MAX_OUTPUT,
            sizeof(compute_type) * MAX_OUTPUT);
@@ -61,29 +60,31 @@ input_turn_weight:
 }
 
 void output_combine(
+    int batch,
     compute_type* output_data,
-    int output_size,
     hls::stream<compute_type, 1> output_stream[ARRAY_HEIGHT][MAX_OUTPUT]) {
-output_col:
-  for (int col = 0; col < MAX_OUTPUT; col++) {
-  output_row:
-    for (int row = 0; row < ARRAY_HEIGHT; row++) {
-      output_data[col * output_size + row] = output_stream[row][col].read();
+output_row:
+  const int offset = MAX_OUTPUT * ARRAY_HEIGHT * batch;
+  for (int row = 0; row < ARRAY_HEIGHT; row++) {
+  output_col:
+    for (int col = 0; col < MAX_OUTPUT; col++) {
+      output_data[offset + row * MAX_OUTPUT + col] =
+          output_stream[row][col].read();
     }
   }
 }
 
-void PE_compute(hls::stream<compute_type, MAX_INPUT>
-                    property_input[ARRAY_HEIGHT][MAX_OUTPUT],
-                hls::stream<compute_type, MAX_OUTPUT> weight_input[ARRAY_HEIGHT]
-                                                                  [MAX_OUTPUT],
-                hls::stream<compute_type, 1> output[ARRAY_HEIGHT][MAX_OUTPUT]) {
+void PE_compute(
+    hls::stream<compute_type, MAX_INPUT> property_input[ARRAY_HEIGHT]
+                                                       [MAX_OUTPUT],
+    hls::stream<compute_type, MAX_INPUT> weight_input[ARRAY_HEIGHT][MAX_OUTPUT],
+    hls::stream<compute_type, 1> output[ARRAY_HEIGHT][MAX_OUTPUT]) {
 compute_col:
   for (int col = 0; col < MAX_OUTPUT; col++) {
   compute_row:
     for (int row = 0; row < ARRAY_HEIGHT; row++) {
       PE(property_input[row][col], weight_input[row][col], output[row][col],
-         FEATURE_LENGTH);
+         MAX_INPUT);
     }
   }
 }
@@ -97,16 +98,18 @@ void rerArray(float* adj_mat,
               compute_type* inter_data,
               compute_type* output_data) {
   hls::stream<compute_type, MAX_INPUT> property_input[ARRAY_HEIGHT][MAX_OUTPUT];
-  hls::stream<compute_type, MAX_OUTPUT> weight_input[ARRAY_HEIGHT][MAX_OUTPUT];
+  hls::stream<compute_type, MAX_INPUT> weight_input[ARRAY_HEIGHT][MAX_OUTPUT];
   hls::stream<compute_type, 1> output_compute_stream[ARRAY_HEIGHT][MAX_OUTPUT];
-  hls::stream<compute_type, 1> agg_dst_input_stream[ARRAY_HEIGHT][MAX_OUTPUT];
-  hls::stream<compute_type, 1> agg_rer_stream[ARRAY_HEIGHT][MAX_OUTPUT];
-  hls::stream<float, 1> agg_contorl_stream[ARRAY_HEIGHT][MAX_OUTPUT];
+  hls::stream<compute_type, ARRAY_HEIGHT> agg_dst_input_stream[ARRAY_HEIGHT]
+                                                              [MAX_OUTPUT];
+  hls::stream<compute_type, ARRAY_HEIGHT> agg_rer_stream[ARRAY_HEIGHT]
+                                                        [MAX_OUTPUT];
+  hls::stream<float, ARRAY_HEIGHT> agg_contorl_stream[ARRAY_HEIGHT][MAX_OUTPUT];
   hls::stream<float, 1> agg_output_stream[ARRAY_HEIGHT][MAX_OUTPUT];
   const unsigned batchnum = node_cnt / ARRAY_HEIGHT;
-  compute_type weight_buff[MAX_OUTPUT * FEATURE_LENGTH];
+  compute_type weight_buff[MAX_OUTPUT * MAX_INPUT];
 rerArray_label2:
-  for (int i = 0; i < MAX_OUTPUT * FEATURE_LENGTH; i++) {
+  for (int i = 0; i < MAX_OUTPUT * MAX_INPUT; i++) {
     weight_buff[i] = weight_array[i];
   }
   compute_type buff[ARRAY_HEIGHT][MAX_OUTPUT];
@@ -115,7 +118,7 @@ batch_round:
     input_property(batch, featrue_data, property_input);
     input_weight(batch, weight_buff, output_size, weight_input);
     PE_compute(property_input, weight_input, output_compute_stream);
-    output_combine(inter_data, output_size, output_compute_stream);
+    output_combine(batch, inter_data, output_compute_stream);
   }
 /**
  *   src dst → 0 1 2 3 4
@@ -136,3 +139,4 @@ agg:
       output(col, agg_output_stream, output_data);
     }
   }
+}

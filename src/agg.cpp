@@ -1,34 +1,34 @@
 #include "agg.h"
-void input_src_nodes(
-    int row_index,
-    hls::stream<compute_type, 1> agg_rer_stream[ARRAY_HEIGHT][MAX_OUTPUT],
-    compute_type* inter_data) {
+void input_src_nodes(int row_index,
+                     hls::stream<compute_type, ARRAY_HEIGHT>
+                         agg_rer_stream[ARRAY_HEIGHT][MAX_OUTPUT],
+                     compute_type* inter_data) {
   const int offset = row_index * ARRAY_HEIGHT;
   for (int row = 0; row < ARRAY_HEIGHT; row++) {
-    for (int col = 0; col < FEATURE_LENGTH; col++) {
+    for (int col = 0; col < MAX_INPUT; col++) {
       agg_rer_stream[row][col].write(inter_data[row * MAX_OUTPUT + col]);
     }
   }
 }
 
-void input_target_nodes(
-    int col_index,
-    hls::stream<compute_type, 1> agg_dst_input_stream[ARRAY_HEIGHT][MAX_OUTPUT],
-    compute_type* output_data) {
+void input_target_nodes(int col_index,
+                        hls::stream<compute_type, ARRAY_HEIGHT>
+                            agg_dst_input_stream[ARRAY_HEIGHT][MAX_OUTPUT],
+                        compute_type* output_data) {
   const int offset = col_index * ARRAY_HEIGHT;
   for (int row = 0; row < ARRAY_HEIGHT; ++row) {
-    for (int col = 0; col < FEATURE_LENGTH; ++col) {
+    for (int col = 0; col < MAX_INPUT; ++col) {
       agg_dst_input_stream[row][col].write(
           output_data[(row + offset) * MAX_OUTPUT + col]);
     }
   }
 }
 
-void control_agg(
-    int row_index,
-    int col_index,
-    float* adj_mat,
-    hls::stream<float, 1> agg_contorl_stream[ARRAY_HEIGHT][MAX_OUTPUT]) {
+void control_agg(int row_index,
+                 int col_index,
+                 float* adj_mat,
+                 hls::stream<float, ARRAY_HEIGHT>
+                     agg_contorl_stream[ARRAY_HEIGHT][MAX_OUTPUT]) {
   const int row_offset = row_index * ARRAY_HEIGHT;
   const int col_offset = col_index * ARRAY_HEIGHT;
   // 每轮
@@ -46,22 +46,21 @@ void control_agg(
   }
 }
 
-void output(
-    int col_index,
-    hls::stream<compute_type, 1> agg_output_stream[ARRAY_HEIGHT][MAX_OUTPUT],
-    compute_type* output_data) {
+void output(int col_index,
+            hls::stream<float, 1> agg_output_stream[ARRAY_HEIGHT][MAX_OUTPUT],
+            compute_type* output_data) {
   const int offset = col_index * ARRAY_HEIGHT;
   for (int row = 0; row < ARRAY_HEIGHT; ++row) {
-    for (int col = 0; col < FEATURE_LENGTH; ++col) {
+    for (int col = 0; col < MAX_INPUT; ++col) {
       output_data[(row + offset) * MAX_OUTPUT + col] =
           agg_output_stream[row][col].read();
     }
   }
 }
-void PE2(hls::stream<compute_type, 1>& agg_dst_input_stream,
-         hls::stream<compute_type, 1>& agg_rer_input_stream,
-         hls::stream<compute_type, 1>& agg_rer_output_stream,
-         hls::stream<float, 1>& agg_contorl_stream,
+void PE2(hls::stream<compute_type, ARRAY_HEIGHT>& agg_dst_input_stream,
+         hls::stream<compute_type, ARRAY_HEIGHT>& agg_rer_input_stream,
+         hls::stream<compute_type, ARRAY_HEIGHT>& agg_rer_output_stream,
+         hls::stream<float, ARRAY_HEIGHT>& agg_contorl_stream,
          hls::stream<float, 1>& agg_output_stream) {
   int partial_sum = agg_dst_input_stream.read();
   for (int turn = 0; turn < ARRAY_HEIGHT; turn++) {
@@ -74,11 +73,14 @@ void PE2(hls::stream<compute_type, 1>& agg_dst_input_stream,
   }
 }
 void PE_aggregate(
-    hls::stream<compute_type, 1> agg_dst_input_stream[ARRAY_HEIGHT][MAX_OUTPUT],
-    hls::stream<compute_type, 1> agg_rer_stream[ARRAY_HEIGHT][MAX_OUTPUT],
-    hls::stream<float, 1> agg_contorl_stream[ARRAY_HEIGHT][MAX_OUTPUT],
+    hls::stream<compute_type, ARRAY_HEIGHT> agg_dst_input_stream[ARRAY_HEIGHT]
+                                                                [MAX_OUTPUT],
+    hls::stream<compute_type, ARRAY_HEIGHT> agg_rer_stream[ARRAY_HEIGHT]
+                                                          [MAX_OUTPUT],
+    hls::stream<float, ARRAY_HEIGHT> agg_contorl_stream[ARRAY_HEIGHT]
+                                                       [MAX_OUTPUT],
     hls::stream<float, 1> agg_output_stream[ARRAY_HEIGHT][MAX_OUTPUT]) {
-  for (int row = 0; row < ARRAY_HEIGHT; row++) {
+  for (int row = 0; row < ARRAY_HEIGHT; row++) T{
     for (int col = 0; col < MAX_OUTPUT; col++) {
       PE2(agg_dst_input_stream[row][col], agg_rer_stream[row][col],
           agg_rer_stream[row][(col + 1) % MAX_OUTPUT],

@@ -37,11 +37,6 @@
 			<location>C:/code/vitiscode/cgcn/.apc/.tb</location>
 		</link>
 		<link>
-			<name>.reference/string.h</name>
-			<type>1</type>
-			<location>C:/Xilinx/Vitis_HLS/2022.1/tps/win64/msys64/mingw64/x86_64-w64-mingw32/include/string.h</location>
-		</link>
-		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
 			<location>C:/code/vitiscode/cgcn/solution1/.tcls</location>
@@ -57,14 +52,14 @@
 			<location>C:/code/vitiscode/cgcn/solution3/.tcls</location>
 		</link>
 		<link>
+			<name>source/agg.cpp</name>
+			<type>1</type>
+			<location>C:/code/vitiscode/cgcn/src/agg.cpp</location>
+		</link>
+		<link>
 			<name>source/systolic.cpp</name>
 			<type>1</type>
 			<location>C:/code/vitiscode/cgcn/src/systolic.cpp</location>
-		</link>
-		<link>
-			<name>source/test.cpp</name>
-			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/src/test.cpp</location>
 		</link>
 		<link>
 			<name>test/constraints</name>
