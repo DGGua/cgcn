@@ -1,0 +1,27 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2022.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu' (Linux_x86_64 version 5.15.0-52-generic) on Mon Nov 07 16:28:59 CST 2022
+INFO: [HLS 200-10] On os Ubuntu 20.04.5 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/VitisCodes/cgcn'
+Sourcing Tcl script '/home/ubuntu/VitisCodes/cgcn/solution1/csim.tcl'
+INFO: [HLS 200-1510] Running: source /home/ubuntu/VitisCodes/cgcn/solution1/csim.tcl
+/home/ubuntu/VitisCodes/cgcn/solution1/csim.tcl can't be opened.
+couldn't read file "/home/ubuntu/VitisCodes/cgcn/solution1/csim.tcl": no such file or directory
+    while executing
+"source /home/ubuntu/VitisCodes/cgcn/solution1/csim.tcl"
+    invoked from within
+"hls::main /home/ubuntu/VitisCodes/cgcn/solution1/csim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$newargs"
+    (procedure "hls_proc" line 16)
+    invoked from within
+"hls_proc [info nameofexecutable] $argv"
+INFO: [HLS 200-112] Total CPU user time: 0.17 seconds. Total CPU system time: 0.02 seconds. Total elapsed time: 0.2 seconds; peak allocated memory: 19.297 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Mon Nov  7 16:28:59 2022...

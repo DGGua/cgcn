@@ -4,3 +4,4 @@
 !include/*
 !*/directives.tcl
 !*/script.tcl
+!*/*.directive

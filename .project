@@ -29,107 +29,107 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>C:/code/vitiscode/cgcn/.apc/.src</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>C:/code/vitiscode/cgcn/.apc/.tb</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/.apc/.tb</location>
 		</link>
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>C:/code/vitiscode/cgcn/solution1/.tcls</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution1/.tcls</location>
 		</link>
 		<link>
 			<name>solution2/constraints</name>
 			<type>2</type>
-			<location>C:/code/vitiscode/cgcn/solution2/.tcls</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution2/.tcls</location>
 		</link>
 		<link>
 			<name>solution3/constraints</name>
 			<type>2</type>
-			<location>C:/code/vitiscode/cgcn/solution3/.tcls</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution3/.tcls</location>
 		</link>
 		<link>
 			<name>source/agg.cpp</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/src/agg.cpp</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/src/agg.cpp</location>
 		</link>
 		<link>
 			<name>source/systolic.cpp</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/src/systolic.cpp</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/src/systolic.cpp</location>
 		</link>
 		<link>
 			<name>test/constraints</name>
 			<type>2</type>
-			<location>C:/code/vitiscode/cgcn/test/.tcls</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/test/.tcls</location>
 		</link>
 		<link>
 			<name>testbench/testbench.cpp</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/src/testbench.cpp</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/src/testbench.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/solution1/solution1.directive</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/solution1/directives.tcl</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/solution1/script.tcl</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution1/script.tcl</location>
 		</link>
 		<link>
 			<name>solution2/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/solution2/solution2.directive</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution2/solution2.directive</location>
 		</link>
 		<link>
 			<name>solution2/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/solution2/directives.tcl</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution2/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution2/constraints/script.tcl</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/solution2/script.tcl</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution2/script.tcl</location>
 		</link>
 		<link>
 			<name>solution3/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/solution3/solution3.directive</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution3/solution3.directive</location>
 		</link>
 		<link>
 			<name>solution3/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/solution3/directives.tcl</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution3/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution3/constraints/script.tcl</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/solution3/script.tcl</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution3/script.tcl</location>
 		</link>
 		<link>
 			<name>test/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/test/test.directive</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/test/test.directive</location>
 		</link>
 		<link>
 			<name>test/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/test/directives.tcl</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/test/directives.tcl</location>
 		</link>
 		<link>
 			<name>test/constraints/script.tcl</name>
 			<type>1</type>
-			<location>C:/code/vitiscode/cgcn/test/script.tcl</location>
+			<location>/home/ubuntu/VitisCodes/cgcn/test/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>

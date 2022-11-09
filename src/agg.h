@@ -3,12 +3,14 @@ void input_src_nodes(int row_index,
                      hls::stream<compute_type, ARRAY_HEIGHT>
                          agg_rer_stream[ARRAY_HEIGHT][MAX_OUTPUT],
                      compute_type* inter_data);
-void input_target_nodes(int col_index,
+void input_target_nodes(bool init,
+                        int col_index,
                         hls::stream<compute_type, ARRAY_HEIGHT>
                             agg_dst_input_stream[ARRAY_HEIGHT][MAX_OUTPUT],
                         compute_type* output_data);
 void control_agg(int row_index,
                  int col_index,
+                 int node_cnt,
                  float* adj_mat,
                  hls::stream<float, ARRAY_HEIGHT>
                      agg_contorl_stream[ARRAY_HEIGHT][MAX_OUTPUT]);

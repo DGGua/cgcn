@@ -1,4 +1,8 @@
+#include <iostream>
 #include "systolic.h"
+
+using std::cout;
+using std::endl;
 int test_PE() {
   compute_type property_data[] = {
       1, 2, 3, 4, 5, 6, 7, 8,
@@ -85,10 +89,11 @@ int test_agg() {
 }
 
 int main() {
-  if (test_PE())
-    return 1;
-  if (test_combine())
-    return 1;
+  cout << "start" << endl;
+  // if (test_PE())
+  //   return 1;
+  // if (test_combine())
+  //   return 1;
   if (test_agg()) {
     return 1;
   }

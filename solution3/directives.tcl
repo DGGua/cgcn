@@ -30,8 +30,9 @@ set_directive_pipeline "output/output_row"
 set_directive_pipeline -II 2 "PE/PE_label1"
 set_directive_pipeline -II 1 "PE/PE_Compute"
 set_directive_interface -mode m_axi -bundle feature_input "rerArray" featrue_data
-set_directive_interface -mode m_axi -depth 50 -bundle weight_input -max_widen_bitwidth 256 "rerArray" weight_array
+set_directive_interface -mode m_axi -bundle weight_input "rerArray" weight_array
 set_directive_unroll "input_weight/input_weight_col"
 set_directive_pipeline "input_weight/input_turn_weight"
 set_directive_pipeline "input_property/input_turn_property"
 set_directive_unroll -factor 4 "rerArray/rerArray_label2"
+set_directive_pipeline -II 1 "rerArray/rerArray_label2"
