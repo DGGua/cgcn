@@ -6,8 +6,8 @@
     </Simulation>
     <files xmlns="">
         <file name="../src/testbench.cpp" sc="0" tb="1" cflags=" -Wno-unknown-pragmas" csimflags=" -Wno-unknown-pragmas" blackbox="false"/>
-        <file name="cgcn/src/systolic.cpp" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>
         <file name="cgcn/src/agg.cpp" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>
+        <file name="cgcn/src/systolic.cpp" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>
     </files>
     <solutions xmlns="">
         <solution name="solution1" status="inactive"/>

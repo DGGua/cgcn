@@ -27,7 +27,9 @@
             </pragma>
         </directive>
         <directive functionName="rerArray" label="batch_round" functionLabel="">
-            <pragma name="DATAFLOW"/>
+            <pragma name="DATAFLOW">
+                <option name="disable_start_propagation" value="" positionalBoolean="1"/>
+            </pragma>
         </directive>
         <directive functionName="rerArray" label="" functionLabel="">
             <pragma name="TOP">
@@ -131,6 +133,56 @@
         <directive functionName="rerArray" label="rerArray_label2" functionLabel="">
             <pragma name="PIPELINE">
                 <option name="II" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="PE_aggregate" label="PE_aggregate_row" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="PE_aggregate" label="PE_aggregate_col" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="PE2" label="PE2_turn" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="control_agg" label="input_control_row" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="control_agg" label="input_control_col" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="input_src_nodes" label="input_src_nodes_col" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="input_src_nodes" label="input_src_nodes_row" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="output" label="agg_output_row" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="output" label="agg_output_col" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="rerArray" label="agg" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="max" value="8"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="agg_col" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="max" value="8"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="agg_col" functionLabel="">
+            <pragma name="DATAFLOW"/>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="rerArray"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="rerArray"/>
             </pragma>
         </directive>
     </sourceFile>

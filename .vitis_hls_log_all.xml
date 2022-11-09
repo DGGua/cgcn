@@ -2,18 +2,21 @@
 <vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
   <errorLogs>
     <logs>
-      <csimLog/>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Pre-synthesis failed." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.357+0800"/>
+        <logs message="ERROR: [HLS 200-1715] Encountered problem during source synthesis" projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.351+0800"/>
+        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_3_3' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.343+0800"/>
+        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_3_2' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.336+0800"/>
+        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_3_1' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.327+0800"/>
+        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_3_0' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.323+0800"/>
+        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_2_3' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.319+0800"/>
+        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_2_2' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.312+0800"/>
+      </synLog>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
-      <csimLog>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;float, 0>32' contains leftover data, which may result in RTL simulation hanging.&#xA;0.000000&#xA;8.000000&#xA;32.000000&#xA;24.000000&#xA;8.000000&#xA;16.000000&#xA;32.000000&#xA;64.000000&#xA;48.000000&#xA;96.000000&#xA;0.000000&#xA;287242739832061952.000000&#xA;80.122314&#xA;0.000000&#xA;149.470856&#xA;0.000000&#xA;149.454529&#xA;0.000000&#xA;95.125000&#xA;0.000000&#xA;-15967018921378922081507909876037189632.000000&#xA;0.000000" projectName="cgcn" solutionName="solution3" date="2022-11-09T10:48:07.120+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;float, 0>33' contains leftover data, which may result in RTL simulation hanging." projectName="cgcn" solutionName="solution3" date="2022-11-09T10:48:07.117+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;float, 0>34' contains leftover data, which may result in RTL simulation hanging." projectName="cgcn" solutionName="solution3" date="2022-11-09T10:48:07.113+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;float, 0>35' contains leftover data, which may result in RTL simulation hanging." projectName="cgcn" solutionName="solution3" date="2022-11-09T10:48:07.110+0800" type="Warning"/>
-        <logs message="WARNING: Hls::stream 'hls::stream&lt;float, 0>48' contains leftover data, which may result in RTL simulation hanging." projectName="cgcn" solutionName="solution3" date="2022-11-09T10:48:07.108+0800" type="Warning"/>
-      </csimLog>
+      <synLog/>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>
