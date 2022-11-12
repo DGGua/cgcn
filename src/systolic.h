@@ -3,30 +3,31 @@
 #include <string.h>
 #include "defines.h"
 
-void PE(hls::stream<compute_type, MAX_INPUT>& property_input,
-        hls::stream<compute_type, MAX_INPUT>& weight_input,
-        hls::stream<compute_type, 1>& data_output,
+void PE(compute_type property_input[MAX_PROPERTY_INPUT],
+        compute_type weight_input[MAX_PROPERTY_INPUT],
+        compute_type& output_compute,
         int turn);
-void input_property(int batch,
-                    compute_type* featrue_data,
-                    hls::stream<compute_type, MAX_INPUT>
-                        property_input[ARRAY_HEIGHT][MAX_OUTPUT]);
+void input_property(
+    int batch,
+    compute_type* featrue_data,
+    compute_type property_input[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]
+                               [MAX_PROPERTY_INPUT]);
 
 void input_weight(int batch,
                   compute_type* weight_array,
                   int output_size,
-                  hls::stream<compute_type, MAX_INPUT>
-                      weight_input[ARRAY_HEIGHT][MAX_OUTPUT]);
+                  compute_type weight_input[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]
+                                           [MAX_PROPERTY_INPUT]);
 
 void output_combine(
     int batch,
     compute_type* output_data,
-    hls::stream<compute_type, 1> output_stream[ARRAY_HEIGHT][MAX_OUTPUT]);
-void PE_compute(hls::stream<compute_type, MAX_INPUT>
-                    property_input[ARRAY_HEIGHT][MAX_OUTPUT],
-                hls::stream<compute_type, MAX_OUTPUT> weight_input[ARRAY_HEIGHT]
-                                                                  [MAX_OUTPUT],
-                hls::stream<compute_type, 1> output[ARRAY_HEIGHT][MAX_OUTPUT]);
+    compute_type output_compute[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]);
+void PE_compute(compute_type property_input[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]
+                                           [MAX_PROPERTY_INPUT],
+                compute_type weight_input[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]
+                                         [MAX_PROPERTY_INPUT],
+                compute_type output_compute[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]);
 void rerArray(float* adj_mat,
               compute_type* featrue_data,
               int featrue_length,

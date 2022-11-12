@@ -1,32 +1,29 @@
 #include "defines.h"
-void input_src_nodes(int row_index,
-                     hls::stream<compute_type, ARRAY_HEIGHT>
-                         agg_rer_stream[ARRAY_HEIGHT][MAX_OUTPUT],
-                     compute_type* inter_data);
-void input_target_nodes(bool init,
-                        int col_index,
-                        hls::stream<compute_type, ARRAY_HEIGHT>
-                            agg_dst_input_stream[ARRAY_HEIGHT][MAX_OUTPUT],
-                        compute_type* output_data);
-void control_agg(int row_index,
-                 int col_index,
-                 int node_cnt,
-                 float* adj_mat,
-                 hls::stream<float, ARRAY_HEIGHT>
-                     agg_contorl_stream[ARRAY_HEIGHT][MAX_OUTPUT]);
-void output(int col_index,
-            hls::stream<float, 1> agg_output_stream[ARRAY_HEIGHT][MAX_OUTPUT],
+void input_src_nodes(
+    int col_index,
+    compute_type* inter_data,
+    compute_type agg_rer_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]);
+void input_target_nodes(
+    bool init,
+    int row_index,
+    compute_type agg_dst_input_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+    compute_type* output_data);
+void input_adj(int row_index,
+               int col_index,
+               int node_cnt,
+               float* adj_mat,
+               float agg_contorl_stream[ARRAY_HEIGHT][ARRAY_HEIGHT]);
+void output(int row_index,
+            float agg_output_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
             compute_type* output_data);
-void PE2(hls::stream<compute_type, ARRAY_HEIGHT>& agg_dst_input_stream,
-         hls::stream<compute_type, ARRAY_HEIGHT>& agg_rer_input_stream,
-         hls::stream<compute_type, ARRAY_HEIGHT>& agg_rer_output_stream,
-         hls::stream<float, ARRAY_HEIGHT>& agg_contorl_stream,
-         hls::stream<float, ARRAY_HEIGHT>& agg_output_stream);
+void PE2(int row,
+         int col,
+         compute_type agg_dst_stream,
+         compute_type agg_src_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+         float agg_contorl_stream[ARRAY_HEIGHT],
+         float& agg_output_stream);
 void PE_aggregate(
-    hls::stream<compute_type, ARRAY_HEIGHT> agg_dst_input_stream[ARRAY_HEIGHT]
-                                                                [MAX_OUTPUT],
-    hls::stream<compute_type, ARRAY_HEIGHT> agg_rer_stream[ARRAY_HEIGHT]
-                                                          [MAX_OUTPUT],
-    hls::stream<float, ARRAY_HEIGHT> agg_contorl_stream[ARRAY_HEIGHT]
-                                                       [MAX_OUTPUT],
-    hls::stream<float, 1> agg_output_stream[ARRAY_HEIGHT][MAX_OUTPUT]);
+    compute_type agg_dst_input_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+    compute_type agg_rer_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+    float agg_contorl_stream[ARRAY_HEIGHT][ARRAY_HEIGHT],
+    float agg_output_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]);

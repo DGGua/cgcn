@@ -20,6 +20,7 @@ set_directive_unroll "rerArray/output_row"
 set_directive_unroll "rerArray/compute_col"
 set_directive_unroll "PE_compute/compute_row"
 set_directive_unroll "PE_compute/compute_col"
+set_directive_unroll "input_weight/input_weight_row"
 set_directive_unroll "input_property/input_property_col"
 set_directive_unroll "input_property/input_property_row"
 set_directive_loop_tripcount -max 8 "rerArray/batch_round"
@@ -27,6 +28,7 @@ set_directive_pipeline "output/output_row"
 set_directive_pipeline -II 2 "PE/PE_label1"
 set_directive_interface -mode m_axi -offset off -bundle feature_input "rerArray" featrue_data
 set_directive_interface -mode m_axi -offset off -bundle weight_input "rerArray" weight_array
+set_directive_unroll "input_weight/input_weight_col"
 set_directive_pipeline "input_weight/input_turn_weight"
 set_directive_pipeline "input_property/input_turn_property"
 set_directive_unroll -factor 4 "rerArray/rerArray_label2"
@@ -66,5 +68,3 @@ set_directive_bind_storage -type ram_2p -impl bram "rerArray" agg_src_stream
 set_directive_bind_storage -type ram_2p -impl bram "rerArray" agg_dst_stream
 set_directive_unroll "input_adj/input_adj_col"
 set_directive_pipeline "input_adj/input_adj_row"
-set_directive_unroll "input_weight/input_weight_col"
-set_directive_unroll "input_weight/input_weight_row"

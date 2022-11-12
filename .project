@@ -52,6 +52,16 @@
 			<location>/home/ubuntu/VitisCodes/cgcn/solution3/.tcls</location>
 		</link>
 		<link>
+			<name>solution4/constraints</name>
+			<type>2</type>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution4/.tcls</location>
+		</link>
+		<link>
+			<name>source/PE_Group.cpp</name>
+			<type>1</type>
+			<location>/home/ubuntu/VitisCodes/cgcn/src/PE_Group.cpp</location>
+		</link>
+		<link>
 			<name>source/agg.cpp</name>
 			<type>1</type>
 			<location>/home/ubuntu/VitisCodes/cgcn/src/agg.cpp</location>
@@ -115,6 +125,21 @@
 			<name>solution3/constraints/script.tcl</name>
 			<type>1</type>
 			<location>/home/ubuntu/VitisCodes/cgcn/solution3/script.tcl</location>
+		</link>
+		<link>
+			<name>solution4/constraints/.xml.directive</name>
+			<type>1</type>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution4/solution4.directive</location>
+		</link>
+		<link>
+			<name>solution4/constraints/directives.tcl</name>
+			<type>1</type>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution4/directives.tcl</location>
+		</link>
+		<link>
+			<name>solution4/constraints/script.tcl</name>
+			<type>1</type>
+			<location>/home/ubuntu/VitisCodes/cgcn/solution4/script.tcl</location>
 		</link>
 		<link>
 			<name>test/constraints/.xml.directive</name>

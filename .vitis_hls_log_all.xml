@@ -2,21 +2,60 @@
 <vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
   <errorLogs>
     <logs>
-      <synLog>
-        <logs message="ERROR: [HLS 200-70] Pre-synthesis failed." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.357+0800"/>
-        <logs message="ERROR: [HLS 200-1715] Encountered problem during source synthesis" projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.351+0800"/>
-        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_3_3' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.343+0800"/>
-        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_3_2' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.336+0800"/>
-        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_3_1' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.327+0800"/>
-        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_3_0' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.323+0800"/>
-        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_2_3' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.319+0800"/>
-        <logs message="ERROR: [HLS 200-975] Stream 'agg_rer_stream_2_2' failed dataflow checking: it cannot be read and written in the same function:  'PE_aggregate' (cgcn/src/agg.cpp:105:1)." projectName="cgcn" solutionName="solution3" date="2022-11-09T12:56:18.312+0800"/>
-      </synLog>
+      <synLog/>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
-      <synLog/>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.912+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_BREADY' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.704+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_WUSER' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.696+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_WID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.690+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_WLAST' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.684+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_WSTRB' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.679+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_WDATA' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.671+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_WVALID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.664+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWUSER' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.659+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWREGION' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.655+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWQOS' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.649+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWPROT' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.644+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWCACHE' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.639+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWLOCK' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.633+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWBURST' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.629+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWSIZE' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.624+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWLEN' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.618+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.615+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWADDR' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.610+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_adj_mat_AWVALID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.604+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_BREADY' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.600+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_WUSER' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.595+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_WID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.590+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_WLAST' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.588+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_WSTRB' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.586+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_WDATA' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.584+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_WVALID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.572+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWUSER' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.568+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWREGION' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.564+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWQOS' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.560+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWPROT' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.554+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWCACHE' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.549+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWLOCK' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.546+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWBURST' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.540+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWSIZE' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.536+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWLEN' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.531+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.527+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWADDR' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.522+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc4/m_axi_inter_data_AWVALID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:14.518+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_agg/m_axi_adj_mat_BREADY' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:13.697+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_agg/m_axi_adj_mat_WUSER' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:13.690+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_agg/m_axi_adj_mat_WID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:13.685+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_agg/m_axi_adj_mat_WLAST' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:13.680+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_agg/m_axi_adj_mat_WSTRB' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:13.675+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_agg/m_axi_adj_mat_WDATA' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:13.670+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_agg/m_axi_adj_mat_WVALID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:13.665+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_agg/m_axi_adj_mat_AWUSER' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-12T16:09:13.660+0800" type="Warning"/>
+      </synLog>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>

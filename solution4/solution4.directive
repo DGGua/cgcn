@@ -65,6 +65,9 @@
         <directive functionName="PE_compute" label="compute_col" functionLabel="">
             <pragma name="UNROLL"/>
         </directive>
+        <directive functionName="input_weight" label="input_weight_row" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
         <directive functionName="input_property" label="input_property_col" functionLabel="">
             <pragma name="UNROLL"/>
         </directive>
@@ -99,6 +102,9 @@
                 <option name="offset" value="off"/>
                 <option name="bundle" value="weight_input"/>
             </pragma>
+        </directive>
+        <directive functionName="input_weight" label="input_weight_col" functionLabel="">
+            <pragma name="UNROLL"/>
         </directive>
         <directive functionName="input_weight" label="input_turn_weight" functionLabel="">
             <pragma name="PIPELINE"/>
@@ -296,12 +302,6 @@
         </directive>
         <directive functionName="input_adj" label="input_adj_row" functionLabel="">
             <pragma name="PIPELINE"/>
-        </directive>
-        <directive functionName="input_weight" label="input_weight_col" functionLabel="">
-            <pragma name="UNROLL"/>
-        </directive>
-        <directive functionName="input_weight" label="input_weight_row" functionLabel="">
-            <pragma name="UNROLL"/>
         </directive>
         <directive functionName="rerArray" label="" functionLabel="">
             <pragma name="TOP">
