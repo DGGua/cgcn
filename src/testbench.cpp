@@ -73,17 +73,21 @@ int test_agg() {
   rerArray(adj_mat, featrue_data, featrue_length, weight_array, output_size,
            node_cnt, output_data, output_data2);
   
-  // for (int i = 0; i < 32; i++) {
-  //   printf("%f%c", output_data2[i], (i + 1) % 4 ? ' ' : '\n');
-  // }
+  for (int i = 0; i < 32; i++) {
+    printf("%f%c", output_data[i], (i + 1) % 4 ? ' ' : '\n');
+  }
+  printf("============================\n");
+  for (int i = 0; i < 32; i++) {
+    printf("%f%c", output_data2[i], (i + 1) % 4 ? ' ' : '\n');
+  }
   int buf = 0;
   int psum = 0;
   for (int i = 0; i < 8; i++) {
     buf += 8;
     psum += buf;
     for (int j = 0; j < output_size; j++) {
-      // printf("%f%c", output_data2[i * output_size + j], j == output_size-1 ?
-      // '\n': ' ');
+      printf("%f%c", output_data2[i * output_size + j], j == output_size-1 ?
+      '\n': ' ');
       if (output_data2[i * output_size + j] != psum)
         return 1;
     }
@@ -94,13 +98,19 @@ int test_agg() {
 
 int main() {
   cout << "start" << endl;
-  if (test_combine()) {
-    cout << "err when testing combine" << endl;
-    return 1;
-  }
+  // if (test_combine()) {
+  //   cout << "err when testing combine" << endl;
+  //   return 1;
+  // }
   if (test_agg()) {
     cout << "err when testing agg" << endl;
     return 1;
   }
   return 0;
 }
+
+send_pubkey_test: no mutual signature algorithm
+
+
+
+

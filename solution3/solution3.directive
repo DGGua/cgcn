@@ -31,13 +31,6 @@
                 <option name="name" value="rerArray"/>
             </pragma>
         </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="ARRAY_PARTITION">
-                <option name="variable" positionalBoolean="4" value="property_input"/>
-                <option name="complete" value="" positionalBoolean="type"/>
-                <option name="dim" value="1"/>
-            </pragma>
-        </directive>
         <directive functionName="rerArray" label="input_property_col" functionLabel="">
             <pragma name="UNROLL"/>
         </directive>
@@ -82,14 +75,6 @@
         <directive functionName="PE" label="PE_label1" functionLabel="">
             <pragma name="PIPELINE">
                 <option name="II" value="2"/>
-            </pragma>
-        </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="INTERFACE">
-                <option name="m_axi" value="" positionalBoolean="mode"/>
-                <option name="port" positionalBoolean="4" value="featrue_data"/>
-                <option name="offset" value="off"/>
-                <option name="bundle" value="feature_input"/>
             </pragma>
         </directive>
         <directive functionName="rerArray" label="" functionLabel="">
@@ -156,30 +141,9 @@
         </directive>
         <directive functionName="rerArray" label="" functionLabel="">
             <pragma name="ARRAY_PARTITION">
-                <option name="variable" positionalBoolean="4" value="property_input"/>
-                <option name="complete" value="" positionalBoolean="type"/>
-                <option name="dim" value="2"/>
-            </pragma>
-        </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="ARRAY_PARTITION">
-                <option name="variable" positionalBoolean="4" value="weight_input"/>
-                <option name="complete" value="" positionalBoolean="type"/>
-                <option name="dim" value="1"/>
-            </pragma>
-        </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="ARRAY_PARTITION">
-                <option name="variable" positionalBoolean="4" value="weight_input"/>
-                <option name="complete" value="" positionalBoolean="type"/>
-                <option name="dim" value="2"/>
-            </pragma>
-        </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="ARRAY_PARTITION">
                 <option name="variable" positionalBoolean="4" value="output_compute"/>
                 <option name="complete" value="" positionalBoolean="type"/>
-                <option name="dim" value="0"/>
+                <option name="dim" value="1"/>
             </pragma>
         </directive>
         <directive functionName="rerArray" label="" functionLabel="">
@@ -302,6 +266,31 @@
         </directive>
         <directive functionName="input_weight" label="input_weight_row" functionLabel="">
             <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="PE_Group" label="" functionLabel="">
+            <pragma name="INLINE">
+                <option name="off" value="" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="property_input"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="weight_input"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="PE" label="PE_Compute" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="8"/>
+                <option name="max" value="8"/>
+            </pragma>
         </directive>
         <directive functionName="rerArray" label="" functionLabel="">
             <pragma name="TOP">

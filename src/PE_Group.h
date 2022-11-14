@@ -1,23 +1,7 @@
 #include "defines.h"
-// void PE_Group(//const bool mode,
-//               compute_type property_input[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]
-//                                          [MAX_PROPERTY_INPUT],
-//               compute_type weight_input[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]
-//                                        [MAX_PROPERTY_INPUT],
-//               int combine_turn,
-//               compute_type agg_dst_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
-//               compute_type agg_src_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
-//               float agg_contorl_stream[ARRAY_HEIGHT][ARRAY_HEIGHT],
-//               float output[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]);
-
-
-              void PE_Group(//const bool mode,
-              // compute_type property_input[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]
-              //                            [MAX_PROPERTY_INPUT],
-              // compute_type weight_input[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]
-              //                          [MAX_PROPERTY_INPUT],
-              int combine_turn,
-              compute_type agg_dst_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
-              compute_type agg_src_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
-              float agg_contorl_stream[ARRAY_HEIGHT][ARRAY_HEIGHT],
-              float output[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]) ;
+void pegroup(bool mode,
+              int compute_turn,
+              float init[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+              compute_type* input_a,
+              compute_type* input_b,
+              float output[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]);

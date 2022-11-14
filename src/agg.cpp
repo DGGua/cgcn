@@ -3,13 +3,13 @@
 void input_src_nodes(
     int col_index,
     compute_type* inter_data,
-    compute_type agg_src_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]) {
+    compute_type agg_src_stream[ARRAY_HEIGHT * MAX_PROPERTY_OUTPUT]) {
   const int offset = col_index * ARRAY_HEIGHT;
 input_src_nodes_row:
   for (int row = 0; row < ARRAY_HEIGHT; row++) {
   input_src_nodes_col:
     for (int col = 0; col < MAX_PROPERTY_OUTPUT; col++) {
-      agg_src_stream[row][col] =
+      agg_src_stream[row * MAX_PROPERTY_OUTPUT + col] =
           inter_data[(row + offset) * MAX_PROPERTY_OUTPUT + col];
     }
   }
@@ -35,16 +35,18 @@ void input_adj(int row_index,
                int col_index,
                int node_cnt,
                float* adj_mat,
-               float agg_contorl_stream[ARRAY_HEIGHT][ARRAY_HEIGHT]) {
+               float agg_contorl_stream[ARRAY_HEIGHT * ARRAY_HEIGHT]) {
   const int row_offset = row_index * ARRAY_HEIGHT;
   const int col_offset = col_index * ARRAY_HEIGHT;
 input_adj_row:
   for (int row = 0; row < ARRAY_HEIGHT; ++row) {
     int offset = (row + row_offset) * node_cnt + col_offset;
-  input_adj_col:
-    for (int col = 0; col < MAX_PROPERTY_OUTPUT; ++col) {
-      agg_contorl_stream[row][col] = adj_mat[offset + col];
-    }
+    memcpy(agg_contorl_stream + row * ARRAY_HEIGHT, adj_mat + offset,
+           sizeof(float) * MAX_PROPERTY_OUTPUT);
+    // input_adj_col:
+    //   for (int col = 0; col < MAX_PROPERTY_OUTPUT; ++col) {
+    //     agg_contorl_stream[row * ARRAY_HEIGHT + col] = adj_mat[offset + col];
+    //   }
   }
 }
 
@@ -80,7 +82,8 @@ agg_output_row:
 //     partial_sum += control_data * rer_data;
 //   }
 //   // agg_output_stream[row][col] = ((partial_sum[0] + partial_sum[1]) +
-//   // (partial_sum[2] + partial_sum[3])) + ((partial_sum[4] + partial_sum[5]) +
+//   // (partial_sum[2] + partial_sum[3])) + ((partial_sum[4] + partial_sum[5])
+//   +
 //   // (partial_sum[6] + partial_sum[7]));
 //   agg_output_stream = partial_sum;
 // }
