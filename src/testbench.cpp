@@ -32,13 +32,13 @@ int test_combine() {
   rerArray(adj_mat, featrue_data, featrue_length, weight_array, output_size,
            node_cnt, output_data, output_data2);
 
-  // for (int i = 0; i < 32; i++) {
-  //   printf("%f%c", output_data[i], (i + 1) % 4 ? ' ' : '\n');
-  // }
-  // printf("============================\n");
-  // for (int i = 0; i < 32; i++) {
-  //   printf("%f%c", (i / 4 + 1) * 4.0, (i + 1) % 4 ? ' ' : '\n');
-  // }
+  for (int i = 0; i < 32; i++) {
+    printf("%f%c", output_data[i], (i + 1) % 4 ? ' ' : '\n');
+  }
+  printf("============================\n");
+  for (int i = 0; i < 32; i++) {
+    printf("%f%c", (i / 4 + 1) * 4.0, (i + 1) % 4 ? ' ' : '\n');
+  }
 
   for (int i = 0; i < 32; i++) {
     if (output_data[i] != (i / 4 + 1) * 4.0)
@@ -73,10 +73,11 @@ int test_agg() {
   rerArray(adj_mat, featrue_data, featrue_length, weight_array, output_size,
            node_cnt, output_data, output_data2);
   
+  printf("==============final1==============\n");
   for (int i = 0; i < 32; i++) {
     printf("%f%c", output_data[i], (i + 1) % 4 ? ' ' : '\n');
   }
-  printf("============================\n");
+  printf("===============final2=============\n");
   for (int i = 0; i < 32; i++) {
     printf("%f%c", output_data2[i], (i + 1) % 4 ? ' ' : '\n');
   }
@@ -104,12 +105,11 @@ int main() {
   // }
   if (test_agg()) {
     cout << "err when testing agg" << endl;
-    return 1;
+    return 2;
   }
   return 0;
 }
 
-send_pubkey_test: no mutual signature algorithm
 
 
 

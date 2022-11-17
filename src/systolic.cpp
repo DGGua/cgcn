@@ -14,27 +14,24 @@
 void input_property(
     int batch,
     compute_type* featrue_data,
-    compute_type property_input[ARRAY_HEIGHT * MAX_PROPERTY_INPUT]) {
+    compute_type feature_buffer[ARRAY_HEIGHT][MAX_PROPERTY_INPUT]) {
   const int offset = batch * MAX_PROPERTY_INPUT * ARRAY_HEIGHT;
-  memcpy(property_input, featrue_data + offset,
-         sizeof(compute_type) * MAX_PROPERTY_INPUT * ARRAY_HEIGHT);
+input_property_label6:
+  for (int row = 0; row < ARRAY_HEIGHT; row++) {
+    memcpy(feature_buffer[row],
+           featrue_data + offset + row * MAX_PROPERTY_INPUT,
+           sizeof(compute_type) * MAX_PROPERTY_INPUT);
+  }
 }
 
 /**
- * 读取权重矩阵（转置）
+ * 读取权重矩
  */
 void input_weight(
-    int batch,
     compute_type* weight_array,
-    compute_type weight_input[MAX_PROPERTY_OUTPUT * MAX_PROPERTY_INPUT]) {
-input_turn_weight:
-  for (int turn = 0; turn < MAX_PROPERTY_INPUT; turn++) {
-  input_weight_col:
-    for (int col = 0; col < MAX_PROPERTY_OUTPUT; col++) {
-      weight_input[col * MAX_PROPERTY_INPUT + turn] =
-          weight_array[turn * MAX_PROPERTY_OUTPUT + col];
-    }
-  }
+    compute_type weight_input[MAX_PROPERTY_INPUT][MAX_PROPERTY_OUTPUT]) {
+  memcpy(weight_input, weight_array,
+         sizeof(float) * MAX_PROPERTY_INPUT * MAX_PROPERTY_OUTPUT);
 }
 /**
  * 输出 combine 结果
@@ -49,6 +46,21 @@ output_row:
          sizeof(compute_type) * ARRAY_HEIGHT * MAX_PROPERTY_OUTPUT);
 }
 
+void peg2(hls::stream<float> input_a[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+          hls::stream<float> input_b[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+          float output[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+          bool read_prev) {
+peg2_label5:
+  for (int row = 0; row < ARRAY_HEIGHT; row++) {
+  peg2_label4:
+    for (int col = 0; col < MAX_PROPERTY_OUTPUT; col++) {
+      float init = read_prev ? output[row][col] : 0;
+      output[row][col] =
+          input_a[row][col].read() * input_b[row][col].read() + init;
+    }
+  }
+}
+
 void rerArray(float* adj_mat,
               compute_type* featrue_data,
               int featrue_length,
@@ -58,32 +70,59 @@ void rerArray(float* adj_mat,
               compute_type* inter_data,
               compute_type* output_data) {
   // input a for combine
-  compute_type property_input[ARRAY_HEIGHT * MAX_PROPERTY_INPUT];
+  compute_type feature_buffer[ARRAY_HEIGHT][MAX_PROPERTY_INPUT];
   // input b for combine 已转置
-  compute_type weight_input[MAX_PROPERTY_OUTPUT * MAX_PROPERTY_INPUT];
+  compute_type weight_buffer[MAX_PROPERTY_INPUT][MAX_PROPERTY_OUTPUT];
   // output for combine
   compute_type output_compute[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
   // init for agg
-  compute_type agg_dst_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
+  compute_type dst_buffer[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
   // input a for agg
-  compute_type agg_src_stream[ARRAY_HEIGHT * MAX_PROPERTY_OUTPUT];
+  compute_type agg_src_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
   // input b for agg
-  float agg_contorl_stream[ARRAY_HEIGHT * ARRAY_HEIGHT * 2];
+  float agg_buffer[ARRAY_HEIGHT][ARRAY_HEIGHT];
   // output for agg
   float agg_output_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
   const unsigned batchnum = node_cnt / ARRAY_HEIGHT;
+
+  hls::stream<float> input_a_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
+  hls::stream<float> input_b_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
+  float output_buffer[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
+
+  // 读取权重矩阵
+  input_weight(weight_array, weight_buffer);
 // 分块运算
 batch_round:
   for (int batch = 0; batch < batchnum; batch++) {
     // 读取入向量
-    input_property(batch, featrue_data, property_input);
-    // 读取权重矩阵
-    input_weight(batch, weight_array, weight_input);
-    // 计算
-    pegroup(0, featrue_length, nullptr, property_input, weight_input,
-            output_compute);
+    input_property(batch, featrue_data, feature_buffer);
+  //输入向量
+  combine_input_round:
+    for (int input_round = 0; input_round < featrue_length; input_round++) {
+    // 读取每个向量的第 input_round 个内容
+    combine_input_feat_row:
+      for (int node_index = 0; node_index < ARRAY_HEIGHT; node_index++) {
+      combine_input_feat_col:
+        for (int col = 0; col < MAX_PROPERTY_OUTPUT; col++) {
+          input_a_stream[node_index][col].write(
+              feature_buffer[node_index][input_round]);
+        }
+      }
+
+    // 读取权值
+    combine_input_weight_col:
+      for (int col = 0; col < MAX_PROPERTY_OUTPUT; col++) {
+      combine_input_weight_row:
+        for (int row = 0; row < ARRAY_HEIGHT; row++) {
+          input_b_stream[row][col].write(weight_buffer[input_round][col]);
+        }
+      }
+      peg2(input_a_stream, input_b_stream, output_buffer, input_round != 0);
+    }
+
     // 输出
-    output_combine(batch, inter_data, output_compute);
+
+    output_combine(batch, inter_data, output_buffer);
   }
 /**
  *   dst src → 0 1 2 3 4
@@ -99,15 +138,26 @@ agg:
     int row = index / batchnum;
     int col = index % batchnum;
     // 读取入向量(rer轮转部分)
-    input_src_nodes(col, inter_data, agg_src_stream);
+    input_src_nodes(col, inter_data, dst_buffer);
     // 读取初始值(输出结果，逐步聚合)
-    input_target_nodes(col == 0, row, agg_dst_stream, output_data);
+    input_target_nodes(col == 0, row, output_buffer, output_data);
     // 输入控制信号量 (拉普拉斯矩阵，adj基础上加平均)
-    input_adj(row, col, node_cnt, adj_mat, agg_contorl_stream);
-    // 运算
-    pegroup(1, ARRAY_HEIGHT, agg_dst_stream, agg_src_stream, agg_contorl_stream,
-            agg_output_stream);
+    input_adj(row, col, node_cnt, adj_mat, agg_buffer);
+  // 运算
+  rerArray_label0:
+    for (int round = 0; round < ARRAY_HEIGHT; round++) {
+      // 输入
+      rerArray_label1:for (int row = 0; row < ARRAY_HEIGHT; row++) {
+        rerArray_label2:for (int col = 0; col < MAX_PROPERTY_OUTPUT; col++) {
+          input_a_stream[row][col].write(
+              agg_buffer[row][(row + round) % ARRAY_HEIGHT]);
+          input_b_stream[row][col].write(
+              dst_buffer[(row + round) % ARRAY_HEIGHT][col]);
+        }
+      }
+      peg2(input_a_stream, input_b_stream, output_buffer, true);
+    }
     // 输出
-    output(row, agg_output_stream, output_data);
+    output(row, output_buffer, output_data);
   }
 }

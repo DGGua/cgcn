@@ -21,11 +21,6 @@
         <directive functionName="read_in" label="read_in_label1" functionLabel="">
             <pragma name="PIPELINE"/>
         </directive>
-        <directive functionName="rerArray" label="batch_round" functionLabel="">
-            <pragma name="DATAFLOW">
-                <option name="disable_start_propagation" value="" positionalBoolean="1"/>
-            </pragma>
-        </directive>
         <directive functionName="rerArray" label="" functionLabel="">
             <pragma name="TOP">
                 <option name="name" value="rerArray"/>
@@ -91,16 +86,6 @@
         <directive functionName="input_property" label="input_turn_property" functionLabel="">
             <pragma name="PIPELINE"/>
         </directive>
-        <directive functionName="rerArray" label="rerArray_label2" functionLabel="">
-            <pragma name="UNROLL">
-                <option name="factor" value="4"/>
-            </pragma>
-        </directive>
-        <directive functionName="rerArray" label="rerArray_label2" functionLabel="">
-            <pragma name="PIPELINE">
-                <option name="II" value="1"/>
-            </pragma>
-        </directive>
         <directive functionName="PE_aggregate" label="PE_aggregate_row" functionLabel="">
             <pragma name="UNROLL">
                 <option name="factor" value="4"/>
@@ -147,20 +132,6 @@
             </pragma>
         </directive>
         <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="BIND_STORAGE">
-                <option name="variable" positionalBoolean="4" value="property_input"/>
-                <option name="ram_2p" value="" positionalBoolean="type"/>
-                <option name="bram" value="" positionalBoolean="impl"/>
-            </pragma>
-        </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="BIND_STORAGE">
-                <option name="variable" positionalBoolean="4" value="weight_input"/>
-                <option name="ram_2p" value="" positionalBoolean="type"/>
-                <option name="bram" value="" positionalBoolean="impl"/>
-            </pragma>
-        </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
             <pragma name="ARRAY_PARTITION">
                 <option name="variable" positionalBoolean="4" value="agg_dst_stream"/>
                 <option name="complete" value="" positionalBoolean="type"/>
@@ -202,9 +173,6 @@
         </directive>
         <directive functionName="output" label="" functionLabel="">
             <pragma name="PIPELINE"/>
-        </directive>
-        <directive functionName="rerArray" label="agg" functionLabel="">
-            <pragma name="DATAFLOW"/>
         </directive>
         <directive functionName="rerArray" label="" functionLabel="">
             <pragma name="INTERFACE">
@@ -272,25 +240,128 @@
                 <option name="off" value="" positionalBoolean="1"/>
             </pragma>
         </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="ARRAY_PARTITION">
-                <option name="variable" positionalBoolean="4" value="property_input"/>
-                <option name="complete" value="" positionalBoolean="type"/>
-                <option name="dim" value="1"/>
-            </pragma>
-        </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="ARRAY_PARTITION">
-                <option name="variable" positionalBoolean="4" value="weight_input"/>
-                <option name="complete" value="" positionalBoolean="type"/>
-                <option name="dim" value="1"/>
-            </pragma>
-        </directive>
         <directive functionName="PE" label="PE_Compute" functionLabel="">
             <pragma name="LOOP_TRIPCOUNT">
                 <option name="min" value="8"/>
                 <option name="max" value="8"/>
             </pragma>
+        </directive>
+        <directive functionName="rerArray" label="combine_input_round" functionLabel="">
+            <pragma name="LOOP_TRIPCOUNT">
+                <option name="min" value="8"/>
+                <option name="max" value="8"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="combine_input_feat_row" functionLabel="">
+            <pragma name="UNROLL">
+                <option name="skip_exit_check" value="" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="combine_input_feat_col" functionLabel="">
+            <pragma name="UNROLL">
+                <option name="skip_exit_check" value="" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="combine_input_weight_col" functionLabel="">
+            <pragma name="UNROLL">
+                <option name="skip_exit_check" value="" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="combine_input_weight_row" functionLabel="">
+            <pragma name="UNROLL">
+                <option name="skip_exit_check" value="" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="peg2" label="peg2_label4" functionLabel="">
+            <pragma name="UNROLL">
+                <option name="skip_exit_check" value="" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="peg2" label="peg2_label5" functionLabel="">
+            <pragma name="UNROLL">
+                <option name="skip_exit_check" value="" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="input_a_stream"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="0"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="input_b_stream"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="0"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="output_array"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="0"/>
+            </pragma>
+        </directive>
+        <directive functionName="peg2" label="" functionLabel="">
+            <pragma name="INLINE">
+                <option name="off" value="" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="input_property" label="input_property_label6" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="feature_buffer"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" positionalBoolean="4" value="weight_buffer"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" positionalBoolean="4" value="feature_buffer"/>
+                <option name="ram_2p" value="" positionalBoolean="type"/>
+                <option name="bram" value="" positionalBoolean="impl"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" positionalBoolean="4" value="weight_buffer"/>
+                <option name="ram_2p" value="" positionalBoolean="type"/>
+                <option name="bram" value="" positionalBoolean="impl"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="" functionLabel="">
+            <pragma name="ALLOCATION">
+                <option name="function" value="" positionalBoolean="type"/>
+                <option name="instances" positionalBoolean="4" value="peg2"/>
+                <option name="limit" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="batch_round" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="off" value="" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="rerArray" label="rerArray_label1" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="rerArray" label="rerArray_label2" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="rerArray" label="rerArray_label0" functionLabel="">
+            <pragma name="DATAFLOW"/>
+        </directive>
+        <directive functionName="rerArray" label="combine_input_round" functionLabel="">
+            <pragma name="DATAFLOW"/>
         </directive>
         <directive functionName="rerArray" label="" functionLabel="">
             <pragma name="TOP">

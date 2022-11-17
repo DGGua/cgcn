@@ -2,24 +2,29 @@
 <vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
   <errorLogs>
     <logs>
-      <synLog/>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Pre-synthesis failed." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.846+0800"/>
+        <logs message="ERROR: [HLS 200-1715] Encountered problem during source synthesis" projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.841+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_3_3' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.471+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_3_3' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.457+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_3_2' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.445+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_3_2' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.427+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_3_1' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.415+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_3_1' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.402+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_3_0' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.388+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_3_0' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.376+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_2_3' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.363+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_2_3' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.350+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_2_2' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.337+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_2_2' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.322+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_2_1' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.309+0800"/>
+        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_2_1' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.291+0800"/>
+      </synLog>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
-      <synLog>
-        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.947+0800" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc6/m_axi_adj_mat_BREADY' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.766+0800" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc6/m_axi_adj_mat_WUSER' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.759+0800" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc6/m_axi_adj_mat_WID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.753+0800" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc6/m_axi_adj_mat_WLAST' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.750+0800" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc6/m_axi_adj_mat_WSTRB' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.743+0800" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc6/m_axi_adj_mat_WDATA' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.736+0800" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc6/m_axi_adj_mat_WVALID' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.729+0800" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc6/m_axi_adj_mat_AWUSER' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.723+0800" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc6/m_axi_adj_mat_AWREGION' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.717+0800" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_parent_loop_proc6/m_axi_adj_mat_AWQOS' to 0." projectName="cgcn" solutionName="solution3" date="2022-11-14T00:29:51.713+0800" type="Warning"/>
-      </synLog>
+      <synLog/>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>

@@ -14,9 +14,9 @@ float PE(const int row,
   compute_type sum[7] = {0, 0, 0, 0, 0, 0, 0};
 PE_Compute:
   // combine 由于权重矩阵已经转置，只需要按顺序点积
-  // agg src(a_input) 部分rer循环使用   control(b_input)部分同行同时共享 
+  // agg src(a_input) 部分rer循环使用   control(b_input)部分同行同时共享
   for (int i = 0; i < combine_turn; i++) {
-    sum[i % 7] += 
+    sum[i % 7] +=
         a_input[mode ? ((row + i) % ARRAY_HEIGHT * MAX_PROPERTY_OUTPUT + col)
                      : (row * MAX_PROPERTY_INPUT + i)] *
         b_input[mode ? (row * MAX_PROPERTY_OUTPUT + (row + i) % ARRAY_HEIGHT)
@@ -30,6 +30,7 @@ PE_Compute:
 /**
  * mode: 0 -> combine, 1 -> aggregate
  */
+
 void pegroup(bool mode,
              int compute_turn,
              float init[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
@@ -38,6 +39,7 @@ void pegroup(bool mode,
              // combine -> weight agg -> control
              compute_type* input_b,
              float output[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]) {
+#pragma HLS INLINE off
 #pragma HLS ALLOCATION function instances = pegroup limit = 1
 PE_row:
   for (int row = 0; row < ARRAY_HEIGHT; row++) {
@@ -52,3 +54,4 @@ PE_row:
     }
   }
 }
+
