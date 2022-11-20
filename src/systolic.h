@@ -1,5 +1,4 @@
 #include <ap_fixed.h>
-#include <hls_stream.h>
 #include <string.h>
 #include "defines.h"
 

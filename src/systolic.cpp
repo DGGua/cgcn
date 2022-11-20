@@ -39,24 +39,28 @@ void input_weight(
 void output_combine(
     int batch,
     compute_type* output_data,
-    compute_type output_compute[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]) {
+    hls::stream<float> output_compute[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]) {
 output_row:
   const int offset = MAX_PROPERTY_OUTPUT * ARRAY_HEIGHT * batch;
-  memcpy(output_data + offset, output_compute,
-         sizeof(compute_type) * ARRAY_HEIGHT * MAX_PROPERTY_OUTPUT);
+  for (int row = 0; row < ARRAY_HEIGHT; ++row) {
+    for (int col = 0; col < MAX_PROPERTY_OUTPUT; ++col) {
+      output_data[offset + row * MAX_PROPERTY_OUTPUT + col] =
+          output_compute[row][col].read();
+    }
+  }
 }
 
 void peg2(hls::stream<float> input_a[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
           hls::stream<float> input_b[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
-          float output[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
-          bool read_prev) {
+          hls::stream<float> input_c[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+          hls::stream<float> output[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]) {
 peg2_label5:
   for (int row = 0; row < ARRAY_HEIGHT; row++) {
   peg2_label4:
     for (int col = 0; col < MAX_PROPERTY_OUTPUT; col++) {
-      float init = read_prev ? output[row][col] : 0;
-      output[row][col] =
-          input_a[row][col].read() * input_b[row][col].read() + init;
+      output[row][col].write(input_a[row][col].read() *
+                                 input_b[row][col].read() +
+                             input_c[row][col].read());
     }
   }
 }
@@ -87,7 +91,11 @@ void rerArray(float* adj_mat,
 
   hls::stream<float> input_a_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
   hls::stream<float> input_b_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
-  float output_buffer[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
+  hls::stream<float> input_c_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
+  hls::stream<float> output_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT];
+
+  hls_thread_local hls::task t1(peg2, input_a_stream, input_b_stream,
+                                input_c_stream, output_stream);
 
   // 读取权重矩阵
   input_weight(weight_array, weight_buffer);
@@ -115,14 +123,15 @@ batch_round:
       combine_input_weight_row:
         for (int row = 0; row < ARRAY_HEIGHT; row++) {
           input_b_stream[row][col].write(weight_buffer[input_round][col]);
+          input_c_stream[row][col].write(
+              input_round == 0 ? 0 : output_stream[row][col].read());
         }
       }
-      peg2(input_a_stream, input_b_stream, output_buffer, input_round != 0);
     }
 
     // 输出
 
-    output_combine(batch, inter_data, output_buffer);
+    output_combine(batch, inter_data, output_stream);
   }
 /**
  *   dst src → 0 1 2 3 4
@@ -140,24 +149,27 @@ agg:
     // 读取入向量(rer轮转部分)
     input_src_nodes(col, inter_data, dst_buffer);
     // 读取初始值(输出结果，逐步聚合)
-    input_target_nodes(col == 0, row, output_buffer, output_data);
+    input_target_nodes(col == 0, row, output_stream, output_data);
     // 输入控制信号量 (拉普拉斯矩阵，adj基础上加平均)
     input_adj(row, col, node_cnt, adj_mat, agg_buffer);
   // 运算
   rerArray_label0:
     for (int round = 0; round < ARRAY_HEIGHT; round++) {
-      // 输入
-      rerArray_label1:for (int row = 0; row < ARRAY_HEIGHT; row++) {
-        rerArray_label2:for (int col = 0; col < MAX_PROPERTY_OUTPUT; col++) {
+    // 输入
+    rerArray_label1:
+      for (int row = 0; row < ARRAY_HEIGHT; row++) {
+      rerArray_label2:
+        for (int col = 0; col < MAX_PROPERTY_OUTPUT; col++) {
           input_a_stream[row][col].write(
               agg_buffer[row][(row + round) % ARRAY_HEIGHT]);
           input_b_stream[row][col].write(
               dst_buffer[(row + round) % ARRAY_HEIGHT][col]);
+          input_c_stream[row][col].write(output_stream[row][col].read());
         }
       }
-      peg2(input_a_stream, input_b_stream, output_buffer, true);
+      //   peg2(input_a_stream, input_b_stream, output_stream);
     }
     // 输出
-    output(row, output_buffer, output_data);
+    output(row, output_stream, output_data);
   }
 }

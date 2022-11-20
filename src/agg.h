@@ -18,7 +18,7 @@ input_src_nodes_row:
 void input_target_nodes(
     bool init,
     int row_index,
-    compute_type agg_dst_input_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+    hls::stream<float> agg_dst_input_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
     compute_type* output_data) {
   const int offset = row_index * ARRAY_HEIGHT;
   // for (int row = 0; row < ARRAY_HEIGHT * 2; row++) {
@@ -36,8 +36,8 @@ input_target_nodes_row:
   for (int row = 0; row < ARRAY_HEIGHT; ++row) {
   input_target_nodes_col:
     for (int col = 0; col < MAX_PROPERTY_OUTPUT; ++col) {
-      agg_dst_input_stream[row][col] =
-          init ? 0 : output_data[(row + offset) * MAX_PROPERTY_OUTPUT + col];
+      agg_dst_input_stream[row][col].write(
+          init ? 0 : output_data[(row + offset) * MAX_PROPERTY_OUTPUT + col]);
     }
   }
 }
@@ -57,16 +57,17 @@ input_adj_row:
   }
 }
 
-void output(int row_index,
-            float agg_output_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
-            compute_type* output_data) {
+void output(
+    int row_index,
+    hls::stream<float> agg_output_stream[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT],
+    compute_type* output_data) {
   const int offset = row_index * ARRAY_HEIGHT;
 agg_output_row:
   for (int row = 0; row < ARRAY_HEIGHT; ++row) {
     const int rowoffset = (row + offset) * MAX_PROPERTY_OUTPUT;
   agg_output_col:
     for (int col = 0; col < MAX_PROPERTY_OUTPUT; ++col) {
-      output_data[rowoffset + col] = agg_output_stream[row][col];
+      output_data[rowoffset + col] = agg_output_stream[row][col].read();
     }
   }
 }

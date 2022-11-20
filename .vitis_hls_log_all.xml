@@ -2,29 +2,20 @@
 <vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
   <errorLogs>
     <logs>
-      <synLog>
-        <logs message="ERROR: [HLS 200-70] Pre-synthesis failed." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.846+0800"/>
-        <logs message="ERROR: [HLS 200-1715] Encountered problem during source synthesis" projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.841+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_3_3' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.471+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_3_3' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.457+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_3_2' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.445+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_3_2' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.427+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_3_1' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.415+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_3_1' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.402+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_3_0' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.388+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_3_0' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.376+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_2_3' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.363+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_2_3' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.350+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_2_2' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.337+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_2_2' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.322+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_b_stream_2_1' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.309+0800"/>
-        <logs message="ERROR: [HLS 200-977] Argument 'input_a_stream_2_1' failed dataflow checking: it can only be used in one process." projectName="cgcn" solutionName="solution3" date="2022-11-17T17:35:49.291+0800"/>
-      </synLog>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
       <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>

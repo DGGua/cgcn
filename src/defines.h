@@ -1,4 +1,6 @@
 #pragma once
+
+#include "hls_task.h"
 #include <hls_stream.h>
 #include <iostream>
 

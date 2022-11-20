@@ -303,11 +303,6 @@
                 <option name="dim" value="0"/>
             </pragma>
         </directive>
-        <directive functionName="peg2" label="" functionLabel="">
-            <pragma name="INLINE">
-                <option name="off" value="" positionalBoolean="1"/>
-            </pragma>
-        </directive>
         <directive functionName="input_property" label="input_property_label6" functionLabel="">
             <pragma name="PIPELINE"/>
         </directive>
@@ -356,27 +351,6 @@
         </directive>
         <directive functionName="rerArray" label="rerArray_label2" functionLabel="">
             <pragma name="UNROLL"/>
-        </directive>
-        <directive functionName="rerArray" label="rerArray_label0" functionLabel="">
-            <pragma name="DATAFLOW"/>
-        </directive>
-        <directive functionName="rerArray" label="combine_input_round" functionLabel="">
-            <pragma name="DATAFLOW"/>
-        </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="TOP">
-                <option name="name" value="rerArray"/>
-            </pragma>
-        </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="TOP">
-                <option name="name" value="rerArray"/>
-            </pragma>
-        </directive>
-        <directive functionName="rerArray" label="" functionLabel="">
-            <pragma name="TOP">
-                <option name="name" value="rerArray"/>
-            </pragma>
         </directive>
     </sourceFile>
 </AutoPilot:ProjectResources>

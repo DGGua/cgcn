@@ -69,7 +69,6 @@ set_directive_unroll -skip_exit_check "peg2/peg2_label5"
 set_directive_array_partition -type complete -dim 0 "rerArray" input_a_stream
 set_directive_array_partition -type complete -dim 0 "rerArray" input_b_stream
 set_directive_array_partition -type complete -dim 0 "rerArray" output_array
-set_directive_inline -off "peg2"
 set_directive_pipeline "input_property/input_property_label6"
 set_directive_array_partition -type complete -dim 1 "rerArray" feature_buffer
 set_directive_array_partition -type complete -dim 2 "rerArray" weight_buffer
@@ -79,5 +78,3 @@ set_directive_allocation -type function -limit 1 "rerArray" peg2
 set_directive_pipeline -off "rerArray/batch_round"
 set_directive_unroll "rerArray/rerArray_label1"
 set_directive_unroll "rerArray/rerArray_label2"
-set_directive_dataflow "rerArray/rerArray_label0"
-set_directive_dataflow "rerArray/combine_input_round"
