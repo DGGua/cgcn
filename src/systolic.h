@@ -27,11 +27,11 @@
 //                 compute_type weight_input[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]
 //                                          [MAX_PROPERTY_INPUT],
 //                 compute_type output_compute[ARRAY_HEIGHT][MAX_PROPERTY_OUTPUT]);
-void rerArray(float* adj_mat,
-              compute_type* featrue_data,
+void rerArray(const float* adj_mat,
+              const float* featrue_data,
               int featrue_length,
-              compute_type* weight_array,
+              const float* weight_array,
               int output_size,
               int node_cnt,
-              compute_type* inter_data,
-              compute_type* output_data);
+              float* inter_data,
+              float* output_data);

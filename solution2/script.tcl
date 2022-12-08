@@ -5,8 +5,6 @@
 ############################################################
 open_project cgcn
 set_top rerArray
-add_files cgcn/src/PE_Group.cpp
-add_files cgcn/src/agg.cpp
 add_files cgcn/src/systolic.cpp
 add_files -tb cgcn/src/testbench.cpp -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 open_solution "solution2"

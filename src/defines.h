@@ -1,6 +1,5 @@
 #pragma once
 
-#include "hls_task.h"
 #include <hls_stream.h>
 #include <iostream>
 
@@ -12,7 +11,6 @@ using std::endl;
 #define PRAGMA_SUB(x) _Pragma (#x)
 #define DO_PRAGMA(x) PRAGMA_SUB(x)
 
-typedef float compute_type;
 
 #define MAX_PROPERTY_OUTPUT 4
 #define MAX_PROPERTY_INPUT 8

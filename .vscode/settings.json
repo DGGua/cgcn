@@ -15,6 +15,7 @@
         "sstream": "cpp",
         "streambuf": "cpp",
         "regex": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "numeric": "cpp"
     }
 }

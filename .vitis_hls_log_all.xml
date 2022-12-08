@@ -3,19 +3,20 @@
   <errorLogs>
     <logs>
       <synLog/>
-      <simLog/>
-      <mgLog/>
-      <packageLog/>
-      <csimLog/>
+      <simLog>
+        <logs message="ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***" projectName="cgcn" solutionName="solution5" date="2022-11-27T16:11:16.609+0800"/>
+        <logs message="ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***" projectName="cgcn" solutionName="solution5" date="2022-11-27T16:11:16.576+0800"/>
+        <logs message="ERROR: [COSIM 212-320] C TB testing failed, stop generating test vectors. Please check C TB or re-run cosim." projectName="cgcn" solutionName="solution5" date="2022-11-27T16:11:16.573+0800"/>
+        <logs message="ERROR: [COSIM 212-359] Aborting co-simulation: C TB simulation failed, nonzero return value '1'." projectName="cgcn" solutionName="solution5" date="2022-11-27T16:11:16.570+0800"/>
+      </simLog>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
-      <synLog/>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="cgcn" solutionName="solution5" date="2022-11-27T16:10:51.619+0800" type="Warning"/>
+      </synLog>
       <simLog/>
-      <mgLog/>
-      <packageLog/>
-      <csimLog/>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>
